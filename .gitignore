@@ -1,0 +1,11 @@
+*.aux
+*.bbl
+*.blg
+*.brf
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.zip
+*~lock.*docx*

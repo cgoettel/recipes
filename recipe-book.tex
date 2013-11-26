@@ -1,5 +1,7 @@
-\documentclass{article}
-\usepackage[margin=1in]{geometry}
+\documentclass{book}
+\usepackage[paperwidth=5.75in, paperheight=8.5in, top=1in, bottom=1in, left=0.5in, right=0.5in]{geometry} % The size of Virginia Tufte's Syntax as Style
+\setlength{\topmargin}{-0.7in} % Relative to 1in default
+\setlength{\headsep}{0.1cm} % Distance from header to top of text
 \usepackage{mathtools}
 \usepackage[explicit]{titlesec}
 \usepackage[dotinlabels]{titletoc}
@@ -9,9 +11,8 @@
 \usepackage{setspace}
 \setstretch{1.3}
 
-\titleformat\section{\normalfont\LARGE\bfseries}{\thesection}{1em}{#1}
-\renewcommand\thesubsection{\arabic{subsection}}
-\titleformat\subsection{\normalfont\Large\bfseries}{\thesubsection}{1em}{#1}
+\titleformat\chapter{\huge\bfseries\centering}{}{1em}{#1}
+\titleformat\section{\large\bfseries}{}{1em}{#1}
 
 \newcommand\ing[2]{\text{#1} &~\text{\emph{#2}}} % 1~1/2~t &~\text{\emph{salt}}
 \newcommand\degr[1]{#1$^\circ$F}
@@ -34,29 +35,30 @@
 
 \tableofcontents\clearpage
 
-\section{Breads}
-\input{swiss-bread}
+\chapter{Breads}
+\input{bread/swiss-bread}
 
-\section{Breakfast}
-\subsection{Dishes}
-\input{bacon-cornmeal-pancakes}
+\chapter{Breakfast}
+\input{breakfast/bacon-cornmeal-pancakes}
 
-\section{Mexican food}
-\subsection{Dishes}
-\input{grandma-goettels-enchilada-sauce}
-\subsection{Sauces}
-\input{javiers-habanero-sauce}
-\subsection{Drinks}
-\input{horchata-involved}
-\input{horchata-simple}
+\chapter{Cakes}
+\input{cake/jewish-coffee-cake}
 
-\section{Desserts}
-\subsection{Cakes}
-\input{jewish-coffee-cake}
-\subsection{Cookies}
-\input{guittard-chocolate-chip}
-\subsection{Pies}
-\input{nick-apple-pie}
+\chapter{Cookies}
+\input{cookies/guittard-chocolate-chip-cookies}
 % Add this: http://www.ou.org/life/food/recipes/guide-delicious-hamantaschen-norene-gilletz/#.USzV9TWx0Wk
+
+\chapter{Drinks}
+\input{drinks/horchata-involved}
+\input{drinks/horchata-simple}
+
+\chapter{Mexican food}
+\input{mexican/grandma-goettels-enchilada-sauce}
+
+\chapter{Pies}
+\input{pie/nick-apple-pie}
+
+\chapter{Salsa}
+\input{salsa/javiers-habanero-sauce}
 
 \end{document}

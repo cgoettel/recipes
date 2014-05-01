@@ -1,28 +1,28 @@
 Recipes
 =======
 
-#Breads
+##Breads
 [Swiss bread](bread/swiss-bread.md)
 
-#Breakfast
+##Breakfast
 [Bacon cornmeal pancakes](breakfast/bacon-cornmeal-pancakes.md)
 
-#Cakes
+##Cakes
 [Jewish coffee cake](cake/jewish-coffee-cake.md)
 
-#Cookies
+##Cookies
 [Guittard chocolate chip cookies](cookies/guittard-chocolate-chip-cookies.md)
 <!-- Add this: http://www.ou.org/life/food/recipes/guide-delicious-hamantaschen-norene-gilletz/#.USzV9TWx0Wk -->
 
-#Drinks
+##Drinks
 [Horchata (long)](drinks/horchata-involved.md)
 [Horchata (short)](drinks/horchata-simple.md)
 
-#Mexican food
+##Mexican food
 [Grandma Goettel's enchilada sauce](mexican/grandma-goettels-enchilada-sauce.md)
 
-#Pies
+##Pies
 [Nick's apple pie](pie/nick-apple-pie.md)
 
-#Salsa
+##Salsa
 [Javier's habanero sauce](salsa/javiers-habanero-sauce.md)

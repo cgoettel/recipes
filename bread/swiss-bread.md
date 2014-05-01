@@ -6,7 +6,7 @@
 - ¼ C shortening
 - ¾ C water
 - ¼ C sugar
-- {pinch sugar
+- Pinch of sugar
 - 1½ t salt
 - 1 egg
 - 3-4 C flour

@@ -1,6 +1,6 @@
 #Hamantaschen
 
-**Source: ** http://www.ou.org/life/food/recipes/guide-delicious-hamantaschen-norene-gilletz/
+**Source:** http://www.ou.org/life/food/recipes/guide-delicious-hamantaschen-norene-gilletz/
 
 Fill these triangular treats with homemade or store-bought fillings. You can also use thick preserves or canned poppy seed filling.
 

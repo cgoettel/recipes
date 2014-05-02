@@ -82,7 +82,7 @@ Recipes
 [Meatloaf](entrees/meatloaf.md)
 
 ##Salsa
-[Beverly's gringo salsa](beverlys-gringo-salsa.md)
+[Beverly's gringo salsa](salsa/beverlys-gringo-salsa.md)
 
 [Javier Maya's habanero sauce](salsa/javiers-habanero-sauce.md)
 

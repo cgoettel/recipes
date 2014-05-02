@@ -23,6 +23,8 @@ Recipes
 [Grandma Goettel's enchilada sauce](mexican/grandma-goettels-enchilada-sauce.md)
 
 ##Pies
+[Pie crust](pie/pie-crust.md)
+
 [Nick's apple pie](pie/nick-apple-pie.md)
 
 ##Salsa

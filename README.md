@@ -13,6 +13,8 @@ Recipes
 
 [French bread](bread/french-bread.md)
 
+[Paul Peterson's crunchy bread](bread/paul-petersons-crunchy-bread.md)
+
 [Russian hot bread](bread/russian-hot-bread.md)
 
 [Swiss bread](bread/swiss-bread.md)

@@ -9,6 +9,8 @@ Recipes
 ##Breads
 [Australian damper bread](bread/australian-damper-bread.md)
 
+[Biscuits](bread/biscuits.md)
+
 [French bread](bread/french-bread.md)
 
 [Russian hot bread](bread/russian-hot-bread.md)
@@ -19,6 +21,8 @@ Recipes
 
 ##Breakfast
 [Bacon cornmeal pancakes](breakfast/bacon-cornmeal-pancakes.md)
+
+[Pancakes](breakfast/pancakes.md)
 
 ##Cakes
 [Jewish coffee cake](cake/jewish-coffee-cake.md)

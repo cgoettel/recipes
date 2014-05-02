@@ -8,7 +8,7 @@ DON'T USE THIS RECIPE. THE PORTIONS ARE ALL OFF. I NEED TO FIX IT.
 - 3-4 Roma tomatoes
 - 3 T salt
 - 1-2 C white vinegar
-- ¼ C powdered chicken broth
+- &frac14; C powdered chicken broth
 - 1-2 t paprika
 
 ##Directions

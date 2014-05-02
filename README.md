@@ -19,7 +19,10 @@ Recipes
 
 [Horchata (short)](drinks/horchata-simple.md)
 
-##Mexican food
+##Italian
+[Mom's lasagna](italian/moms-lasagna.md)
+
+##Mexican
 [Grandma Goettel's enchilada sauce](mexican/grandma-goettels-enchilada-sauce.md)
 
 ##Pies

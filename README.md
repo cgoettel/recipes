@@ -38,6 +38,8 @@ Recipes
 
 [Hamantaschen](cookies/hamantaschen.md)
 
+[Maple pecan cookies](cookies/maple-pecan-cookies.md)
+
 [Martha Stewart's sugar cookies](cookies/martha-stewarts-sugar-cookies.md)
 
 [Poppy seed sugar cookies (Haman's hats)](cookies/hamans-hats.md)

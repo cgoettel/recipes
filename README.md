@@ -52,6 +52,8 @@ Recipes
 [Pie crust](dessert/pie-crust.md)
 
 ##Drinks
+[Egg nog](drinks/egg-nog.md)
+
 [Horchata (long)](drinks/horchata-long.md)
 
 [Horchata (short)](drinks/horchata-short.md)

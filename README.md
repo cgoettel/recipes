@@ -80,6 +80,8 @@ Recipes
 ###Mexican
 [Grandma Goettel's enchilada sauce](entrees/mexican/grandma-goettels-enchilada-sauce.md)
 
+[Masa](entrees/mexican/masa.md)
+
 ###Other
 [Meatloaf](entrees/meatloaf.md)
 

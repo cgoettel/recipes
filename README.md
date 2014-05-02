@@ -24,8 +24,14 @@ Recipes
 
 [Pancakes](breakfast/pancakes.md)
 
+[Waffles](breakfast/waffles.md)
+
 ##Cakes
+[Chocolate cake](cake/chocolate-cake.md)
+
 [Jewish coffee cake](cake/jewish-coffee-cake.md)
+
+[Lemon cake](cake/lemon-cake.md)
 
 ##Cookies
 [Guittard chocolate chip cookies](cookies/guittard-chocolate-chip-cookies.md)

@@ -1,12 +1,12 @@
 #Guittard chocolate chip cookies
 
 ##Ingredients
-- 2 ¼ C flour
+- 2 &frac14; C flour
 - 1 t baking soda
 - 1 t salt
 - 1 C butter, softened
-- ¾ sugar
-- ¾ brown sugar, packed
+- &frac34; sugar
+- &frac34; brown sugar, packed
 - 2 large eggs
 - 1 t vanilla
 - 2 C chocolate chips

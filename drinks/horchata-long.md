@@ -3,7 +3,7 @@
 ##Ingredients
 - 2-3 sticks cinnamon
 - 1 C sugar
-- ½ C rice
+- &frac12; C rice
 - 1 C sugar
 - Milk
 - Vanilla to taste

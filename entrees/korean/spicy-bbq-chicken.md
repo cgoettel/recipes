@@ -1,6 +1,6 @@
 #Spicy BBQ chicken
 
-**Source: ** http://www.maangchi.com/recipe/dwaejibulgogi
+**Source:** http://www.maangchi.com/recipe/dwaejibulgogi
 
 ##Ingredients
 - 1 pound meat. Pork belly, sliced thinly into pieces &frac12; inch x 2 inches and &#x215B; inch thick

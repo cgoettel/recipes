@@ -1,22 +1,23 @@
-\subsection{Jewish Coffee Cake}
+#Jewish Coffee Cake
 
-\begin{align*}
-    \ing{\nicefrac{1}{2}~C}{butter}         & \ing{2~C}{flour} \\
-    \ing{1~C}{sugar}                        & \ing{1~t}{baking soda} \\
-    \ing{2}{eggs}                           & \ing{1~t}{baking powder} \\
-    \ing{1~C}{sour cream}                   & \ing{1~t}{vanilla} \\
-    \ing{\nicefrac{1}{2}~C}{powdered sugar} & \ing{2~t}{cinnamon} \\
-    \ing{2~T}{butter}                       & \ing{}{}
-\end{align*}
+##Ingredients
+- ½ C butter
+- 2 C flour
+- 1 C sugar
+- 1 t baking soda
+- 2 eggs
+- 1 t baking powder
+- 1 C sour cream
+- 1 t vanilla
+- ½ C powdered sugar
+- 2 t cinnamon
+- 2 T butter
 
-\begin{description}
-    \item[Preheat]oven to \degr{350}.
-    \item[Cream]butter, sugar, and eggs.
-    \item[Combine]flour, baking soda, and baking powder. Add to creamed butter mixture.
-    \item[Add]sour cream and vanilla.
-    \item[Separately,]mix powdered sugar, cinnamon, and butter.
-    \item[Marble]cinnamon mixture in with the rest of the batter.
-    \item[Bake]at \degr{350} for an hour or until done.
-\end{description}
-
-\pagebreak
+##Directions
+- Preheat oven to 350°F.
+- Cream butter, sugar, and eggs.
+- Combine flour, baking soda, and baking powder. Add to creamed butter mixture.
+- Add sour cream and vanilla.
+- Separately, mix powdered sugar, cinnamon, and butter.
+- Marble cinnamon mixture in with the rest of the batter.
+- Bake at 350°F for an hour or until done.

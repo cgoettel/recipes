@@ -9,7 +9,7 @@ Recipes
 ##Breads
 [Australian damper bread](bread/australian-damper-bread.md)
 
-[Baguette](bread/baguette.md)
+[French bread](bread/french-bread.md)
 
 [Swiss bread](bread/swiss-bread.md)
 
@@ -28,14 +28,14 @@ Recipes
 ##Dessert
 [Crumb topping](dessert/crumb-topping.md)
 
-[Nick's apple pie](dessert/nick-apple-pie.md)
+[Nick Estrada's apple pie](dessert/nick-apple-pie.md)
 
 [Pie crust](dessert/pie-crust.md)
 
 ##Drinks
-[Horchata (long)](drinks/horchata-involved.md)
+[Horchata (long)](drinks/horchata-long.md)
 
-[Horchata (short)](drinks/horchata-simple.md)
+[Horchata (short)](drinks/horchata-short.md)
 
 ##Entrées
 ###Italian

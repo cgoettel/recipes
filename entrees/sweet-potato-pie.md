@@ -22,7 +22,7 @@
 ###Directions
 - Cook potatoes until soft
 - Preheat oven to 350&deg;F.
-- Add other ingredients
-- Pour into oven-safe dish and top with crust
+- Add other ingredients.
+- Pour into oven-safe dish and top with crust.
 - Bake at 350&deg;F for 30 minutes.
 - Let rest for 10 minutes.

@@ -21,9 +21,11 @@ Recipes
 
 ##Cookies
 [Guittard chocolate chip cookies](cookies/guittard-chocolate-chip-cookies.md)
+
+[Martha Stewart's sugar cookies](cookies/martha-stewarts-sugar-cookies.md)
 <!-- Add this: http://www.ou.org/life/food/recipes/guide-delicious-hamantaschen-norene-gilletz/#.USzV9TWx0Wk -->
 
-##Pies
+##Dessert
 [Crumb topping](dessert/crumb-topping.md)
 
 [Nick's apple pie](dessert/nick-apple-pie.md)
@@ -35,14 +37,18 @@ Recipes
 
 [Horchata (short)](drinks/horchata-simple.md)
 
-##Italian
-[Mom's lasagna](italian/moms-lasagna.md)
+##Entrées
+###Italian
+[Mom's lasagna](entrees/italian/moms-lasagna.md)
 
-##Japanese
-[Kun Koki steak](japanese/kun-koki-steak.md)
+###Japanese
+[Kun Koki steak](entrees/japanese/kun-koki-steak.md)
 
-##Mexican
-[Grandma Goettel's enchilada sauce](mexican/grandma-goettels-enchilada-sauce.md)
+###Mexican
+[Grandma Goettel's enchilada sauce](entrees/mexican/grandma-goettels-enchilada-sauce.md)
+
+###Other
+[Meatloaf](entrees/meatloaf.md)
 
 ##Salsa
 [Javier's habanero sauce](salsa/javiers-habanero-sauce.md)

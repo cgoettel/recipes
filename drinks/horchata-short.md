@@ -1,11 +1,11 @@
 #Horchata (short)
 
 ##Ingredients
-- ½ can sweetened condensed milk
+- &frac12; can sweetened condensed milk
 - 1 L water
-- ½ can evaporated milk
+- &frac12; can evaporated milk
 - 1 C sugar
-- ¾ L milk
+- &frac34; L milk
 - vanilla to taste
 - sprinkle cinnamon
 

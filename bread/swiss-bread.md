@@ -1,13 +1,13 @@
 #Swiss Bread
 
 ##Ingredients
-- ¾ C milk
+- &frac34; C milk
 - 1 T yeast
-- ¼ C shortening
-- ¾ C water
-- ¼ C sugar
+- &frac14; C shortening
+- &frac34; C water
+- &frac14; C sugar
 - Pinch of sugar
-- 1½ t salt
+- 1&frac12; t salt
 - 1 egg
 - 3-4 C flour
 

@@ -1,13 +1,13 @@
 #Bacon-cornmeal pancakes
 
 ##Ingredients
-- 1¼ C flour
+- 1&frac14; C flour
 - 2 t baking powder
-- ¾ C cornmeal
-- ½ t salt
-- ¼ C sugar
+- &frac34; C cornmeal
+- &frac12; t salt
+- &frac14; C sugar
 - 1⅓ C milk
-- ¼ C oil
+- &frac14; C oil
 - 1 egg
 - bacon _(optional)_
 

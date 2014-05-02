@@ -1,7 +1,7 @@
 #Jewish Coffee Cake
 
 ##Ingredients
-- ½ C butter
+- &frac12; C butter
 - 2 C flour
 - 1 C sugar
 - 1 t baking soda
@@ -9,7 +9,7 @@
 - 1 t baking powder
 - 1 C sour cream
 - 1 t vanilla
-- ½ C powdered sugar
+- &frac12; C powdered sugar
 - 2 t cinnamon
 - 2 T butter
 

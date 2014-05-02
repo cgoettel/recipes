@@ -17,4 +17,4 @@
 - Allow milk to cool. This is important or you will burn your hand while kneading. Combine with yeast mixture.
 - Add beaten egg and 2 C flour. Beat and continue to add flour until dough is finished. Should be a little sticky.
 - Allow time to rise. Divide into three sections and roll out like bread sticks. Braid. Let rise.
-- Bake at 375°F for 30-35 minutes.
+- Bake at 375&deg;F for 30-35 minutes.

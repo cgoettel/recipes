@@ -14,10 +14,10 @@
 - 2 T butter
 
 ##Directions
-- Preheat oven to 350°F.
+- Preheat oven to 350&deg;F.
 - Cream butter, sugar, and eggs.
 - Combine flour, baking soda, and baking powder. Add to creamed butter mixture.
 - Add sour cream and vanilla.
 - Separately, mix powdered sugar, cinnamon, and butter.
 - Marble cinnamon mixture in with the rest of the batter.
-- Bake at 350°F for an hour or until done.
+- Bake at 350&deg;F for an hour or until done.

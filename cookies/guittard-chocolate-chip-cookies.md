@@ -13,7 +13,7 @@
 - 1 C chopped nuts
 
 ##Directions
-- Preheat oven to 350°F.
+- Preheat oven to 350&deg;F.
 - Combine flour, baking soda, and salt. Set aside.
 - Cream butter, sugar, and brown sugar.
 - Beat in eggs and vanilla.

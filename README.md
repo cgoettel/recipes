@@ -87,6 +87,8 @@ Recipes
 ###Other
 [Meatloaf](entrees/meatloaf.md)
 
+[Sweet potato pie](entrees/sweet-potato-pie.md)
+
 ##Salsa
 [Beverly's gringo salsa](salsa/beverlys-gringo-salsa.md)
 

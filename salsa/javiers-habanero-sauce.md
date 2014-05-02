@@ -1,16 +1,17 @@
-\subsection{Javier's Habanero Sauce}
+#Javier's Habanero Sauce
 
-\begin{align*}
-    \ing{6-7}{frozen habaneros} & \ing{6-9~cloves}{garlic} \\
-    \ing{}{crushed tomatoes}    & \ing{3~T}{salt} \\
-    \ing{1-2~C}{white vinegar}  & \ing{\nicefrac{1}{4}~C}{powdered chicken broth} \\
-    \ing{1-2~t}{paprika}        & \ing{}{}
-\end{align*}
+DON'T USE THIS RECIPE. THE PORTIONS ARE ALL OFF. I NEED TO FIX IT.
 
-\begin{description}
-    \item[Remove]stems from habaneros.
-    \item[Add]all ingredients---except crushed tomatoes---to blender. Blend. Add crushed tomatoes to color (and mild)---about \nicefrac{1}{4}~to~\nicefrac{3}{4}~C.
-    \item[Note:]This recipe is intentionally vague. This is because habaneros pack a serious punch and the other ingredients should be added as the individual sees fit.
-\end{description}
+##Ingredients
+- 6-7 frozen habaneros
+- 6-9 cloves garlic
+- 3-4 Roma tomatoes
+- 3 T salt
+- 1-2 C white vinegar
+- ¼ C powdered chicken broth
+- 1-2 t paprika
 
-\pagebreak
+##Directions
+- Remove stems from habaneros.
+- Add all ingredients (except crushed tomatoes) to blender. Blend.
+- Add tomatoes to color (and mild).

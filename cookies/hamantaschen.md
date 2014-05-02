@@ -1,4 +1,4 @@
-#Hamentaschen
+#Hamantaschen
 
 **Source: ** http://www.ou.org/life/food/recipes/guide-delicious-hamantaschen-norene-gilletz/
 
@@ -19,7 +19,7 @@ Fill these triangular treats with homemade or store-bought fillings. You can als
 
 #Basic oil dough
 
-Servings: enough to fill 4 dozen hamentaschen.
+Servings: enough to fill 4 dozen hamantaschen.
 
 ##Ingredients
 - 1 medium-sized seedless orange (thin-skinned)
@@ -35,7 +35,7 @@ Servings: enough to fill 4 dozen hamentaschen.
 
 #Five-fruit filling
 
-Servings: approx. 3 C (1 C filling is enough to fill 12-16 hamentashen)
+Servings: approx. 3 C (1 C filling is enough to fill 12-16 hamantashen)
 
 ##Ingredients
 - 1 medium seedless orange (thin-skinned)

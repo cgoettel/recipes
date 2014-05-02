@@ -1,6 +1,6 @@
 #Poppy seed sugar cookies (Haman's hats)
 
-**Source: ** http://www.ou.org/life/food/recipes/guide-delicious-hamantaschen-norene-gilletz/
+**Source:** http://www.ou.org/life/food/recipes/guide-delicious-hamantaschen-norene-gilletz/
 
 ##Ingredients
 - 2 eggs

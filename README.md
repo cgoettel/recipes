@@ -26,11 +26,13 @@ Recipes
 ##Cookies
 [Guittard chocolate chip cookies](cookies/guittard-chocolate-chip-cookies.md)
 
+[Hamantaschen](cookies/hamantaschen.md)
+
 [Martha Stewart's sugar cookies](cookies/martha-stewarts-sugar-cookies.md)
 
 [Poppy seed sugar cookies (Haman's hats)](cookies/hamans-hats.md)
 
-[Snickerdoodles]
+[Snickerdoodles](cookies/snickerdoodles.md)
 
 ##Dessert
 [Crumb topping](dessert/crumb-topping.md)
@@ -51,7 +53,7 @@ Recipes
 ###Italian
 [Mom's lasagna](entrees/italian/moms-lasagna.md)
 
-[Salsa alle noci](entrees/italian/salsa-alle-noci.md)
+[Salsa alle noci (walnut pesto)](entrees/italian/salsa-alle-noci.md)
 
 ###Japanese
 [Kun Koki steak](entrees/japanese/kun-koki-steak.md)

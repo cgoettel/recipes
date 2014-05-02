@@ -1,4 +1,4 @@
-#Javier's Habanero Sauce
+#Javier Maya's Habanero Sauce
 
 DON'T USE THIS RECIPE. THE PORTIONS ARE ALL OFF. I NEED TO FIX IT.
 

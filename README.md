@@ -58,6 +58,8 @@ Recipes
 
 [Horchata (short)](drinks/horchata-short.md)
 
+[Slush](drinks/slush.md)
+
 ##Entrées
 ###English
 [Yorkshire pudding](entrees/english/yorkshire-pudding.md)
@@ -70,6 +72,9 @@ Recipes
 ###Japanese
 [Kun Koki steak](entrees/japanese/kun-koki-steak.md)
 
+###Korean
+[Spicy BBQ chicken](entrees/korean/spicy-bbq-chicken.md)
+
 ###Mexican
 [Grandma Goettel's enchilada sauce](entrees/mexican/grandma-goettels-enchilada-sauce.md)
 
@@ -77,6 +82,8 @@ Recipes
 [Meatloaf](entrees/meatloaf.md)
 
 ##Salsa
-[Javier's habanero sauce](salsa/javiers-habanero-sauce.md)
+[Beverly Baldwin's gringo salsa](beverly-baldwins-gringo-salsa.md)
+
+[Javier Maya's habanero sauce](salsa/javiers-habanero-sauce.md)
 
 [Uncle Bryan's green salsa](salsa/uncle-bryans-green-salsa.md)

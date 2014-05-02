@@ -16,6 +16,7 @@ Recipes
 
 ##Drinks
 [Horchata (long)](drinks/horchata-involved.md)
+
 [Horchata (short)](drinks/horchata-simple.md)
 
 ##Mexican food

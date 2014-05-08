@@ -92,6 +92,11 @@ Recipes
 ##Salsa
 [Beverly Baldwin's gringo salsa](salsa/beverly-baldwins-gringo-salsa.md)
 
+[Green mayo](salsa/green-mayo.md)
+
 [Javier Maya's habanero sauce](salsa/javiers-habanero-sauce.md)
 
 [Uncle Bryan's green salsa](salsa/uncle-bryans-green-salsa.md)
+
+##Sauces
+[Creamy horseradish](sauces/creamy-horseradish.md)

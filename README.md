@@ -40,6 +40,8 @@ Recipes
 
 [Hamantaschen](cookies/hamantaschen.md)
 
+[King Arthur chocolate chip oatmeal cookies](cookies/king-arthur-chocolate-chip-oatmeal-cookies.md)
+
 [Maple pecan cookies](cookies/maple-pecan-cookies.md)
 
 [Martha Stewart's sugar cookies](cookies/martha-stewarts-sugar-cookies.md)

@@ -73,6 +73,8 @@ Recipes
 ###Italian
 [Mom's lasagna](entrees/italian/moms-lasagna.md)
 
+[Pasta with shrimp or chicken](entrees/italian/pasta-with-shrimp.md)
+
 [Salsa alle noci (walnut pesto)](entrees/italian/salsa-alle-noci.md)
 
 ###Japanese

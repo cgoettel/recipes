@@ -1,15 +1,15 @@
 #Javier Maya's Habanero Sauce
 
 ##Ingredients
-- 6-7 frozen habaneros
-- 9 cloves garlic
-- 2 Roma tomatoes
-- 1&frac12; t salt
-- &frac12; C white vinegar
-- 1 t C powdered chicken broth
-- 1 t paprika
+- 12&ndash;13 frozen habaneros
+- 16+ cloves garlic
+- 3 Roma tomatoes
+- 1 T salt
+- 1 C white vinegar
+- 2 t powdered chicken bouillon
+- 2 t paprika
 
 ##Directions
 - Remove stems from habaneros.
-- Add all ingredients (except crushed tomatoes) to blender. Blend.
-- Add tomatoes to color (and mild).
+- Blend everything.
+- If the sauce is too spicy, add another tomato. If it's still too spicy, eat something else.

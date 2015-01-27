@@ -46,6 +46,8 @@ Recipes
 
 [Martha Stewart's sugar cookies](cookies/martha-stewarts-sugar-cookies.md)
 
+[Peanut butter cookies](emily-peanut-butter.md)
+
 [Poppy seed sugar cookies (Haman's hats)](cookies/hamans-hats.md)
 
 [Snickerdoodles](cookies/snickerdoodles.md)

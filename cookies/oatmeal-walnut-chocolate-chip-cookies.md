@@ -1,4 +1,4 @@
-#Oatmeal walnut chocolate chip cookies
+#Oatmeal, walnut, chocolate chip cookies
 
 Recipe adapted from Deann Ekstrom's oatmeal, walnut, and raisin cookies recipe.
 

@@ -1,5 +1,7 @@
 #Soft and chewy peanut butter cookies
 
+Recipe courtesy Emily Atwood.
+
 ##Ingredients
 - &frac12; cup butter, softened
 - 1 cup peanut butter

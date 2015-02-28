@@ -87,6 +87,9 @@ Recipes
 ###Korean
 [Spicy BBQ chicken](entrees/korean/spicy-bbq-chicken.md)
 
+###Meat
+[Chuch roast](entrees/meat/chuck-roast.md)
+
 ###Mexican
 [Grandma Goettel's enchilada sauce](entrees/mexican/grandma-goettels-enchilada-sauce.md)
 

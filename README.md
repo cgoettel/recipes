@@ -90,6 +90,8 @@ Recipes
 ###Mexican
 [Grandma Goettel's enchilada sauce](entrees/mexican/grandma-goettels-enchilada-sauce.md)
 
+[Grant's burros](entrees/mexican/grants-burros.md)
+
 [Masa](entrees/mexican/masa.md)
 
 ###Other

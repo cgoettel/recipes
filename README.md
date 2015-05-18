@@ -24,6 +24,8 @@ Recipes
 ##Breakfast
 [Bacon cornmeal pancakes](breakfast/bacon-cornmeal-pancakes.md)
 
+[Dutch oven egg souffl&eacute;](breakfast/dutch-oven-egg-souffle.md)
+
 [Pancakes](breakfast/pancakes.md)
 
 [Waffles](breakfast/waffles.md)

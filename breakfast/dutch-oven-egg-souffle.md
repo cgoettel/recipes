@@ -4,7 +4,7 @@
 - Charcoal, about 26 briquettes
 - 1 dozen eggs
 - 1 C milk
-- 1&ndash;1&frac12; lb sausage
+- 1&ndash;1&frac12; lbs sausage
 - Cheese
 - 6&ndash;8 slices bread, ripped into bite size pieces
 

@@ -1,6 +1,6 @@
-#Jewish Coffee Cake
+# Jewish Coffee Cake
 
-##Ingredients
+## Ingredients
 - &frac12; C butter
 - 2 C flour
 - 1 C sugar
@@ -13,7 +13,7 @@
 - 2 t cinnamon
 - 2 T butter
 
-##Directions
+## Directions
 - Preheat oven to 350&deg;F.
 - Cream butter, sugar, and eggs.
 - Combine flour, baking soda, and baking powder. Add to creamed butter mixture.

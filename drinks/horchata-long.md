@@ -1,6 +1,6 @@
-#Horchata (long)
+# Horchata (long)
 
-##Ingredients
+## Ingredients
 - 2-3 sticks cinnamon
 - 1 C sugar
 - &frac12; C rice
@@ -10,7 +10,7 @@
 - Sweetened condensed milk
 - Evaporated milk
 
-##Directions
+## Directions
 - Soak cinnamon stick, sugar, and rice overnight. I like to use a Mason jar and simply cover the ingredients with water.
 - Blend well.
 - Sieve to remove larger particulates.

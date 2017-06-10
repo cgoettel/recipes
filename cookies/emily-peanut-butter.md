@@ -1,8 +1,8 @@
-#Soft and chewy peanut butter cookies
+# Soft and chewy peanut butter cookies
 
 Recipe courtesy Emily Atwood.
 
-##Ingredients
+## Ingredients
 - &frac12; cup butter, softened
 - 1 cup peanut butter
 - &frac34; cup white sugar
@@ -15,7 +15,7 @@ Recipe courtesy Emily Atwood.
 - &frac12; teaspoon baking powder
 - &frac14; teaspoon salt
 
-##Directions
+## Directions
 Preheat oven to 350&deg;F.
 
 Beat butter and peanut butter together until well combined. Add sugars and beat until fluffy. Add

@@ -1,6 +1,6 @@
-#Grandma Weight's egg nog
+# Grandma Weight's egg nog
 
-##Ingredients
+## Ingredients
 - 1 gal whole milk
 - 6 eggs
 - &frac12; C sugar
@@ -8,7 +8,7 @@
 - &frac12; gal vanilla bean ice cream
 - nutmeg
 
-##Directions
+## Directions
 - Put eggs, sugar, vanilla, and 1 C milk into blender. Blend.
 - Scoop ice cream (smaller chunks are better) into a large container (enough to comfortably hold 1&frac12; gal).
 - Pour egg mixture into container. Rinse out with milk (to get the leftovers) and pour that and remainder of gallon of milk into large container.

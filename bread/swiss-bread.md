@@ -1,6 +1,6 @@
-#Swiss Bread
+# Swiss Bread
 
-##Ingredients
+## Ingredients
 - &frac34; C milk
 - 1 T yeast
 - &frac14; C shortening
@@ -11,7 +11,7 @@
 - 1 egg
 - 3-4 C flour
 
-##Directions
+## Directions
 - Pour milk into a saucepan over medium heat. Add shortening, sugar, and salt. Do not let the milk boil.
 - Dissolve yeast, warm water, pinch of sugar in a separate bowl.
 - Allow milk to cool. This is important or you will burn your hand while kneading. Combine with yeast mixture.

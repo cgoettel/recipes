@@ -1,6 +1,6 @@
-#King Arthur chocolate chip oatmeal cookies
+# King Arthur chocolate chip oatmeal cookies
 
-##Ingredients
+## Ingredients
 - 1 C butter
 - 1 C brown sugar
 - &frac12; C sugar
@@ -14,7 +14,7 @@
 - &frac34; t salt
 - 3 C chocolate chips
 
-##Directions
+## Directions
 - Preheat oven to 325&deg;F.
 - Cream butter and sugars.
 - Beat in egg, egg yolk, and vanilla.

@@ -1,6 +1,6 @@
-#Russian hot bread
+# Russian hot bread
 
-##Ingredients
+## Ingredients
 - 2&frac12; t yeast
 - &frac14; C sugar
 - 1 C warm water
@@ -8,7 +8,7 @@
 - &frac34; stick butter
 - 1 T salt
 
-##Directions
+## Directions
 - Mix yeast, sugar, and warm water. Let sit.
 - Separately, mix egg, butter, and salt. Slowly add 3 C flour.
 - Let rise.

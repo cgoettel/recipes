@@ -1,6 +1,6 @@
-#Nick Estrada's apple pie
+# Nick Estrada's apple pie
 
-##Ingredients
+## Ingredients
 - 5 goodly-sized Granny Smith apples
 - &frac34; C sugar
 - 2 T flour
@@ -9,7 +9,7 @@
 - 1 t nutmeg
 - 1 t clove
 
-##Directions
+## Directions
 - Make [pie crust](pie-crust.md).
 - Preheat oven to 350&deg;F.
 - Skin apples and cut them into small pieces.

@@ -1,17 +1,17 @@
-#Sweet potato pie
+# Sweet potato pie
 
-##Crust
-###Ingredients
+## Crust
+### Ingredients
 - &frac12; C brown sugar
 - 3 T flour
 - &frac12; C pecans, chopped
 - 2 T butter, melted
 
-###Directions
+### Directions
 - Combine everything.
 
-##Sweet potato base
-###Ingredients
+## Sweet potato base
+### Ingredients
 - 3 C sweet potatoes
 - 1 C sugar
 - &frac12; t salt
@@ -19,7 +19,7 @@
 - 2 eggs
 - 1 cube butter
 
-###Directions
+### Directions
 - Cook potatoes until soft
 - Preheat oven to 350&deg;F.
 - Add other ingredients.

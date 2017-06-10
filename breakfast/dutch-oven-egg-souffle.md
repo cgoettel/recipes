@@ -1,6 +1,6 @@
-#Dutch oven egg souffl&eacute;
+# Dutch oven egg souffl&eacute;
 
-##Ingredients
+## Ingredients
 - Charcoal, about 26 briquettes
 - 1 dozen eggs
 - 1 C milk
@@ -8,7 +8,7 @@
 - Cheese
 - 6&ndash;8 slices bread, ripped into bite size pieces
 
-##Directions
+## Directions
 - Heat charcoal.
 - In a separate bowl, beat eggs and milk.
 - Once heated, place 12" Dutch oven on top of all the coals.

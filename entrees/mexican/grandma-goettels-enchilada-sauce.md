@@ -1,6 +1,6 @@
-#Grandma Goettel's enchilada sauce
+# Grandma Goettel's enchilada sauce
 
-##Ingredients
+## Ingredients
 - 1 large can tomato juice
 - &frac34; tomato juice can water
 - 1 can El Pato
@@ -11,7 +11,7 @@
 - 2 C cold water
 - 1 C flour
 
-##Directions
+## Directions
 - Pour tomato juice into a large saucepan.
 - Refill can &frac34; full of water and pour into saucepan.
 - Add El Pato. For a mild sauce, add &frac14;-&frac12; can. For a fuller flavor, add the whole can. It's really not that spicy.

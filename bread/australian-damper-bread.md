@@ -1,13 +1,13 @@
-#Australian damper bread
+# Australian damper bread
 
-##Ingredients
+## Ingredients
 - 4 C flour
 - 1 t salt
-- &#x215B; C baking powder
-- &#x215B; C sugar
+- &# x215B; C baking powder
+- &# x215B; C sugar
 - 1 &frac14; C milk
 
-##Directions
+## Directions
 - Preheat oven to 425&deg;F.
 - Grease an 8x8 pan.
 - Whisk the flour, salt, baking powder, and sugar together.

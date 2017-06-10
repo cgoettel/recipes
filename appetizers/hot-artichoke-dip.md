@@ -1,6 +1,6 @@
-#Juli Mathew's hot artichoke dip
+# Hot artichoke dip
 
-##Ingredients
+## Ingredients
 - 1 C Parmesan cheese, grated
 - &frac12; C mayonnaise
 - &frac12; C sour cream
@@ -8,7 +8,7 @@
 - 1 t garlic
 - 1&frac12; t dill weed
 
-##Directions
+## Directions
 - Preheat oven to 350&deg;F.
 - Mix everything together.
 - Pour in small greased casserole dish.

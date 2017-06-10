@@ -1,6 +1,6 @@
-#Horchata (short)
+# Horchata (short)
 
-##Ingredients
+## Ingredients
 - &frac12; can sweetened condensed milk
 - 1 L water
 - &frac12; can evaporated milk
@@ -9,5 +9,5 @@
 - vanilla to taste
 - sprinkle cinnamon
 
-##Directions
+## Directions
 - Combine everything except cinnamon in blender. Give it a quick whir. Top with cinnamon.

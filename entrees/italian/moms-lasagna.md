@@ -1,6 +1,6 @@
-#Mom's lasagna
+# Mom's lasagna
 
-##Ingredients
+## Ingredients
 - 9 sheets oven-ready lasagna noodles per 9x13
 - 16oz cottage or ricotta cheese
 - 2 eggs
@@ -9,7 +9,7 @@
 - 2 16oz jars spaghetti sauce (bland, but not straight tomato sauce)
 - Mozzarella cheese
 
-##Directions
+## Directions
 - Preheat oven to 350&deg;F.
 - Brown beef and sausage. Don't overcook.
 - Mix eggs and Parmesan into cottage or ricotta cheese container.

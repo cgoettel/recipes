@@ -1,13 +1,13 @@
-#Biscuits
+# Biscuits
 
-##Ingredients
+## Ingredients
 - 4 C flour
 - 5 t baking powder
 - 2 t salt
 - &frac12; C shortening or lard
 - 1&frac12; C milk
 
-##Directions
+## Directions
 - Preheat oven to 450&deg;F.
 - Sift dry ingredients together.
 - Using a pastry knife, cut in shortening or lard.

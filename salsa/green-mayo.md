@@ -1,6 +1,6 @@
-#Green mayo
+# Green mayo
 
-##Ingredients
+## Ingredients
 - 2 bunches cilantro
 - 2 jalapeños
 - 1 lime, juiced
@@ -8,5 +8,5 @@
 - &frac12; t cumin
 - 2 C crema Mexicana or mayonnaise
 
-##Directions
+## Directions
 - Blend everything until smooth.

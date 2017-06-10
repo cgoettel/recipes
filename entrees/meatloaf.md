@@ -1,6 +1,6 @@
-#Meatloaf
+# Meatloaf
 
-##Ingredients
+## Ingredients
 - 1lb ground beef
 - 1 large yellow onion, diced
 - 1 egg
@@ -9,7 +9,7 @@
 - Salt and pepper
 - &frac12; C ketchup
 
-##Directions
+## Directions
 - Preheat oven to 350&deg;F.
 - Mix everything together and place in a greased loaf pan.
 - Pour a thin layer of ketchup over the top and cover with aluminum foil.

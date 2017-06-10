@@ -1,6 +1,6 @@
-#Slush
+# Slush
 
-##Ingredients
+## Ingredients
 - 2 C sugar
 - 4 C water
 - 1 large can pineapple juice
@@ -10,7 +10,7 @@
 - 2L strawberry soda
 - 2L 7-Up
 
-##Directions
+## Directions
 - Boil sugar and water for 3 minutes.
 - Add juices and banana.
 - Freeze for 4 hours or until frozen.

@@ -1,12 +1,12 @@
 Recipes
 =======
 
-##Appetizers
+## Appetizers
 [Cheeseball](appetizers/cheeseball.md)
 
-[Juli Mathew's hot artichoke dip](appetizers/hot-artichoke-dip.md)
+[Hot artichoke dip](appetizers/hot-artichoke-dip.md)
 
-##Breads
+## Breads
 [Australian damper bread](bread/australian-damper-bread.md)
 
 [Biscuits](bread/biscuits.md)
@@ -21,7 +21,7 @@ Recipes
 
 [Unleavened bread for Passover](bread/unleavened-bread-for-passover.md)
 
-##Breakfast
+## Breakfast
 [Bacon cornmeal pancakes](breakfast/bacon-cornmeal-pancakes.md)
 
 [Dutch oven egg souffl&eacute;](breakfast/dutch-oven-egg-souffle.md)
@@ -30,14 +30,14 @@ Recipes
 
 [Waffles](breakfast/waffles.md)
 
-##Cakes
+## Cakes
 [Chocolate cake](cake/chocolate-cake.md)
 
 [Jewish coffee cake](cake/jewish-coffee-cake.md)
 
 [Lemon cake](cake/lemon-cake.md)
 
-##Cookies
+## Cookies
 [Guittard chocolate chip cookies](cookies/guittard-chocolate-chip-cookies.md)
 
 [Hamantaschen](cookies/hamantaschen.md)
@@ -56,14 +56,14 @@ Recipes
 
 [Snickerdoodles](cookies/snickerdoodles.md)
 
-##Dessert
+## Dessert
 [Crumb topping](dessert/crumb-topping.md)
 
 [Nick Estrada's apple pie](dessert/nick-apple-pie.md)
 
 [Pie crust](dessert/pie-crust.md)
 
-##Drinks
+## Drinks
 [Egg nog](drinks/egg-nog.md)
 
 [Horchata (long)](drinks/horchata-long.md)
@@ -72,46 +72,46 @@ Recipes
 
 [Slush](drinks/slush.md)
 
-##Entrées
-###English
+## Entrées
+### English
 [Yorkshire pudding](entrees/english/yorkshire-pudding.md)
 
-###Italian
+### Italian
 [Mom's lasagna](entrees/italian/moms-lasagna.md)
 
 [Pasta with shrimp or chicken](entrees/italian/pasta-with-shrimp.md)
 
 [Salsa alle noci (walnut pesto)](entrees/italian/salsa-alle-noci.md)
 
-###Japanese
+### Japanese
 [Kun Koki steak](entrees/japanese/kun-koki-steak.md)
 
-###Korean
+### Korean
 [Spicy BBQ chicken](entrees/korean/spicy-bbq-chicken.md)
 
-###Meat
+### Meat
 [Chuck roast](entrees/meat/chuck-roast.md)
 
-###Mexican
+### Mexican
 [Grandma Goettel's enchilada sauce](entrees/mexican/grandma-goettels-enchilada-sauce.md)
 
 [Grant's burros](entrees/mexican/grants-burros.md)
 
 [Masa](entrees/mexican/masa.md)
 
-###Other
+### Other
 [Meatloaf](entrees/meatloaf.md)
 
 [Sweet potato pie](entrees/sweet-potato-pie.md)
 
-##Salsa
+## Salsa
 [Beverly Baldwin's gringo salsa](salsa/beverly-baldwins-gringo-salsa.md)
 
 [Green mayo](salsa/green-mayo.md)
 
-[Javier Maya's habanero sauce](salsa/javiers-habanero-sauce.md)
+[Habanero sauce](salsa/habanero-sauce.md)
 
 [Uncle Bryan's green salsa](salsa/uncle-bryans-green-salsa.md)
 
-##Sauces
+## Sauces
 [Creamy horseradish](sauces/creamy-horseradish.md)

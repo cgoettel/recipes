@@ -1,9 +1,9 @@
-#Spicy BBQ chicken
+# Spicy BBQ chicken
 
 **Source:** http://www.maangchi.com/recipe/dwaejibulgogi
 
-##Ingredients
-- 1 pound meat. Pork belly, sliced thinly into pieces &frac12; inch x 2 inches and &#x215B; inch thick
+## Ingredients
+- 1 pound meat. Pork belly, sliced thinly into pieces &frac12; inch x 2 inches and &# x215B; inch thick
 tip. Or feel free to use pork shoulder, pork loin, or chicken. I think chicken's the best.
 
 For the marinade :
@@ -19,7 +19,7 @@ For the marinade :
 - 2 t toasted sesame oil
 - 3 T hot pepper paste
 
-##Directions
+## Directions
 - Blend everything together, nothing fancy.
 - Coat meat in mixture, marinate for 3-4 hours.
 - Cook.

@@ -1,12 +1,12 @@
-#Paul Peterson's crunchy bread
+# Paul Peterson's crunchy bread
 
-##Ingredients
+## Ingredients
 - 8 C flour
 - 720 g water
 - 1&frac12; t yeast
 - 4 t salt
 
-##Directions
+## Directions
 - Add yeast, some warm water, and a bit of sugar in a bowl. Let rest for ten minutes.
 - Combine flour, salt, yeast mixture, and remainder of 720 g water to bowl.
 - Knead forever.

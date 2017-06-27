@@ -1,4 +1,4 @@
-# Creamy horseradish
+# Thai peanut sauce
 
 ## Ingredients
 - 1&frac12; C peanut butter

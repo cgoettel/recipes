@@ -7,7 +7,7 @@
 - 1 egg
 - 1 egg yolk
 - 1 T vanilla
-- 2 C butter
+- 2 C flour
 - 1 C oats
 - 1 t baking powder
 - 1 t baking soda

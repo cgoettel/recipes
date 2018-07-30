@@ -6,7 +6,7 @@
 - &frac12; C butter
 - &frac34; C brown sugar
 - 2 eggs
-- 2 &frac13; C mashed bananas (like 4-6 bananas)
+- 2 <sup>1</sup>&frasl;<sub>3</sub> C mashed bananas (like 4-6 bananas)
 - (optional) chocolate chips
 
 ## Directions

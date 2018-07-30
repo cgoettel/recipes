@@ -3,7 +3,7 @@
 ### Brine
 - 6 C water
 - &frac12; C kosher salt
-- &frac13; C sugar
+- <sup>1</sup>&frasl;<sub>3</sub> C sugar
 - &frac14; C white vinegar
 - &frac14; C buffalo sauce
 - 2 T black pepper

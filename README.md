@@ -9,6 +9,8 @@ Recipes
 ## Breads
 [Australian damper bread](bread/australian-damper-bread.md)
 
+[Banana bread](bread/banana-bread.md)
+
 [Biscuits](bread/biscuits.md)
 
 [French bread](bread/french-bread.md)
@@ -73,6 +75,9 @@ Recipes
 [Slush](drinks/slush.md)
 
 ## Entrées
+### American
+[Knockoff Ron's chili](entrees/american/knockoff-rons-chili.md)
+
 ### English
 [Yorkshire pudding](entrees/english/yorkshire-pudding.md)
 
@@ -90,6 +95,8 @@ Recipes
 [Spicy BBQ chicken](entrees/korean/spicy-bbq-chicken.md)
 
 ### Meat
+[Chicken wings](entrees/meat/chicken-wings.md)
+
 [Chuck roast](entrees/meat/chuck-roast.md)
 
 ### Mexican

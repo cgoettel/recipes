@@ -2,13 +2,12 @@
 
 ## Ingredients
 - 12&ndash;13 habaneros (preferably green, but orange are fine)
-- 8-12+ cloves garlic
-- 3 Roma tomatoes
-- 1 T salt
-- 1 C white vinegar
-- 2 t powdered chicken bouillon
+- 4 cloves garlic
+- 1 Roma tomato
+- 1 t salt
+- &frac12; C white vinegar (enough to blend)
 
 ## Directions
 - Remove stems from habaneros.
-- Blend everything except garlic. Once blended, add garlic to taste.
+- Add everything except vinegar. Add enough vinegar to blend. I don't know exaclty how much cause I don't measure this part, but it feels like &frac14;&ndash;&frac12;&nbsp;C.
 - If the sauce is too spicy, add another tomato. If it's still too spicy, eat something else.

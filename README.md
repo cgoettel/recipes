@@ -1,5 +1,4 @@
-Recipes
-=======
+# Recipes
 
 ## Appetizers
 [Cheeseball](appetizers/cheeseball.md)
@@ -75,41 +74,35 @@ Recipes
 [Slush](drinks/slush.md)
 
 ## Entrées
-### American
-[Knockoff Ron's chili](entrees/american/knockoff-rons-chili.md)
+[Broccoli and cheese soup](entrees/broccoli-and-cheese-soup.md)
 
-### English
-[Yorkshire pudding](entrees/english/yorkshire-pudding.md)
+[Chicken wings](entrees/chicken-wings.md)
 
-### Italian
-[Mom's lasagna](entrees/italian/moms-lasagna.md)
+[Chuck roast](entrees/chuck-roast.md)
 
-[Pasta with shrimp or chicken](entrees/italian/pasta-with-shrimp.md)
+[Grandma Goettel's enchilada sauce](entrees/grandma-goettels-enchilada-sauce.md)
 
-[Salsa alle noci (walnut pesto)](entrees/italian/salsa-alle-noci.md)
+[Grant's burros](entrees/grants-burros.md)
 
-### Japanese
-[Kun Koki steak](entrees/japanese/kun-koki-steak.md)
+[Korean BBQ chicken](entrees/korean-bbq-chicken.md)
 
-### Korean
-[Spicy BBQ chicken](entrees/korean/spicy-bbq-chicken.md)
+[Knockoff Ron's chili](entrees/knockoff-rons-chili.md)
 
-### Meat
-[Chicken wings](entrees/meat/chicken-wings.md)
+[Kun Koki steak](entrees/kun-koki-steak.md)
 
-[Chuck roast](entrees/meat/chuck-roast.md)
+[Masa](entrees/masa.md)
 
-### Mexican
-[Grandma Goettel's enchilada sauce](entrees/mexican/grandma-goettels-enchilada-sauce.md)
-
-[Grant's burros](entrees/mexican/grants-burros.md)
-
-[Masa](entrees/mexican/masa.md)
-
-### Other
 [Meatloaf](entrees/meatloaf.md)
 
+[Mom's lasagna](entrees/moms-lasagna.md)
+
+[Pasta with shrimp or chicken](entrees/pasta-with-shrimp.md)
+
+[Salsa alle noci (walnut pesto)](entrees/salsa-alle-noci.md)
+
 [Sweet potato pie](entrees/sweet-potato-pie.md)
+
+[Yorkshire pudding](entrees/yorkshire-pudding.md)
 
 ## Salsa
 [Beverly Baldwin's gringo salsa](salsa/beverly-baldwins-gringo-salsa.md)

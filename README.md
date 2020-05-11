@@ -111,6 +111,8 @@
 
 [Habanero sauce](salsa/habanero-sauce.md)
 
+[Salsa taqueria](salsa/salsa-taqueria.md)
+
 [Uncle Bryan's green salsa](salsa/uncle-bryans-green-salsa.md)
 
 ## Sauces

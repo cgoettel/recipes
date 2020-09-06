@@ -5,7 +5,7 @@
 - 1&frac14; C milk
 - &frac12; C oil
 - 1&frac34; C flour
-- 3 t baking powder
+- 1 T baking powder
 - &frac12; t salt
 - (Optional) 1&frac12; t vanilla
 

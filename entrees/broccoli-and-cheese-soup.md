@@ -2,22 +2,26 @@
 
 ## Ingredients
 - 4 T butter
-- &frac14; C flour
 - 2 C chicken stock (or vegetable stock if you prefer)
 - 2 C heavy cream (use half and half for a lighter soup)
-- 2&ndash;3 C broccoli (maybe more depending on tastes)
+- 2 stalks broccoli (maybe more depending on tastes)
+- 1&ndash;2 stalks celery
+- 1 head cauliflower
 - 2 large carrots
-- &frac34; t salt
-- &frac34; t black pepper
-- &frac12; t paprika
+- 1 medium onion
+- 1&frac12; T tomato paste
+- Salt
+- Black pepper
+- Paprika
 - All of the cheese
 
 ## Directions
-- Make your roux: butter and flour and whisk for a few minutes until the flour is thickened.
-- Separately, submersion blend the carrots into the chicken stock. Alternatively, you can cut up the carrots, but I hate cutting up carrots, so
-- Slowly whisk the stock into the roux.
-- Slowly whisk the cream into the roux.
-- Add the broccoli. I like to use enough broccoli that the soup is at peak broccoli concentration.
-- Simmer over low heat for 15&ndash;20 minutes until it's thickened up.
-- Season.
-- Once the broccoli (and carrots if cut and added separately) is tender, start adding cheese. Add all of the cheese that you want. I add at least a pound. It's crazy thick and a small bowl will fill you up.
+- Sautee the onions, celery, and carrots in butter until aromatic.
+- While that's cooking, cut up your broccoli and cauliflower. This is a place where you can get creative. Maybe throw in some rutabaga or parsnip. Potatoes would be great, but this can easily be a keto recipe if you control your vegetables.
+- When the onions, celery, and carrots are aromatic, add the tomato paste and cook for a minute. This will add depth to the dish.
+- Slowly pour in the stock.
+- Slowly pour in the cream and reduce heat to a simmer.
+- Add the broccoli and cauliflower. I like to use enough that the soup is at peak veggie concentration.
+- Simmer over low heat for 15&ndash;20 minutes until the vegetables are cooked how you like.
+- Season. This is another place you can get creative. I really like to add just a little garam masala (adds some great depth) and some crushed chilis.
+- Start adding cheese. Add all of the cheese that you want. I add at least a pound. It's crazy thick and a small bowl will fill you up.

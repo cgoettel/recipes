@@ -5,9 +5,9 @@
 - &frac34; C sugar
 - 2 T flour
 - 1 T cinnamon
-- 2 t ginger
-- 1 t nutmeg
-- 1 t clove
+- 1 t ginger
+- &frac12; t nutmeg
+- &frac18; t clove
 
 ## Directions
 - Make [pie crust](pie-crust.md).

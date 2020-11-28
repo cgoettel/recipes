@@ -39,6 +39,8 @@
 [Lemon cake](cake/lemon-cake.md)
 
 ## Cookies
+[Domino Sugar's Classic sugar cookies](cookies/domino-sugar-classic-sugar-cookies.md)
+
 [Guittard chocolate chip cookies](cookies/guittard-chocolate-chip-cookies.md)
 
 [Hamantaschen](cookies/hamantaschen.md)

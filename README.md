@@ -119,3 +119,5 @@
 
 ## Sauces
 [Creamy horseradish](sauces/creamy-horseradish.md)
+
+[Tempura dipping sauce](sauces/tempura-dipping-sauce.md)

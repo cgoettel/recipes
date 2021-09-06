@@ -1,5 +1,4 @@
 # Recipes
-
 ## Appetizers
 [Cheeseball](appetizers/cheeseball.md)
 
@@ -38,6 +37,8 @@
 
 [Lemon cake](cake/lemon-cake.md)
 
+[Dr. Pepper chocolate cake](cake/dr-pepper-chocolate-cake.md)
+
 ## Cookies
 [Domino Sugar's Classic sugar cookies](cookies/domino-sugar-classic-sugar-cookies.md)
 
@@ -62,16 +63,14 @@
 ## Dessert
 [Crumb topping](dessert/crumb-topping.md)
 
+[Kay's fudge](dessert/kays-fudge.md)
+
 [Nick Estrada's apple pie](dessert/nick-apple-pie.md)
 
 [Pie crust](dessert/pie-crust.md)
 
 ## Drinks
 [Egg nog](drinks/egg-nog.md)
-
-[Horchata (long)](drinks/horchata-long.md)
-
-[Horchata (short)](drinks/horchata-short.md)
 
 [Slush](drinks/slush.md)
 
@@ -121,3 +120,4 @@
 [Creamy horseradish](sauces/creamy-horseradish.md)
 
 [Tempura dipping sauce](sauces/tempura-dipping-sauce.md)
+

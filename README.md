@@ -26,6 +26,8 @@
 
 [Dutch oven egg souffl&eacute;](breakfast/dutch-oven-egg-souffle.md)
 
+[Granola](breakfast/granola.md)
+
 [Pancakes](breakfast/pancakes.md)
 
 [Waffles](breakfast/waffles.md)

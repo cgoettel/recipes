@@ -4,7 +4,7 @@
 
 - 1 46 oz can tomato juice
 - &frac34; tomato juice can water
-- 1 can El Pato
+- 1 can El Pato (yellow can, not the green one)
 - 1 T garlic powder
 - 1 T kosher salt
 - 2-3 T chili powder

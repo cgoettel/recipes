@@ -5,6 +5,8 @@
 [Hot artichoke dip](appetizers/hot-artichoke-dip.md)
 
 ## Breads
+[Almond poppy seed muffins](bread/almond-poppy-seed-muffins.md)
+
 [Australian damper bread](bread/australian-damper-bread.md)
 
 [Banana bread](bread/banana-bread.md)

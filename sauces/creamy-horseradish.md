@@ -1,6 +1,7 @@
 # Creamy horseradish
 
 ## Ingredients
+
 - &frac34; C heavy cream
 - 1 C sour cream
 - 1 small container prepared horse radish
@@ -8,4 +9,5 @@
 - Salt and pepper, to taste
 
 ## Directions
+
 - Blend everything until smooth.

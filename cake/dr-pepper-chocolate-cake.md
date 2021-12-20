@@ -1,8 +1,11 @@
 # Dr. Pepper chocolate cake
+
 This recipe is from [Glen and Friend's cooking](https://www.youtube.com/watch?v=KvVKRHlr1ig).
 
 ## Ingredients
+
 ### Cake
+
 - 1 C Dr. Pepper/Coke/Pepsi/root beer
 - 1 C white sugar
 - &frac12; C brown sugar
@@ -18,6 +21,7 @@ This recipe is from [Glen and Friend's cooking](https://www.youtube.com/watch?v=
 - (optional) 1 T chocolate liqueur
 
 ### Icing
+
 - 4 oz chocolate
 - 1 C butter
 - Pinch salt
@@ -27,6 +31,7 @@ This recipe is from [Glen and Friend's cooking](https://www.youtube.com/watch?v=
 - 4 C powdered sugar - approximate
 
 ## Method
+
 - Preheat the oven to 375F.
 - Put the soda, sugars, chocolate, and butter in a saucepan.
 - Stir over medium heat until fully melted and blended.

@@ -1,6 +1,9 @@
 # King Arthur gingernsaps
+
 ## Ingredients
+
 ### Cookies
+
 - &frac12;C butter (shortening can be used for hard cookies)
 - 1C sugar
 - &frac12;t salt
@@ -13,15 +16,17 @@
 - 1t cinnamon
 
 ### Coating
+
 - &frac14;C sugar
 - 1t ground cinnamon
 
 ## Directions
-- Preheat oven to 375F
+
+- Preheat oven to 375&deg;F
 - Beat butter and sugar. Add sugar, salt, and baking soda.
 - Beat in egg and molasses.
 - Add flour and spices.
 - Combine coating ingredients.
 - Make balls and add cover in coating.
 - Place on baking sheet.
-- Bake for 11+min.
+- Bake for 11+ minutes.

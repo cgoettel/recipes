@@ -3,6 +3,7 @@
 Recipe adapted from Deann Ekstrom's oatmeal, walnut, and raisin cookies recipe.
 
 ## Ingredients
+
 - 3 eggs
 - 1 C chocolate chips
 - 1 t vanilla
@@ -17,8 +18,10 @@ Recipe adapted from Deann Ekstrom's oatmeal, walnut, and raisin cookies recipe.
 - 1 C coarsely chopped walnuts
 
 ## Directions
-Preheat oven to 350&deg;F.
 
-Cream together butter and sugars until fluffy. Add eggs and vanilla. Mix. Add dry ingredients. Finally, add oats, walnuts, and chocolate chips.
-
-Bake at 350&deg;F for 10&ndash;12&nbsp;min.
+- Preheat oven to 350&deg;F.
+- Cream together butter and sugars until fluffy.
+- Add eggs and vanilla. Mix.
+- Add dry ingredients.
+- Finally, add oats, walnuts, and chocolate chips.
+- Bake at 350&deg;F for 10&ndash;12&nbsp;min.

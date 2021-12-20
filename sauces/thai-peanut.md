@@ -1,6 +1,7 @@
 # Thai peanut sauce
 
 ## Ingredients
+
 - 1&frac12; C peanut butter
 - &frac14; C cream
 - 1 can coconut milk (next time, buy two and try only coconut milk)

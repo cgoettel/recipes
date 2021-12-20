@@ -3,10 +3,11 @@
 **Source:** http://www.maangchi.com/recipe/dwaejibulgogi
 
 ## Ingredients
+
 - 1 pound meat. Pork belly, sliced thinly into pieces &frac12; inch x 2 inches and &# x215B; inch thick
 tip. Or feel free to use pork shoulder, pork loin, or chicken. I think chicken's the best.
 
-For the marinade :
+### Marinade
 
 - &frac12; C crushed pear
 - &frac14; C onion purée
@@ -20,6 +21,7 @@ For the marinade :
 - 3 T hot pepper paste
 
 ## Directions
+
 - Blend everything together, nothing fancy.
 - Coat meat in mixture, marinate for 3-4 hours.
 - Cook.

@@ -1,6 +1,7 @@
 # Broccoli and cheese soup
 
 ## Ingredients
+
 - 4 T butter
 - 2 C chicken stock (or vegetable stock if you prefer)
 - 2 C heavy cream (use half and half for a lighter soup)
@@ -16,6 +17,7 @@
 - All of the cheese
 
 ## Directions
+
 - Sautee the onions, celery, and carrots in butter until aromatic.
 - While that's cooking, cut up your broccoli and cauliflower. This is a place where you can get creative. Maybe throw in some rutabaga or parsnip. Potatoes would be great, but this can easily be a keto recipe if you control your vegetables.
 - When the onions, celery, and carrots are aromatic, add the tomato paste and cook for a minute. This will add depth to the dish.

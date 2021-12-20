@@ -1,16 +1,19 @@
 # Banana bread
+
 ## Ingredients
-- 2 C flour
-- 1 t baking soda
-- &frac14; t salt
+
 - &frac12; C butter
 - &frac34; C brown sugar
+- &frac14; t salt
+- 1 t baking soda
 - 2 eggs
 - 2 <sup>1</sup>&frasl;<sub>3</sub> C mashed bananas (like 4-6 bananas)
+- 2 C flour
 - (optional) chocolate chips
 - (optional) walnuts
 
 ## Directions
+
 - Preheat oven to 350&deg;F
 - In a large bowl, cream butter and sugar.
 - Add eggs and beat.

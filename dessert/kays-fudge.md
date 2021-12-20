@@ -1,7 +1,9 @@
 # Kay's fudge
+
 This recipe is from a tombstone in Utah.
 
 ## Ingredients
+
 - 2 oz chocolate
 - 2 T butter
 - 1 C milk
@@ -10,6 +12,7 @@ This recipe is from a tombstone in Utah.
 - pinch salt
 
 ## Process
+
 - Get your mise en place; this is essential
 - Melt butter and chocolate on low heat
 - Once melted, stir in milk and bring to a boil

@@ -1,6 +1,7 @@
 # Chocolate cake
 
 ## Ingredients
+
 - 1 chocolate cake mix
 - 1 chocolate instant pudding mix
 - 1 C sour cream
@@ -10,6 +11,7 @@
 - Chocolate chips
 
 ## Directions
+
 - Preheat oven to 350&deg;F.
 - Mix everything together.
 - Fold in chocolate chips. Whatever you're comfortable with.

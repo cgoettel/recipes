@@ -1,6 +1,7 @@
 # Snickerdoodles
 
 ## Ingredients
+
 - 1 stick butter, softened
 - 1 C sugar
 - &frac14; t baking soda
@@ -12,6 +13,7 @@
 - 1&frac12; t cinnamon
 
 ## Directions
+
 - In a mixing bowl, beat the butter on medium speed for 30 seconds.
 - Add 1 C sugar, baking soda, and cream of tartar. Beat until combined.
 - Beat in egg and vanilla until well blended.

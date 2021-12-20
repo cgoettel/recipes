@@ -1,6 +1,7 @@
 # Guittard chocolate chip cookies
 
 ## Ingredients
+
 - 2 &frac14; C flour
 - 1 t baking soda
 - 1 t salt
@@ -13,6 +14,7 @@
 - 1 C chopped nuts
 
 ## Directions
+
 - Preheat oven to 350&deg;F.
 - Combine flour, baking soda, and salt. Set aside.
 - Cream butter, sugar, and brown sugar.

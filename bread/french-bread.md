@@ -1,6 +1,7 @@
 # French bread
 
 ## Ingredients
+
 - 2 C warm water
 - 1 T yeast
 - 1 T vegetable oil
@@ -10,6 +11,7 @@
 - Cornmeal
 
 ## Directions
+
 - Dissolve yeast and sugar in warm water. Allow yeast to proof or foam (about 10 minutes).
 - Add salt, oil, and 3 C flour; beat for 2 minutes.
 - Stir in 2 C flour to make a stiff dough.

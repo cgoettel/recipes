@@ -1,6 +1,7 @@
 # Kun Koki steak
 
 ## Ingredients
+
 - 1&frac12; lbs flank steak
 - 3 T sesame seeds
 - 3 T oil
@@ -12,6 +13,7 @@
 - 2 T brown sugar
 
 ## Directions
+
 - Remove tendons.
 - Score meat.
 - Marinate forever.

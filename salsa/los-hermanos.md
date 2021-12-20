@@ -1,5 +1,7 @@
 # Los Hermanos salsa
+
 ## Ingredients
+
 - 3 cans 28oz diced tomatoes
 - 1 jalapeno
 - 1 Anaheim
@@ -9,5 +11,6 @@
 - 2 cloves garlic
 
 ## Directions
+
 - Drain tomatoes
 - Blend (might need to do two loads depending on blender capacity)

@@ -1,6 +1,7 @@
 # Martha Stewart's sugar cookies
 
 ## Ingredients
+
 - 4 C sifted all-purpose flour
 - &frac12; t salt
 - 1 t baking powder
@@ -10,6 +11,7 @@
 - 2 t vanilla
 
 ## Directions
+
 - In a large bowl, sift together flour, salt, and baking powder. Set aside.
 - Using an electric mixer, cream butter and sugar until fluffy. Beat in eggs.
 - Add flour mixture, a little at a time, and mix on low speed until thoroughly combined.

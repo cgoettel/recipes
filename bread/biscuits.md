@@ -1,13 +1,15 @@
 # Biscuits
 
 ## Ingredients
-- 4 C flour
-- 5 t baking powder
-- 2 t salt
-- &frac12; C shortening or lard
-- 1&frac12; C milk
+
+- 2 C flour
+- 1 T baking powder
+- 1 t salt
+- &frac14; C shortening or lard
+- &frac34; C milk
 
 ## Directions
+
 - Preheat oven to 450&deg;F.
 - Sift dry ingredients together.
 - Using a pastry knife, cut in shortening or lard.
@@ -16,4 +18,4 @@
 - Use a cup to cut out biscuits.
 - Bake at 450&deg;F for 10-12 minutes.
 
-This recipe is doubled and yields about 25 man-sized (correct-sized) biscuits.
+This recipe yields about 12 biscuits.

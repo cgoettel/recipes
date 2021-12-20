@@ -1,5 +1,7 @@
 # Domino Sugar's Classic sugar cookies
+
 ## Ingredients
+
 - 4 C flour
 - 2 t baking powder
 - 1 t salt
@@ -9,6 +11,7 @@
 - 1 &frac12; t vanilla
 
 ## Directions
+
 - Preheat oven to 350F
 - Sift together dry ingredients.
 - Separately, cream butter and sugar.

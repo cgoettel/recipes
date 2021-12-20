@@ -3,6 +3,7 @@
 **Source:** http://www.inspiredbycharm.com/2013/09/butter-pecan-maple-crisps.html
 
 ## Ingredients
+
 - 1 C butter
 - 1 C sugar
 - 1 t vanilla
@@ -15,6 +16,7 @@
 - &frac12; C pure dark amber maple syrup
 
 ## Directions
+
 - Preheat oven to 300&deg;F.
 - Whisk together dry ingredients.
 - In a separate bowl, cream butter and sugar.

@@ -2,7 +2,7 @@
 
 ## Ingredients
 
-- 1 large can tomato juice
+- 1 46 oz can tomato juice
 - &frac34; tomato juice can water
 - 1 can El Pato
 - 1 T garlic powder

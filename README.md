@@ -69,6 +69,8 @@
 
 [Kay's fudge](dessert/kays-fudge.md)
 
+[Mom's apple pie filling](dessert/moms-apple-pie-filling.md)
+
 [Nick Estrada's apple pie](dessert/nick-apple-pie.md)
 
 [Pie crust](dessert/pie-crust.md)

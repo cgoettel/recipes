@@ -1,4 +1,11 @@
 # Recipes
+
+For all recipes, I use or do the following (feel free to do what you'd like):
+- unsalted butter
+- large eggs
+- I always season my beef before cooking
+- For slow cooked beef, I always sear it first (but usually don't note it in recipes)
+
 ## Appetizers
 [Cheeseball](appetizers/cheeseball.md)
 
@@ -82,6 +89,8 @@
 
 ## Entrées
 [Broccoli and cheese soup](entrees/broccoli-and-cheese-soup.md)
+
+[Butter chicken](butter-chicken.md)
 
 [Chicken wings](entrees/chicken-wings.md)
 

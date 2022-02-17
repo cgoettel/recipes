@@ -8,7 +8,7 @@
 - 2&ndash;3 lb chuck roast, shredded
 - 1 yellow onion, chopped
 - 16 oz tomato sauce
-- 1 can green chilis
+- 1 can green chilis (short or tall, depends how you like it; I prefer more)
 - 1&ndash;2 T flour
 - Chili powder, to taste (see Notes)
 

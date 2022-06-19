@@ -8,3 +8,4 @@ To that end, I have recently acquired a few Corny kegs and a kegerator. Each of 
 
 - Because I'm either kegging or using an ISI canister (for tests), all of the recipes say to force carbonate. If you can't force carbonate, use club soda in place of water.
 - I live in Arizona and our tap water starts with an aftertaste. It's awful. I have a reverse osmosis filter, but it removes some of the minerals that you actually want for flavor. It's fine, but if you want a bit more flavor (and don't want to mess with water chemistry), buy gallons of spring water at the store and use them in these recipes.
+- It's important to filter (even double or triple filter with increasingly fine meshes) before force carbonating. Any particulate matter will cause a bitter taste and will contribute to a shorter lifespan of the soda.

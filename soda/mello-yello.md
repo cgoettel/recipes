@@ -1,6 +1,6 @@
 # Mello Yellow clone
 
-This recipe comes from Bucholz on the [Homebrew Talk](https://www.homebrewtalk.com/threads/mellow-yellow-clone.356357/) forum. He notes that if you want this to be more similar to Mountain Dew, substitute more lemon and lime juice in place of the orange juice.
+This recipe comes from Bucholz on the [Homebrew Talk](https://www.homebrewtalk.com/threads/mellow-yellow-clone.356357/) forum. He notes that if you want this to be more similar to Mountain Dew, substitute additional lemon and lime juice in place of the orange juice.
 
 ## Ingredients
 

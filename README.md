@@ -83,6 +83,7 @@ For all recipes, I use or do the following (feel free to do what you'd like):
 - [Mom's lasagna](entrees/moms-lasagna.md)
 - [Pasta with shrimp or chicken](entrees/pasta-with-shrimp.md)
 - [Salsa alle noci (walnut pesto)](entrees/salsa-alle-noci.md)
+- [Soupe Dauphinoise](entrees/soupe-dauphinoise.md)
 - [Sweet potato pie](entrees/sweet-potato-pie.md)
 - [Yorkshire pudding](entrees/yorkshire-pudding.md)
 
@@ -101,6 +102,8 @@ For all recipes, I use or do the following (feel free to do what you'd like):
 - [Tempura dipping sauce](sauces/tempura-dipping-sauce.md)
 
 ## Soda
+
+[Notes on soda making, techniques, etc.](soda/README.md)
 
 - [Cream soda](soda/cream-soda.md)
 - [Grapefruit](soda/grapefruit.md)

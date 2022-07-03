@@ -10,8 +10,9 @@
 - &frac14; C+ bacon pieces (optional)
 - Chopped pecans
 
-## Directions
+Yields 3 four inch cheeseballs.
 
-- Cream cheese, mayonnaise and seasonings until smooth. Blend in sliced green onions and bacon.
-- Create balls according to desired size. Place on plate and cover with saran wrap. Refrigerate till firm. Reshape and roll in chopped pecans.
-- Yields three good-sized cheeseballs.
+## Instructions
+
+1. Cream together the cream cheese, mayonnaise and seasonings until smooth. Blend in sliced green onions and bacon.
+1. Form balls of desired size. Place on plate and tarp with saran wrap. Refrigerate till firm. Reshape and roll bolls in a bowl of chopped pecans.

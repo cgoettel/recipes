@@ -2,43 +2,39 @@
 
 ## Ingredients
 
-### Yeast
-
-- 1.5T yeast
-- 1C lukewarm water
-- 1t sugar
-
-### Rolls
-
-- 6T lard
-- 1C sugar
-- 8C flour
-- 2C hot water
+- 1.5 T yeast
+- 1 C lukewarm water
+- 1 t sugar
+- 8 C flour
+- 1 C sugar
+- 6 T lard
+- 2 C water
 - 2 eggs, beaten
-- 1T salt
+- 1 T salt
 
 ### Filling
 
-- &frac12;C softened butter
-- 1&frac12;C brown sugar
-- 2T cinnamon
+- &frac12; C softened butter
+- 1&frac12; C brown sugar
+- 2 T cinnamon
 
 ### Frosting
 
-- 4T butter
-- 2C powdered sugar
-- 4T milk
-- 1t vanilla extract
+- 4 T butter
+- 2 C powdered sugar
+- 4 T milk
+- 1 t vanilla extract
 
-## Directions
+## Instructions
 
-- Start the yeast
-- Cut the lard into the dry ingredients.
-- Combine beaten eggs, water, and yeast start. Add half the flour and make a batter. Keep adding flour until the dough is formed. Okay if it's a little sticky. Knead until the dough is smooth.
-- Roll out half the dough.
-- Mix the filling. Spread it out onto the dough. Roll, cut, put into a greased 9x13.
-- Repeat for other half of dough.
-- Cover and let rise.
-- Heat oven to 350F.
-- Bake for 20-30min.
-- Once cooled, make the frosting and go nuts.
+1. Start the yeast in a cup of lukewarm water with a teaspoon of sugar.
+1. Cut the lard into the dry ingredients.
+1. Combine beaten eggs, water, and yeast starter. Add half the flour and make a batter. Keep adding flour until the dough is formed. It's okay if it's a little sticky. Knead until the dough is smooth.
+1. Split the dough in half. For each half:
+  1. Roll out half the dough.
+  1. Mix the filling. Spread it out onto the dough.
+  1. Roll, cut into segments, put into a greased 9"x13" pan.
+1. Cover and let rise.
+1. Heat oven to 350&deg;F.
+1. Bake for 20&ndash;30min, or until tops are golden brown.
+1. Once cooled, make the frosting and evenly apply to the baked rolls.

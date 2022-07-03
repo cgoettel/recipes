@@ -1,4 +1,4 @@
-# Chocolate cake
+# Ann Myer's chocolate cake
 
 ## Ingredients
 
@@ -10,10 +10,10 @@
 - 4 eggs
 - Chocolate chips
 
-## Directions
+## Instructions
 
-- Preheat oven to 350&deg;F.
-- Mix everything together.
-- Fold in chocolate chips. Whatever you're comfortable with.
-- Pour into greased bundt cake pan.
-- Bake at 350&deg;F for 50-60 minutes or until toothpick comes out clean.
+1. Preheat oven to 350&deg;F.
+1. Mix everything together.
+1. Fold in chocolate chips. Whatever you're comfortable with.
+1. Pour into greased bundt cake pan.
+1. Bake at 350&deg;F for 50&ndash;60 minutes, or until a toothpick comes out clean.

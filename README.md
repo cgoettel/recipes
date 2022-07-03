@@ -1,11 +1,11 @@
 # Recipes
 
-For all recipes, I use or do the following (feel free to do what you'd like):
-- unsalted butter
-- large eggs
-- I always season my beef and let it rest before cooking
-- For ground beef, I season with Lawry's season salt and cracked pepper
-- For slow cooked beef, I always sear it first (but usually don't note it in recipes)
+I have tried to be explicit in these recipes, but something I've been doing something the same way for so long that I forget that it's even worth mentioning. Or, some things (to me) are a given so I omit them from the recipe. Here are some guidelines in case you get lost:
+- I always use salted butter.
+- It's always large eggs.
+- For non-ground beef, I always season my beef and let it rest before cooking. If I'm slow cooking (e.g., crock pot, braising),  I always sear it first.
+- For ground beef, I season with Lawry's season salt and cracked pepper.
+- Unless otherwise specified, "flour" means "all-purpose flour."
 
 ## Appetizers
 
@@ -18,6 +18,7 @@ For all recipes, I use or do the following (feel free to do what you'd like):
 - [Australian damper bread](bread/australian-damper-bread.md)
 - [Banana bread](bread/banana-bread.md)
 - [Biscuits](bread/biscuits.md)
+- [Cinnamon rolls](bread/cinnamon-rolls.md)
 - [French bread](bread/french-bread.md)
 - [Paul Peterson's crunchy bread](bread/paul-petersons-crunchy-bread.md)
 - [Russian hot bread](bread/russian-hot-bread.md)
@@ -35,21 +36,22 @@ For all recipes, I use or do the following (feel free to do what you'd like):
 ## Cakes
 
 - [Chocolate cake](cake/chocolate-cake.md)
+- [Dr. Pepper chocolate cake](cake/dr-pepper-chocolate-cake.md)
 - [Jewish coffee cake](cake/jewish-coffee-cake.md)
 - [Lemon cake](cake/lemon-cake.md)
-- [Dr. Pepper chocolate cake](cake/dr-pepper-chocolate-cake.md)
 
 ## Cookies
 
 - [Domino Sugar's Classic sugar cookies](cookies/domino-sugar-classic-sugar-cookies.md)
+- [Gingersnaps](cookies/gingersnaps.md)
 - [Guittard chocolate chip cookies](cookies/guittard-chocolate-chip-cookies.md)
+- [Haman's hats (poppy seed sugar cookies)](cookies/hamans-hats.md)
 - [Hamantaschen](cookies/hamantaschen.md)
-- [King Arthur chocolate chip oatmeal cookies](cookies/king-arthur-chocolate-chip-oatmeal-cookies.md)
 - [Maple pecan cookies](cookies/maple-pecan-cookies.md)
 - [Martha Stewart's sugar cookies](cookies/martha-stewarts-sugar-cookies.md)
+- [Oatmeal cookies](cookies/oatmeal-cookies.md)
 - [Oatmeal, walnut, chocolate chip cookies](cookies/oatmeal-walnut-chocolate-chip-cookies.md)
-- [Peanut butter cookies](cookies/emily-peanut-butter.md)
-- [Poppy seed sugar cookies (Haman's hats)](cookies/hamans-hats.md)
+- [Peanut butter cookies](cookies/peanut-butter-cookies.md)
 - [Snickerdoodles](cookies/snickerdoodles.md)
 
 ## Dessert

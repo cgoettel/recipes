@@ -1,4 +1,4 @@
-# Domino Sugar's Classic sugar cookies
+# Domino Sugar's classic sugar cookies
 
 ## Ingredients
 
@@ -10,13 +10,13 @@
 - 2 eggs
 - 1 &frac12; t vanilla
 
-## Directions
+## Instructions
 
-- Preheat oven to 350F
-- Sift together dry ingredients.
-- Separately, cream butter and sugar.
-- Add eggs and vanilla to butter mix.
-- Once incorporated, add dry ingredients. Should form a smooth, stiff dough.
-- NOTE: You do not need to refrigerate this dough to work with it.
-- Roll out to &frac14;" thick rectangle. Cut and place on greased cookie sheet.
-- Bake at 350F for 10 minutes or until firm and light golden brown.
+1. Preheat oven to 350&deg;F.
+1. Sift together dry ingredients.
+1. Separately, cream butter and sugar.
+1. Add eggs and vanilla to butter mix.
+1. Once incorporated, add dry ingredients. Should form a smooth, stiff dough.
+1. NOTE: You do not need to refrigerate this dough to work with it.
+1. Roll out to &frac14;" thick rectangle. Cut and place on greased cookie sheet.
+1. Bake at 350&deg;F for 10 minutes, or until firm and light golden brown.

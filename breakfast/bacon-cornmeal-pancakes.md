@@ -1,21 +1,21 @@
-# Bacon-cornmeal pancakes
+# Bacon and cornmeal pancakes
 
 ## Ingredients
 
 - 1&frac14; C flour
-- 2 t baking powder
 - &frac34; C cornmeal
-- &frac12; t salt
 - &frac14; C sugar
-- 1⅓ C milk
+- 2 t baking powder
+- &frac12; t salt
+- 1&frac13; C milk
 - &frac14; C oil
 - 1 egg
-- (optional) bacon
+- &frac12; lb bacon
 
-## Directions
+## Instructions
 
-- Mix flour, cornmeal, sugar, baking powder, and salt.
-- Separately, mix milk, oil, and beaten egg.
-- Combine and whisk. The batter is fine a little lumpy.
-- Optionally, chop 5-6 strips of bacon and toss into frying pan. Brown. Add to completed batter.
-- Cook over medium heat until golden brown.
+1. Combine flour, cornmeal, sugar, baking powder, and salt.
+1. Separately, mix milk, oil, and beaten egg.
+1. Combine and whisk. The batter is fine a little lumpy.
+1. Chop 5&ndash;6 strips of bacon and toss into frying pan. Brown. Add to completed batter.
+1. Cook over medium heat until golden brown.

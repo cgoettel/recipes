@@ -4,8 +4,6 @@ This recipe is from [Glen and Friend's cooking](https://www.youtube.com/watch?v=
 
 ## Ingredients
 
-### Cake
-
 - 1 C Dr. Pepper/Coke/Pepsi/root beer
 - 1 C white sugar
 - &frac12; C brown sugar
@@ -30,23 +28,22 @@ This recipe is from [Glen and Friend's cooking](https://www.youtube.com/watch?v=
 - (optional) 1 T chocolate liqueur
 - 4 C powdered sugar - approximate
 
-## Method
+## Instructions
 
-- Preheat the oven to 375F.
-- Put the soda, sugars, chocolate, and butter in a saucepan.
-- Stir over medium heat until fully melted and blended.
+- Preheat the oven to 375&deg;F.
+- Put the soda, sugars, chocolate, and butter in a saucepan over medium heat.
+- Stir until fully melted and combined.
 - Remove from the heat and let cool slightly.
 - Sift together the flour, baking soda, baking powder, and salt.
-- In a small bowl, stir together the buttermilk, vanilla, and (optional) chocolate liqueur.
-- Grease, flour, and line 2x 9" cake pans with parchment.
+- In a small bowl, stir together the buttermilk, vanilla, and (optionally) chocolate liqueur.
+- Grease, flour, and line two 9" cake pans with parchment.
 - Whisk the milk mixture and eggs into the slightly cooled chocolate mixture.
-- Whisk in the dry ingredients, in 2-3 additions.
+- Whisk in the dry ingredients, in 2&ndash;3 additions.
 - Divide the batter between the pans and bake 30&ndash;35 minutes, or until a tester comes out clean.
 - Let the cakes cool completely, then remove from the pans and cool on a rack.
 - Meanwhile, make the icing.
 - Using your preferred method, melt the chocolate; let cool almost to room temperature.
 - Cream the butter and add in about a quarter of the icing sugar.
-- Whisk in the melted chocolate, vanilla, (optional) liqueur, and salt.
+- Whisk in the melted chocolate, vanilla, (optionally) chocolate liqueur, and salt.
 - Slowly whisk in just enough icing sugar to stiffen and attain desired sweetness.
 - Ice as a layer cake.
-

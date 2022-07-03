@@ -6,14 +6,18 @@
 - &frac14; C sugar
 - 1 C warm water
 - 1 egg
-- &frac34; stick butter
+- 6 T butter
 - 1 T salt
+- 3 C flour
 
-## Directions
+## Instructions
 
-- Mix yeast, sugar, and warm water. Let sit.
-- Separately, mix egg, butter, and salt. Slowly add 3 C flour.
-- Let rise.
-- Bake appropriately for use, generally hot (450&deg;F).
+1. Mix yeast, sugar, and warm water. Let sit to activate.
+1. Separately, mix egg, butter, and salt. Slowly add flour until combined.
+1. Knead.
+1. Let rise.
+1. Bake at 450&deg;F for ???.
 
-Works great as pizza dough.
+## Notes
+
+- Works great as pizza dough.

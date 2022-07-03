@@ -4,23 +4,19 @@ This recipe comes from [Glen and Friends Cooking](https://www.youtube.com/watch?
 
 ## Ingredients
 
-| Ingredient              | For 7 L finished soda | For 14 L (3.7 gal) finished soda          |
-| ----------------------- | --------------------- | ----------------------------------------- |
-| Cane sugar              | 680 g                 | 1360 g                                    |
-| Citric acid             | 21 g                  | 42 g                                      |
-| Grapefruits:            | 4                     | 8                                         |
-| &bull; Grapefruit zest  | ~TODO                 | ~TODO                                     |
-| &bull; Grapefruit juice | ~400&ndash;500 mL     | ~800&ndash;1000 mL                        |
-| Water for syrup         | 1 L                   | 2 L                                       |
-| Additional water        | 5.25 L                | 10.5 L                                    |
+- 680 g cane sugar
+- 21 g citric acid
+- 4 grapefruit which should give you around:
+  - 43 g zest
+  - 1050 mL juice (see Notes)
+- 1 L water
 
 ## Method
 
 ### Syrup
 
 - In a large pot, heat water and add sugar and citric acid.
-- Once combined, add grapefruit zest and allow to cool to room temperature. The hot water will help extract the flavor from the grapefruit zest, so don't coldcrash it.
-  - TODO: need to measure amount of grapefruit zest; Glen says to use 3 grapefruit's worth; I think I've previously used 4; but we need a weight here
+- Once combined, add grapefruit zest and allow to cool to room temperature. The hot water will help extract the flavor and essential oil from the grapefruit zest, so don't coldcrash it.
 - Once cooled, add the juice, stir to combine.
 - Cover and allow to stand for 24 hours in a cool place.
 - Filter through a fine mesh sieve and then filter again through a cheese cloth or coffee filter. Remove as much particulate matter as possible to increase shelf life. If you're making this for a party, feel free to skip this step if you like additional texture in your soda.
@@ -33,3 +29,8 @@ This recipe comes from [Glen and Friends Cooking](https://www.youtube.com/watch?
   - Three parts water is 5.25 L for a single recipe, or 10.5 L for a double recipe. Assuming the previous step is accurate.
 - So the original should be about perfect in a half Corny keg.
 - Carbonate and serve at 30 PSI
+
+## Notes
+
+- In the original recipe, Glen says you should get 400&ndash;500 mL of juice from four grapefruit. Four pink grapefruit gives me around 1050 mL of juice and four California ruby red grapefruit gives me 770 mL of juice. I haven't played around enough with zest and juice quantities enough to tell you what I like. This is just the information I have at this time (2022-07-02).
+- Also in the original recipe, Glen says to use the zest of three grapefruit, but the juice of four. I've always used the zest and juice of all four.

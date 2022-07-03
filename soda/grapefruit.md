@@ -32,5 +32,6 @@ This recipe comes from [Glen and Friends Cooking](https://www.youtube.com/watch?
 
 ## Notes
 
-- In the original recipe, Glen says you should get 400&ndash;500 mL of juice from four grapefruit. Four pink grapefruit gives me around 1050 mL of juice and four California ruby red grapefruit gives me 770 mL of juice. I haven't played around enough with zest and juice quantities enough to tell you what I like. This is just the information I have at this time (2022-07-02).
+- In the original recipe, Glen says you should get 400&ndash;500 mL of juice from four grapefruit. Four pink grapefruit gives me around 1050 mL of juice and four California ruby red grapefruit gives me 770 mL of juice. I use an electric countertop juicer which may yield more juice? Not sure. But even if it does, there's no way it's giving over double what Glen was getting. Was he not using all of his juice?
+- I haven't played around with zest and juice quantities to tell you if there's some perfect combination out there. I've always just used everything I had. This is just the information I have at this time (2022-07-02).
 - Also in the original recipe, Glen says to use the zest of three grapefruit, but the juice of four. I've always used the zest and juice of all four.

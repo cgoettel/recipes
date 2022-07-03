@@ -10,7 +10,7 @@
 - &frac12; t nutmeg
 - &frac18; t clove
 
-## Directions
+## Instructions
 
 - Make [pie crust](pie-crust.md).
 - Preheat oven to 350&deg;F.
@@ -18,5 +18,6 @@
 - Mix in the sugar and flour.
 - Add the cinnamon, ginger, nutmeg, and clove. The important thing with this is that they need to coat the apples. More might be needed depending on the size of the apples.
 - Bake at 350&deg;F for 40 minutes with tin foil covering the edges. Remove foil and cook for an additional 20 minutes.
+- Allow to rest for four hours before serving.
 
 Eat with ice cream.

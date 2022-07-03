@@ -7,7 +7,7 @@
 - &frac12; C shortening
 - &frac14; C cold water
 
-## Directions
+## Instructions
 
 - Sift flour into large mixing bowl.
 - Cut in shortening.

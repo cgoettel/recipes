@@ -1,6 +1,6 @@
-# King Arthur-inspired oatmeal cookies
+# Oatmeal cookies
 
-The original recipe did not include steel cut oats, had fewer overall oats, and included chocolate chips. I prefer this recipe without the chocolate chips and I like the texture that the steel cut oats bring.
+The original recipe, from King Arthur flour, did not include steel cut oats, had fewer overall oats, and included chocolate chips. I prefer this recipe without the chocolate chips and I like the texture that the steel cut oats bring.
 
 ## Ingredients
 
@@ -10,14 +10,14 @@ The original recipe did not include steel cut oats, had fewer overall oats, and 
 - 1 egg
 - 1 egg yolk
 - 1 T vanilla
-- 1 t baking powder
-- 1 t baking soda
 - &frac34; t salt
+- 1 t baking soda
+- 1 t baking powder
 - 2 C flour
 - 1&frac12; C oats
 - &frac18; C steel cut oats
 
-## Directions
+## Instructions
 
 - Preheat oven to 325&deg;F.
 - Cream butter and sugars.

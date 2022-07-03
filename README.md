@@ -46,7 +46,6 @@ I have tried to be explicit in these recipes, but something I've been doing some
 - [Gingersnaps](cookies/gingersnaps.md)
 - [Guittard chocolate chip cookies](cookies/guittard-chocolate-chip-cookies.md)
 - [Haman's hats (poppy seed sugar cookies)](cookies/hamans-hats.md)
-- [Hamantaschen](cookies/hamantaschen.md)
 - [Maple pecan cookies](cookies/maple-pecan-cookies.md)
 - [Martha Stewart's sugar cookies](cookies/martha-stewarts-sugar-cookies.md)
 - [Oatmeal cookies](cookies/oatmeal-cookies.md)
@@ -80,6 +79,7 @@ I have tried to be explicit in these recipes, but something I've been doing some
 - [Kun Koki steak](entrees/kun-koki-steak.md)
 - [Lasagna](entrees/lasagna.md)
 - [Masa](entrees/masa.md)
+- [Meatball subs](entrees/meatball-subs.md)
 - [Meatballs](entrees/meatballs.md)
 - [Meatloaf](entrees/meatloaf.md)
 - [Mom's lasagna](entrees/moms-lasagna.md)
@@ -94,6 +94,8 @@ I have tried to be explicit in these recipes, but something I've been doing some
 - [Beverly Baldwin's gringo salsa](salsa/beverly-baldwins-gringo-salsa.md)
 - [Green mayo](salsa/green-mayo.md)
 - [Habanero sauce](salsa/habanero-sauce.md)
+- [J.R.'s salsa](salsa/jrs-salsa.md)
+- [Los Hermano's copycat salsa](salsa/los-hermanos.md)
 - [Salsa taqueria](salsa/salsa-taqueria.md)
 - [Uncle Bryan's green salsa](salsa/uncle-bryans-green-salsa.md)
 
@@ -102,10 +104,11 @@ I have tried to be explicit in these recipes, but something I've been doing some
 - [Creamy horseradish](sauces/creamy-horseradish.md)
 - [Red sauce](sauces/red-sauce.md)
 - [Tempura dipping sauce](sauces/tempura-dipping-sauce.md)
+- [Thai peanut sauce](sauces/thai-peanut.md)
 
 ## Soda
 
-[Notes on soda making, techniques, etc.](soda/README.md)
+[Notes on soda making, techniques, etc.](soda/README.md) Further notes can be found in [brew-day-notes/](soda/brew-day-notes/).
 
 - [Cream soda](soda/cream-soda.md)
 - [Grapefruit](soda/grapefruit.md)

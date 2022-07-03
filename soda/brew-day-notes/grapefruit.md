@@ -4,9 +4,9 @@
 
 This table summarizes the amounts used for each brew, including the final yields.
 
-| Date       | Sugar (g) | Citric acid (g) | Grapefruit quant. | Zest (g) | Juice (mL) | Syrup) (mL) | Water (additional) (mL) |
-| ---------- | --------- | --------------- | ----------------- | -------- | ---------- | ----------- | ----------------------- |
-| 2022-07-02 | 1360      | 42              | 10&sup1;          | 74       | 2200       |             | 8000 in keg             |
+| Date       | Sugar (g) | Citric acid (g) | Grapefruit quant. | Zest (g) | Juice (mL) | Water (mL) | Syrup (mL) | Water (additional) (mL) |
+| ---------- | --------- | --------------- | ----------------- | -------- | ---------- | ---------- | ---------- | ----------------------- |
+| 2022-07-02 | 1360      | 42              | 10&sup1;          | 74       | 2200       | 2000       |            | 8000 in keg             |
 
 ## 2022-07-02
 

@@ -6,7 +6,7 @@
 - &frac34; C sugar
 - &frac12; C butter, softened
 
-## Directions
+## Instructions
 
 - Combine flour and sugar.
 - Cut in butter with pastry knife.

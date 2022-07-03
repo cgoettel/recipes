@@ -9,9 +9,8 @@
 - nutmeg
 - salt
 
-## Directions
+## Instructions
 
-- Peel and cut apples into medium-sized chunks
-- Add enough flour to lightly dry apples
-- Add sugar to taste
-- Add spices to taste
+- Peel and cut apples into medium-sized chunks.
+- Add enough flour to lightly coat apples.
+- Add sugar and spices to taste.

@@ -8,10 +8,10 @@
 - 1 C orange juice
 - 1 C lemon juice
 - 5 pieces banana, mashed
-- 2L strawberry soda
-- 2L 7-Up
+- 2 L strawberry soda
+- 2 L 7-Up
 
-## Directions
+## Instructions
 
 - Boil sugar and water for 3 minutes.
 - Add juices and banana.

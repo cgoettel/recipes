@@ -4,7 +4,7 @@
 
 This table summarizes the amounts used for each brew, including the final yields. All measurements are in __g__ for dry ingredients and __mL__ for liquids.
 
-| Date       | Water | Lemom juice | Lime juice | Orange juice | Bitter orange peel | Sweet orange peel | Lemon peel | Coriander seed | Syrup | Additional water |
+| Date       | Water | Lemon juice | Lime juice | Orange juice | Bitter orange peel | Sweet orange peel | Lemon peel | Coriander seed | Syrup | Additional water |
 | ---------- | ----- | ----------- | ---------- | ------------ | ------------------ | ----------------- | ---------- | -------------- | ----- | ---------------- |
 | 2022-07-04 | 2000  | 150         | 50         | 700          | 13                 | 19                | 9          | 10             | 3000  | 7000             |
 
@@ -27,3 +27,4 @@ This table summarizes the amounts used for each brew, including the final yields
   350     x  
   ```
 - Wow that math is super clean. So we'll add 7_000 mL water to the 3_000 mL syrup and end up with 10 L total volume. Excellent.
+- I put 6_000 mL water into the right keg

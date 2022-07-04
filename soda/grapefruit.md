@@ -4,14 +4,14 @@ This recipe comes from [Glen and Friends Cooking](https://www.youtube.com/watch?
 
 ## Ingredients
 
+- 1 L water
 - 680 g cane sugar
 - 21 g citric acid
-- 4 grapefruit which should give you around:
+- 4 pink grapefruit which should give you around:
   - 43 g zest
   - 1050 mL juice (see Notes)
-- 1 L water
 
-## Method
+## Instructions
 
 ### Syrup
 
@@ -23,15 +23,13 @@ This recipe comes from [Glen and Friends Cooking](https://www.youtube.com/watch?
 
 ### Force carbonating
 
-- Mix 1 part syrup to 3 parts water and force carbonate. NOTE: I feel like previously I was doing 125 mL syrup to 3 parts water (3\*125 mL = )375 mL) and that was a good ratio. Need to try that ratio before mixing an entire keg.
-- Some basic math: This should yield like 1.75 L of syrup (CHECK). If you mix that with (3\*1.75 L = )5.25 L water, that should yield 7 L of soda total. If we want 5 gal (3.785 L\*5 = 18.925 L), we will need to 2.5&ndash;2.7x the recipe. That means:
-  - 1.75L syrup doubled is 3.5 L syrup total. But we need to check this. Remember that the syrup contains the juice.
-  - Three parts water is 5.25 L for a single recipe, or 10.5 L for a double recipe. Assuming the previous step is accurate.
-- So the original should be about perfect in a half Corny keg.
-- Carbonate and serve at 30 PSI
+- For an ISI canister, mix 150 mL of syrup with 350 mL water and force carbonate.
+- To keg:
+  - A single recipe yields 2,000 mL of syrup. Mixed with 4,700 mL gives a total volume of 6,700 mL which fits nicely in a half Corny keg. If you want to use a full-size Corny keg, simply double the recipe and you should end up with 4,000 mL syrup to mix with 9,350 mL water (total volume 13,350 mL) which fits nicely in a Corny keg (maximum volume 18,927 mL).
 
 ## Notes
 
 - In the original recipe, Glen says you should get 400&ndash;500 mL of juice from four grapefruit. Four pink grapefruit gives me around 1050 mL of juice and four California ruby red grapefruit gives me 770 mL of juice. I use an electric countertop juicer which may yield more juice? Not sure. But even if it does, there's no way it's giving over double what Glen was getting. Was he not using all of his juice?
+- Absolutely hate the taste of ruby red grapefruit. Threw out the batch that I went halfsies on grapefruit. Never using those again. If you like it, go nuts; it's your soda.
 - I haven't played around with zest and juice quantities to tell you if there's some perfect combination out there. I've always just used everything I had. This is just the information I have at this time (2022-07-02).
 - Also in the original recipe, Glen says to use the zest of three grapefruit, but the juice of four. I've always used the zest and juice of all four.

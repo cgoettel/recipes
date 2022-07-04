@@ -27,3 +27,4 @@ This table summarizes the amounts used for each brew, including the final yields
   ```
   - This totally works! Yes! 9,350 mL water (easier measuring) plus 4,000 mL syrup gives us 13,350 mL total volume which is less than the 18,927 mL maximum limit.
   - Since I already have 8,000 mL water in the keg chilling, I only need to add an additional 1,350 mL water.
+- Prototype results: I absolutely hate the flavor of ruby red grapefruit. I think it would be best to throw this out and remake it with 8 pink grapefruit (same juice yield). But, more importantly, the 150/350 mL mix works perfectly. Great amount of sweetness and it tastes half fine and half awful. Shucks.

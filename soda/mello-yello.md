@@ -8,7 +8,7 @@ This recipe comes from Bucholz on the [Homebrew Talk](https://www.homebrewtalk.c
 - finely grated zest and juice from 4 lemons
 - finely grated zest and juice from 3 limes
 - finely grated zest and juice from 6 oranges
-- 3 small (~2.5") sticks of cinnamon, broken into small pieces
+- 3 small (2.5"&ndash;3") cinnamon sticks, broken into small pieces
 - 2 T dried bitter orange peel
 - 4 T dried sweet orange peel
 - 2 T dried lemon peel
@@ -21,7 +21,7 @@ Yields 3.375 gallons. TODO adjust to 5 gallons
 
 - Combine the water, lemon zest, lime zest, orange zest, cinnamon, bitter orange peel, sweet orange peel, lemon peel, and coriander seeds.
 - Stir in the sugar and bring to a boil, stirring until the sugar dissolves. Boil for 1 minute.
-- Let steep for 15 minutes.
+- Kill the heat and let it steep for 15 minutes.
 - Cold crash.
 - Double filter.
 - Add juice.

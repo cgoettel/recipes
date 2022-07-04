@@ -2,11 +2,11 @@
 
 ## Quantities
 
-This table summarizes the amounts used for each brew, including the final yields.
+This table summarizes the amounts used for each brew, including the final yields. All measurements are in __g__ for dry ingredients and __mL__ for liquids.
 
-| Date       | Sugar (g) | Citric acid (g) | Grapefruit quant. | Zest (g) | Juice (mL) | Water (mL) | Syrup (mL) | Water (additional) (mL) |
-| ---------- | --------- | --------------- | ----------------- | -------- | ---------- | ---------- | ---------- | ----------------------- |
-| 2022-07-02 | 1360      | 42              | 10&sup1;          | 74       | 2200       | 2000       | 4000       | 8000 in keg             |
+| Date       | Sugar | Citric acid | Grapefruit quant. | Zest | Juice | Water | Syrup | Water (additional) |
+| ---------- | ----- | ----------- | ----------------- | ---- | ----- | ----- | ----- | ------------------ |
+| 2022-07-02 | 1360  | 42          | 10&sup1;          | 74   | 2200  | 2000  | 4000  | 8000 in keg        |
 
 ## 2022-07-02
 

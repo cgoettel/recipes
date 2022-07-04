@@ -2,22 +2,11 @@
 
 ## Quantities
 
-- 2 L water
-- finely grated zest and juice from 4 lemons
-- finely grated zest and juice from 3 limes
-- finely grated zest and juice from 6 oranges
-- 3 small (2.5"&ndash;3") cinnamon sticks, broken into small pieces
-- 2 T dried bitter orange peel
-- 4 T dried sweet orange peel
-- 2 T dried lemon peel
-- 2 T whole coriander seed
-- 1360 g cane sugar
+This table summarizes the amounts used for each brew, including the final yields. All measurements are in __g__ for dry ingredients and __mL__ for liquids.
 
-All measurements are in __g__ for dry ingredients and __mL__ for liquids.
-
-| Date       | Water | Lemom juice | Lime juice | Orange juice | Bitter orange peel | Sweet orange peel | Lemon peel | Coriander seed | Syrup | Additional water | Final yield |
-| ---------- | ----- | ----------- | ---------- | ------------ | ------------------ | ----------------- | _--------- | -------------- | ----- | ---------------- | ----------- |
-| 2022-07-04 | 2000  | 150         | 50         | 700          | 13                 | 19                | 9          | 10             | 3000  | 7000             | 10000      |
+| Date       | Water | Lemom juice | Lime juice | Orange juice | Bitter orange peel | Sweet orange peel | Lemon peel | Coriander seed | Syrup | Additional water |
+| ---------- | ----- | ----------- | ---------- | ------------ | ------------------ | ----------------- | ---------- | -------------- | ----- | ---------------- |
+| 2022-07-04 | 2000  | 150         | 50         | 700          | 13                 | 19                | 9          | 10             | 3000  | 7000             |
 
 ## 2022-07-04
 

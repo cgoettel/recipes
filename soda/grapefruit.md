@@ -1,6 +1,6 @@
 # Grapefruit soda
 
-This recipe comes from [Glen and Friends Cooking](https://www.youtube.com/watch?v=xJc_q1ZNv48).
+This recipe comes from [Glen and Friend's Cooking](https://www.youtube.com/watch?v=xJc_q1ZNv48).
 
 ## Ingredients
 

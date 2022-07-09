@@ -1,31 +1,26 @@
 # Grapefruit soda
 
-This recipe comes from [Glen and Friend's Cooking](https://www.youtube.com/watch?v=xJc_q1ZNv48).
+This recipe comes from [Glen and Friends Cooking](https://www.youtube.com/watch?v=xJc_q1ZNv48). I've doubled it so it's closer to the amount used to make a keg.
 
 ## Ingredients
 
-- 1 L water
-- 680 g cane sugar
-- 21 g citric acid
-- 4 pink grapefruit which should give you around:
-  - 43 g zest
-  - 1050 mL juice (see Notes)
+- 2 L water
+- 13600 g cane sugar
+- 42 g citric acid
+- 8 pink or star ruby grapefruit
 
 ## Instructions
 
 ### Syrup
 
 - In a large pot, heat water and add sugar and citric acid.
-- Once combined, add grapefruit zest and allow to cool to room temperature. The hot water will help extract the flavor and essential oil from the grapefruit zest, so don't coldcrash it.
-- Once cooled, add the juice, stir to combine.
-- Cover and allow to stand for 24 hours in a cool place.
-- Filter through a fine mesh sieve and then filter again through a cheese cloth or coffee filter. Remove as much particulate matter as possible to increase shelf life. If you're making this for a party, feel free to skip this step if you like additional texture in your soda.
+- Once combined, add to grapefruit zest and allow to steep for 15 minutes.
+- Cold crash the syrup.
+- Filter in the juice. Filter again. Filter a third time through a cloth to remove particulate matter.
 
 ### Force carbonating
 
-- For an ISI canister, mix 150 mL of syrup with 350 mL water and force carbonate.
-- To keg:
-  - A single recipe yields 2,000 mL of syrup. Mixed with 4,700 mL gives a total volume of 6,700 mL which fits nicely in a half Corny keg. If you want to use a full-size Corny keg, simply double the recipe and you should end up with 4,000 mL syrup to mix with 9,350 mL water (total volume 13,350 mL) which fits nicely in a Corny keg (maximum volume 18,927 mL).
+The rough proportion is 150 mL syrup combined with 350 mL water. That amount fits perfectly in an ISI canister. If you're happy with that result, run the proportion for the amount of syrup you have, add to a keg, and carbonate and serve at 30 PSI.
 
 ## Notes
 

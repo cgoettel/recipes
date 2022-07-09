@@ -1,12 +1,11 @@
 # Notes from making grapefruit soda
 
-## Quantities
-
 This table summarizes the amounts used for each brew, including the final yields. All measurements are in __g__ for dry ingredients and __mL__ for liquids.
 
-| Date       | Sugar | Citric acid | Grapefruit quant. | Zest | Juice | Water | Syrup | Water (additional) |
-| ---------- | ----- | ----------- | ----------------- | ---- | ----- | ----- | ----- | ------------------ |
-| 2022-07-02 | 1360  | 42          | 10&sup1;          | 74   | 2200  | 2000  | 4000  | 8000 in keg        |
+| Date       | Sugar | Citric acid | Grapefruit quant. | Juice | Syrup | Water (additional) |
+| ---------- | ----- | ----------- | ----------------- | ----- | ----- | ------------------ |
+| 2022-07-02 | 1360  | 42          | 10&sup1;          | 2200  | 4000  | 8000 in keg        |
+| 2022-07-09 | 1361  | 42          | 8 ruby red        | 2100  | 3900  | 9100               |
 
 ## 2022-07-02
 
@@ -28,3 +27,14 @@ This table summarizes the amounts used for each brew, including the final yields
   - This totally works! Yes! 9,350 mL water (easier measuring) plus 4,000 mL syrup gives us 13,350 mL total volume which is less than the 18,927 mL maximum limit.
   - Since I already have 8,000 mL water in the keg chilling, I only need to add an additional 1,350 mL water.
 - Prototype results: I absolutely hate the flavor of ruby red grapefruit. I think it would be best to throw this out and remake it with 8 pink grapefruit (same juice yield). But, more importantly, the 150/350 mL mix works perfectly. Great amount of sweetness and it tastes half fine and half awful. Shucks.
+
+## 2022-07-09
+
+- I used 8 star ruby grapefruit. I think these are the kind I've used previously. Would really like to try this with pink grapefruit.
+- Steeped for 15 minutes, cold crashed to room temperature, filtered in juice, filtered whole, and then filtered through kitchen cloth. I'm really trying to control the amount of dregs in this batch. The Mello Yello I made had particulate cinnamon which is less than desirable.
+- Let's assume that this prototype works. Here's the math for how much water to add for 4 L of syrup:
+```
+150   3_900
+--- = -----   =>   150x = 3_900*350   =>   150x = 1_365_000   =>   x = 9_100
+350     x  
+```

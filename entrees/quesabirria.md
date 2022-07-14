@@ -1,6 +1,6 @@
 # Quesabirria
 
-This recipe is from [La Capital](https://www.youtube.com/watch?v=g2F5RO6vNSs).
+This recipe is from [La Capital](https://www.youtube.com/watch?v=g2F5RO6vNSs). He doesn't provide a recipe, so I've (mostly) translated what he did. I will be making these soon and editing the recipes (this, birria de res, and salsa birria) as I go.
 
 ## Ingredients
 

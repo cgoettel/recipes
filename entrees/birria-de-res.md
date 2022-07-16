@@ -6,20 +6,23 @@
 - 10 Roma tomatoes, quartered
 - 1 white onion, quartered
 - 10 cloves garlic
-- whole allspice
-- whole black peppercorn (looks like 1&ndash;2 T each)
+- 9 g whole allspice
+- 8 g whole black peppercorn (looks like 1&ndash;2 T each)
 - 1 t cumin, heaping
 - 1&frac12; t dried thyme
 - 1&frac12; t dried oregano
-- Little less than half of a stick of dried cinnamon (the big kind you find at a Mexican market)
+- Little less than half of a stick of dried cinnamon (the big kind you find at a Mexican market) (I used 4")
 - 3 bay leaves
 - 5 chile ancho, devein and remove seeds
 - 8 chile guajillo, devein and remove seeds
 - 2 T white vinegar
 - 1 L water
 
+### Braising liquid
+
 - 2 L water
 - 4 beef short ribs
+- Salt to taste
 
 ### Garnish
 
@@ -30,9 +33,10 @@
 ## Instructions
 
 1. In a heavy-bottom pot, add oil, tomatoes, onion, and garlic.
-1. Cook down a bit and add the allspice, black peppercorn, cumin, thyme, oregano, cinnamon, bay leaves, and chiles.
-1. Sweat the mixture for 5(?) minutes. It should be just barely swimming in its own liquid.
-1. Add the white vinegar and water and simmer for 5&ndash;10 minutes, or until the chiles are rehydrated and soft.
+1. Sweat for 10&ndash;15 minutes. There should be a decent layer of moisture at the bottom.
+1. Add the allspice, black peppercorn, cumin, thyme, oregano, cinnamon, bay leaves, and chiles.
+1. Add the white vinegar and water and bring to a boil.
+1. Lower the tempurature, partially cover, and vigorously simmer for 5&ndash;10 minutes, until the chiles are rehydrated and soft.
 1. Transfer mixture to a blender and blend until smooth.
 1. In a heavy-bottom pot, add ~2 L water (should have close to 4 L total for 20 tacos) and bring to a boil.
 1. Add blended mixture and continue to heat.

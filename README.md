@@ -56,6 +56,7 @@ I have tried to be explicit in these recipes, but something I've been doing some
 ## Dessert
 
 - [Crumb topping](dessert/crumb-topping.md)
+- [Hawaiian butter mochi (mochi blondies)](dessert/hawaiian-butter-mochi.md)
 - [Kay's fudge](dessert/kays-fudge.md)
 - [Mom's apple pie filling](dessert/moms-apple-pie-filling.md)
 - [Nick Estrada's apple pie](dessert/nick-apple-pie.md)
@@ -68,6 +69,7 @@ I have tried to be explicit in these recipes, but something I've been doing some
 
 ## Entrées
 
+- [Birria de res](entrees/birria-de-res.md)
 - [Broccoli and cheese soup](entrees/broccoli-and-cheese-soup.md)
 - [Butter chicken](butter-chicken.md)
 - [Chicken wings](entrees/chicken-wings.md)
@@ -84,6 +86,7 @@ I have tried to be explicit in these recipes, but something I've been doing some
 - [Meatloaf](entrees/meatloaf.md)
 - [Mom's lasagna](entrees/moms-lasagna.md)
 - [Pasta with shrimp or chicken](entrees/pasta-with-shrimp.md)
+- [Quesabirria](entrees/quesabirria.md)
 - [Salsa alle noci (walnut pesto)](entrees/salsa-alle-noci.md)
 - [Soupe Dauphinoise](entrees/soupe-dauphinoise.md)
 - [Sweet potato pie](entrees/sweet-potato-pie.md)
@@ -96,6 +99,7 @@ I have tried to be explicit in these recipes, but something I've been doing some
 - [Habanero sauce](salsa/habanero-sauce.md)
 - [J.R.'s salsa](salsa/jrs-salsa.md)
 - [Los Hermano's copycat salsa](salsa/los-hermanos.md)
+- [Salsa birria](salsa/salsa-birria.md)
 - [Salsa taqueria](salsa/salsa-taqueria.md)
 - [Uncle Bryan's green salsa](salsa/uncle-bryans-green-salsa.md)
 

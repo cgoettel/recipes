@@ -23,7 +23,7 @@ This recipe is from [La Capital](https://www.youtube.com/watch?v=g2F5RO6vNSs).
 ### Braising liquid
 
 - 2 L water
-- 4 beef short ribs
+- 4 beef short ribs (see Notes)
 - Salt to taste (see Notes)
 
 ### Garnish
@@ -52,6 +52,7 @@ This recipe is from [La Capital](https://www.youtube.com/watch?v=g2F5RO6vNSs).
 ## Notes
 
 - If you can't find chile guajillo, chile California is a perfectly fine substitute.
+- When I made this, I used 1725 g short ribs. Accounting for the bones, that's probably only a half pound of meat. You could easily use a chuck roast for this recipe and be just happy. I don't know if the marrow really brought anything to it. I didn't boil long enough to gelatinize the broth.
 - Be careful when salting this. But don't be afraid to water down the consomé because it's probably too rich at the end anyway. These are the main issues that you will run into that directly affect the amount of salt you need to use:
   - You're not going to lose much water because the lid will be on tight.
   - Once the meat is tender, you will filter out the broth which removes a significant amount of biomass. It's really easy to oversalt because you're adding salt when all of this is still in the dish.

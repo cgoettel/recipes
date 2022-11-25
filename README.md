@@ -32,6 +32,7 @@ I have tried to be explicit in these recipes, but something I've been doing some
 - [Granola](breakfast/granola.md)
 - [Pancakes](breakfast/pancakes.md)
 - [Waffles](breakfast/waffles.md)
+- [Whole wheat pancakes](breakfast/whole-wheat-pancakes.md)
 
 ## Cakes
 
@@ -56,11 +57,13 @@ I have tried to be explicit in these recipes, but something I've been doing some
 ## Dessert
 
 - [Crumb topping](dessert/crumb-topping.md)
+- [Divinity](dessert/divinity.md)
 - [Hawaiian butter mochi (mochi blondies)](dessert/hawaiian-butter-mochi.md)
 - [Kay's fudge](dessert/kays-fudge.md)
 - [Mom's apple pie filling](dessert/moms-apple-pie-filling.md)
 - [Nick Estrada's apple pie](dessert/nick-apple-pie.md)
 - [Pie crust](dessert/pie-crust.md)
+- [See's fudge](dessert/sees-fudge.md)
 
 ## Drinks
 

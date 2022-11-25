@@ -1,6 +1,6 @@
 # Pecan rolls
 
-From Aunt Edwina
+From Aunt Edwina (Uncle Verl's first wife)
 
 ## Ingredients
 

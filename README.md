@@ -31,22 +31,28 @@ I have tried to be explicit in these recipes, but something I've been doing some
 - [Dutch oven egg souffl&eacute;](breakfast/dutch-oven-egg-souffle.md)
 - [Granola](breakfast/granola.md)
 - [Pancakes](breakfast/pancakes.md)
+- [Potato cakes](breakfast/potato-cakes.md)
 - [Waffles](breakfast/waffles.md)
 - [Whole wheat pancakes](breakfast/whole-wheat-pancakes.md)
 
 ## Cakes
 
+- [Blueberry cheesecake](dessert/blueberry-cheesecake.md)
 - [Chocolate cake](cake/chocolate-cake.md)
+- [Chocolate mousse cake](dessert/chocolate-mousse-cake.md)
 - [Dr. Pepper chocolate cake](cake/dr-pepper-chocolate-cake.md)
 - [Jewish coffee cake](cake/jewish-coffee-cake.md)
 - [Lemon cake](cake/lemon-cake.md)
+- [Texas sheet cake](cakes/texas-sheet-cake.md)
 
 ## Cookies
 
+- [Black eyed Susans](cookies/black-eyed-susans.md)
 - [Domino Sugar's Classic sugar cookies](cookies/domino-sugar-classic-sugar-cookies.md)
 - [Gingersnaps](cookies/gingersnaps.md)
 - [Guittard chocolate chip cookies](cookies/guittard-chocolate-chip-cookies.md)
 - [Haman's hats (poppy seed sugar cookies)](cookies/hamans-hats.md)
+- [Jan's cookies](cookies/jans-cookies.md)
 - [Maple pecan cookies](cookies/maple-pecan-cookies.md)
 - [Martha Stewart's sugar cookies](cookies/martha-stewarts-sugar-cookies.md)
 - [Oatmeal cookies](cookies/oatmeal-cookies.md)

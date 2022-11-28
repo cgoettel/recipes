@@ -1,5 +1,7 @@
 # Grant's burros
 
+From Grant Massey
+
 ## Ingredients
 
 - 2&ndash;3 lb chuck roast, shredded

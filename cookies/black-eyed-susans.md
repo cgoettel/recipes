@@ -1,5 +1,7 @@
 # Black eyed Susans
 
+From [Grandma Goettel](https://www.familysearch.org/tree/person/details/KWCR-R7H)
+
 ## Ingredients
 
 - 1 C butter

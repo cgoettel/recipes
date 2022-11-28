@@ -1,11 +1,14 @@
 # Recipes
 
 I have tried to be explicit in these recipes, but something I've been doing something the same way for so long that I forget that it's even worth mentioning. Or, some things (to me) are a given so I omit them from the recipe. Here are some guidelines in case you get lost:
+- When cutting vegetables, mince is super fine (&lt;&frac14;"), dice is fine (like &frac14;&ndash;&frac12;"), and chopped is large (&gt;&frac12;")
 - I always use salted butter.
 - It's always large eggs.
-- For non-ground beef, I always season my beef and let it rest before cooking. If I'm slow cooking (e.g., crock pot, braising),  I always sear it first.
-- For ground beef, I season with Lawry's season salt and cracked pepper.
-- Unless otherwise specified, "flour" means "all-purpose flour."
+- For non-ground beef, I always season my beef and let it rest before cooking. If I'm slow cooking (e.g., crock pot, braising), I always sear it first.
+- For ground beef, I season with Lawry's season salt and fresh cracked pepper.
+- Unless otherwise specified:
+  - "flour" means "all-purpose flour"
+  - "sugar" means "white, granulated cane sugar"
 
 ## Appetizers
 
@@ -71,6 +74,10 @@ I have tried to be explicit in these recipes, but something I've been doing some
 - [Pie crust](dessert/pie-crust.md)
 - [See's fudge](dessert/sees-fudge.md)
 
+## Dressings
+
+- [Coleslaw dressing](dressings/coleslaw-dressing.md)
+
 ## Drinks
 
 - [Egg nog](drinks/egg-nog.md)
@@ -101,6 +108,10 @@ I have tried to be explicit in these recipes, but something I've been doing some
 - [Sweet potato pie](entrees/sweet-potato-pie.md)
 - [Yorkshire pudding](entrees/yorkshire-pudding.md)
 
+## Household
+
+- [Upholstery cleaner](household/upholstery-cleaner.md)
+
 ## Salsa
 
 - [Beverly Baldwin's gringo salsa](salsa/beverly-baldwins-gringo-salsa.md)
@@ -115,9 +126,14 @@ I have tried to be explicit in these recipes, but something I've been doing some
 ## Sauces
 
 - [Creamy horseradish](sauces/creamy-horseradish.md)
+- [Orange sauce](sauces/orange-sauce.md)
 - [Red sauce](sauces/red-sauce.md)
 - [Tempura dipping sauce](sauces/tempura-dipping-sauce.md)
 - [Thai peanut sauce](sauces/thai-peanut.md)
+
+## Sides
+
+- [Dr. Hunn's pork and beans](sides/pork-and-beans.md)
 
 ## Soda
 

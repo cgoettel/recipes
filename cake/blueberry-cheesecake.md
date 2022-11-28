@@ -1,6 +1,6 @@
 # Blueberry cheesecake
 
-From Grandma Goettel
+From [Grandma Goettel](https://www.familysearch.org/tree/person/details/KWCR-R7H)
 
 ## Ingredients
 

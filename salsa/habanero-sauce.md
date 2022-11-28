@@ -1,5 +1,7 @@
 # Habanero Sauce
 
+I originally got this from Javier Maya in Regina, SK, but have adapted it and changed it into my own thing.
+
 ## Ingredients
 
 - 12&ndash;13 habaneros (preferably green, but orange are fine)

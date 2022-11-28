@@ -46,6 +46,7 @@ I have tried to be explicit in these recipes, but something I've been doing some
 - [Dr. Pepper chocolate cake](cake/dr-pepper-chocolate-cake.md)
 - [Jewish coffee cake](cake/jewish-coffee-cake.md)
 - [Lemon cake](cake/lemon-cake.md)
+- [Poppy seed cake](cake/poppy-seed-cake.md)
 - [Texas sheet cake](cakes/texas-sheet-cake.md)
 
 ## Cookies
@@ -77,6 +78,7 @@ I have tried to be explicit in these recipes, but something I've been doing some
 ## Dressings
 
 - [Coleslaw dressing](dressings/coleslaw-dressing.md)
+- [Honey French dressing](dressings/honey-french-dressing.md)
 
 ## Drinks
 

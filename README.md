@@ -32,6 +32,7 @@ I have tried to be explicit in these recipes, but something I've been doing some
 
 - [Bacon cornmeal pancakes](breakfast/bacon-cornmeal-pancakes.md)
 - [Dutch oven egg souffl&eacute;](breakfast/dutch-oven-egg-souffle.md)
+- [German pancakes (Dutch baby pancake)](breakfast/german-pancakes.md)
 - [Granola](breakfast/granola.md)
 - [Pancakes](breakfast/pancakes.md)
 - [Potato cakes](breakfast/potato-cakes.md)

@@ -1,6 +1,7 @@
 # Recipes
 
 I have tried to be explicit in these recipes, but something I've been doing something the same way for so long that I forget that it's even worth mentioning. Or, some things (to me) are a given so I omit them from the recipe. Here are some guidelines in case you get lost:
+
 - When cutting vegetables, mince is super fine (&lt;&frac14;"), dice is fine (like &frac14;&ndash;&frac12;"), and chopped is large (&gt;&frac12;")
 - I always use salted butter.
 - It's always large eggs.
@@ -60,6 +61,7 @@ I have tried to be explicit in these recipes, but something I've been doing some
 - [Jan's cookies](cookies/jans-cookies.md)
 - [Maple pecan cookies](cookies/maple-pecan-cookies.md)
 - [Martha Stewart's sugar cookies](cookies/martha-stewarts-sugar-cookies.md)
+- [Molasses cookies](cookies/molasses-cookies.md)
 - [Oatmeal cookies](cookies/oatmeal-cookies.md)
 - [Oatmeal, walnut, chocolate chip cookies](cookies/oatmeal-walnut-chocolate-chip-cookies.md)
 - [Peanut butter cookies](cookies/peanut-butter-cookies.md)

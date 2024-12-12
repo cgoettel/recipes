@@ -13,7 +13,7 @@
 - &frac14; molasses
 - 1 large egg
 
-## Directions
+## Instructions
 
 1. Whisk together dry ingredients (flour, ground cloves, ground ginger, baking soda, ground cinnamon, and salt) and set aside.
 1. In a separate bowl, mix vegetable oil, granulated sugar, molasses, and egg.

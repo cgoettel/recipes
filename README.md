@@ -6,7 +6,7 @@ I have tried to be explicit in these recipes, but something I've been doing some
 - I always use salted butter.
 - It's always large eggs.
 - For non-ground beef, I always season my beef and let it rest before cooking. If I'm slow cooking (e.g., crock pot, braising), I always sear it first.
-- For ground beef, I season with Lawry's season salt and fresh cracked pepper.
+- For ground beef, I season with Lawry's seasoned salt and fresh cracked pepper.
 - Unless otherwise specified:
   - "flour" means "all-purpose flour"
   - "sugar" means "white, granulated cane sugar"
@@ -21,6 +21,7 @@ I have tried to be explicit in these recipes, but something I've been doing some
 - [Almond poppy seed muffins](bread/almond-poppy-seed-muffins.md)
 - [Australian damper bread](bread/australian-damper-bread.md)
 - [Banana bread](bread/banana-bread.md)
+- [Beer bread](bread/beer-bread.md)
 - [Biscuits](bread/biscuits.md)
 - [Cinnamon rolls](bread/cinnamon-rolls.md)
 - [French bread](bread/french-bread.md)

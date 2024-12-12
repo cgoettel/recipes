@@ -87,7 +87,10 @@ I have tried to be explicit in these recipes, but something I've been doing some
 ## Drinks
 
 - [Egg nog](drinks/egg-nog.md)
+- [Iced tea](drinks/iced-tea.md)
+- [Japanese iced coffee](drinks/japanese-iced-coffee.md)
 - [Slush](drinks/slush.md)
+- [Sun tea](drinks/sun-tea.md)
 
 ## Entrées
 

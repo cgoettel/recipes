@@ -94,6 +94,7 @@ I have tried to be explicit in these recipes, but something I've been doing some
 
 ## Entrées
 
+- [Beef and Guinness stew](entrees/beef-and-guinness-stew.md)
 - [Birria de res](entrees/birria-de-res.md)
 - [Broccoli and cheese soup](entrees/broccoli-and-cheese-soup.md)
 - [Butter chicken](butter-chicken.md)

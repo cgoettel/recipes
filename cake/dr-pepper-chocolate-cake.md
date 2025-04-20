@@ -7,7 +7,7 @@ This recipe is from [Glen and Friend's cooking](https://www.youtube.com/watch?v=
 - 1 C Dr. Pepper/Coke/Pepsi/root beer
 - 1 C white sugar
 - &frac12; C brown sugar
-- 4 oz chocolate
+- 4 oz (113.4 g) chocolate
 - &frac12; C butter
 - 2 C flour
 - 2 t baking soda

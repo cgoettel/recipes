@@ -47,6 +47,6 @@ This recipe is from [Glen and Friend's cooking](https://www.youtube.com/watch?v=
 
 1. In a saucier, melt the chocolate and allow to cool.
 1. Cream the butter and add in about a quarter of the icing sugar.
-1. Whisk in the melted chocolate, vanilla, and salt.
+1. Whisk in the melted chocolate, Dr. Pepper, vanilla, and salt.
 1. Slowly whisk in just enough icing sugar to stiffen and attain desired sweetness.
 1. Ice as a layer cake.

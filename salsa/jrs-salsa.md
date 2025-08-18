@@ -2,13 +2,13 @@
 
 ## Ingredients
 
-- 4 28 oz cans crushed tomatoes
-- 3 cans diced jalapeños
-- 4 habanero blended with 12 oz water
-- 4-6 serrano
-- 1 lb white onion
-- 1 bundle cilantro
-- 12 oz water
-- 2 T salt
-- 1 T garlic powder
-- 1 T oregano
+- 28 oz cans crushed tomatoes
+- 1 can diced jalapeños
+- 1 habanero blended with 3 oz water
+- 1-2 serranos
+- 1/2 large white onion
+- 1/4–1/2 bundle cilantro
+- 3 oz water
+- 1/2 t salt
+- 1/4 t garlic powder
+- 1/4 t oregano

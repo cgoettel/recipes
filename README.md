@@ -129,6 +129,7 @@ I have tried to be explicit in these recipes, but something I've been doing some
 - [Habanero sauce](salsa/habanero-sauce.md)
 - [J.R.'s salsa](salsa/jrs-salsa.md)
 - [Los Hermano's copycat salsa](salsa/los-hermanos.md)
+- [Mom's salsa](salsa/moms-salsa.md)
 - [Salsa birria](salsa/salsa-birria.md)
 - [Salsa taqueria](salsa/salsa-taqueria.md)
 - [Uncle Bryan's green salsa](salsa/uncle-bryans-green-salsa.md)
@@ -144,6 +145,7 @@ I have tried to be explicit in these recipes, but something I've been doing some
 ## Sides
 
 - [Dr. Hunn's pork and beans](sides/pork-and-beans.md)
+- [Potato salad](sides/potato-salad.md)
 
 ## Soda
 

@@ -26,24 +26,24 @@ I have tried to be explicit in these recipes, but something I've been doing some
 - [Bread — French](bread/bread-french.md)
 - [Bread — Hawaiian Sweet](bread/bread-hawaiian-sweet.md)
 - [Bread — Naan (Leavened)](bread/bread-naan-leavened.md)
+- [Bread — Paul Peterson's Crunchy](bread/bread-paul-petersons-crunchy.md)
 - [Bread — Russian Hot](bread/bread-russian-hot.md)
 - [Bread — Swiss](bread/bread-swiss.md)
 - [Bread — Unleavened (Passover)](bread/bread-unleavened-passover.md)
 - [Cinnamon rolls](bread/cinnamon-rolls.md)
 - [Dhalpurie](bread/dhalpurie.md)
-- [Melissa Manwill's Pizza Dough](bread/melissa-manwills-pizza-dough.md)
 - [Muffins — Almond Poppy Seed](bread/muffins-almond-poppy-seed.md)
 - [Paratha Roti](bread/paratha-roti.md)
-- [Bread — Paul Peterson's Crunchy](bread/paul-petersons-crunchy-bread.md)
+- [Pizza Dough — Melissa Manwill's](bread/pizza-dough-melissa-manwills.md)
 
 ## Breakfast
 
-- [Cakes — Potato](breakfast/cakes-potato.md)
 - [Granola](breakfast/granola.md)
 - [Pancake — Dutch Baby](breakfast/pancake-dutch-baby.md)
 - [Pancakes — Bacon Cornmeal](breakfast/pancakes-bacon-cornmeal.md)
 - [Pancakes — Classic](breakfast/pancakes-classic.md)
 - [Pancakes — German (Dutch Baby)](breakfast/pancakes-german-dutch-baby.md)
+- [Pancakes — Potato cakes](breakfast/pancakes-potato-cakes.md)
 - [Pancakes — Swedish (Åke Jon)](breakfast/pancakes-swedish-ake-jon.md)
 - [Pancakes — Swedish (Åke Jon) v2](breakfast/pancakes-swedish-ake-jon-v2.md)
 - [Pancakes — Whole Wheat](breakfast/pancakes-whole-wheat.md)
@@ -80,7 +80,6 @@ I have tried to be explicit in these recipes, but something I've been doing some
 - [Cake — Lemon](dessert/cake-lemon.md)
 - [Cake — Poppy Seed](dessert/cake-poppy-seed.md)
 - [Chocolate mousse cake](dessert/chocolate-mousse-cake.md)
-- [Texas sheet cake](dessert/texas-sheet-cake.md)
 - [Crumb topping](dessert/crumb-topping.md)
 - [Divinity](dessert/divinity.md)
 - [Fudge — Kay's](dessert/fudge-kays.md)
@@ -88,9 +87,10 @@ I have tried to be explicit in these recipes, but something I've been doing some
 - [Mochi Blondies — Hawaiian Butter](dessert/mochi-blondies-hawaiian-butter.md)
 - [Pecan Rolls — Edwina's](dessert/pecan-rolls-edwinas.md)
 - [Pie crust](dessert/pie-crust.md)
-- [Pie Filling — Mom's Apple](dessert/pie-filling-moms-apple.md)
+- [Pie — Mom's Apple](dessert/pie-moms-apple.md)
 - [Pie — Nick Estrada's Apple](dessert/pie-nick-estradas-apple.md)
 - [Sopapillas](dessert/sopapillas.md)
+- [Texas sheet cake](dessert/texas-sheet-cake.md)
 
 ## Dressings
 
@@ -122,7 +122,6 @@ I have tried to be explicit in these recipes, but something I've been doing some
 - [Chili — White Chicken](entrees/chili-white-chicken.md)
 - [Curry Rice — Kimono Mom](entrees/curry-rice-kimono-mom.md)
 - [Duck — Curried](entrees/duck-curried.md)
-- [Enchilada Sauce — Grandma Goettel's](entrees/enchilada-sauce-grandma-goettels.md)
 - [Goat — Curried](entrees/goat-curried.md)
 - [Lamb Chops — with Chermoula](entrees/lamb-chops-with-chermoula.md)
 - [Lamb — with Chick Peas](entrees/lamb-with-chick-peas.md)
@@ -166,6 +165,7 @@ I have tried to be explicit in these recipes, but something I've been doing some
 
 - [Dipping Sauce — Tempura](sauces/dipping-sauce-tempura.md)
 - [Enchilada Sauce — Bill Jordan's Green](sauces/enchilada-sauce-bill-jordans-green.md)
+- [Enchilada Sauce — Grandma Goettel's](sauces/enchilada-sauce-grandma-goettels.md)
 - [Horseradish — Creamy](sauces/horseradish-creamy.md)
 - [Peanut Sauce — Thai](sauces/peanut-sauce-thai.md)
 - [Sauce — Orange](sauces/sauce-orange.md)

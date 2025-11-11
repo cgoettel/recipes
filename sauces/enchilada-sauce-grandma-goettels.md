@@ -27,23 +27,26 @@ From [Grandma Goettel](https://www.familysearch.org/tree/person/details/KWCR-R7H
 ## Instructions
 
 1. Make the sauce:
-  1. Pour tomato juice into a large saucepan.
-  1. Refill can &frac34; full of water and pour into saucepan.
-  1. Add El Pato. For a mild sauce, add &frac14;-&frac12; can. For a fuller flavor, add the whole can. It's really not that spicy.
-  1. Add garlic powder, kosher salt, chili powder, and pepper.
-  1. Bring to a boil.
-  1. Separately, whisk 1 C flour into 2 C cold water.
-  1. Pour flour solution through a sieve into the saucepan and whisk until sauce is at desired thickness.
-1. Prepare the beef. Season with Lawry's season salt and pepper.
-1. In a separate pan, heat the oil. When you think it's ready, tear off a piece of a corn tortilla (like &frac18;"x&frac18;") and drop it in the oil. It should immediately bounce back to the surface. If it doesn't keep heating.
-1. Dice the onion and shred the lettuce. Set aside.
-1. These are stacked enchiladas. It's easiest to assemble with two people working in tandem with one person frying and the other person assembling. Make sure to read the notes before continuing. To make them:
-  1. Fry a tortilla. It should only take 5 or so seconds on each side. They should still be soft.
-  1. Put the tortilla on the plate. Ladle a small amount of sauce onto the tortilla and spread it around evenly.
-  1. Add a spoonful of meat onto the sauce and distribute evenly.
-  1. Add cheese, as much as you want.
-  1. I like to add onions on every layer. You do you.
-  1. Repeat for each layer desired. Typically people have 3&ndash;5.
+
+    1. Pour tomato juice into a large saucepan.
+    2. Refill can &frac34; full of water and pour into saucepan.
+    3. Add El Pato. For a mild sauce, add &frac14;-&frac12; can. For a fuller flavor, add the whole can. It's really not that spicy.
+    4. Add garlic powder, kosher salt, chili powder, and pepper.
+    5. Bring to a boil.
+    6. Separately, whisk 1 C flour into 2 C cold water.
+    7. Pour flour solution through a sieve into the saucepan and whisk until sauce is at desired thickness.
+
+2. Prepare the beef. Season with Lawry's season salt and pepper.
+3. In a separate pan, heat the oil. When you think it's ready, tear off a piece of a corn tortilla (like &frac18;"x&frac18;") and drop it in the oil. It should immediately bounce back to the surface. If it doesn't keep heating.
+4. Dice the onion and shred the lettuce. Set aside.
+5. These are stacked enchiladas. It's easiest to assemble with two people working in tandem with one person frying and the other person assembling. Make sure to read the notes before continuing. To make them:
+
+    1. Fry a tortilla. It should only take 5 or so seconds on each side. They should still be soft.
+    2. Put the tortilla on the plate. Ladle a small amount of sauce onto the tortilla and spread it around evenly.
+    3. Add a spoonful of meat onto the sauce and distribute evenly.
+    4. Add cheese, as much as you want.
+    5. I like to add onions on every layer. You do you.
+    6. Repeat for each layer desired. Typically people have 3&ndash;5.
 
 ## Notes
 

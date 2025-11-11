@@ -96,6 +96,8 @@ I have tried to be explicit in these recipes, but something I've been doing some
 
 ## Drinks
 
+- [Coffee — Japanese Iced](drinks/coffee-japanese-iced.md)
+- [Coffee — New Hybrid Method](drinks/coffee-new-hybrid-method.md)
 - [Egg Nog](drinks/egg-nog.md)
 - [Milkshake — French](drinks/milkshake-french.md)
 - [Slush](drinks/slush.md)

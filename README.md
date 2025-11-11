@@ -72,6 +72,7 @@ I have tried to be explicit in these recipes, but something I've been doing some
 - [Snickerdoodles](cookies/snickerdoodles.md)
 - [Sugar Cookies — Domino Sugar's Classic](cookies/sugar-cookies-domino-sugar-classic.md)
 - [Sugar Cookies — Haman's Hats (Poppy Seed)](cookies/sugar-cookies-hamans-hats-poppy-seed.md)
+- [Sugar Cookies — Jessica Martin](cookies/sugar-cookies-jessica-martin.md)
 - [Sugar Cookies — Martha Stewart](cookies/sugar-cookies-martha-stewart.md)
 - [Sugar Cookies — Raylene Bowles's Soft Sour Cream](cookies/sugar-cookies-raylene-bowles-soft-sour-cream.md)
 - [Sugar Cookies — Rolled](cookies/sugar-cookies-rolled.md)

@@ -1,5 +1,7 @@
 # Edwina's Pecan Rolls
 
+From [Aunt Edwina](https://www.familysearch.org/tree/person/details/KWZQ-VN9) (Uncle Verl's wife)
+
 ## Ingredients
 
 - 6 c. sugar

@@ -49,27 +49,7 @@ I have tried to be explicit in these recipes, but something I've been doing some
 - [Soufflé — Dutch Oven Egg](breakfast/souffle-dutch-oven-egg.md)
 - [Waffles](breakfast/waffles.md)
 
-## Dessert
-
-- [Blueberry cheesecake](dessert/blueberry-cheesecake.md)
-- [Cake — Chocolate](dessert/cake-chocolate.md)
-- [Cake — Dr. Pepper Chocolate](dessert/cake-dr-pepper-chocolate.md)
-- [Cake — Jewish Coffee](dessert/cake-jewish-coffee.md)
-- [Cake — Lemon](dessert/cake-lemon.md)
-- [Cake — Poppy Seed](dessert/cake-poppy-seed.md)
-- [Chocolate mousse cake](dessert/chocolate-mousse-cake.md)
-- [Texas sheet cake](dessert/texas-sheet-cake.md)
-- [Crumb topping](dessert/crumb-topping.md)
-- [Divinity](dessert/divinity.md)
-- [Fudge — Kay's](dessert/fudge-kays.md)
-- [Fudge — See's](dessert/fudge-sees.md)
-- [Mochi Blondies — Hawaiian Butter](dessert/mochi-blondies-hawaiian-butter.md)
-- [Pecan Rolls — Edwina's](dessert/pecan-rolls-edwinas.md)
-- [Pecan rolls](dessert/pecan-rolls.md)
-- [Pie crust](dessert/pie-crust.md)
-- [Pie Filling — Mom's Apple](dessert/pie-filling-moms-apple.md)
-- [Pie — Nick Estrada's Apple](dessert/pie-nick-estradas-apple.md)
-- [Sopapillas](dessert/sopapillas.md)
+## Cookies
 
 - [Black Eyed Susans Cookies](cookies/black-eyed-susans-cookies.md)
 - [Chocolate Chip Cookies — Guittard](cookies/chocolate-chip-cookies-guittard.md)
@@ -92,6 +72,14 @@ I have tried to be explicit in these recipes, but something I've been doing some
 
 ## Dessert
 
+- [Blueberry cheesecake](dessert/blueberry-cheesecake.md)
+- [Cake — Chocolate](dessert/cake-chocolate.md)
+- [Cake — Dr. Pepper Chocolate](dessert/cake-dr-pepper-chocolate.md)
+- [Cake — Jewish Coffee](dessert/cake-jewish-coffee.md)
+- [Cake — Lemon](dessert/cake-lemon.md)
+- [Cake — Poppy Seed](dessert/cake-poppy-seed.md)
+- [Chocolate mousse cake](dessert/chocolate-mousse-cake.md)
+- [Texas sheet cake](dessert/texas-sheet-cake.md)
 - [Crumb topping](dessert/crumb-topping.md)
 - [Divinity](dessert/divinity.md)
 - [Fudge — Kay's](dessert/fudge-kays.md)

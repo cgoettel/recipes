@@ -88,6 +88,7 @@ I have tried to be explicit in these recipes, but something I've been doing some
 - [Pie crust](dessert/pie-crust.md)
 - [Pie Filling — Mom's Apple](dessert/pie-filling-moms-apple.md)
 - [Pie — Nick Estrada's Apple](dessert/pie-nick-estradas-apple.md)
+- [Sopapillas](dessert/sopapillas.md)
 
 ## Dressings
 

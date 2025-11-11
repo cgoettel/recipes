@@ -24,8 +24,11 @@ I have tried to be explicit in these recipes, but something I've been doing some
 - [Beer bread](bread/beer-bread.md)
 - [Biscuits](bread/biscuits.md)
 - [Cinnamon rolls](bread/cinnamon-rolls.md)
+- [Dhalpurie](bread/dhalpurie.md)
 - [French bread](bread/french-bread.md)
+- [Melissa Manwill's Pizza Dough](bread/melissa-manwills-pizza-dough.md)
 - [Paul Peterson's crunchy bread](bread/paul-petersons-crunchy-bread.md)
+- [Paratha Roti](bread/paratha-roti.md)
 - [Russian hot bread](bread/russian-hot-bread.md)
 - [Swiss bread](bread/swiss-bread.md)
 - [Unleavened bread for Passover](bread/unleavened-bread-for-passover.md)
@@ -66,7 +69,9 @@ I have tried to be explicit in these recipes, but something I've been doing some
 - [Oatmeal cookies](cookies/oatmeal-cookies.md)
 - [Oatmeal, walnut, chocolate chip cookies](cookies/oatmeal-walnut-chocolate-chip-cookies.md)
 - [Peanut butter cookies](cookies/peanut-butter-cookies.md)
+- [Raylene Bowles's Soft Sour Cream Sugar Cookies](cookies/raylene-bowles-soft-sour-cream-sugar-cookies.md)
 - [Snickerdoodles](cookies/snickerdoodles.md)
+- [Tina Braley's Sugar Cookies](cookies/tina-braleys-sugar-cookies.md)
 
 ## Dessert
 
@@ -98,13 +103,20 @@ I have tried to be explicit in these recipes, but something I've been doing some
 - [Birria de res](entrees/birria-de-res.md)
 - [Broccoli and cheese soup](entrees/broccoli-and-cheese-soup.md)
 - [Butter chicken](butter-chicken.md)
+- [Chicken Curry with Dumplings](entrees/chicken-curry-with-dumplings.md)
 - [Chicken wings](entrees/chicken-wings.md)
 - [Chuck roast](entrees/chuck-roast.md)
+- [Curried Chicken (Trinidad Style)](entrees/curried-chicken-trinidad-style.md)
+- [Curried Duck](entrees/curried-duck.md)
+- [Curried Goat](entrees/curried-goat.md)
+- [Curried Shrimp](entrees/curried-shrimp.md)
 - [Grandma Goettel's enchilada sauce](entrees/grandma-goettels-enchilada-sauce.md)
 - [Grant's burros](entrees/grants-burros.md)
 - [Knockoff Ron's chili](entrees/knockoff-rons-chili.md)
 - [Korean BBQ chicken](entrees/korean-bbq-chicken.md)
 - [Kun Koki steak](entrees/kun-koki-steak.md)
+- [Lamb with Chick Peas](entrees/lamb-with-chick-peas.md)
+- [Lamb Chops with Chermoula](entrees/lamb-chops-with-chermoula.md)
 - [Lasagna](entrees/lasagna.md)
 - [Masa](entrees/masa.md)
 - [Meatball subs](entrees/meatball-subs.md)
@@ -114,6 +126,7 @@ I have tried to be explicit in these recipes, but something I've been doing some
 - [Pasta with shrimp or chicken](entrees/pasta-with-shrimp.md)
 - [Quesabirria](entrees/quesabirria.md)
 - [Salsa alle noci (walnut pesto)](entrees/salsa-alle-noci.md)
+- [Shrimp Dalkani](entrees/shrimp-dalkani.md)
 - [Soupe Dauphinoise](entrees/soupe-dauphinoise.md)
 - [Sweet potato pie](entrees/sweet-potato-pie.md)
 - [Yorkshire pudding](entrees/yorkshire-pudding.md)
@@ -125,6 +138,7 @@ I have tried to be explicit in these recipes, but something I've been doing some
 ## Salsa
 
 - [Beverly Baldwin's gringo salsa](salsa/beverly-baldwins-gringo-salsa.md)
+- [Bill Jordan's green salsa](salsa/bill-jordan-green-salsa.md)
 - [Green mayo](salsa/green-mayo.md)
 - [Habanero sauce](salsa/habanero-sauce.md)
 - [J.R.'s salsa](salsa/jrs-salsa.md)
@@ -136,6 +150,7 @@ I have tried to be explicit in these recipes, but something I've been doing some
 
 ## Sauces
 
+- [Bill Jordan's green enchilada sauce](sauces/bill-jordan-green-enchilada-sauce.md)
 - [Creamy horseradish](sauces/creamy-horseradish.md)
 - [Orange sauce](sauces/orange-sauce.md)
 - [Red sauce](sauces/red-sauce.md)

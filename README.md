@@ -34,6 +34,7 @@ I have tried to be explicit in these recipes, but something I've been doing some
 - [Melissa Manwill's Pizza Dough](bread/melissa-manwills-pizza-dough.md)
 - [Muffins — Almond Poppy Seed](bread/muffins-almond-poppy-seed.md)
 - [Paratha Roti](bread/paratha-roti.md)
+- [Bread — Paul Peterson's Crunchy](bread/paul-petersons-crunchy-bread.md)
 
 ## Breakfast
 
@@ -98,6 +99,7 @@ I have tried to be explicit in these recipes, but something I've been doing some
 
 ## Drinks
 
+- [Coffee — Cold Brew](drinks/coffee-cold-brew.md)
 - [Coffee — Japanese Iced](drinks/coffee-japanese-iced.md)
 - [Coffee — New Hybrid Method](drinks/coffee-new-hybrid-method.md)
 - [Egg Nog](drinks/egg-nog.md)
@@ -110,6 +112,8 @@ I have tried to be explicit in these recipes, but something I've been doing some
 
 - [Birria de Res](entrees/birria-de-res.md)
 - [Burros — Grant's](entrees/burros-grants.md)
+- [Butter Chicken](entrees/butter-chicken.md)
+- [Butter Ramen](entrees/butter-ramen.md)
 - [Chicken Curry — with Dumplings](entrees/chicken-curry-with-dumplings.md)
 - [Chicken — Curried (Trinidad Style)](entrees/chicken-curried-trinidad-style.md)
 - [Chicken — Korean BBQ](entrees/chicken-korean-bbq.md)
@@ -170,6 +174,7 @@ I have tried to be explicit in these recipes, but something I've been doing some
 ## Sides
 
 - [Corn — Miso-Buttered](sides/corn-miso-buttered.md)
+- [Creamed Corn](entrees/creamed-corn.md)
 - [Pork and Beans — Dr. Hunn's](sides/pork-and-beans-dr-hunns.md)
 - [Salad — Potato](sides/salad-potato.md)
 

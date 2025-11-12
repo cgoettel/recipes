@@ -1,6 +1,6 @@
 # Recipes
 
-I have tried to be explicit in these recipes, but something I've been doing something the same way for so long that I forget that it's even worth mentioning. Or, some things (to me) are a given so I omit them from the recipe. Here are some guidelines in case you get lost:
+I have tried to be explicit in these recipes, but sometimes I've been doing something the same way for so long that I forget that it's even worth mentioning. Or, some things (to me) are a given so I omit them from the recipe. Here are some guidelines in case you get lost:
 
 - When cutting vegetables, mince is super fine (&lt;&frac14;"), dice is fine (like &frac14;&ndash;&frac12;"), and chopped is large (&gt;&frac12;")
 - I always use salted butter.

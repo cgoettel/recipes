@@ -110,39 +110,50 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 
 ## Entrées
 
-- [Birria de Res](entrees/birria-de-res.md)
-- [Burros — Grant's](entrees/burros-grants.md)
-- [Butter Chicken](entrees/butter-chicken.md)
 - [Butter Ramen](entrees/butter-ramen.md)
-- [Chicken Curry — with Dumplings](entrees/chicken-curry-with-dumplings.md)
-- [Chicken — Curried (Trinidad Style)](entrees/chicken-curried-trinidad-style.md)
-- [Chicken — Korean BBQ](entrees/chicken-korean-bbq.md)
-- [Chicken Wings](entrees/chicken-wings.md)
 - [Chili — Knockoff Ron's](entrees/chili-knockoff-rons.md)
 - [Chili — White Chicken](entrees/chili-white-chicken.md)
-- [Curry Rice — Kimono Mom](entrees/curry-rice-kimono-mom.md)
-- [Duck — Curried](entrees/duck-curried.md)
-- [Goat — Curried](entrees/goat-curried.md)
-- [Lamb Chops — with Chermoula](entrees/lamb-chops-with-chermoula.md)
-- [Lamb — with Chick Peas](entrees/lamb-with-chick-peas.md)
 - [Lasagna — Classic](entrees/lasagna-classic.md)
 - [Lasagna — Mom's](entrees/lasagna-moms.md)
 - [Masa](entrees/masa.md)
 - [Meatball Subs](entrees/meatball-subs.md)
+- [Pasta — with Shrimp or Chicken](entrees/pasta-with-shrimp-or-chicken.md)
+- [Roast — Chuck Roast](entrees/roast-chuck.md)
+- [Salsa alle Noci (Walnut Pesto)](entrees/salsa-alle-noci-walnut-pesto.md)
+- [Yorkshire Pudding](entrees/yorkshire-pudding.md)
+
+### Curries
+
+- [Butter Chicken](entrees/butter-chicken.md)
+- [Chicken Curry — with Dumplings](entrees/chicken-curry-with-dumplings.md)
+- [Curry Rice — Kimono Mom](entrees/curry-rice-kimono-mom.md)
+
+### Meats
+
+- [Chicken — Curried (Trinidad Style)](entrees/chicken-curried-trinidad-style.md)
+- [Chicken — Korean BBQ](entrees/chicken-korean-bbq.md)
+- [Chicken Wings](entrees/chicken-wings.md)
+- [Duck — Curried](entrees/duck-curried.md)
+- [Goat — Curried](entrees/goat-curried.md)
+- [Lamb Chops — with Chermoula](entrees/lamb-chops-with-chermoula.md)
+- [Lamb — with Chick Peas](entrees/lamb-with-chick-peas.md)
 - [Meatballs](entrees/meatballs.md)
 - [Meatloaf](entrees/meatloaf.md)
-- [Pasta — with Shrimp or Chicken](entrees/pasta-with-shrimp-or-chicken.md)
-- [Pie — Sweet Potato](entrees/pie-sweet-potato.md)
-- [Quesabirria](entrees/quesabirria.md)
-- [Roast — Chuck](entrees/roast-chuck.md)
-- [Salsa alle Noci (Walnut Pesto)](entrees/salsa-alle-noci-walnut-pesto.md)
-- [Shrimp Dalkani](entrees/shrimp-dalkani.md)
+- [Shrimp — Dalkani](entrees/shrimp-dalkani.md)
 - [Shrimp — Curried](entrees/shrimp-curried.md)
+- [Steak — Kun Koki](entrees/steak-kun-koki.md)
+
+### Mexican
+
+- [Birria de Res](entrees/birria-de-res.md)
+- [Burros — Grant's](entrees/burros-grants.md)
+- [Quesabirria](entrees/quesabirria.md)
+
+### Soups and stews
+
 - [Soup — Broccoli and Cheese](entrees/soup-broccoli-and-cheese.md)
 - [Soupe Dauphinoise](entrees/soupe-dauphinoise.md)
-- [Steak — Kun Koki](entrees/steak-kun-koki.md)
 - [Stew — Beef and Guinness](entrees/stew-beef-and-guinness.md)
-- [Yorkshire Pudding](entrees/yorkshire-pudding.md)
 
 ## Household
 
@@ -150,8 +161,9 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 
 ## Salsa
 
-- [Mayo — Green](salsa/mayo-green.md)
-- [Sauce — Habanero](salsa/sauce-habanero.md)
+- [Enchilada Sauce — Bill Jordan's Green](salsa/enchilada-sauce-bill-jordans-green.md)
+- [Enchilada Sauce — Grandma Goettel's](salsa/enchilada-sauce-grandma-goettels.md)
+- [Salsa — Habanero](salsa/sauce-habanero.md)
 - [Salsa — Beverly Baldwin's Gringo](salsa/salsa-beverly-baldwins-gringo.md)
 - [Salsa — Bill Jordan's Green](salsa/salsa-bill-jordans-green.md)
 - [Salsa — Birria](salsa/salsa-birria.md)
@@ -164,9 +176,8 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 ## Sauces
 
 - [Dipping Sauce — Tempura](sauces/dipping-sauce-tempura.md)
-- [Enchilada Sauce — Bill Jordan's Green](sauces/enchilada-sauce-bill-jordans-green.md)
-- [Enchilada Sauce — Grandma Goettel's](sauces/enchilada-sauce-grandma-goettels.md)
 - [Horseradish — Creamy](sauces/horseradish-creamy.md)
+- [Mayo — Green Mayo](sauces/mayo-green-mayo.md)
 - [Peanut Sauce — Thai](sauces/peanut-sauce-thai.md)
 - [Sauce — Orange](sauces/sauce-orange.md)
 - [Sauce — Red](sauces/sauce-red.md)
@@ -174,9 +185,10 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 ## Sides
 
 - [Corn — Miso-Buttered](sides/corn-miso-buttered.md)
-- [Creamed Corn](entrees/creamed-corn.md)
+- [Creamed Corn](sides/creamed-corn.md)
 - [Pork and Beans — Dr. Hunn's](sides/pork-and-beans-dr-hunns.md)
 - [Salad — Potato](sides/salad-potato.md)
+- [Sweet Potato Pie](sides/sweet-potato-pie.md)
 
 ## Soda
 

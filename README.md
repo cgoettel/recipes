@@ -120,6 +120,7 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 - [Pasta — with Shrimp or Chicken](entrees/pasta-with-shrimp-or-chicken.md)
 - [Roast — Chuck Roast](entrees/roast-chuck.md)
 - [Salsa alle Noci (Walnut Pesto)](entrees/salsa-alle-noci-walnut-pesto.md)
+- [Stuffed peppers](entrees/stuffed-peppers.md)
 - [Yorkshire Pudding](entrees/yorkshire-pudding.md)
 
 ### Curries

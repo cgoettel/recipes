@@ -15,24 +15,33 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 
 - [Biscuits](bread/biscuits.md)
 - [Bread — Almond](bread/bread-almond.md)
+- [Bread — Artisan in Five](bread/bread-artisan-in-five.md)
 - [Bread — Australian Damper](bread/bread-australian-damper.md)
+- [Bread — Baguette (Paul Hollywood)](bread/bread-baguette-paul-hollywood.md)
+- [Bread — Baguette (Quick)](bread/bread-baguette-quick.md)
 - [Bread — Banana](bread/bread-banana.md)
 - [Bread — Beer](bread/bread-beer.md)
 - [Bread — French](bread/bread-french.md)
 - [Bread — Hawaiian Sweet](bread/bread-hawaiian-sweet.md)
+- [Bread — Honey Wheat (LeAnn's)](bread/bread-honey-wheat-leann.md)
 - [Bread — Naan (Leavened)](bread/bread-naan-leavened.md)
 - [Bread — Paul Peterson's Crunchy](bread/bread-paul-petersons-crunchy.md)
 - [Bread — Russian Hot](bread/bread-russian-hot.md)
+- [Bread — Sourdough (White)](bread/bread-sourdough-white.md)
 - [Bread — Swiss](bread/bread-swiss.md)
 - [Bread — Unleavened (Passover)](bread/bread-unleavened-passover.md)
+- [Bread — Whole Wheat (Angie Peffer)](bread/bread-whole-wheat-angie-peffer.md)
 - [Cinnamon rolls](bread/cinnamon-rolls.md)
+- [Cinnamon rolls — LeAnn's](bread/cinnamon-rolls-leann.md)
 - [Dhalpurie](bread/dhalpurie.md)
 - [Muffins — Almond Poppy Seed](bread/muffins-almond-poppy-seed.md)
 - [Paratha Roti](bread/paratha-roti.md)
 - [Pizza Dough — Melissa Manwill's](bread/pizza-dough-melissa-manwills.md)
+- [Rolls — Shirley](bread/rolls-shirley.md)
 
 ## Breakfast
 
+- [Biscuits and Gravy](breakfast/biscuits-and-gravy.md)
 - [Granola](breakfast/granola.md)
 - [Pancake — Dutch Baby](breakfast/pancake-dutch-baby.md)
 - [Pancakes — Bacon Cornmeal](breakfast/pancakes-bacon-cornmeal.md)
@@ -68,24 +77,32 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 
 ### American
 
+- [Chicken — LeRoy and Lewis](entrees/american/chicken-leroy-and-lewis.md)
+- [Chicken Caesar Sandwich — CHUDS](entrees/american/chicken-caesar-sandwich-chuds.md)
+- [Chicken Salad — Mel's Kitchen](entrees/american/chicken-salad-mels-kitchen.md)
 - [Chicken Wings](entrees/american/chicken-wings.md)
 - [Chili — Knockoff Ron's](entrees/american/chili-knockoff-rons.md)
+- [Chili — Mom's](entrees/american/chili-moms.md)
 - [Chili — White Chicken](entrees/american/chili-white-chicken.md)
 - [Meatball Subs](entrees/american/meatball-subs.md)
 - [Meatloaf](entrees/american/meatloaf.md)
 - [Roast — Chuck](entrees/american/roast-chuck.md)
 - [Stuffed peppers](entrees/american/stuffed-peppers.md)
 
+### Caribbean
+
+- [Chicken — Curried (Trinidad Style)](entrees/caribbean/chicken-curried-trinidad-style.md)
+- [Chicken Curry — with Dumplings](entrees/caribbean/chicken-curry-with-dumplings.md)
+- [Duck — Curried](entrees/caribbean/duck-curried.md)
+- [Goat — Curried](entrees/caribbean/goat-curried.md)
+- [Lamb — with Chick Peas (Channa)](entrees/caribbean/lamb-with-chick-peas.md)
+- [Pollo Guisado (Dominican)](entrees/caribbean/pollo-guisado.md)
+- [Shrimp — Curried](entrees/caribbean/shrimp-curried.md)
+- [Shrimp — Dalkani](entrees/caribbean/shrimp-dalkani.md)
+
 ### Curries
 
 - [Butter Chicken](entrees/curries/butter-chicken.md)
-- [Chicken — Curried (Trinidad Style)](entrees/curries/chicken-curried-trinidad-style.md)
-- [Chicken Curry — with Dumplings](entrees/curries/chicken-curry-with-dumplings.md)
-- [Duck — Curried](entrees/curries/duck-curried.md)
-- [Goat — Curried](entrees/curries/goat-curried.md)
-- [Lamb — with Chick Peas](entrees/curries/lamb-with-chick-peas.md)
-- [Shrimp — Curried](entrees/curries/shrimp-curried.md)
-- [Shrimp — Dalkani](entrees/curries/shrimp-dalkani.md)
 
 ### East Asian
 
@@ -115,6 +132,7 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 
 ### Soups and stews
 
+- [Sopa de Pollo Dominicana](entrees/soups-and-stews/sopa-de-pollo-dominicana.md)
 - [Soup — Broccoli and Cheese](entrees/soups-and-stews/soup-broccoli-and-cheese.md)
 - [Soupe Dauphinoise](entrees/soups-and-stews/soupe-dauphinoise.md)
 - [Stew — Beef and Guinness](entrees/soups-and-stews/stew-beef-and-guinness.md)
@@ -129,6 +147,9 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 
 - [Coleslaw dressing](sauces-and-condiments/dressings/coleslaw-dressing.md)
 - [Honey French dressing](sauces-and-condiments/dressings/honey-french-dressing.md)
+- [Lime vinaigrette](sauces-and-condiments/dressings/lime-vinaigrette.md)
+- [Poppy seed dressing](sauces-and-condiments/dressings/poppy-seed-dressing.md)
+- [Quinoa salad dressing](sauces-and-condiments/dressings/quinoa-salad-dressing.md)
 
 ### Salsas
 
@@ -137,6 +158,7 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 - [Salsa — Beverly Baldwin's Gringo](sauces-and-condiments/salsas/salsa-beverly-baldwins-gringo.md)
 - [Salsa — Bill Jordan's Green](sauces-and-condiments/salsas/salsa-bill-jordans-green.md)
 - [Salsa — Birria](sauces-and-condiments/salsas/salsa-birria.md)
+- [Salsa — Grandpa Ferrin's Green](sauces-and-condiments/salsas/salsa-grandpa-ferrins-green.md)
 - [Salsa — Habanero](sauces-and-condiments/salsas/sauce-habanero.md)
 - [Salsa — J.R.'s](sauces-and-condiments/salsas/salsa-jrs.md)
 - [Salsa — Los Hermano's Copycat](sauces-and-condiments/salsas/salsa-los-hermanos-copycat.md)
@@ -146,11 +168,16 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 
 ### Sauces
 
+- [Crema — Lime Cilantro](sauces-and-condiments/sauces/crema-lime-cilantro.md)
 - [Dipping Sauce — Tempura](sauces-and-condiments/sauces/dipping-sauce-tempura.md)
 - [Horseradish — Creamy](sauces-and-condiments/sauces/horseradish-creamy.md)
+- [Marinade — El Pollo Loco](sauces-and-condiments/sauces/marinade-el-pollo-loco.md)
 - [Mayo — Green Mayo](sauces-and-condiments/sauces/mayo-green-mayo.md)
+- [Pasta Sauce — Marie Peters](sauces-and-condiments/sauces/pasta-sauce-marie-peters.md)
 - [Peanut Sauce — Thai](sauces-and-condiments/sauces/peanut-sauce-thai.md)
 - [Salsa alle Noci (Walnut Pesto)](sauces-and-condiments/sauces/salsa-alle-noci-walnut-pesto.md)
+- [Sauce — Board & Brew Special](sauces-and-condiments/sauces/sauce-board-and-brew.md)
+- [Sauce — J Dawg's Special](sauces-and-condiments/sauces/sauce-jdawgs.md)
 - [Sauce — Orange](sauces-and-condiments/sauces/sauce-orange.md)
 - [Sauce — Red](sauces-and-condiments/sauces/sauce-red.md)
 
@@ -161,6 +188,8 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 - [Creamed Corn](sides-and-starters/creamed-corn.md)
 - [Hot artichoke dip](sides-and-starters/hot-artichoke-dip.md)
 - [Pork and Beans — Dr. Hunn's](sides-and-starters/pork-and-beans-dr-hunns.md)
+- [Rice — Dominican (Arroz Blanco)](sides-and-starters/rice-dominican.md)
+- [Rice — Moro de Guandules con Coco](sides-and-starters/rice-moro-de-guandules.md)
 - [Salad — Potato](sides-and-starters/salad-potato.md)
 - [Sweet Potato Pie](sides-and-starters/sweet-potato-pie.md)
 - [Yorkshire Pudding](sides-and-starters/yorkshire-pudding.md)
@@ -174,12 +203,14 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 - [Cake — Dr. Pepper Chocolate](sweets/cakes/cake-dr-pepper-chocolate.md)
 - [Cake — Jewish Coffee](sweets/cakes/cake-jewish-coffee.md)
 - [Cake — Lemon](sweets/cakes/cake-lemon.md)
+- [Cake — Lemon Chiffon](sweets/cakes/cake-lemon-chiffon.md)
 - [Cake — Poppy Seed](sweets/cakes/cake-poppy-seed.md)
 - [Chocolate mousse cake](sweets/cakes/chocolate-mousse-cake.md)
 - [Texas sheet cake](sweets/cakes/texas-sheet-cake.md)
 
 ### Confections
 
+- [Banana Pudding — Magnolia Bakery](sweets/confections/banana-pudding-magnolia.md)
 - [Crumb topping](sweets/confections/crumb-topping.md)
 - [Divinity](sweets/confections/divinity.md)
 - [Fudge — Kay's](sweets/confections/fudge-kays.md)
@@ -187,12 +218,16 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 - [Mochi Blondies — Hawaiian Butter](sweets/confections/mochi-blondies-hawaiian-butter.md)
 - [Pecan Rolls — Edwina's](sweets/confections/pecan-rolls-edwinas.md)
 - [Sopapillas](sweets/confections/sopapillas.md)
+- [Stollen](sweets/confections/stollen.md)
 
 ### Cookies
 
 - [Black Eyed Susans Cookies](sweets/cookies/black-eyed-susans-cookies.md)
+- [Chocolate Chip Cookies — Grant's](sweets/cookies/chocolate-chip-cookies-grants.md)
 - [Chocolate Chip Cookies — Guittard](sweets/cookies/chocolate-chip-cookies-guittard.md)
+- [Chocolate Chip Cookies — Mom's](sweets/cookies/chocolate-chip-cookies-moms.md)
 - [Chocolate Chip Cookies — Nut and Dried Fruit](sweets/cookies/chocolate-chip-cookies-nut-dried-fruit.md)
+- [Chocolate Chip Cookies — Oatmeal Cranberry (Giada)](sweets/cookies/chocolate-chip-cookies-oatmeal-cranberry-giada.md)
 - [Chocolate Chip Cookies — Oatmeal Walnut](sweets/cookies/chocolate-chip-cookies-oatmeal-walnut.md)
 - [Gingersnaps](sweets/cookies/gingersnaps.md)
 - [Jan's Cookies](sweets/cookies/jans-cookies.md)

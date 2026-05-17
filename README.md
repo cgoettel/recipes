@@ -148,6 +148,7 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 
 - [Birria de Res](entrees/birria-de-res.md)
 - [Burros — Grant's](entrees/burros-grants.md)
+- [Chiles Güeros Rellenos de Camarón](entrees/chiles-gueros-rellenos-de-camaron.md)
 - [Quesabirria](entrees/quesabirria.md)
 
 ### Soups and stews

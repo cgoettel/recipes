@@ -11,12 +11,7 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
   - "flour" means "all-purpose flour"
   - "sugar" means "white, granulated cane sugar"
 
-## Appetizers
-
-- [Cheeseball](appetizers/cheeseball.md)
-- [Hot artichoke dip](appetizers/hot-artichoke-dip.md)
-
-## Breads
+## Bread
 
 - [Biscuits](bread/biscuits.md)
 - [Bread — Almond](bread/bread-almond.md)
@@ -50,53 +45,6 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 - [Soufflé — Dutch Oven Egg](breakfast/souffle-dutch-oven-egg.md)
 - [Waffles](breakfast/waffles.md)
 
-## Cookies
-
-- [Black Eyed Susans Cookies](cookies/black-eyed-susans-cookies.md)
-- [Chocolate Chip Cookies — Guittard](cookies/chocolate-chip-cookies-guittard.md)
-- [Chocolate Chip Cookies — Nut and Dried Fruit](cookies/chocolate-chip-cookies-nut-dried-fruit.md)
-- [Chocolate Chip Cookies — Oatmeal Walnut](cookies/chocolate-chip-cookies-oatmeal-walnut.md)
-- [Gingersnaps](cookies/gingersnaps.md)
-- [Jan's Cookies](cookies/jans-cookies.md)
-- [Maple Pecan Cookies](cookies/maple-pecan-cookies.md)
-- [Molasses Cookies](cookies/molasses-cookies.md)
-- [Oatmeal Cookies](cookies/oatmeal-cookies.md)
-- [Peanut Butter Cookies](cookies/peanut-butter-cookies.md)
-- [Snickerdoodles](cookies/snickerdoodles.md)
-- [Sugar Cookies — Domino Sugar's Classic](cookies/sugar-cookies-domino-sugar-classic.md)
-- [Sugar Cookies — Haman's Hats (Poppy Seed)](cookies/sugar-cookies-hamans-hats-poppy-seed.md)
-- [Sugar Cookies — Jessica Martin](cookies/sugar-cookies-jessica-martin.md)
-- [Sugar Cookies — Martha Stewart](cookies/sugar-cookies-martha-stewart.md)
-- [Sugar Cookies — Raylene Bowles's Soft Sour Cream](cookies/sugar-cookies-raylene-bowles-soft-sour-cream.md)
-- [Sugar Cookies — Rolled](cookies/sugar-cookies-rolled.md)
-- [Sugar Cookies — Tina Braley's](cookies/sugar-cookies-tina-braleys.md)
-
-## Dessert
-
-- [Blueberry cheesecake](dessert/blueberry-cheesecake.md)
-- [Cake — Chocolate](dessert/cake-chocolate.md)
-- [Cake — Dr. Pepper Chocolate](dessert/cake-dr-pepper-chocolate.md)
-- [Cake — Jewish Coffee](dessert/cake-jewish-coffee.md)
-- [Cake — Lemon](dessert/cake-lemon.md)
-- [Cake — Poppy Seed](dessert/cake-poppy-seed.md)
-- [Chocolate mousse cake](dessert/chocolate-mousse-cake.md)
-- [Crumb topping](dessert/crumb-topping.md)
-- [Divinity](dessert/divinity.md)
-- [Fudge — Kay's](dessert/fudge-kays.md)
-- [Fudge — See's](dessert/fudge-sees.md)
-- [Mochi Blondies — Hawaiian Butter](dessert/mochi-blondies-hawaiian-butter.md)
-- [Pecan Rolls — Edwina's](dessert/pecan-rolls-edwinas.md)
-- [Pie crust](dessert/pie-crust.md)
-- [Pie — Mom's Apple](dessert/pie-moms-apple.md)
-- [Pie — Nick Estrada's Apple](dessert/pie-nick-estradas-apple.md)
-- [Sopapillas](dessert/sopapillas.md)
-- [Texas sheet cake](dessert/texas-sheet-cake.md)
-
-## Dressings
-
-- [Coleslaw dressing](dressings/coleslaw-dressing.md)
-- [Honey French dressing](dressings/honey-french-dressing.md)
-
 ## Drinks
 
 - [Coffee — Cold Brew](drinks/coffee-cold-brew.md)
@@ -108,94 +56,161 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 - [Tea — Iced](drinks/tea-iced.md)
 - [Tea — Sun](drinks/tea-sun.md)
 
+### Sodas
+
+[Notes on soda making, techniques, etc.](drinks/sodas/README.md) Further notes can be found in [brew-day-notes/](drinks/sodas/brew-day-notes/).
+
+- [Soda — Cream](drinks/sodas/soda-cream.md)
+- [Soda — Grapefruit](drinks/sodas/soda-grapefruit.md)
+- [Soda — Mello Yello (Knockoff)](drinks/sodas/soda-mello-yello-knockoff.md)
+
 ## Entrées
 
-- [Butter Ramen](entrees/butter-ramen.md)
-- [Chili — Knockoff Ron's](entrees/chili-knockoff-rons.md)
-- [Chili — White Chicken](entrees/chili-white-chicken.md)
-- [Lasagna — Classic](entrees/lasagna-classic.md)
-- [Lasagna — Mom's](entrees/lasagna-moms.md)
-- [Masa](entrees/masa.md)
-- [Meatball Subs](entrees/meatball-subs.md)
-- [Pasta — with Shrimp or Chicken](entrees/pasta-with-shrimp-or-chicken.md)
-- [Roast — Chuck Roast](entrees/roast-chuck.md)
-- [Salsa alle Noci (Walnut Pesto)](entrees/salsa-alle-noci-walnut-pesto.md)
-- [Stuffed peppers](entrees/stuffed-peppers.md)
-- [Yorkshire Pudding](entrees/yorkshire-pudding.md)
+### American
+
+- [Chicken Wings](entrees/american/chicken-wings.md)
+- [Chili — Knockoff Ron's](entrees/american/chili-knockoff-rons.md)
+- [Chili — White Chicken](entrees/american/chili-white-chicken.md)
+- [Meatball Subs](entrees/american/meatball-subs.md)
+- [Meatloaf](entrees/american/meatloaf.md)
+- [Roast — Chuck](entrees/american/roast-chuck.md)
+- [Stuffed peppers](entrees/american/stuffed-peppers.md)
 
 ### Curries
 
-- [Butter Chicken](entrees/butter-chicken.md)
-- [Chicken Curry — with Dumplings](entrees/chicken-curry-with-dumplings.md)
-- [Curry Rice — Kimono Mom](entrees/curry-rice-kimono-mom.md)
+- [Butter Chicken](entrees/curries/butter-chicken.md)
+- [Chicken — Curried (Trinidad Style)](entrees/curries/chicken-curried-trinidad-style.md)
+- [Chicken Curry — with Dumplings](entrees/curries/chicken-curry-with-dumplings.md)
+- [Duck — Curried](entrees/curries/duck-curried.md)
+- [Goat — Curried](entrees/curries/goat-curried.md)
+- [Lamb — with Chick Peas](entrees/curries/lamb-with-chick-peas.md)
+- [Shrimp — Curried](entrees/curries/shrimp-curried.md)
+- [Shrimp — Dalkani](entrees/curries/shrimp-dalkani.md)
 
-### Meats
+### East Asian
 
-- [Chicken — Curried (Trinidad Style)](entrees/chicken-curried-trinidad-style.md)
-- [Chicken — Korean BBQ](entrees/chicken-korean-bbq.md)
-- [Chicken Wings](entrees/chicken-wings.md)
-- [Duck — Curried](entrees/duck-curried.md)
-- [Goat — Curried](entrees/goat-curried.md)
-- [Lamb Chops — with Chermoula](entrees/lamb-chops-with-chermoula.md)
-- [Lamb — with Chick Peas](entrees/lamb-with-chick-peas.md)
-- [Meatballs](entrees/meatballs.md)
-- [Meatloaf](entrees/meatloaf.md)
-- [Shrimp — Dalkani](entrees/shrimp-dalkani.md)
-- [Shrimp — Curried](entrees/shrimp-curried.md)
-- [Steak — Kun Koki](entrees/steak-kun-koki.md)
+- [Butter Ramen](entrees/east-asian/butter-ramen.md)
+- [Chicken — Korean BBQ](entrees/east-asian/chicken-korean-bbq.md)
+- [Curry Rice — Kimono Mom](entrees/east-asian/curry-rice-kimono-mom.md)
+- [Steak — Kun Koki](entrees/east-asian/steak-kun-koki.md)
+
+### Italian
+
+- [Lasagna — Classic](entrees/italian/lasagna-classic.md)
+- [Lasagna — Mom's](entrees/italian/lasagna-moms.md)
+- [Meatballs](entrees/italian/meatballs.md)
+- [Pasta — with Shrimp or Chicken](entrees/italian/pasta-with-shrimp-or-chicken.md)
+
+### Mediterranean
+
+- [Lamb Chops — with Chermoula](entrees/mediterranean/lamb-chops-with-chermoula.md)
 
 ### Mexican
 
-- [Birria de Res](entrees/birria-de-res.md)
-- [Burros — Grant's](entrees/burros-grants.md)
-- [Chiles Güeros Rellenos de Camarón](entrees/chiles-gueros-rellenos-de-camaron.md)
-- [Quesabirria](entrees/quesabirria.md)
+- [Birria de Res](entrees/mexican/birria-de-res.md)
+- [Burros — Grant's](entrees/mexican/burros-grants.md)
+- [Chiles Güeros Rellenos de Camarón](entrees/mexican/chiles-gueros-rellenos-de-camaron.md)
+- [Masa](entrees/mexican/masa.md)
+- [Quesabirria](entrees/mexican/quesabirria.md)
 
 ### Soups and stews
 
-- [Soup — Broccoli and Cheese](entrees/soup-broccoli-and-cheese.md)
-- [Soupe Dauphinoise](entrees/soupe-dauphinoise.md)
-- [Stew — Beef and Guinness](entrees/stew-beef-and-guinness.md)
+- [Soup — Broccoli and Cheese](entrees/soups-and-stews/soup-broccoli-and-cheese.md)
+- [Soupe Dauphinoise](entrees/soups-and-stews/soupe-dauphinoise.md)
+- [Stew — Beef and Guinness](entrees/soups-and-stews/stew-beef-and-guinness.md)
 
 ## Household
 
 - [Upholstery cleaner](household/upholstery-cleaner.md)
 
-## Salsa
+## Sauces and condiments
 
-- [Enchilada Sauce — Bill Jordan's Green](salsa/enchilada-sauce-bill-jordans-green.md)
-- [Enchilada Sauce — Grandma Goettel's](salsa/enchilada-sauce-grandma-goettels.md)
-- [Salsa — Habanero](salsa/sauce-habanero.md)
-- [Salsa — Beverly Baldwin's Gringo](salsa/salsa-beverly-baldwins-gringo.md)
-- [Salsa — Bill Jordan's Green](salsa/salsa-bill-jordans-green.md)
-- [Salsa — Birria](salsa/salsa-birria.md)
-- [Salsa — J.R.'s](salsa/salsa-jrs.md)
-- [Salsa — Los Hermano's Copycat](salsa/salsa-los-hermanos-copycat.md)
-- [Salsa — Mom's](salsa/salsa-moms.md)
-- [Salsa — Taqueria](salsa/salsa-taqueria.md)
-- [Salsa — Uncle Bryan's Green](salsa/salsa-uncle-bryans-green.md)
+### Dressings
 
-## Sauces
+- [Coleslaw dressing](sauces-and-condiments/dressings/coleslaw-dressing.md)
+- [Honey French dressing](sauces-and-condiments/dressings/honey-french-dressing.md)
 
-- [Dipping Sauce — Tempura](sauces/dipping-sauce-tempura.md)
-- [Horseradish — Creamy](sauces/horseradish-creamy.md)
-- [Mayo — Green Mayo](sauces/mayo-green-mayo.md)
-- [Peanut Sauce — Thai](sauces/peanut-sauce-thai.md)
-- [Sauce — Orange](sauces/sauce-orange.md)
-- [Sauce — Red](sauces/sauce-red.md)
+### Salsas
 
-## Sides
+- [Enchilada Sauce — Bill Jordan's Green](sauces-and-condiments/salsas/enchilada-sauce-bill-jordans-green.md)
+- [Enchilada Sauce — Grandma Goettel's](sauces-and-condiments/salsas/enchilada-sauce-grandma-goettels.md)
+- [Salsa — Beverly Baldwin's Gringo](sauces-and-condiments/salsas/salsa-beverly-baldwins-gringo.md)
+- [Salsa — Bill Jordan's Green](sauces-and-condiments/salsas/salsa-bill-jordans-green.md)
+- [Salsa — Birria](sauces-and-condiments/salsas/salsa-birria.md)
+- [Salsa — Habanero](sauces-and-condiments/salsas/sauce-habanero.md)
+- [Salsa — J.R.'s](sauces-and-condiments/salsas/salsa-jrs.md)
+- [Salsa — Los Hermano's Copycat](sauces-and-condiments/salsas/salsa-los-hermanos-copycat.md)
+- [Salsa — Mom's](sauces-and-condiments/salsas/salsa-moms.md)
+- [Salsa — Taqueria](sauces-and-condiments/salsas/salsa-taqueria.md)
+- [Salsa — Uncle Bryan's Green](sauces-and-condiments/salsas/salsa-uncle-bryans-green.md)
 
-- [Corn — Miso-Buttered](sides/corn-miso-buttered.md)
-- [Creamed Corn](sides/creamed-corn.md)
-- [Pork and Beans — Dr. Hunn's](sides/pork-and-beans-dr-hunns.md)
-- [Salad — Potato](sides/salad-potato.md)
-- [Sweet Potato Pie](sides/sweet-potato-pie.md)
+### Sauces
 
-## Soda
+- [Dipping Sauce — Tempura](sauces-and-condiments/sauces/dipping-sauce-tempura.md)
+- [Horseradish — Creamy](sauces-and-condiments/sauces/horseradish-creamy.md)
+- [Mayo — Green Mayo](sauces-and-condiments/sauces/mayo-green-mayo.md)
+- [Peanut Sauce — Thai](sauces-and-condiments/sauces/peanut-sauce-thai.md)
+- [Salsa alle Noci (Walnut Pesto)](sauces-and-condiments/sauces/salsa-alle-noci-walnut-pesto.md)
+- [Sauce — Orange](sauces-and-condiments/sauces/sauce-orange.md)
+- [Sauce — Red](sauces-and-condiments/sauces/sauce-red.md)
 
-[Notes on soda making, techniques, etc.](soda/README.md) Further notes can be found in [brew-day-notes/](soda/brew-day-notes/).
+## Sides and starters
 
-- [Soda — Cream](soda/soda-cream.md)
-- [Soda — Grapefruit](soda/soda-grapefruit.md)
-- [Soda — Mello Yello (Knockoff)](soda/soda-mello-yello-knockoff.md)
+- [Cheeseball](sides-and-starters/cheeseball.md)
+- [Corn — Miso-Buttered](sides-and-starters/corn-miso-buttered.md)
+- [Creamed Corn](sides-and-starters/creamed-corn.md)
+- [Hot artichoke dip](sides-and-starters/hot-artichoke-dip.md)
+- [Pork and Beans — Dr. Hunn's](sides-and-starters/pork-and-beans-dr-hunns.md)
+- [Salad — Potato](sides-and-starters/salad-potato.md)
+- [Sweet Potato Pie](sides-and-starters/sweet-potato-pie.md)
+- [Yorkshire Pudding](sides-and-starters/yorkshire-pudding.md)
+
+## Sweets
+
+### Cakes
+
+- [Blueberry cheesecake](sweets/cakes/blueberry-cheesecake.md)
+- [Cake — Chocolate](sweets/cakes/cake-chocolate.md)
+- [Cake — Dr. Pepper Chocolate](sweets/cakes/cake-dr-pepper-chocolate.md)
+- [Cake — Jewish Coffee](sweets/cakes/cake-jewish-coffee.md)
+- [Cake — Lemon](sweets/cakes/cake-lemon.md)
+- [Cake — Poppy Seed](sweets/cakes/cake-poppy-seed.md)
+- [Chocolate mousse cake](sweets/cakes/chocolate-mousse-cake.md)
+- [Texas sheet cake](sweets/cakes/texas-sheet-cake.md)
+
+### Confections
+
+- [Crumb topping](sweets/confections/crumb-topping.md)
+- [Divinity](sweets/confections/divinity.md)
+- [Fudge — Kay's](sweets/confections/fudge-kays.md)
+- [Fudge — See's](sweets/confections/fudge-sees.md)
+- [Mochi Blondies — Hawaiian Butter](sweets/confections/mochi-blondies-hawaiian-butter.md)
+- [Pecan Rolls — Edwina's](sweets/confections/pecan-rolls-edwinas.md)
+- [Sopapillas](sweets/confections/sopapillas.md)
+
+### Cookies
+
+- [Black Eyed Susans Cookies](sweets/cookies/black-eyed-susans-cookies.md)
+- [Chocolate Chip Cookies — Guittard](sweets/cookies/chocolate-chip-cookies-guittard.md)
+- [Chocolate Chip Cookies — Nut and Dried Fruit](sweets/cookies/chocolate-chip-cookies-nut-dried-fruit.md)
+- [Chocolate Chip Cookies — Oatmeal Walnut](sweets/cookies/chocolate-chip-cookies-oatmeal-walnut.md)
+- [Gingersnaps](sweets/cookies/gingersnaps.md)
+- [Jan's Cookies](sweets/cookies/jans-cookies.md)
+- [Maple Pecan Cookies](sweets/cookies/maple-pecan-cookies.md)
+- [Molasses Cookies](sweets/cookies/molasses-cookies.md)
+- [Oatmeal Cookies](sweets/cookies/oatmeal-cookies.md)
+- [Peanut Butter Cookies](sweets/cookies/peanut-butter-cookies.md)
+- [Snickerdoodles](sweets/cookies/snickerdoodles.md)
+- [Sugar Cookies — Domino Sugar's Classic](sweets/cookies/sugar-cookies-domino-sugar-classic.md)
+- [Sugar Cookies — Haman's Hats (Poppy Seed)](sweets/cookies/sugar-cookies-hamans-hats-poppy-seed.md)
+- [Sugar Cookies — Jessica Martin](sweets/cookies/sugar-cookies-jessica-martin.md)
+- [Sugar Cookies — Martha Stewart](sweets/cookies/sugar-cookies-martha-stewart.md)
+- [Sugar Cookies — Raylene Bowles's Soft Sour Cream](sweets/cookies/sugar-cookies-raylene-bowles-soft-sour-cream.md)
+- [Sugar Cookies — Rolled](sweets/cookies/sugar-cookies-rolled.md)
+- [Sugar Cookies — Tina Braley's](sweets/cookies/sugar-cookies-tina-braleys.md)
+
+### Pies
+
+- [Pie crust](sweets/pies/pie-crust.md)
+- [Pie Filling — Mom's Apple](sweets/pies/pie-filling-moms-apple.md)
+- [Pie — Nick Estrada's Apple](sweets/pies/pie-nick-estradas-apple.md)

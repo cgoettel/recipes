@@ -2,7 +2,7 @@
 
 ## Ingredients
 
-- 1 lb mild Italian sausage or a half recipe of [meatballs](../entrees/meatballs.md)
+- 1 lb mild Italian sausage or a half recipe of [meatballs](../../entrees/italian/meatballs.md)
 - olive oil
 - 1 large carrot, diced
 - &frac12; large onion or 1 medium onion, diced

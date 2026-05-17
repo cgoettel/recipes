@@ -2,8 +2,8 @@
 
 ## Ingredients
 
-- Half recipe [meatballs](meatballs.md)
-- 1 batch [red sauce](../sauces/red-sauce.md)
+- Half recipe [meatballs](../italian/meatballs.md)
+- 1 batch [red sauce](../../sauces-and-condiments/sauces/sauce-red.md)
 - Fresh mozzarella, sliced
 - Parmigiano reggiano, finely grated
 - 1 loaf French bread

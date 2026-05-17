@@ -16,7 +16,7 @@ From Grant Massey
 
 ## Directions
 
-- Slow cook [chuck roast](chuck-roast.md). Shred. Set aside.
+- Slow cook [chuck roast](../american/roast-chuck.md). Shred. Set aside.
 - Separately, cook ground beef and onion. Season to taste with salt and pepper.
 - Add flour and cook down to remove flour flavor.
 - Add beef broth, tomato sauce, and green chili.

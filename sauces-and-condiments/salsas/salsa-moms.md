@@ -1,6 +1,6 @@
 # Mom's salsa
 
-This is her updated version based off of [Beverly's](beverly-baldwins-gringo-salsa.md) and the Pioneer Woman's, among others.
+This is her updated version based off of [Beverly's](salsa-beverly-baldwins-gringo.md) and the Pioneer Woman's, among others.
 
 Mom uses a food processor for this, but feel free to just dice everything if you prefer.
 

@@ -31,7 +31,8 @@ drinks/
   sodas/                          ← has its own README + brew-day-notes/
 entrees/
   american/
-  curries/                        ← South Asian + Caribbean
+  caribbean/                      ← Trinidadian, Dominican, etc.
+  curries/                        ← South Asian (butter chicken, etc.)
   east-asian/
   italian/
   mediterranean/

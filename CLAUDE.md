@@ -5,7 +5,6 @@ Personal recipe collection in markdown. Each recipe is its own file under a cate
 ## Working in this repo
 
 - **Work directly in `main`.** No feature branches, no worktrees, no MRs. Edit, commit, push.
-- Push immediately after committing (per global convention).
 - Conventional commit prefixes: `feat:` for new recipes, `fix:` for corrections, `refactor:` for reorganization, `docs:` for README-only changes.
 
 ## Adding a recipe
@@ -68,13 +67,9 @@ sweets/
   - Sibling folder: `[meatballs](../italian/meatballs.md)`
   - Different top-level: `[red sauce](../../sauces-and-condiments/sauces/sauce-red.md)`
 
-## README intro conventions (already in [README.md](README.md))
+## Recipe conventions
 
-- Mince = super fine (<¼"), dice = ¼–½", chopped = >½".
-- Default: salted butter, large eggs.
-- "Flour" = all-purpose, "sugar" = white granulated.
-- Non-ground beef is seasoned and rested before cooking; slow-cooks are seared first.
-- Ground beef is seasoned with Lawry's seasoned salt + fresh cracked pepper.
+Ingredient defaults (salted butter, all-purpose flour, etc.), knife-cut sizing, and meat-seasoning conventions live in the top of [README.md](README.md) — read that section before writing or editing a recipe so the resulting file matches house style.
 
 ## Attribution / name lineage
 

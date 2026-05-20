@@ -155,9 +155,11 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 
 - [Enchilada Sauce — Bill Jordan's Green](sauces-and-condiments/salsas/enchilada-sauce-bill-jordans-green.md)
 - [Enchilada Sauce — Grandma Goettel's](sauces-and-condiments/salsas/enchilada-sauce-grandma-goettels.md)
+- [Salsa — Aji Amarillo (Fermented)](sauces-and-condiments/salsas/sauce-aji-amarillo-fermented.md)
 - [Salsa — Beverly Baldwin's Gringo](sauces-and-condiments/salsas/salsa-beverly-baldwins-gringo.md)
 - [Salsa — Bill Jordan's Green](sauces-and-condiments/salsas/salsa-bill-jordans-green.md)
 - [Salsa — Birria](sauces-and-condiments/salsas/salsa-birria.md)
+- [Salsa — Fresno (Fermented)](sauces-and-condiments/salsas/sauce-fresno-fermented.md)
 - [Salsa — Grandpa Ferrin's Green](sauces-and-condiments/salsas/salsa-grandpa-ferrins-green.md)
 - [Salsa — Habanero](sauces-and-condiments/salsas/sauce-habanero.md)
 - [Salsa — J.R.'s](sauces-and-condiments/salsas/salsa-jrs.md)

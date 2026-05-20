@@ -80,3 +80,23 @@ Stir 1–2 T in after pulsing, before aging. Easy to overdo — too much makes a
 ### Starting experiments
 
 Two worth running back-to-back: straight **English bitter** (1:1 swap for the wine) and a **bourbon** version (3 T bourbon, drop water to 2 T, swap honey for maple). They'll teach the most about how the flavor base interacts with aging.
+
+## Mustard, more broadly
+
+Whole grain is one point on a wider spectrum. Two threads worth knowing about for context and for any future mustard project.
+
+### The three forms of mustard heat
+
+All mustard heat comes from the same chemistry — myrosinase enzymes converting glucosinolates into isothiocyanates when seeds are cracked and hydrated. The form you start with controls intensity and timing:
+
+- **Whole seeds** — slowest, most controllable. Soak in vinegar to slow the enzyme reaction, age for weeks to mellow further. This is whole grain mustard's mode. Heat is moderate and integrated.
+- **Mustard flour** (Colman's-style brown mustard powder) — medium. Bloom in cold water for 10–15 minutes to develop heat, then stop the reaction with vinegar/acid before it peaks. This is the mode for hot mustards (Colman's, Mister Mustard, English mustard at the steakhouse). Heat is sharper and fades over days.
+- **Mustard essential oil** — maximum. Steam-distilled from black mustard seeds, sold in tiny bottles, dosed in drops not spoonfuls because it's essentially pure allyl isothiocyanate. Wasabi-tier punch in a controllable form. Specialty Italian importers carry it. Don't confuse it with bottled Indian or Bangladeshi mustard oil — that's a pressed cooking fat with similar flavor but vastly weaker, and it's labeled "for external use only" in the US under FDA rules.
+
+Mental model: seeds (slow, you can mellow), flour (medium, you can wake with cold water), essential oil (max, drops only). Pick the level that matches what the dish needs — and combine them for layered effects. A few drops of essential oil on top of a brown-mustard-flour hot mustard pushes past anything store-bought. A few drops on a finished fruity-capsaicin hot sauce (habanero, scotch bonnet) adds a top-note sinus rip layered on the slow capsaicin burn — different chemical attack vectors at the same time.
+
+### Mostarda di frutta
+
+A Northern Italian condiment, mostly from Cremona and Mantua: whole or cut fruit — pears, apricots, cherries, figs, quince, melon — preserved in a sugar syrup infused with mustard essential oil. The result is candied fruit that punches you in the sinuses. Traditional pairings are bollito misto (a slow-boiled meat feast — beef, capon, cotechino, sometimes calf's head and tongue), cured charcuterie, and aged cheeses like Parmigiano or blue cheese. The logic is the same as serving mustard with prosciutto — sweet cuts richness, acid brightens, mustard oil rips through fat — just turned up because the sugar carries it.
+
+There's no savory mostarda variant. Even mostarda verde (green tomatoes) and the single-fruit Mantua style (quince smashed into a paste) are sweet by design. If sweet-meat pairings aren't your thing, mostarda the product won't be either — but the essential oil at its core (see above) is the genuinely interesting tool to walk away with.

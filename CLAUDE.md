@@ -6,6 +6,28 @@ Personal recipe collection in markdown. Each recipe is its own file under a cate
 
 - **Work directly in `main`.** No feature branches, no worktrees, no MRs. Edit, commit, push.
 - Conventional commit prefixes: `feat:` for new recipes, `fix:` for corrections, `refactor:` for reorganization, `docs:` for README-only changes.
+- **The repo is shared publicly.** README, recipe files, and any markdown a cook would read should be written for a general audience — neutral voice, "you" or imperative form for instructions, no third-person asides about the owner. Save personal preferences and owner-specific context for this file (`CLAUDE.md`) instead.
+
+## Cook's preferences
+
+Persistent preferences that should shape suggestions, edits, and new recipes across this repo.
+
+**Philosophy.** Recipes are for remembering ingredients and proportions; technique and method are what actually matter. When writing or editing, lean toward describing *how* and *why* something is done, not just the sequence — method-level guidance is worth the line. The cook works by feel ("two spoonfuls," "half a jar," "quarter can"); recipes should give ranges rather than tweezer-precise grams unless chemistry demands it (bread, candy).
+
+**Alcohol.** Used purely for flavor, never for effect. When choosing wine, beer, or spirits, pick for what they contribute to the dish — flavor depth, acid, fat-cutting, aromatic survivability through aging or heat — never "what's open" or "use up the cheap stuff."
+
+**Anti-preferences (hard nos).**
+
+- **Caraway.** Skip entirely, including in territory where it's the default (German, Eastern European, rye breads).
+- **Kimchi.** Out as an ingredient or a pairing. Other Korean food is fine.
+- **Sweet meat.** Fruit-with-meat pairings, honey-glazed savories, fruit-stuffed pork, etc. don't land. Push savory/funky/acid layers instead.
+- **Warming spices in savory cooking.** Cinnamon, allspice, cloves in meat dishes are out. **Nutmeg is the odd exception** and is welcome.
+
+**Active interests.**
+
+- **Fermentation.** Sauerkraut and fermented hot sauces are an active build-out area. Fermentation as a technique is already trusted ground — see also the soda program in `drinks/sodas/`.
+- **Hot sauce.** The household habanero hot sauce is the standout (multiple-friends-confirm "best ever"). If hot sauce comes up as an ingredient or a suggestion, that's the local reference point, not Tabasco or sriracha.
+- **Hot dog eating contest, 2027.** Friend-group goal of 365 hot dogs across the year. Treat brat-, dog-, mustard-, sausage-, bun-, and topping-adjacent recipes as high-priority work for the duration.
 
 ## Adding a recipe
 

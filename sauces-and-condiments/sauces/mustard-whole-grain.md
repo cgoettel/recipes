@@ -48,7 +48,19 @@ Directions worth trying:
 - **Rye** — spicier.
 - **Calvados / apple brandy** — pork pairing, fall/winter.
 - **Mezcal** — smoky, one-trick pony but great with grilled.
-- **Gin** (juniper-forward like Tanqueray or Beefeater, not a soft contemporary style) — 2–3 T plus 1 t whole juniper berries and a strip of lemon peel in the soak. The botanical profile is already mustard-adjacent.
+
+Gin gets its own section below — the botanical profile is already mustard-adjacent and there's more to say about which styles survive the aging process.
+
+### Gin
+
+What survives aging is juniper, coriander, angelica, orris — the same chunky botanicals that make it through any pickling brine. What dies is delicate florals, citrus oils, and soft herbal infusions. Pick gins for their surviving lineup, not their glass profile.
+
+- **Tanqueray, Beefeater** — default. Juniper-forward London Dry, predictable. 2–3 T as an accent in place of an equal amount of wine, plus 1 t whole juniper berries and a strip of lemon peel in the soak.
+- **Plymouth** — reads softer than Tanqueray in the glass, but the softness is "less assertive juniper," not "different botanicals entirely." Still has juniper, coriander, angelica, orris, plus cardamom — survives better than expected. Gentler finished mustard, still recognizably gin.
+- **St. George Terroir** — Douglas fir, bay laurel, coastal sage. The pine-y notes do survive (terpene-rich, same chemical family as juniper), so this is predictable. Pushes the mustard into a "Pacific Northwest forest floor" direction — excellent on wild game, venison, holiday ham; not a sandwich mustard. Don't do a 1:1 swap; use 2–3 T as an accent with a few crushed juniper berries to bridge the conifer character. Sneaky variant: Terroir plus dry vermouth as the base liquid, since vermouth's herbal/wormwood notes reinforce rather than compete.
+- **Sipsmith VJOP** (57.7%, doubly concentrated juniper) — maximum juniper-bomb survival, if that's the goal.
+- **Bols Genever / Anchor Genevieve** — malt-based, a totally different direction. The maltiness survives beautifully and adds bready, whiskey-adjacent depth.
+- **Skip:** Botanist, Hendrick's, and other contemporary herbal/floral gins. The delicate top notes you're paying for don't survive aging — you'd end up with expensive vodka mustard.
 
 ### Amari (finishing accent only)
 

@@ -173,6 +173,7 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 - [Horseradish — Creamy](sauces-and-condiments/sauces/horseradish-creamy.md)
 - [Marinade — El Pollo Loco](sauces-and-condiments/sauces/marinade-el-pollo-loco.md)
 - [Mayo — Green Mayo](sauces-and-condiments/sauces/mayo-green-mayo.md)
+- [Mustard — Whole Grain](sauces-and-condiments/sauces/mustard-whole-grain.md)
 - [Pasta Sauce — Marie Peters](sauces-and-condiments/sauces/pasta-sauce-marie-peters.md)
 - [Peanut Sauce — Thai](sauces-and-condiments/sauces/peanut-sauce-thai.md)
 - [Salsa alle Noci (Walnut Pesto)](sauces-and-condiments/sauces/salsa-alle-noci-walnut-pesto.md)

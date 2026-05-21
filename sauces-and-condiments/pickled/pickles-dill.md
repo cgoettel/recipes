@@ -11,7 +11,7 @@ A bright, crisp refrigerator dill pickle in the Grillo's school. Cold-pack, neve
 - 1 t sugar (optional — rounds the sharpness, doesn't read as sweet)
 - 4–6 cloves garlic, peeled and lightly smashed
 - 2–3 fresh dill heads (or 4–5 fresh dill fronds)
-- 1–2 black tea bags, OR 2–3 fresh grape leaves, OR 2–3 fresh oak leaves (tannin source — see Notes)
+- 1–2 toasted American oak cubes (medium toast, ~½"), OR 2–3 fresh grape leaves, OR 2–3 fresh oak leaves, OR 1–2 black tea bags (tannin source — see Notes)
 - Optional spice add-ins: 1 t whole black peppercorns, 1 t whole coriander seeds, 1 t whole mustard seeds, 1 bay leaf
 
 ## Instructions
@@ -29,7 +29,12 @@ A bright, crisp refrigerator dill pickle in the Grillo's school. Cold-pack, neve
 
 **Blossom-end trim.** The blossom end (opposite the stem) contains an enzyme that breaks down pectin and softens pickles over time. Trimming ⅛" off this end is a 30-second ritual that meaningfully extends pickle crunch. Skip at your own risk.
 
-**Tannin source.** Tannins inhibit the enzymes that soften pickles. Grape leaves are the traditional Eastern European choice; oak leaves work too. Black tea bags are the easiest grocery-store substitute — they look weird in the jar but disappear into the brine and do exactly the same job. Without tannins, refrigerator pickles will still be crisp for a week but will soften noticeably after two.
+**Tannin source.** Tannins inhibit the enzymes that soften pickles over time. Without them, refrigerator pickles stay crisp for a week but soften noticeably after two. Options, in rough order of preference:
+
+- **Toasted American oak cubes** (medium toast, ½") are the most flexible choice — shelf-stable, easy to source from any homebrew or winemaking supply, and they double as a tool for aging spirits in glass at home (the same cube you drop in a pickle jar today is the same one you'd use to age white dog mash). 1–2 per quart jar is plenty. They add a faint pleasant oak/vanilla background note.
+- **Fresh grape leaves** are the traditional Eastern European choice. Jarred grape leaves from a Middle Eastern grocery (the brined-for-dolmas kind) work fine and keep forever.
+- **Fresh oak leaves** (mature, dry — not young green ones) work if you have access to an oak tree.
+- **Black tea bags** are the easiest grocery-store substitute, though they look weird floating in the jar.
 
 **No heating, ever.** Cold pack is the entire point. Heat is what mushes pickles — it's why canned pickles are softer than fresh-pack. Don't be tempted to "process" these on the stove; the high acidity from the vinegar makes them shelf-safe in the fridge for weeks without any heat treatment.
 

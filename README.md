@@ -151,6 +151,10 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 - [Poppy seed dressing](sauces-and-condiments/dressings/poppy-seed-dressing.md)
 - [Quinoa salad dressing](sauces-and-condiments/dressings/quinoa-salad-dressing.md)
 
+### Fermented
+
+- [Sauerkraut](sauces-and-condiments/fermented/sauerkraut.md)
+
 ### Salsas
 
 - [Enchilada Sauce — Bill Jordan's Green](sauces-and-condiments/salsas/enchilada-sauce-bill-jordans-green.md)

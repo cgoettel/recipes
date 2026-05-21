@@ -73,7 +73,7 @@ entrees/
 household/
 sauces-and-condiments/
   dressings/
-  fermented/
+  pickled/                        ← lacto-ferments (sauerkraut) and vinegar pickles together
   salsas/
   sauces/
 sides-and-starters/

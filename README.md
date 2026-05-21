@@ -151,9 +151,11 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 - [Poppy seed dressing](sauces-and-condiments/dressings/poppy-seed-dressing.md)
 - [Quinoa salad dressing](sauces-and-condiments/dressings/quinoa-salad-dressing.md)
 
-### Fermented
+### Pickled
 
-- [Sauerkraut](sauces-and-condiments/fermented/sauerkraut.md)
+- [Pickles — Dill](sauces-and-condiments/pickled/pickles-dill.md)
+- [Pickles — Hot Spears](sauces-and-condiments/pickled/pickles-hot-spears.md)
+- [Sauerkraut](sauces-and-condiments/pickled/sauerkraut.md)
 
 ### Salsas
 

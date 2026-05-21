@@ -25,9 +25,20 @@ Persistent preferences that should shape suggestions, edits, and new recipes acr
 
 **Active interests.**
 
-- **Fermentation.** Sauerkraut and fermented hot sauces are an active build-out area. Fermentation as a technique is already trusted ground — see also the soda program in `drinks/sodas/`.
-- **Hot sauce.** The household habanero hot sauce is the standout (multiple-friends-confirm "best ever"). If hot sauce comes up as an ingredient or a suggestion, that's the local reference point, not Tabasco or sriracha.
+- **Fermentation.** Sauerkraut, pickles, and fermented hot sauces are an active build-out area. Fermentation as a technique is already trusted ground — see also the soda program in `drinks/sodas/`.
 - **Hot dog eating contest, 2027.** Friend-group goal of 365 hot dogs across the year. Treat brat-, dog-, mustard-, sausage-, bun-, and topping-adjacent recipes as high-priority work for the duration.
+
+**Reference profiles and brand benchmarks.**
+
+- **Fermented and pickled vegetables — target bright/crisp/less-funky, not deep funk.** The reference points are **Claussen kraut** (best both fresh and in cooking) and **Grillo's pickles** (dill and hot spears). The cook will go out of the way to a grocery store stocking them. **Bubbies is explicitly out** — too deeply funky, too fully fermented. Design recipes for the Claussen/Grillo's end of the spectrum: shorter ferments, slightly higher salt (closer to 2.5% than 2%), thicker cuts, eaten young, stored cold.
+- **Hot sauce — multiple profile slots, not "one best."** Distinct bottles for distinct cuisine pairings:
+  - **Homemade habanero** — fresh, fruity, decidedly Mexican; for Mexican food. Multiple-friends-confirm "best ever."
+  - **Yellow Bird habanero** — matured, savory-deeper (from carrot + cooking, not fermentation); for American and German meals.
+  - **Fermented hot sauces** (e.g., the Fresno and aji amarillo recipes in this repo) — funky/lacto profile; a third slot for slow-cooked meats, charcuterie, grilled food.
+
+**Fermentation constraint: house temperature.**
+
+The house is climate-controlled at 21.5–24°C (~71–75°F) and there is no cooler microclimate available (the cigar tupperdor runs a degree or two warmer too). This is the warm end of the lacto-fermentation comfort range — textbook ideal is 60–65°F (15.5–18.5°C) — so ferments run **faster and tend funkier** than reference profiles like Claussen would suggest. Recipes should compensate: shorter ferment windows, higher salt percentages, thicker cuts, and frequent tasting from day 5 onward to catch the right moment before it tips. Historical room-level temperature data lives in `~/git/smart-home/` Grafana if a cooler spot is ever worth identifying.
 
 ## Adding a recipe
 
@@ -62,6 +73,7 @@ entrees/
 household/
 sauces-and-condiments/
   dressings/
+  fermented/
   salsas/
   sauces/
 sides-and-starters/

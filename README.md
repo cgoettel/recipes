@@ -80,6 +80,7 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 - [Chicken — LeRoy and Lewis](entrees/american/chicken-leroy-and-lewis.md)
 - [Chicken Caesar Sandwich — CHUDS](entrees/american/chicken-caesar-sandwich-chuds.md)
 - [Chicken Salad — Mel's Kitchen](entrees/american/chicken-salad-mels-kitchen.md)
+- [Chicken Salad — Souper Jenny's Big Nasty (Knockoff)](entrees/american/chicken-salad-souper-jenny-big-nasty.md)
 - [Chicken Wings](entrees/american/chicken-wings.md)
 - [Chili — Knockoff Ron's](entrees/american/chili-knockoff-rons.md)
 - [Chili — Mom's](entrees/american/chili-moms.md)

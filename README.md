@@ -77,8 +77,10 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 
 - [Apple Cider Syrup](drinks/syrups/apple-cider-syrup.md)
 - [Cinnamon Syrup](drinks/syrups/cinnamon-syrup.md)
+- [Demerara Rich Simple Syrup](drinks/syrups/demerara-rich-simple-syrup.md)
 - [Honey Syrup](drinks/syrups/honey-syrup.md)
 - [Lime Cordial](drinks/syrups/lime-cordial.md)
+- [Semi-Rich Simple Syrup (1.5:1)](drinks/syrups/semi-rich-simple-syrup.md)
 - [Strawberry Syrup](drinks/syrups/strawberry-syrup.md)
 - [Vanilla Syrup](drinks/syrups/vanilla-syrup.md)
 

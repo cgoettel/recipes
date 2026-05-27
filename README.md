@@ -73,6 +73,15 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 - [Soda — Grapefruit](drinks/sodas/soda-grapefruit.md)
 - [Soda — Mello Yello (Knockoff)](drinks/sodas/soda-mello-yello-knockoff.md)
 
+### Syrups
+
+- [Apple Cider Syrup](drinks/syrups/apple-cider-syrup.md)
+- [Cinnamon Syrup](drinks/syrups/cinnamon-syrup.md)
+- [Honey Syrup](drinks/syrups/honey-syrup.md)
+- [Lime Cordial](drinks/syrups/lime-cordial.md)
+- [Strawberry Syrup](drinks/syrups/strawberry-syrup.md)
+- [Vanilla Syrup](drinks/syrups/vanilla-syrup.md)
+
 ## Entrées
 
 ### American

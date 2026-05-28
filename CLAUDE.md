@@ -61,6 +61,7 @@ bread/
 breakfast/
 drinks/
   sodas/                          ← has its own README + brew-day-notes/
+  syrups/                         ← cocktail syrups, cordials, oleo-saccharums
 entrees/
   american/
   caribbean/                      ← Trinidadian, Dominican, etc.

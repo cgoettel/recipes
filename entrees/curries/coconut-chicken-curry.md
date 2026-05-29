@@ -70,5 +70,5 @@ For 1.5–2 lb bone-in skinless chicken thighs (5–6 thighs), serves 3–4:
 - Onion browning closer to 10–12 min, masala bhuna closer to 8 min
 
 ## Serve With
-- Basmati rice (jeera rice or light pulao)
+- Basmati rice ([jeera rice](../../sides-and-starters/rice-jeera.md) or [light pulao](../../sides-and-starters/rice-basmati-pulao.md))
 - Naan or roti

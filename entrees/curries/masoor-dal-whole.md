@@ -1,6 +1,6 @@
 # Whole Masoor Dal (Sabut Masoor)
 
-Heartier than red lentil dal — the lentils hold their shape and the dish eats like a full meal. Plan ~75 minutes start to finish, mostly hands-off. Similar rhythm to frijoles de la olla.
+Heartier than red lentil dal — the lentils hold their shape and the dish eats like a full meal. Plan ~75 minutes start to finish, mostly hands-off. Similar rhythm to [frijoles de la olla](../../sides-and-starters/frijoles-de-la-olla.md).
 
 Serves 3–4 with rice or roti.
 
@@ -43,7 +43,7 @@ Tip the masala into the dal pot. Simmer together 10 minutes so they marry. Salt 
 - Day 2 is significantly better — flavors deepen, lentils tighten up. Freezes well.
 
 ## Serve With
-- Basmati rice (jeera rice or light pulao)
+- Basmati rice ([jeera rice](../../sides-and-starters/rice-jeera.md) or [light pulao](../../sides-and-starters/rice-basmati-pulao.md))
 - Roti
 - Yogurt
 - Something pickled

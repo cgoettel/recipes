@@ -118,6 +118,9 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 ### Curries
 
 - [Butter Chicken](entrees/curries/butter-chicken.md)
+- [Coconut Chicken Curry — Kerala-Style](entrees/curries/coconut-chicken-curry.md)
+- [Masoor Dal — Red Lentil](entrees/curries/masoor-dal-red-lentil.md)
+- [Masoor Dal — Whole (Sabut Masoor)](entrees/curries/masoor-dal-whole.md)
 
 ### East Asian
 

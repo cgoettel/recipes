@@ -21,7 +21,7 @@ Persistent preferences that should shape suggestions, edits, and new recipes acr
 - **Caraway.** Skip entirely, including in territory where it's the default (German, Eastern European, rye breads).
 - **Kimchi.** Out as an ingredient or a pairing. Other Korean food is fine.
 - **Sweet meat.** Fruit-with-meat pairings, honey-glazed savories, fruit-stuffed pork, etc. don't land. Push savory/funky/acid layers instead.
-- **Warming spices in savory cooking.** Cinnamon, allspice, cloves in meat dishes are out. **Nutmeg is the odd exception** and is welcome.
+- **Warming spices in Western savory cooking.** Cinnamon, allspice, cloves in American/European meat dishes (chili, roasts, etc.) are out. **Nutmeg is the odd exception** and is welcome. **South Asian / Indian cooking is fully exempt** — cinnamon, cloves, cardamom bloomed in fat are core technique there and explicitly welcome (Kerala coconut curry, basmati pulao, etc.). The aversion is to warm spices reading as "sweet" in Western savories, not to the spices themselves.
 
 **Active interests.**
 

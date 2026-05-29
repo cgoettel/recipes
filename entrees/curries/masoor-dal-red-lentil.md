@@ -38,6 +38,7 @@ Pour the entire hot tadka over the dal. Stir half of it in, leave the rest swirl
 - Hing (asafoetida) is in small jars at any Indian grocery. Lasts forever. Adds a subtle savory/oniony note that's hard to replicate. Optional but worth having around.
 - For a richer version: while the lentils simmer, cook a finely diced onion in ghee until golden, add 1 tbsp grated ginger and a chopped tomato, cook until jammy, then stir into the dal before the tadka.
 - Eats like congee — soupy, comforting, standalone meal with rice. Day 2 is even better.
+- For a heartier dal that holds its shape and eats like a full meal, see [whole masoor dal](masoor-dal-whole.md).
 
 ## Serve With
 - Basmati rice (jeera rice is the classic pairing)

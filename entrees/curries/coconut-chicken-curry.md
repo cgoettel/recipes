@@ -42,7 +42,7 @@ Heat oil over medium-high. Bloom the whole spices 20–30 seconds. Add onion and
 
 Add ginger, garlic, green chile, curry leaves; 1–2 min. Drop to medium. Add the ground spices and bloom 30 seconds — oil will redden and go fragrant.
 
-Add tomato. Cook down hard until the oil separates from the masala, ~5 min. This is the *bhuna* — same move as in the dals.
+Add tomato. Cook down hard until the oil separates from the masala, ~5 min. This is the *bhuna* — same move as in the dals ([whole](masoor-dal-whole.md), [red lentil](masoor-dal-red-lentil.md)).
 
 Add chicken and a good pinch of salt. Stir to coat in the masala, sear briefly, 3–4 min. Pour in the coconut milk plus water. Bring to a *bare* simmer — don't hard boil coconut milk or it'll split. Partially cover, simmer 25–30 minutes until the chicken is fork-tender and the gravy has thickened.
 

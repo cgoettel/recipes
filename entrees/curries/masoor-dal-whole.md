@@ -37,7 +37,7 @@ Tip the masala into the dal pot. Simmer together 10 minutes so they marry. Salt 
 ## Notes
 
 - The bhuna is the entire game. If the tomato hasn't broken down completely and the oil hasn't separated from the masala, keep cooking it. Underdone masala makes for flat-tasting dal.
-- Because the masala already does heavy aromatic work, a separate tadka on top is optional here (unlike red lentil dal where it's essential). If you want one: ghee + a dried red chile + a pinch of hing, poured over each bowl.
+- Because the masala already does heavy aromatic work, a separate tadka on top is optional here (unlike [red lentil dal](masoor-dal-red-lentil.md) where it's essential). If you want one: ghee + a dried red chile + a pinch of hing, poured over each bowl.
 - A small pinch of hing into the masala right after the cumin is a nice subtle move if you have it. Skip if you don't.
 - Eats best over rice with yogurt and something pickled (mango, lime, even a quick salted onion).
 - Day 2 is significantly better — flavors deepen, lentils tighten up. Freezes well.

@@ -41,6 +41,6 @@ Pour the entire hot tadka over the dal. Stir half of it in, leave the rest swirl
 - For a heartier dal that holds its shape and eats like a full meal, see [whole masoor dal](masoor-dal-whole.md).
 
 ## Serve With
-- Basmati rice (jeera rice is the classic pairing)
+- Basmati rice ([jeera rice](../../sides-and-starters/rice-jeera.md) is the classic pairing)
 - Yogurt
 - Something pickled

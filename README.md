@@ -264,6 +264,7 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 - [Maple Pecan Cookies](sweets/cookies/maple-pecan-cookies.md)
 - [Molasses Cookies](sweets/cookies/molasses-cookies.md)
 - [Oatmeal Cookies](sweets/cookies/oatmeal-cookies.md)
+- [Oatmeal Cookies — Apricot Cranberry (Churn Knockoff)](sweets/cookies/oatmeal-cookies-apricot-cranberry-churn.md)
 - [Peanut Butter Cookies](sweets/cookies/peanut-butter-cookies.md)
 - [Snickerdoodles](sweets/cookies/snickerdoodles.md)
 - [Sugar Cookies — Domino Sugar's Classic](sweets/cookies/sugar-cookies-domino-sugar-classic.md)

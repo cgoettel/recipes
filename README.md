@@ -56,6 +56,7 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 
 ## Drinks
 
+- [Coffee — 4:6 Method](drinks/coffee-4-6-method.md)
 - [Coffee — Cold Brew](drinks/coffee-cold-brew.md)
 - [Coffee — Japanese Iced](drinks/coffee-japanese-iced.md)
 - [Coffee — New Hybrid Method](drinks/coffee-new-hybrid-method.md)

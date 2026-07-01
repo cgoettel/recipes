@@ -2,7 +2,7 @@
 
 I have tried to be explicit in these recipes, but sometimes I've been doing something the same way for so long that I forget that it's even worth mentioning. Or, some things (to me) are a given so I omit them from the recipe. Here are some guidelines in case you get lost:
 
-- When cutting vegetables, mince is super fine (&lt;&frac14;"), dice is fine (like &frac14;&ndash;&frac12;"), and chopped is large (&gt;&frac12;")
+- When cutting vegetables, mince is super fine (\<¼"), dice is fine (like ¼–½"), and chopped is large (>½")
 - I always use salted butter.
 - It's always large eggs.
 - For non-ground beef, I always season my beef and let it rest before cooking. If I'm slow cooking (e.g., crock pot, braising), I always sear it first.
@@ -217,6 +217,7 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 - [Creamed Corn](sides-and-starters/creamed-corn.md)
 - [Frijoles de la Olla](sides-and-starters/frijoles-de-la-olla.md)
 - [Gobi 65](sides-and-starters/gobi-65.md)
+- [Grilled Artichokes](sides-and-starters/grilled-artichokes.md)
 - [Hot artichoke dip](sides-and-starters/hot-artichoke-dip.md)
 - [Pork and Beans — Dr. Hunn's](sides-and-starters/pork-and-beans-dr-hunns.md)
 - [Rice — Basmati Pulao](sides-and-starters/rice-basmati-pulao.md)

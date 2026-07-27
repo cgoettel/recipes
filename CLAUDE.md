@@ -96,7 +96,7 @@ sweets/
 
 ## Recipe formatting quirks
 
-- Older recipes use HTML entities (`&frac12;`, `&ndash;`, `&frac14;`); newer ones use Unicode (`½`, `–`, `¼`). Either is fine — match the existing file's style if editing.
+- Fractions and dashes are Unicode (`½`, `–`, `¼`), corpus-wide. Older recipes used HTML entities (`&frac12;`, `&ndash;`); the `mdformat` pre-commit hook converts them, so entities typed into a new recipe will be rewritten on commit rather than preserved.
 - Cross-recipe links use relative paths. Examples:
   - Same folder: `[birria de res](birria-de-res.md)`
   - Sibling folder: `[meatballs](../italian/meatballs.md)`

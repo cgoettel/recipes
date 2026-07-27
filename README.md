@@ -199,6 +199,7 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 - [Dipping Sauce — Tempura](sauces-and-condiments/sauces/dipping-sauce-tempura.md)
 - [Horseradish — Creamy](sauces-and-condiments/sauces/horseradish-creamy.md)
 - [Marinade — El Pollo Loco](sauces-and-condiments/sauces/marinade-el-pollo-loco.md)
+- [Marinade — Mrs. Frazier's Flank Steak](sauces-and-condiments/sauces/marinade-mrs-fraziers-flank-steak.md)
 - [Mayo — Green Mayo](sauces-and-condiments/sauces/mayo-green-mayo.md)
 - [Mustard — Whole Grain](sauces-and-condiments/sauces/mustard-whole-grain.md)
 - [Pasta Sauce — Marie Peters](sauces-and-condiments/sauces/pasta-sauce-marie-peters.md)

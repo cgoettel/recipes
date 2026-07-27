@@ -16,9 +16,9 @@ Lineage: Bryan Weight → Meredith → Grandma Ferrin → the current salsa mast
 ## Instructions
 
 1. Rinse and place jalapeños in a large pan of water and slowly bring to a boil. Simmer until they turn the color of green olives. Remove to ice water to cool.
-1. Slice the jalapeños and remove seeds from all but two — a spoon works well to remove the seeds. Quarter the onions.
-1. Working in batches (the blender will fit ~¼ of the mixture at a time), blend ¼ of the tomatillos, jalapeños, onion, garlic, cilantro (including stems), and salt until smooth.
-1. Place mixture in a large bowl and chill. Stir in the guacamole, then add sugar to taste.
+2. Slice the jalapeños and remove seeds from all but two — a spoon works well to remove the seeds. Quarter the onions.
+3. Working in batches (the blender will fit ~¼ of the mixture at a time), blend ¼ of the tomatillos, jalapeños, onion, garlic, cilantro (including stems), and salt until smooth.
+4. Place mixture in a large bowl and chill. Stir in the guacamole, then add sugar to taste.
 
 ## Notes
 

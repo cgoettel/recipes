@@ -5,6 +5,7 @@ Coconut milk based, glossy, bone-in chicken thighs. Tested at the 3-thigh scale 
 Serves 1–2 across multiple meals at this scale.
 
 ## Aromatics & Whole Spices
+
 - 1 tbsp coconut oil
 - 1 small cinnamon stick (or ½ a regular one)
 - 2 green cardamom pods, bruised
@@ -17,6 +18,7 @@ Serves 1–2 across multiple meals at this scale.
 - 6–8 fresh curry leaves
 
 ## Ground Spices
+
 - ½ tsp turmeric
 - 1½ tsp coriander powder
 - ½ tsp Kashmiri chile
@@ -24,6 +26,7 @@ Serves 1–2 across multiple meals at this scale.
 - ¼ tsp garam masala (at the end)
 
 ## Body
+
 - 1 small/medium tomato, finely chopped (or ¼ cup crushed)
 - ½ can (~7 oz) full-fat coconut milk + ¼ cup water
   - OR: 5 oz Mae Ploy coconut cream + 3 oz water
@@ -31,6 +34,7 @@ Serves 1–2 across multiple meals at this scale.
 - salt
 
 ## Finish
+
 - cilantro
 - lime wedge
 
@@ -70,5 +74,6 @@ For 1.5–2 lb bone-in skinless chicken thighs (5–6 thighs), serves 3–4:
 - Onion browning closer to 10–12 min, masala bhuna closer to 8 min
 
 ## Serve With
+
 - Basmati rice ([jeera rice](../../sides-and-starters/rice-jeera.md) or [light pulao](../../sides-and-starters/rice-basmati-pulao.md))
 - Naan or roti

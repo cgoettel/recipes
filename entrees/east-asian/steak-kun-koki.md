@@ -2,14 +2,14 @@
 
 ## Ingredients
 
-- 1&frac12; lbs flank steak
+- 1½ lbs flank steak
 - 3 T sesame seeds
 - 3 T oil
-- &frac14; C soy sauce
-- &frac12; C finely sliced green onions
+- ¼ C soy sauce
+- ½ C finely sliced green onions
 - 3 cloves garlic, minced
-- &frac14; t black pepper
-- &frac14; t ground ginger
+- ¼ t black pepper
+- ¼ t ground ginger
 - 2 T brown sugar
 
 ## Directions

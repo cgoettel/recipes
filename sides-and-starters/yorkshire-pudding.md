@@ -1,11 +1,11 @@
 # Yorkshire pudding
 
-This recipe is measured to work in Utah (4500' elevation and <50% humidity). It will not work properly at sea level.
+This recipe is measured to work in Utah (4500' elevation and \<50% humidity). It will not work properly at sea level.
 
 ## Ingredients
 
 - 3 eggs
-- &frac12; pint milk
+- ½ pint milk
 - Flour
 
 ## Directions

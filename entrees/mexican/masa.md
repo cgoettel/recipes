@@ -5,8 +5,8 @@
 - 2 C corn flour
 - 2 C broth
 - 1 t baking powder
-- &frac12; t salt
-- &frac23; C lard or shortening
+- ½ t salt
+- ⅔ C lard or shortening
 
 ## Directions
 

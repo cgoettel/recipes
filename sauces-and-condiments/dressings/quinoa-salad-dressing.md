@@ -10,5 +10,5 @@
 ## Instructions
 
 1. Whisk the lime juice, salt, and cumin together.
-1. Add the oil in a stream while whisking.
-1. Drizzle over the salad and toss with salt and pepper to taste.
+2. Add the oil in a stream while whisking.
+3. Drizzle over the salad and toss with salt and pepper to taste.

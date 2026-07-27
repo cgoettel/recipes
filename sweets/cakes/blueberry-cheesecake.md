@@ -7,8 +7,8 @@ From [Grandma Goettel](https://www.familysearch.org/tree/person/details/KWCR-R7H
 ### Crust
 
 - 2 C graham cracker crumbs
-- &frac12;C butter
-- &frac12;C sugar
+- ½C butter
+- ½C sugar
 
 ### Filling
 
@@ -24,7 +24,7 @@ From [Grandma Goettel](https://www.familysearch.org/tree/person/details/KWCR-R7H
 ## Instructions
 
 1. Form crust together and place in a 9x13 pan
-1. Mix filling ingredients together until smooth
-1. Pour over crust
-1. Bake at 350&deg;F for 15 minutes. Don't over cook.
-1. Let cool and then pour can  of blueberry pie filling over top.
+2. Mix filling ingredients together until smooth
+3. Pour over crust
+4. Bake at 350°F for 15 minutes. Don't over cook.
+5. Let cool and then pour can of blueberry pie filling over top.

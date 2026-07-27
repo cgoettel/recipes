@@ -8,7 +8,7 @@ This recipe comes from Bucholz on the [Homebrew Talk](https://www.homebrewtalk.c
 - finely grated zest and juice from 4 lemons
 - finely grated zest and juice from 3 limes
 - finely grated zest and juice from 6 oranges
-- 3 small (2.5"&ndash;3") cinnamon sticks, broken into small pieces
+- 3 small (2.5"–3") cinnamon sticks, broken into small pieces
 - 2 T dried bitter orange peel
 - 4 T dried sweet orange peel
 - 2 T dried lemon peel

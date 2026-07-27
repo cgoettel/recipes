@@ -2,7 +2,7 @@
 
 ## Ingredients
 
-- &frac12; C olive oil
+- ½ C olive oil
 - 250 g walnuts
 - 1 clove garlic
 - 30 g pine nuts

@@ -18,9 +18,9 @@ This recipe is from [La Capital](https://www.youtube.com/watch?v=g2F5RO6vNSs). H
 ## Instructions
 
 1. Make birria de res and save the fat that you skim off.
-1. Make sure the consomé is hot and ready to serve.
-1. Heat a large griddle and use the birria fat to coat the surface. For each taco, dunk the tortilla in consomé and place on the griddle. Add meat and cheese. Fold it over and allow it to crisp up. Flip and allow to crisp.
-1. Serve with lime, onion, cilantro, and consomé (garnished with onion, cilantro, and radish).
+2. Make sure the consomé is hot and ready to serve.
+3. Heat a large griddle and use the birria fat to coat the surface. For each taco, dunk the tortilla in consomé and place on the griddle. Add meat and cheese. Fold it over and allow it to crisp up. Flip and allow to crisp.
+4. Serve with lime, onion, cilantro, and consomé (garnished with onion, cilantro, and radish).
 
 ## Notes
 

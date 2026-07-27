@@ -19,9 +19,9 @@ From Grant Massey (see also [Grant's burros](../../entrees/mexican/burros-grants
 ## Instructions
 
 1. Melt the butter and shortening in the microwave for 90 seconds.
-1. Beat the eggs and mix them with the butters until really smooth.
-1. Mix in the baking soda, baking powder, and salt until smooth.
-1. Mix in the sugars.
-1. Mix in the flour gradually — you want a dough like bread dough that's not sticking to the sides, forming a ball.
-1. Form by hand into ping-pong-ball-sized rounds. Add 3 chocolate chips on top of each for a uniform look.
-1. Bake at 350°F for 8–9 minutes.
+2. Beat the eggs and mix them with the butters until really smooth.
+3. Mix in the baking soda, baking powder, and salt until smooth.
+4. Mix in the sugars.
+5. Mix in the flour gradually — you want a dough like bread dough that's not sticking to the sides, forming a ball.
+6. Form by hand into ping-pong-ball-sized rounds. Add 3 chocolate chips on top of each for a uniform look.
+7. Bake at 350°F for 8–9 minutes.

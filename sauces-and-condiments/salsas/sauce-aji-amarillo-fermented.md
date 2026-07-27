@@ -17,13 +17,13 @@ The fermentation process is identical to [Salsa — Fresno (Fermented)](sauce-fr
 ## Instructions
 
 1. Roughly chop the chiles (seeds in for full heat; scrape out for milder), bell pepper, onion, and garlic into ~½" pieces.
-1. Weigh everything in a non-reactive bowl. Add salt at 2.5% of the total weight (about 25 g for the quantities above). Mix and let sit 15 minutes so liquid draws out.
-1. Pack firmly into a quart wide-mouth mason jar, leaving 1½" headspace.
-1. Add filtered water to cover by ½", keeping 1" headspace.
-1. Weigh the solids down and cap with an airlock fermentation lid.
-1. Ferment at room temperature (65–75°F) for 2–4 weeks. Activity follows the same pattern as the Fresno ferment: very active days 1–5, slowing through week 1–2, deepening through week 4.
-1. Strain solids; reserve brine. Blend the solids, adding brine until the consistency is right.
-1. Stir in lime juice and olive oil if using. Bottle into clean glass and refrigerate.
+2. Weigh everything in a non-reactive bowl. Add salt at 2.5% of the total weight (about 25 g for the quantities above). Mix and let sit 15 minutes so liquid draws out.
+3. Pack firmly into a quart wide-mouth mason jar, leaving 1½" headspace.
+4. Add filtered water to cover by ½", keeping 1" headspace.
+5. Weigh the solids down and cap with an airlock fermentation lid.
+6. Ferment at room temperature (65–75°F) for 2–4 weeks. Activity follows the same pattern as the Fresno ferment: very active days 1–5, slowing through week 1–2, deepening through week 4.
+7. Strain solids; reserve brine. Blend the solids, adding brine until the consistency is right.
+8. Stir in lime juice and olive oil if using. Bottle into clean glass and refrigerate.
 
 ## Notes
 

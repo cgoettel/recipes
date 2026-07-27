@@ -15,8 +15,8 @@ From [Whitney Bond](https://whitneybond.com/poppy-seed-dressing/).
 ## Instructions
 
 1. In a medium bowl, whisk the honey, salt, dry mustard, and white wine vinegar together.
-1. Slowly drizzle in the oil, whisking as you add it.
-1. Stir in the poppy seeds and minced shallots.
+2. Slowly drizzle in the oil, whisking as you add it.
+3. Stir in the poppy seeds and minced shallots.
 
 ## Notes
 

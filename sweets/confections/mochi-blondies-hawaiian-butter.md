@@ -10,11 +10,11 @@ This recipe is from [SBS](https://www.sbs.com.au/food/article/2022/07/15/hawaiia
 - 3 eggs
 - 2 C coconut milk
 - 2 t baking powder
-- &frac12; t salt
+- ½ t salt
 
 ## Instructions
 
-1. Preheat oven to 350&deg;F.
-1. Combine all ingredients in a bowl and whisk until smooth.
-1. Pour into a lightly greased 13x9 pan.
-1. Bake at 350&deg;F for 45&ndash;60 minutes, or until golden brown and cooked through.
+1. Preheat oven to 350°F.
+2. Combine all ingredients in a bowl and whisk until smooth.
+3. Pour into a lightly greased 13x9 pan.
+4. Bake at 350°F for 45–60 minutes, or until golden brown and cooked through.

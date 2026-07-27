@@ -24,10 +24,10 @@ From LeAnn Goettel. The longer it simmers, the better it gets. Sausage, green ch
 ## Instructions
 
 1. Sauté the onion in butter.
-1. Add the hamburger and brown it. Drain off excess fat.
-1. Add all remaining ingredients except the beans. Mix well and heat thoroughly.
-1. Add the beans, an additional large can of diced tomatoes, and 3–6 t of chili powder to taste.
-1. Cover and simmer ~30 minutes.
+2. Add the hamburger and brown it. Drain off excess fat.
+3. Add all remaining ingredients except the beans. Mix well and heat thoroughly.
+4. Add the beans, an additional large can of diced tomatoes, and 3–6 t of chili powder to taste.
+5. Cover and simmer ~30 minutes.
 
 ## Notes
 

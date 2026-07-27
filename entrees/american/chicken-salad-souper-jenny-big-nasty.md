@@ -50,9 +50,9 @@ Makes enough chicken salad for 6–8 croissant sandwiches.
 ### Poach the chicken
 
 1. Put the chicken breasts in a pot just large enough to hold them in a single layer. Add onion, garlic, peppercorns, bay leaves, and salt. Cover with cold water by an inch.
-1. Bring to a bare simmer over medium heat — small bubbles breaking the surface, not a rolling boil. Hard boiling tightens the muscle and squeezes out moisture.
-1. Once at a simmer, drop the heat to low and cook 15–20 minutes, until the thickest part of the breast reads 160°F. Pull off heat and let the chicken cool in the poaching liquid for at least 20 minutes — this is what keeps it moist. The carryover finishes the cook.
-1. Lift chicken out, discard skin and bones, and pull the meat by hand into shaggy bite-sized pieces. Aim for irregular shreds and small chunks, nothing uniform. You want about 4 cups.
+2. Bring to a bare simmer over medium heat — small bubbles breaking the surface, not a rolling boil. Hard boiling tightens the muscle and squeezes out moisture.
+3. Once at a simmer, drop the heat to low and cook 15–20 minutes, until the thickest part of the breast reads 160°F. Pull off heat and let the chicken cool in the poaching liquid for at least 20 minutes — this is what keeps it moist. The carryover finishes the cook.
+4. Lift chicken out, discard skin and bones, and pull the meat by hand into shaggy bite-sized pieces. Aim for irregular shreds and small chunks, nothing uniform. You want about 4 cups.
 
 ### Toast the pecans
 
@@ -65,14 +65,14 @@ Makes enough chicken salad for 6–8 croissant sandwiches.
 ### Combine
 
 1. In a large bowl, combine pulled chicken, grapes, cooled pecans, and cranberries.
-1. Add about three-quarters of the dressing and fold gently with a spatula. Add more dressing a spoonful at a time until everything is coated but the salad still looks like distinct pieces, not a paste. You may not use it all.
-1. Taste and adjust salt. Cover and refrigerate at least 1 hour — preferably overnight. The cranberries plump slightly, the pecans soften just enough, and the dressing pulls everything together.
+2. Add about three-quarters of the dressing and fold gently with a spatula. Add more dressing a spoonful at a time until everything is coated but the salad still looks like distinct pieces, not a paste. You may not use it all.
+3. Taste and adjust salt. Cover and refrigerate at least 1 hour — preferably overnight. The cranberries plump slightly, the pecans soften just enough, and the dressing pulls everything together.
 
 ### Build the sandwich
 
 1. Split a croissant horizontally with a serrated knife. Do not toast — toasting kills the flaky-buttery shatter that's half the point.
-1. Lay a generous handful of arugula on the bottom half — a real bed, not a few token leaves. The arugula is half of why this sandwich works, so don't be shy.
-1. Pile a generous scoop of chicken salad on. Close. Serve.
+2. Lay a generous handful of arugula on the bottom half — a real bed, not a few token leaves. The arugula is half of why this sandwich works, so don't be shy.
+3. Pile a generous scoop of chicken salad on. Close. Serve.
 
 ## Notes
 

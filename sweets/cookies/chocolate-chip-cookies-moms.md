@@ -17,7 +17,7 @@ From LeAnn Goettel.
 ## Instructions
 
 1. Cream the butter and sugars.
-1. Add the eggs and vanilla. Mix to incorporate.
-1. Add the flour, baking soda, and salt.
-1. Add the chocolate chips.
-1. Bake at 350°F for 12 minutes.
+2. Add the eggs and vanilla. Mix to incorporate.
+3. Add the flour, baking soda, and salt.
+4. Add the chocolate chips.
+5. Bake at 350°F for 12 minutes.

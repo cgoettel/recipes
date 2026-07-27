@@ -5,7 +5,7 @@
 - 1 lb mild Italian sausage or a half recipe of [meatballs](../../entrees/italian/meatballs.md)
 - olive oil
 - 1 large carrot, diced
-- &frac12; large onion or 1 medium onion, diced
+- ½ large onion or 1 medium onion, diced
 - 1 stalk celery, diced
 - 4 t minced garlic
 - 2 T tomato paste
@@ -19,17 +19,17 @@
 
 ## Instructions
 
-1. In a large, heavy bottom pot (I prefer an enameled cast iron), cook Italian sausage. Feel free to let lots of fond develop. Once cooked, remove and set aside. Or, make meatballs and set aside.
-1. Add enough olive oil to coat the bottom, add the mirepoix, season with salt, and cook until the onions are translucent and aromatic
-1. Add garlic and cook until aromatic
-1. Add tomato paste and cook a little to help caramelize it
-1. Pour in two cans of San Marzano tomatoes. Rinse the cans with chicken stock and add that in. Use your spoon to break the tomatoes into the size chunks that you like.
-1. Add 1 bunch of fresh basil, a parmigiano reggiano rind, oregano, and fresh-cracked pepper. DO NOT ADD SALT NOW.
-1. Add Italian sausage or meatballs to sauce
-1. Partially cover and simmer on low heat until reduced by half, stirring every 30 minutes. Make sure nothing sticks to the bottom and scrape the dried tomato paste off the sides and add it back in.
-1. Once reduced by half, kill the heat.
-1. Chop the other bunch of fresh basil and add it in. Add a couple glugs of a good quality olive oil. Salt to taste.
-1. Feel free to immersion blend to desired consistency.
+01. In a large, heavy bottom pot (I prefer an enameled cast iron), cook Italian sausage. Feel free to let lots of fond develop. Once cooked, remove and set aside. Or, make meatballs and set aside.
+02. Add enough olive oil to coat the bottom, add the mirepoix, season with salt, and cook until the onions are translucent and aromatic
+03. Add garlic and cook until aromatic
+04. Add tomato paste and cook a little to help caramelize it
+05. Pour in two cans of San Marzano tomatoes. Rinse the cans with chicken stock and add that in. Use your spoon to break the tomatoes into the size chunks that you like.
+06. Add 1 bunch of fresh basil, a parmigiano reggiano rind, oregano, and fresh-cracked pepper. DO NOT ADD SALT NOW.
+07. Add Italian sausage or meatballs to sauce
+08. Partially cover and simmer on low heat until reduced by half, stirring every 30 minutes. Make sure nothing sticks to the bottom and scrape the dried tomato paste off the sides and add it back in.
+09. Once reduced by half, kill the heat.
+10. Chop the other bunch of fresh basil and add it in. Add a couple glugs of a good quality olive oil. Salt to taste.
+11. Feel free to immersion blend to desired consistency.
 
 ## Notes
 

@@ -19,4 +19,4 @@ From Grandma Leavitt
 ## Instructions
 
 1. Peel potatoes and boil whole until soft, about 45 minutes
-1. Mix together pickle juice, mustard, salt, pepper, paprika, and evaporated milk.
+2. Mix together pickle juice, mustard, salt, pepper, paprika, and evaporated milk.

@@ -14,9 +14,9 @@ The classic from Magnolia Bakery in New York.
 ## Instructions
 
 1. Whisk together the cold water and sweetened condensed milk in a medium bowl.
-1. In a separate bowl, slowly whisk the liquid mixture into the pudding mix until smooth and lump-free, ~1 minute.
-1. Cover and refrigerate at least 1 hour, until firm.
-1. Whip the heavy cream until it starts to thicken, then increase speed and whip to stiff peaks.
-1. Add the pudding mixture to the whipped cream and whisk until no streaks remain.
-1. In a trifle or wide glass bowl, spread ¼ of the pudding over the bottom. Layer ⅓ of the cookies, then enough sliced banana to cover (1 to 1½ bananas). Continue layering, ending with pudding and a garnish of reserved wafers.
-1. Cover with plastic wrap and refrigerate 4–6 hours.
+2. In a separate bowl, slowly whisk the liquid mixture into the pudding mix until smooth and lump-free, ~1 minute.
+3. Cover and refrigerate at least 1 hour, until firm.
+4. Whip the heavy cream until it starts to thicken, then increase speed and whip to stiff peaks.
+5. Add the pudding mixture to the whipped cream and whisk until no streaks remain.
+6. In a trifle or wide glass bowl, spread ¼ of the pudding over the bottom. Layer ⅓ of the cookies, then enough sliced banana to cover (1 to 1½ bananas). Continue layering, ending with pudding and a garnish of reserved wafers.
+7. Cover with plastic wrap and refrigerate 4–6 hours.

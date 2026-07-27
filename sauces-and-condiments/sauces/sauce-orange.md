@@ -4,17 +4,17 @@ From [Grandma Goettel](https://www.familysearch.org/tree/person/details/KWCR-R7H
 
 ## Ingredients
 
-- &frac12;C sugar
+- ½C sugar
 - 1T corn starch
-- &frac12;t salt
+- ½t salt
 - 1T butter
 - 1C orange juice
 
 ## Instructions
 
 1. Combine sugar, corn starch, and salt in a saucepan. Stir in orange juice until it thickens, stirring constantly.
-1. Turn heat to low and simmer for 2 minutes.
-1. Remove from heat and add butter.
+2. Turn heat to low and simmer for 2 minutes.
+3. Remove from heat and add butter.
 
 ## Notes
 

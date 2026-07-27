@@ -16,17 +16,17 @@ Mom uses a food processor for this, but feel free to just dice everything if you
 - 4 cans Rotel tomatoes (save juice from one can)
 - 1 can whole, peeled tomatoes (like Centos)
 - 2 7 oz cans diced, roasted green chilis
-- &frac12; t cumin (optional, to taste)
-- &frac12;–1 lime, juiced
+- ½ t cumin (optional, to taste)
+- ½–1 lime, juiced
 - 1–2 bunches green onions
 
 ## Instructions
 
 1. Add white onion, jalapenoes, yellow chili, serrano, cilantro, garlic, salt, and juice from one can of Rotel to food processor. Jog 3–5 times.
-1. Add four cans of Rotel and one can of whole, peeled tomatoes. Jog 3–5 times.
-1. Pour into a large bowl.
-1. Add green chilis and cumin. Stir.
-1. Adjust seasoning for salt and garlic. If necessary, you can also add 1&frac12;&nbsp;t sugar.
-1. Add lime juice. Stir.
-1. Dice green onions and add.
-1. Taste and adjust seasonings as necessary.
+2. Add four cans of Rotel and one can of whole, peeled tomatoes. Jog 3–5 times.
+3. Pour into a large bowl.
+4. Add green chilis and cumin. Stir.
+5. Adjust seasoning for salt and garlic. If necessary, you can also add 1½ t sugar.
+6. Add lime juice. Stir.
+7. Dice green onions and add.
+8. Taste and adjust seasonings as necessary.

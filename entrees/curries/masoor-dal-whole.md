@@ -5,12 +5,14 @@ Heartier than red lentil dal — the lentils hold their shape and the dish eats 
 Serves 3–4 with rice or roti.
 
 ## Lentils
+
 - 1 cup whole masoor (sabut masoor), rinsed
 - 4 cups water
 - 1 tsp turmeric
 - salt
 
 ## Masala
+
 - 2 tbsp ghee (or neutral oil + a knob of butter at the end)
 - 1 tsp cumin seeds
 - 1 large onion, finely diced
@@ -23,6 +25,7 @@ Serves 3–4 with rice or roti.
 - ½ tsp garam masala (at the end)
 
 ## Finish
+
 - cilantro
 - lemon wedge
 
@@ -43,6 +46,7 @@ Tip the masala into the dal pot. Simmer together 10 minutes so they marry. Salt 
 - Day 2 is significantly better — flavors deepen, lentils tighten up. Freezes well.
 
 ## Serve With
+
 - Basmati rice ([jeera rice](../../sides-and-starters/rice-jeera.md) or [light pulao](../../sides-and-starters/rice-basmati-pulao.md))
 - Roti
 - Yogurt

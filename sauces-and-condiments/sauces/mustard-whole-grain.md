@@ -15,9 +15,9 @@ A Maille-style whole grain. Plump intact seeds bound by a wine-vinegar paste, me
 ## Instructions
 
 1. In a non-reactive bowl or jar, combine the brown and yellow seeds with the wine, vinegar, and water. Stir, cover, and refrigerate at least 24 hours, up to 48. The seeds will absorb most of the liquid and roughly double in size.
-1. Transfer the soaked seeds and any remaining liquid to a food processor. Pulse 5–15 times in short bursts. Aim for about a third of the seeds broken open and the rest intact, bound by a coarse paste. Stop early — you can always pulse more, but you cannot un-crush seeds.
-1. Stir in the salt and honey. Taste it; expect it to be bitter and harsh. The mellowing happens during aging, not now.
-1. Transfer to a clean glass jar and refrigerate at least 1 week before tasting again, ideally 2–3 weeks. Keeps for months in the fridge.
+2. Transfer the soaked seeds and any remaining liquid to a food processor. Pulse 5–15 times in short bursts. Aim for about a third of the seeds broken open and the rest intact, bound by a coarse paste. Stop early — you can always pulse more, but you cannot un-crush seeds.
+3. Stir in the salt and honey. Taste it; expect it to be bitter and harsh. The mellowing happens during aging, not now.
+4. Transfer to a clean glass jar and refrigerate at least 1 week before tasting again, ideally 2–3 weeks. Keeps for months in the fridge.
 
 ## Notes
 

@@ -4,15 +4,15 @@ From Grant Massey
 
 ## Ingredients
 
-- 2&ndash;3 lb chuck roast, shredded
+- 2–3 lb chuck roast, shredded
 - 2 lbs ground beef
 - 1 yellow onion, chopped
 - Salt and pepper, to taste
-- 1&ndash;2 T flour
+- 1–2 T flour
 - 16 oz beef broth
 - 16 oz tomato sauce
 - 1 can green chiles (short or tall, depends how you like it; I prefer more)
-- 7&ndash;9 T chili powder, to taste (see Notes)
+- 7–9 T chili powder, to taste (see Notes)
 
 ## Directions
 

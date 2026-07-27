@@ -2,17 +2,17 @@
 
 ## Ingredients
 
-- 2&ndash;3 lb chuck roast
+- 2–3 lb chuck roast
 - 1 yellow onion, quartered
-- &frac14; C soy sauce
+- ¼ C soy sauce
 - chili powder
 - pepper
-- 1&ndash;1&frac12; C water
+- 1–1½ C water
 
 ## Directions
 
 - Sear chuck roast and place in crock pot.
-- Pour soy sauce over roast. Add enough pepper to light&ndash;medium coat the roast.
+- Pour soy sauce over roast. Add enough pepper to light–medium coat the roast.
 - Coat with chili powder.
 - Add water around, but not over, roast.
 - Add onions to the liquid.

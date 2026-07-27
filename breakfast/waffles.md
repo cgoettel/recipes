@@ -2,21 +2,21 @@
 
 ## Ingredients
 
-- 1&frac34; C flour
+- 1¾ C flour
 - 1 T baking powder
-- &frac12; t salt
-- 1&frac14; C milk
-- &frac12; C oil
+- ½ t salt
+- 1¼ C milk
+- ½ C oil
 - 2 eggs
-- (Optional) 1&frac12; t vanilla
+- (Optional) 1½ t vanilla
 
 ## Instructions
 
 1. Preheat waffle iron.
-1. Separate 2 eggs and place the egg whites in a bowl so you can beat them.
-1. Mix the 2 egg yolks, milk, and oil. Optionally, add vanilla. Add flour, baking powder, and salt.
-1. Beat the egg whites until fluffy. Fold into the batter.
-1. Cook.
+2. Separate 2 eggs and place the egg whites in a bowl so you can beat them.
+3. Mix the 2 egg yolks, milk, and oil. Optionally, add vanilla. Add flour, baking powder, and salt.
+4. Beat the egg whites until fluffy. Fold into the batter.
+5. Cook.
 
 ## Notes
 

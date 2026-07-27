@@ -19,12 +19,12 @@ From Angie Peffer. Makes 6 loaves (half quantities in parens for 3 loaves).
 ## Instructions
 
 1. In a mixer, combine oil, honey, lecithin, water, yeast, and flour. On top of the flour add the potato flakes, gluten, dough enhancer, and salt.
-1. Blend until smooth and gradually add the rest of the flour until the dough no longer sticks to the sides of the bowl.
-1. Use the mixer to knead (2½–3½ minutes) or hand-knead 10 minutes.
-1. Divide into 6 loaves (or 3 for a half recipe). Add flavor ingredients now if making variants.
-1. Shape and place in greased 8½" × 4½" bread pans. Cover with a towel and let rise 2–3 hours.
-1. Bake at 350°F for 29 minutes.
-1. Remove from pans immediately and cool on a rack.
+2. Blend until smooth and gradually add the rest of the flour until the dough no longer sticks to the sides of the bowl.
+3. Use the mixer to knead (2½–3½ minutes) or hand-knead 10 minutes.
+4. Divide into 6 loaves (or 3 for a half recipe). Add flavor ingredients now if making variants.
+5. Shape and place in greased 8½" × 4½" bread pans. Cover with a towel and let rise 2–3 hours.
+6. Bake at 350°F for 29 minutes.
+7. Remove from pans immediately and cool on a rack.
 
 ## Variants
 

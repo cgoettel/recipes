@@ -5,12 +5,14 @@ Quick everyday dal. ~25 minutes start to finish. Best effort-to-reward ratio in 
 Serves 3–4 with rice.
 
 ## Lentils
+
 - 1 cup red lentils (masoor dal dhuli), rinsed until the water runs mostly clear
 - 4 cups water
 - 1 tsp turmeric
 - ½ tsp salt (more to taste at the end)
 
 ## Tadka
+
 - 2 tbsp ghee
 - 1 tsp cumin seeds
 - 1 tsp brown mustard seeds (optional but good)
@@ -21,6 +23,7 @@ Serves 3–4 with rice.
 - ½ tsp Kashmiri chile or paprika
 
 ## Finish
+
 - juice from ½ lemon
 - cilantro
 
@@ -41,6 +44,7 @@ Pour the entire hot tadka over the dal. Stir half of it in, leave the rest swirl
 - For a heartier dal that holds its shape and eats like a full meal, see [whole masoor dal](masoor-dal-whole.md).
 
 ## Serve With
+
 - Basmati rice ([jeera rice](../../sides-and-starters/rice-jeera.md) is the classic pairing)
 - Yogurt
 - Something pickled

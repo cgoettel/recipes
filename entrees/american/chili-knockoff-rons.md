@@ -4,7 +4,7 @@
 
 ### Seasoning
 
-- &frac12; C chili powder
+- ½ C chili powder
 - 1 T oregano
 - 1 T cumin
 - 1 T paprika
@@ -14,9 +14,9 @@
 
 ### Cooking the meat
 
-- 1&ndash;1&frac12; C water
+- 1–1½ C water
 - 2 lbs ground beef
-- &frac12; C flour
+- ½ C flour
 
 ## Directions
 
@@ -24,7 +24,7 @@
 - Bring water to a boil (or heavy simmer) in a large saucepan.
 - Add beef and cook. Mince as finely as possible.
 - Once beef is no longer pink, add seasonings and stir them in.
-- Continue cooking until most of the liquid is gone (about 10&ndash;15 minutes).
+- Continue cooking until most of the liquid is gone (about 10–15 minutes).
 - Add flour and stir to incorporate it all.
 - Add water until desired consistency is reached.
 - Submersion blend.

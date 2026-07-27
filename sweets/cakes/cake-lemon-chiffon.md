@@ -29,21 +29,21 @@ Lemon chiffon cake with zesty peach buttercream. 10" round springform. Distinct 
 ### Cake
 
 1. Preheat oven to 180°C (350°F). Line the bottom and sides of a 10" round springform with baking paper — don't grease.
-1. Sift flour and baking powder into a large bowl. Mix in 1¼ C of sugar (reserve the other ¼ C) and the salt.
-1. In a small bowl, whisk together oil, egg yolks, water, lemon juice, and lemon zest. Make a well in the flour mixture, pour in the wet, and whisk until smooth.
-1. In a stand mixer with the whisk attachment, whip the egg whites to soft peaks. Add the cream of tartar, then slowly add the reserved ¼ C sugar. Continue whipping to stiff peaks.
-1. Fold a third of the whites into the batter to lighten it, then fold in the remaining whites.
-1. Pour into the prepared pan and bake 45–55 minutes (may need an extra 10 — this is a tall cake).
-1. Cool on a wire rack in the pan. Run a knife around the inside edge to loosen — don't skip this, or the cake will contract from the sides and wrinkle as it cools.
+2. Sift flour and baking powder into a large bowl. Mix in 1¼ C of sugar (reserve the other ¼ C) and the salt.
+3. In a small bowl, whisk together oil, egg yolks, water, lemon juice, and lemon zest. Make a well in the flour mixture, pour in the wet, and whisk until smooth.
+4. In a stand mixer with the whisk attachment, whip the egg whites to soft peaks. Add the cream of tartar, then slowly add the reserved ¼ C sugar. Continue whipping to stiff peaks.
+5. Fold a third of the whites into the batter to lighten it, then fold in the remaining whites.
+6. Pour into the prepared pan and bake 45–55 minutes (may need an extra 10 — this is a tall cake).
+7. Cool on a wire rack in the pan. Run a knife around the inside edge to loosen — don't skip this, or the cake will contract from the sides and wrinkle as it cools.
 
 ### Icing
 
 1. Beat butter, peach puree, and half the icing sugar in a stand mixer until smooth.
-1. Gradually add the remaining icing sugar; beat until smooth and creamy.
-1. Mix in the orange zest and food coloring.
+2. Gradually add the remaining icing sugar; beat until smooth and creamy.
+3. Mix in the orange zest and food coloring.
 
 ### Assembly
 
 1. Halve the cake horizontally with a serrated knife.
-1. Spread ⅓ of the icing across the bottom half. Replace the top half.
-1. Spread the rest over the top and sides.
+2. Spread ⅓ of the icing across the bottom half. Replace the top half.
+3. Spread the rest over the top and sides.

@@ -4,23 +4,23 @@
 
 - 2 C flour
 - 3 t baking powder
-- &frac12; t salt
+- ½ t salt
 - 1 T shortening
-- &frac12; C luke-warm water
+- ½ C luke-warm water
 - 2 t cinnamon
-- &frac12; C sugar
+- ½ C sugar
 
 ## Instructions
 
-1. Sift together dry ingredients
-1. Cut in shortening until mixture resembles cornmeal
-1. Gradually add water, stirring mixture with fork.
-1. Turn dough out on lightly floured surface; knead until a smooth ball is formed.
-1. Divide in half; let stand 10 minutes.
-1. Roll out each half of the dough to 10"x12&frac12;" rectangle, about 1/16" thick.
-1. Cut the dough into 2&nbsp;&frac12;" squares.
-1. Fry 3 or 4 sopapillas as a time in deep hot fat (400&deg;), about 30&nbsp;seconds on each side.
-1. Drain on paper towels.
-1. Roll in a cinnamon-sugar mixture.
+01. Sift together dry ingredients
+02. Cut in shortening until mixture resembles cornmeal
+03. Gradually add water, stirring mixture with fork.
+04. Turn dough out on lightly floured surface; knead until a smooth ball is formed.
+05. Divide in half; let stand 10 minutes.
+06. Roll out each half of the dough to 10"x12½" rectangle, about 1/16" thick.
+07. Cut the dough into 2 ½" squares.
+08. Fry 3 or 4 sopapillas as a time in deep hot fat (400°), about 30 seconds on each side.
+09. Drain on paper towels.
+10. Roll in a cinnamon-sugar mixture.
 
 Makes about 40.

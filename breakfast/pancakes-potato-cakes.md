@@ -12,6 +12,6 @@
 ## Instructions
 
 1. Make mashed potatoes
-1. Add egg, sugar, salt, and cottage cheese. Mix.
-1. Add enough flour to stiffen.
-1. Cook like pancakes.
+2. Add egg, sugar, salt, and cottage cheese. Mix.
+3. Add enough flour to stiffen.
+4. Cook like pancakes.

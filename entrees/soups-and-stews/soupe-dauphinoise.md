@@ -21,11 +21,11 @@ This recipe is adapted from the [French Cooking Academy](https://www.thefrenchco
 ## Method
 
 1. Thinly slice the leeks, onions, and carrots.
-1. Warm the olive oil and melt the butter in a stock pot on medium heat until the butter starts to foam.
-1. Stir in the leek, onions, and carrot. Cook gently for 15 minutes with the lid partly on, stirring occasionally until cooked. Take care not to allow any colouration of the vegetables.
-1. Drain the beans.
-1. Pour in the stock and mix in the beans and tomatoes. Add thyme and pepper, to taste.
-1. Bring to a simmer and then lower the heat and cook gently for 30 minutes, partly covered.
-1. Once done, mix in the cream and parsley (or chives).
-1. Cook for a further five minutes and salt to taste. 
-1. Enjoy with toasted crusty bread.
+2. Warm the olive oil and melt the butter in a stock pot on medium heat until the butter starts to foam.
+3. Stir in the leek, onions, and carrot. Cook gently for 15 minutes with the lid partly on, stirring occasionally until cooked. Take care not to allow any colouration of the vegetables.
+4. Drain the beans.
+5. Pour in the stock and mix in the beans and tomatoes. Add thyme and pepper, to taste.
+6. Bring to a simmer and then lower the heat and cook gently for 30 minutes, partly covered.
+7. Once done, mix in the cream and parsley (or chives).
+8. Cook for a further five minutes and salt to taste.
+9. Enjoy with toasted crusty bread.

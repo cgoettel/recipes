@@ -25,16 +25,16 @@ Gravy by Colby; biscuits adapted from Paula Deen. See also [biscuits](../bread/b
 ### Gravy
 
 1. Cook the sausage. Mince it fine. Don't drain off the grease.
-1. Add the flour. Mix it around.
-1. Add the milk.
-1. Bring to temperature and kill the heat. It will thicken as it cools. Season with salt and pepper to taste.
+2. Add the flour. Mix it around.
+3. Add the milk.
+4. Bring to temperature and kill the heat. It will thicken as it cools. Season with salt and pepper to taste.
 
 ### Biscuits
 
 1. Preheat oven to 425°F.
-1. In a large bowl, combine the flour, sugar, baking powder, and salt.
-1. Cut in the butter until the mixture looks like cornmeal.
-1. Make a well in the center and slowly add the milk. Knead with your fingers, adding more milk as needed.
-1. Turn out onto a lightly floured surface and roll to desired thickness. Cut with a small biscuit cutter.
-1. Butter the bottom of a skillet. Place biscuits in the pan.
-1. Bake 12 minutes or until golden brown.
+2. In a large bowl, combine the flour, sugar, baking powder, and salt.
+3. Cut in the butter until the mixture looks like cornmeal.
+4. Make a well in the center and slowly add the milk. Knead with your fingers, adding more milk as needed.
+5. Turn out onto a lightly floured surface and roll to desired thickness. Cut with a small biscuit cutter.
+6. Butter the bottom of a skillet. Place biscuits in the pan.
+7. Bake 12 minutes or until golden brown.

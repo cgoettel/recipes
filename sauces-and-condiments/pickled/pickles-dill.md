@@ -17,11 +17,11 @@ A bright, crisp refrigerator dill pickle in the Grillo's school. Cold-pack, neve
 ## Instructions
 
 1. Wash the cucumbers under cold running water. Trim ~⅛" off the blossom end of each (opposite the stem end) — this end contains a softening enzyme. Leave cucumbers whole, halve into spears, or slice into rounds depending on preference.
-1. In a small bowl or measuring cup, combine the water, vinegar, salt, and sugar. Stir until dissolved. Do not heat — this is a cold brine, and the temperature matters.
-1. Pack the cucumbers tightly into a wide-mouth quart mason jar, standing spears upright or layering rounds. Tuck the garlic cloves, dill, tannin source, and any optional spices in between and around the cucumbers.
-1. Pour the cold brine over the cucumbers to cover completely, leaving ¼" of headspace. The cucumbers must stay submerged; if any float, weight them down with a clean glass weight or wedge a folded grape leaf or piece of cabbage at the top.
-1. Cap with a regular lid (no airlock needed — these don't ferment) and refrigerate.
-1. Wait at least 48 hours before tasting. Good at 2–3 days, better at a week, peak around 2 weeks. Stay crisp and bright for 4–6 weeks in the fridge, though garlic flavor intensifies the longer they sit.
+2. In a small bowl or measuring cup, combine the water, vinegar, salt, and sugar. Stir until dissolved. Do not heat — this is a cold brine, and the temperature matters.
+3. Pack the cucumbers tightly into a wide-mouth quart mason jar, standing spears upright or layering rounds. Tuck the garlic cloves, dill, tannin source, and any optional spices in between and around the cucumbers.
+4. Pour the cold brine over the cucumbers to cover completely, leaving ¼" of headspace. The cucumbers must stay submerged; if any float, weight them down with a clean glass weight or wedge a folded grape leaf or piece of cabbage at the top.
+5. Cap with a regular lid (no airlock needed — these don't ferment) and refrigerate.
+6. Wait at least 48 hours before tasting. Good at 2–3 days, better at a week, peak around 2 weeks. Stay crisp and bright for 4–6 weeks in the fridge, though garlic flavor intensifies the longer they sit.
 
 ## Notes
 

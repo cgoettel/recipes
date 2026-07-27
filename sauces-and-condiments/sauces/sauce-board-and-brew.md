@@ -17,5 +17,5 @@ The sandwich-shop sauce from Board & Brew. Keeps 3–4 weeks refrigerated.
 ## Instructions
 
 1. Place all ingredients in a blender.
-1. Start on low, then increase to medium.
-1. Blend until smooth and creamy.
+2. Start on low, then increase to medium.
+3. Blend until smooth and creamy.

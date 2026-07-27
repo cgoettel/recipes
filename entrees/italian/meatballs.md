@@ -10,19 +10,19 @@ This recipe is inspired by [Matty Matheson's meatball recipe](https://www.vice.c
 - 2 T fennel seeds (optional)
 - 1 T celery seeds
 - 2 C panko
-- &frac12; bunch Italian parsley, chopped (optional)
+- ½ bunch Italian parsley, chopped (optional)
 - 1 C ricotta cheese
 - 1 C freshly grated parmigiano reggiano
 - 3 large eggs
-- &frac12; C whole milk
-- 2&frac12; T kosher salt
+- ½ C whole milk
+- 2½ T kosher salt
 - fresh-cracked pepper, to taste
 
-Yields 24 2&frac12;" meatballs
+Yields 24 2½" meatballs
 
 ## Steps
 
-- Preheat oven to 425&deg;F
+- Preheat oven to 425°F
 - Put all ingredients into a large bowl
 - Get in there and mix it up. Hands work best.
 - Roll into balls (however large or small you want) and place on baking sheet

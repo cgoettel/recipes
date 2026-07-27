@@ -21,11 +21,11 @@ The dill recipe carries the technique details (cucumber sourcing, blossom-end tr
 ## Instructions
 
 1. Trim ⅛" off the blossom end of each cucumber. Halve into spears (the canonical Grillo's hot-spears cut).
-1. Combine water, vinegar, salt, and sugar in a bowl; stir to dissolve. Do not heat.
-1. Pack the cucumber spears tightly into a wide-mouth quart mason jar, interspersing the garlic, dill, sliced jalapeños, red pepper flakes, tannin source, and any optional spices.
-1. Pour the cold brine over to cover, leaving ¼" headspace. Weight or wedge to keep everything submerged.
-1. Cap with a regular lid and refrigerate.
-1. Wait at least 48 hours. Heat infuses faster than dill flavor — noticeably spicy at 24 hours, fully integrated at 3–4 days, peak around a week.
+2. Combine water, vinegar, salt, and sugar in a bowl; stir to dissolve. Do not heat.
+3. Pack the cucumber spears tightly into a wide-mouth quart mason jar, interspersing the garlic, dill, sliced jalapeños, red pepper flakes, tannin source, and any optional spices.
+4. Pour the cold brine over to cover, leaving ¼" headspace. Weight or wedge to keep everything submerged.
+5. Cap with a regular lid and refrigerate.
+6. Wait at least 48 hours. Heat infuses faster than dill flavor — noticeably spicy at 24 hours, fully integrated at 3–4 days, peak around a week.
 
 ## Notes
 

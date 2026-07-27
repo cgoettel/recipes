@@ -13,8 +13,8 @@ For wraps, tacos, or eating with a spoon.
 ## Instructions
 
 1. Start with 1 C of the sour cream and mix in the cilantro. Add most of the lime juice and the cumin. Mix well.
-1. If it's too thick, add more lime juice. If it's too thin, add a bit more sour cream.
-1. Salt and pepper at the end, if at all.
+2. If it's too thick, add more lime juice. If it's too thin, add a bit more sour cream.
+3. Salt and pepper at the end, if at all.
 
 ## Notes
 

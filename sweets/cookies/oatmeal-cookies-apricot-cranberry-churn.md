@@ -26,14 +26,14 @@ Reverse-engineered from the cookie at Churn (Camelback & Central, Phoenix). The 
 ## Instructions
 
 1. Preheat oven to 325°F.
-1. Cream butter, sugars, and molasses.
-1. Beat in egg, egg yolk, and vanilla.
-1. Mix in salt, baking soda, and spices.
-1. Mix in flour.
-1. Add oats, then fold in apricots and cranberries.
-1. Rest the dough 30 minutes at room temperature (or overnight, covered, in the fridge). This hydrates the oats and rounds out the spices; it also limits spread for a thicker, softer cookie.
-1. Drop onto greased cookie sheet.
-1. Bake 13–15 minutes. Pull while the centers still look slightly underdone — carryover heat finishes them and keeps them soft.
+2. Cream butter, sugars, and molasses.
+3. Beat in egg, egg yolk, and vanilla.
+4. Mix in salt, baking soda, and spices.
+5. Mix in flour.
+6. Add oats, then fold in apricots and cranberries.
+7. Rest the dough 30 minutes at room temperature (or overnight, covered, in the fridge). This hydrates the oats and rounds out the spices; it also limits spread for a thicker, softer cookie.
+8. Drop onto greased cookie sheet.
+9. Bake 13–15 minutes. Pull while the centers still look slightly underdone — carryover heat finishes them and keeps them soft.
 
 ## Notes
 

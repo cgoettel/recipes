@@ -4,25 +4,25 @@
 
 ### Cookies
 
-- &frac12;C butter (shortening can be used for hard cookies)
+- ½C butter (shortening can be used for hard cookies)
 - 1C sugar
-- &frac12;t salt
+- ½t salt
 - 2t baking soda
 - 1 egg
-- &frac13;C molasses
-- 2&frac13;C flour
-- 1&ndash;2t ground ginger
-- &frac12;t ground cloves
+- ⅓C molasses
+- 2⅓C flour
+- 1–2t ground ginger
+- ½t ground cloves
 - 1t cinnamon
 
 ### Coating
 
-- &frac14;C sugar
+- ¼C sugar
 - 1t ground cinnamon
 
 ## Directions
 
-- Preheat oven to 375&deg;F
+- Preheat oven to 375°F
 - Beat butter and sugar. Add sugar, salt, and baking soda.
 - Beat in egg and molasses.
 - Add flour and spices.

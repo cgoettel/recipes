@@ -8,7 +8,7 @@ This recipe comes from [Glen and Friends Cooking](https://www.youtube.com/watch?
 - 650 g cane sugar
 - 100 g lactose (optional; helps with the head)
 - 5 g cacao nibs
-- 1 g (&frac14; t) citric acid
+- 1 g (¼ t) citric acid
 - pinch of salt
 - 100 mL vanilla extract
 
@@ -23,4 +23,4 @@ This recipe comes from [Glen and Friends Cooking](https://www.youtube.com/watch?
 
 ## For 5 gal (18.925 L) keg
 
-- Original recipe is about 2.25 L of syrup. Mix 2.25 L syrup + (2*2.25 L) water should yield 6.75 L soda. 18.925 L / 6.75 L = 2.8x recipe for 1 keg, assuming initial starting syrup and ratio are correct. Which really means that the original recipe would be perfect in a half Corny keg.
+- Original recipe is about 2.25 L of syrup. Mix 2.25 L syrup + (2\*2.25 L) water should yield 6.75 L soda. 18.925 L / 6.75 L = 2.8x recipe for 1 keg, assuming initial starting syrup and ratio are correct. Which really means that the original recipe would be perfect in a half Corny keg.

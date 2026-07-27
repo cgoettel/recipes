@@ -15,16 +15,16 @@ A lacto-fermented hot sauce in the modern craft template: red Fresno chiles, car
 ## Instructions
 
 1. Roughly chop the chiles (leave seeds in for full heat; scrape out for milder), carrots, onion, and garlic into ~½" pieces so they pack into the jar.
-1. Weigh everything in a non-reactive bowl. Note the total weight, then add salt at 2.5% of that weight (about 25 g for the quantities above). Mix well and let sit 15 minutes so the salt pulls liquid out of the vegetables.
-1. Pack the mixture firmly into a quart wide-mouth mason jar, pressing down to release more liquid. Leave 1½" headspace at the top.
-1. Add filtered water to cover the solids by ½", keeping 1" headspace.
-1. Place a fermentation weight on top to keep everything submerged. Cap with an airlock fermentation lid (or a regular lid you'll burp daily for the first week).
-1. Ferment at room temperature (65–75°F is ideal) for 2–4 weeks:
+2. Weigh everything in a non-reactive bowl. Note the total weight, then add salt at 2.5% of that weight (about 25 g for the quantities above). Mix well and let sit 15 minutes so the salt pulls liquid out of the vegetables.
+3. Pack the mixture firmly into a quart wide-mouth mason jar, pressing down to release more liquid. Leave 1½" headspace at the top.
+4. Add filtered water to cover the solids by ½", keeping 1" headspace.
+5. Place a fermentation weight on top to keep everything submerged. Cap with an airlock fermentation lid (or a regular lid you'll burp daily for the first week).
+6. Ferment at room temperature (65–75°F is ideal) for 2–4 weeks:
    - Days 1–5: very active. CO₂ bubbling, possibly some foam at the top. This is correct.
    - Week 1–2: activity slows, brine cloudy, smell pleasantly funky-sour.
    - Week 2–4: deepens. Taste with a clean spoon at week 2 and decide whether to keep going. Longer = more complex.
-1. When done, strain the solids and reserve the brine. Blend the solids, adding brine until the consistency is right (most hot sauces are thinner than the first blend looks — keep adding). Optionally strain through a fine sieve for a smoother texture.
-1. Stir in the optional vinegar if using. Bottle into clean glass bottles and refrigerate. Keeps for many months.
+7. When done, strain the solids and reserve the brine. Blend the solids, adding brine until the consistency is right (most hot sauces are thinner than the first blend looks — keep adding). Optionally strain through a fine sieve for a smoother texture.
+8. Stir in the optional vinegar if using. Bottle into clean glass bottles and refrigerate. Keeps for many months.
 
 ## Notes
 

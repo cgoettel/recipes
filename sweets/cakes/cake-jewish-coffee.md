@@ -2,7 +2,7 @@
 
 ## Ingredients
 
-- &frac12; C butter
+- ½ C butter
 - 1 C sugar
 - 2 eggs
 - 2 C flour
@@ -10,16 +10,16 @@
 - 1 t baking powder
 - 1 C sour cream
 - 1 t vanilla
-- &frac12; C powdered sugar
+- ½ C powdered sugar
 - 2 t cinnamon
 - 2 T butter
 
 ## Instructions
 
-1. Preheat oven to 350&deg;F.
-1. Cream butter, sugar, and eggs.
-1. Combine flour, baking soda, and baking powder. Add to creamed butter mixture.
-1. Add sour cream and vanilla.
-1. Separately, mix powdered sugar, cinnamon, and butter.
-1. Marble cinnamon mixture in with the rest of the batter.
-1. Bake at 350&deg;F for an hour or until done.
+1. Preheat oven to 350°F.
+2. Cream butter, sugar, and eggs.
+3. Combine flour, baking soda, and baking powder. Add to creamed butter mixture.
+4. Add sour cream and vanilla.
+5. Separately, mix powdered sugar, cinnamon, and butter.
+6. Marble cinnamon mixture in with the rest of the batter.
+7. Bake at 350°F for an hour or until done.

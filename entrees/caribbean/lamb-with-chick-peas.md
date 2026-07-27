@@ -31,7 +31,6 @@
 7. Add water, lemon juice, chick peas and salt; stir well.
 8. Lower heat, cover and simmer until meat is tender and sauce is thickened.
 
-
 ## Method
 
 1. Soak chick peas overnight. Drain.

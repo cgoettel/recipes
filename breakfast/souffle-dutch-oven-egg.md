@@ -7,20 +7,20 @@
 - 12 eggs
 - 1 C milk
 - Cheese, grated (we use cheddar or a Mexican cheese blend)
-- 6&ndash;8 slices bread, ripped into bite size pieces
+- 6–8 slices bread, ripped into bite size pieces
 - Salt and pepper to taste.
 
-Serves 6&ndash;8 people.
+Serves 6–8 people.
 
 ## Instructions
 
 1. Heat charcoal.
-1. Once heated, place 12" Dutch oven on top of all the coals, add sausage, and cook, breaking into small pieces.
-1. In a separate bowl, beat eggs and milk.
-1. Cook sausage until almost done. It should be just barely undercooked because it will finish cooking with the rest of the ingredients.
-1. Add eggs and bread. Season with salt and pepper.
-1. Push the bread into the eggs so they're covered. Top with cheese.
-1. Cover and cook for 20&ndash;22 min with 13 coals top, 13 coals bottom. Maybe one less on the bottom so it doesn't char. Cut through to make sure it's cooked completely.
+2. Once heated, place 12" Dutch oven on top of all the coals, add sausage, and cook, breaking into small pieces.
+3. In a separate bowl, beat eggs and milk.
+4. Cook sausage until almost done. It should be just barely undercooked because it will finish cooking with the rest of the ingredients.
+5. Add eggs and bread. Season with salt and pepper.
+6. Push the bread into the eggs so they're covered. Top with cheese.
+7. Cover and cook for 20–22 min with 13 coals top, 13 coals bottom. Maybe one less on the bottom so it doesn't char. Cut through to make sure it's cooked completely.
 
 ## Notes
 

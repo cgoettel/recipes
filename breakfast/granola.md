@@ -7,20 +7,20 @@
 - 1 C coconut
 - 3 T flour
 - 1 t cinnamon
-- &frac18; t salt
-- &frac12; C maple syrup
-- &frac13; C coconut oil
+- ⅛ t salt
+- ½ C maple syrup
+- ⅓ C coconut oil
 - 1 t almond extract
 
 ## Instructions
 
-1. Preheat oven to 300&deg;F.
-1. Mix together dry ingredients.
-1. In a separate bowl, whisk together maple syrup, coconut oil, and almond extract.
-1. Add liquid mixture to dry ingredients and stir until evenly coated.
-1. Spread mixture onto a parchment-lined baking sheet.
-1. Bake 40&ndash;50 minutes, stirring halfway through.
-1. Let cool and store in an airtight container.
+1. Preheat oven to 300°F.
+2. Mix together dry ingredients.
+3. In a separate bowl, whisk together maple syrup, coconut oil, and almond extract.
+4. Add liquid mixture to dry ingredients and stir until evenly coated.
+5. Spread mixture onto a parchment-lined baking sheet.
+6. Bake 40–50 minutes, stirring halfway through.
+7. Let cool and store in an airtight container.
 
 ## Notes
 

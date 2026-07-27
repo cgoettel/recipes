@@ -27,5 +27,5 @@ From [Mel's Kitchen Cafe](https://www.melskitchencafe.com/).
 ## Instructions
 
 1. Whisk the dressing ingredients together.
-1. Combine the chicken salad ingredients in a large bowl.
-1. Toss with the dressing. Adjust salt and pepper to taste.
+2. Combine the chicken salad ingredients in a large bowl.
+3. Toss with the dressing. Adjust salt and pepper to taste.

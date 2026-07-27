@@ -5,6 +5,7 @@ Cumin-scented basmati. The workhorse Indian rice — what you want next to [dal]
 Serves 2–3.
 
 ## Ingredients
+
 - 1 cup basmati rice (aged Indian — India Gate, Tilda, Daawat, Lal Qilla)
 - 1¼ cups water (after soaking; see Method)
 - 1 tsp ghee

@@ -6,7 +6,7 @@
 - 2 jalapeños
 - 1 lime, juiced
 - 3 cloves garlic
-- &frac12; t cumin
+- ½ t cumin
 - 2 C crema Mexicana or mayonnaise
 
 ## Directions

@@ -4,15 +4,15 @@
 
 ## Ingredients
 
-- 1 pound meat. Pork belly, sliced thinly into pieces &frac12; inch x 2 inches and &# x215B; inch thick
-tip. Or feel free to use pork shoulder, pork loin, or chicken. I think chicken's the best.
+- 1 pound meat. Pork belly, sliced thinly into pieces ½ inch x 2 inches and &# x215B; inch thick
+  tip. Or feel free to use pork shoulder, pork loin, or chicken. I think chicken's the best.
 
 ### Marinade
 
-- &frac12; C crushed pear
-- &frac14; C onion purée
+- ½ C crushed pear
+- ¼ C onion purée
 - 4 cloves garlic, minced
-- &frac12; t ginger, minced
+- ½ t ginger, minced
 - 1 green onion, chopped
 - 1 T soy sauce
 - 2 T brown sugar

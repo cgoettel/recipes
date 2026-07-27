@@ -48,7 +48,7 @@ The house is climate-controlled at 21.5–24°C (~71–75°F) and there is no co
    - `# Title` (H1)
    - Optional intro / attribution paragraph
    - `## Ingredients` — bulleted list
-   - `## Instructions` (or `## Directions` / `## Steps` — existing recipes vary) — numbered list using `1.` for each line so markdown auto-numbers
+   - `## Instructions` (or `## Directions` / `## Steps` — existing recipes vary) — a numbered list. Write `1.` on every line if that's easier; the fleet-wide `mdformat --number` pre-commit hook renumbers ordered lists sequentially (1, 2, 3) on commit, so the committed source always ends up numbered either way.
    - Optional `## Notes` section
 4. Add a link in the README under the correct subsection, in alphabetical order.
 

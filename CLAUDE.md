@@ -31,10 +31,14 @@ Persistent preferences that should shape suggestions, edits, and new recipes acr
 **Reference profiles and brand benchmarks.**
 
 - **Fermented and pickled vegetables — target bright/crisp/less-funky, not deep funk.** The reference points are **Claussen kraut** (best both fresh and in cooking) and **Grillo's pickles** (dill and hot spears). The cook will go out of the way to a grocery store stocking them. **Bubbies is explicitly out** — too deeply funky, too fully fermented. Design recipes for the Claussen/Grillo's end of the spectrum: shorter ferments, slightly higher salt (closer to 2.5% than 2%), thicker cuts, eaten young, stored cold.
+
 - **Hot sauce — multiple profile slots, not "one best."** Distinct bottles for distinct cuisine pairings:
+
   - **Homemade habanero** — fresh, fruity, decidedly Mexican; for Mexican food. Multiple-friends-confirm "best ever."
   - **Yellow Bird habanero** — matured, savory-deeper (from carrot + cooking, not fermentation); for American and German meals.
   - **Fermented hot sauces** (e.g., the Fresno and aji amarillo recipes in this repo) — funky/lacto profile; a third slot for slow-cooked meats, charcuterie, grilled food.
+
+- **Iced and sun tea — semi-sweet, sweetened with agave.** Confirmed 2026-08-01 on a 2 L sun tea batch: the semi-sweet row of the chart in `drinks/tea-sun.md` (3½ Tbsp agave per 2 L, ~12 g sugar per 8 oz glass) landed exactly right — "incredible." Agave over honey or granulated sugar for tea; it dissolves cold and stays out of the tea's way. Default to that level when sweetening tea unless asked otherwise, and treat the full-sweet and Southern-diner rows as reference points rather than targets.
 
 **Fermentation constraint: house temperature.**
 

@@ -39,6 +39,7 @@ Notes on method and flavor:
 
 - I always use Harney & Sons Paris tea which is a delightful Earl Grey with blackcurrant. It comes in sachets which is a double tea bag. Adjust the recipe accordingly if you're using normal tea bags or measuring out loose leaf tea.
 - The sun is doing exactly one job here: heating the water. Nothing is being extracted by the light itself. A glass jug in full sun reaches roughly 110–130°F, and that temperature is the whole reason this brews in hours rather than the 8–12 a refrigerator cold brew needs. Treat it as warm steeping and the timing follows: the hotter the day, the shorter the window.
+- Measured on a hot, clear August afternoon: the jug read 113°F at 1 hour 40 minutes and the tea was ready right then. That's the benchmark to calibrate against — if a thermometer says the jug is well under 110°F, the tea needs more time regardless of how dark it looks.
 - The refrigerator does the same work an hour on a shaded counter would, and does it below the temperature range where bacteria multiply. Extraction continues in the cold, just slower and gentler, favoring aromatics over tannin. There's no reason to finish at room temperature.
 - Judge by taste, never by color. At these temperatures the color runs well ahead of the flavor, so a jug that looks done usually isn't.
 - Citrus oils are light-sensitive, so a bergamot-forward tea like the Paris loses aroma the longer it sits in direct sun. If the bergamot ever reads faint, too much sun is the first thing to suspect.

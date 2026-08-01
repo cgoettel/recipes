@@ -11,10 +11,10 @@
 1. Fill a glass jug with 2 L of water.
 2. Add the tea to the water.
 3. Put a loose lid on the container.
-4. Put the container in direct sunlight for two hours.
-5. Move the container to the shade for a few hours.
-6. Sweeten to taste while the tea is still warm from the jug, if sweetening at all.
-7. Bring inside, chill, ice, and enjoy.
+4. Set the container in direct sunlight. On a hot, bright day (85°F and up) start tasting at 90 minutes and expect it to be ready around 2 hours. On a mild or hazy day, give it 3–4 hours. Don't leave it in the sun longer than 4 hours no matter the weather.
+5. Sweeten to taste while the tea is still warm from the sun, if sweetening at all.
+6. Move the container to the refrigerator with the tea still in it and let it finish there, usually another 2–4 hours.
+7. Pull the tea out when it tastes right. Ice and enjoy.
 
 ## Sweetening
 
@@ -38,3 +38,8 @@ Notes on method and flavor:
 ## Notes
 
 - I always use Harney & Sons Paris tea which is a delightful Earl Grey with blackcurrant. It comes in sachets which is a double tea bag. Adjust the recipe accordingly if you're using normal tea bags or measuring out loose leaf tea.
+- The sun is doing exactly one job here: heating the water. Nothing is being extracted by the light itself. A glass jug in full sun reaches roughly 110–130°F, and that temperature is the whole reason this brews in hours rather than the 8–12 a refrigerator cold brew needs. Treat it as warm steeping and the timing follows: the hotter the day, the shorter the window.
+- The refrigerator does the same work an hour on a shaded counter would, and does it below the temperature range where bacteria multiply. Extraction continues in the cold, just slower and gentler, favoring aromatics over tannin. There's no reason to finish at room temperature.
+- Judge by taste, never by color. At these temperatures the color runs well ahead of the flavor, so a jug that looks done usually isn't.
+- Citrus oils are light-sensitive, so a bergamot-forward tea like the Paris loses aroma the longer it sits in direct sun. If the bergamot ever reads faint, too much sun is the first thing to suspect.
+- Brew in a scrupulously clean jug. Warm tea is a fine growth medium, and this method spends a couple of hours in the range that favors it.

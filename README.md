@@ -79,13 +79,16 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 - [Apple Cider Syrup](drinks/syrups/apple-cider-syrup.md)
 - [Banana Oleo-Saccharum](drinks/syrups/banana-oleo-saccharum.md)
 - [Cinnamon Syrup](drinks/syrups/cinnamon-syrup.md)
+- [Coffee Syrup](drinks/syrups/coffee-syrup.md)
 - [Demerara Rich Simple Syrup](drinks/syrups/demerara-rich-simple-syrup.md)
 - [Ginger Syrup](drinks/syrups/ginger-syrup.md)
 - [Honey Syrup](drinks/syrups/honey-syrup.md)
+- [Lavender Honey Syrup](drinks/syrups/lavender-honey-syrup.md)
 - [Lime Cordial](drinks/syrups/lime-cordial.md)
 - [Rich Coconut Cream](drinks/syrups/rich-coconut-cream.md)
 - [Semi-Rich Simple Syrup (1.5:1)](drinks/syrups/semi-rich-simple-syrup.md)
 - [Strawberry Syrup](drinks/syrups/strawberry-syrup.md)
+- [Sweetened Heavy Cream](drinks/syrups/sweetened-heavy-cream.md)
 - [Vanilla Syrup](drinks/syrups/vanilla-syrup.md)
 
 ## Entrées

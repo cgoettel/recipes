@@ -54,7 +54,7 @@ The house is climate-controlled at 21.5–24°C (~71–75°F) and there is no co
    - `## Ingredients` — bulleted list
    - `## Instructions` (or `## Directions` / `## Steps` — existing recipes vary) — a numbered list. Write `1.` on every line if that's easier; the fleet-wide `mdformat --number` pre-commit hook renumbers ordered lists sequentially (1, 2, 3) on commit, so the committed source always ends up numbered either way.
    - Optional `## Notes` section
-4. Add a link in the README under the correct subsection, in alphabetical order.
+4. Add a link in the README under the correct subsection, in alphabetical order. CI enforces this: `scripts/check-toc.sh` (a `check_toc` job on every push) fails if any recipe file is missing from the README or the README links a file that no longer exists. Run it locally with `sh scripts/check-toc.sh` before pushing.
 
 ## Directory structure
 

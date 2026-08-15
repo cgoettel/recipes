@@ -1,3 +1,13 @@
+# Guard the README table of contents: every recipe linked, no dead links.
+check_toc:
+  image: alpine:latest
+  before_script:
+    - apk add --no-cache git grep sed coreutils findutils
+  script:
+    - sh scripts/check-toc.sh
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "push"
+
 # Mirror main to github.com/cgoettel/recipes on every push to main.
 # GITHUB_DEPLOY_KEY is a File-type CI variable holding the SSH private key
 # whose public half is a write-enabled deploy key on the GitHub repo.

@@ -4,7 +4,7 @@ Personal recipe collection in markdown. Each recipe is its own file under a cate
 
 ## Working in this repo
 
-- **Work directly in `main`.** No feature branches, no worktrees, no MRs. Edit, commit, push.
+- **Every change goes through a `git worktree`** — global rule, no exceptions (worktrees everywhere, every time). Branch off `origin/main` in a worktree, commit there, then merge to `main` and push; never edit or commit from the main checkout. This repo has no CI, so **no MR is required** — but the worktree step is not optional.
 - Conventional commit prefixes: `feat:` for new recipes, `fix:` for corrections, `refactor:` for reorganization, `docs:` for README-only changes.
 - **The repo is shared publicly.** README, recipe files, and any markdown a cook would read should be written for a general audience — neutral voice, "you" or imperative form for instructions, no third-person asides about the owner. Save personal preferences and owner-specific context for this file (`CLAUDE.md`) instead.
 

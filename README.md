@@ -157,6 +157,7 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 - [Sopa de Pollo Dominicana](entrees/soups-and-stews/sopa-de-pollo-dominicana.md)
 - [Soup — Broccoli and Cheese](entrees/soups-and-stews/soup-broccoli-and-cheese.md)
 - [Soupe Dauphinoise](entrees/soups-and-stews/soupe-dauphinoise.md)
+- [Stew — Beef (Raquelle's)](entrees/soups-and-stews/stew-beef-raquelles.md)
 - [Stew — Beef and Guinness](entrees/soups-and-stews/stew-beef-and-guinness.md)
 
 ## Household
@@ -254,6 +255,7 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 - [Fudge — Kay's](sweets/confections/fudge-kays.md)
 - [Fudge — See's](sweets/confections/fudge-sees.md)
 - [Mochi Blondies — Hawaiian Butter](sweets/confections/mochi-blondies-hawaiian-butter.md)
+- [Panna Cotta](sweets/confections/panna-cotta.md)
 - [Pecan Rolls — Edwina's](sweets/confections/pecan-rolls-edwinas.md)
 - [Sopapillas](sweets/confections/sopapillas.md)
 - [Stollen](sweets/confections/stollen.md)

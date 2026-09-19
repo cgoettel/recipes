@@ -114,6 +114,7 @@ Ingredient defaults (salted butter, all-purpose flour, etc.), knife-cut sizing, 
 
 - **"Mom" / "Mom's"** in a recipe title or filename = LeAnn. Existing entries: `chili-moms.md`, `chocolate-chip-cookies-moms.md`, `bread-honey-wheat-leann.md`, `cinnamon-rolls-leann.md`, `lasagna-moms.md`, `salsa-moms.md`, `pie-filling-moms-apple.md`. Some Drive docs say "LeAnn" and some say "Mom" for the same author.
 - **"Grant" / "Grant's"** = Grant. He vibe-cooks, so his recipes were reconstructed by watching him: `burros-grants.md`, `chocolate-chip-cookies-grants.md`.
+- **"Raquelle" / "Raquelle's"** = Colby's cousin. Existing entries: `stew-beef-raquelles.md` (her slow-cooker beef adaptation of a Ligurian veal stew). Came in via a recipes zip she shared, 2026-09-19.
 
 ## Importing from Bryce's Google Drive
 

@@ -38,5 +38,5 @@ Serves 3–4.
 
 ## Notes
 
-- The sauce is a close cousin of the dipping sauce for the [steamed gyoza](../../sides-and-starters/gyoza-steamed.md). That one swaps the yuzu for a splash of apple cider vinegar.
+- The sauce is a close cousin of the [gyoza dipping sauce](../../sauces-and-condiments/sauces/dipping-sauce-gyoza.md). That one swaps the yuzu for a splash of apple cider vinegar.
 - Pink peppercorns aren't true pepper. Crush them lightly between your fingers or with the flat of a knife, since grinding them fine turns them dusty.

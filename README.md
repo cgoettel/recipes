@@ -203,6 +203,7 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 ### Sauces
 
 - [Crema — Lime Cilantro](sauces-and-condiments/sauces/crema-lime-cilantro.md)
+- [Dipping Sauce — Gyoza](sauces-and-condiments/sauces/dipping-sauce-gyoza.md)
 - [Dipping Sauce — Tempura](sauces-and-condiments/sauces/dipping-sauce-tempura.md)
 - [Horseradish — Creamy](sauces-and-condiments/sauces/horseradish-creamy.md)
 - [Marinade — El Pollo Loco](sauces-and-condiments/sauces/marinade-el-pollo-loco.md)
@@ -226,7 +227,6 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 - [Frijoles de la Olla](sides-and-starters/frijoles-de-la-olla.md)
 - [Gobi 65](sides-and-starters/gobi-65.md)
 - [Grilled Artichokes](sides-and-starters/grilled-artichokes.md)
-- [Gyoza — Steamed](sides-and-starters/gyoza-steamed.md)
 - [Hot artichoke dip](sides-and-starters/hot-artichoke-dip.md)
 - [Pork and Beans — Dr. Hunn's](sides-and-starters/pork-and-beans-dr-hunns.md)
 - [Rice — Basmati Pulao](sides-and-starters/rice-basmati-pulao.md)

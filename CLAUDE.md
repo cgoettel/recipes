@@ -132,6 +132,8 @@ Ingredient defaults (salted butter, all-purpose flour, etc.), knife-cut sizing, 
 
 ## Attribution / name lineage
 
+**Privacy rule: only people who have died get surnames.** Living people appear by first name only, in recipe titles, filenames, and docs alike (for example "Grant's," not his full name). Ask before adding a surname.
+
 - **"Mom" / "Mom's"** in a recipe title or filename = LeAnn. Existing entries: `chili-moms.md`, `chocolate-chip-cookies-moms.md`, `bread-honey-wheat-leann.md`, `cinnamon-rolls-leann.md`, `lasagna-moms.md`, `salsa-moms.md`, `pie-filling-moms-apple.md`. Some Drive docs say "LeAnn" and some say "Mom" for the same author.
 - **"Grant" / "Grant's"** = Grant. He vibe-cooks, so his recipes were reconstructed by watching him: `burros-grants.md`, `chocolate-chip-cookies-grants.md`.
 - **"Raquelle" / "Raquelle's"** = Colby's cousin. Existing entries: `stew-beef-raquelles.md` (her slow-cooker beef adaptation of a Ligurian veal stew). Came in via a recipes zip she shared, 2026-09-19.
@@ -158,4 +160,5 @@ Bryce owns the shared Google Drive `Recipes/` folder; the owner also has top-lev
 Open items only; shipped work lives in the git history.
 
 - **[#2 "Staff-engineer handover: knowledge transfer and "what would you do differently?""](https://gitlab.com/colby.goettel/recipes/-/work_items/2)** (`Present`, `priority::weeks`, milestone Maintenance) — a one-session exercise in which an agent plays a staff engineer inheriting the repo. It interviews the owner to transfer knowledge (folding the answers into the docs), then proposes what it would do differently, for discussion before anything is filed.
+- **[#4 "Audit and sweep recipe units to the spelled-out house style"](https://gitlab.com/colby.goettel/recipes/-/work_items/4)** (`Agent-ready`, `priority::weeks`, milestone Maintenance) — audit every unit and fraction form in use, set a canonical spelling for each, then mechanically convert older recipes (`C`/`T`/`t` to `cup`/`tablespoon`/`teaspoon`, `1/2` to `½`) with a hand-reviewed diff.
 - **[#3 "Cooking with tea: hōjicha and Kaga bōcha creations"](https://gitlab.com/colby.goettel/recipes/-/work_items/3)** (`Present`, `priority::months`, milestone Creations) — backlog of roasted-tea dishes beyond the bōcha curry and hōjicha panna cotta: lahpet (fermented tea-leaf salad), ochazuke, hōjicha salt, tea brine, tea smoking, sweets.

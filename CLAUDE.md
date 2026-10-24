@@ -4,9 +4,18 @@ Personal recipe collection in markdown. Each recipe is its own file under a cate
 
 ## Working in this repo
 
-- **Every change goes through a `git worktree`** — global rule, no exceptions (worktrees everywhere, every time). Branch off `origin/main` in a worktree, commit there, then merge to `main` and push; never edit or commit from the main checkout. This repo has no CI, so **no MR is required** — but the worktree step is not optional.
+- **GitLab is the home.** [colby.goettel/recipes](https://gitlab.com/colby.goettel/recipes) is canonical. GitHub ([cgoettel/recipes](https://github.com/cgoettel/recipes)) is a read-only mirror that CI force-pushes on every push to `main`, so anything merged on GitHub is overwritten. Issues and contributions go to GitLab.
+- **Every change goes through a `git worktree`** — global rule, no exceptions (worktrees everywhere, every time). Branch off `origin/main` in a worktree, commit there, then merge to `main` and push; never edit or commit from the main checkout. **No MR is required**: commit, fast-forward `main`, and push. The worktree step is not optional.
 - Conventional commit prefixes: `feat:` for new recipes, `fix:` for corrections, `refactor:` for reorganization, `docs:` for README-only changes.
-- **The repo is shared publicly.** README, recipe files, and any markdown a cook would read should be written for a general audience — neutral voice, "you" or imperative form for instructions, no third-person asides about the owner. Save personal preferences and owner-specific context for this file (`CLAUDE.md`) instead.
+- Issue housekeeping (milestones, labels) follows the fleet conventions in the `glab` skill. The `Maintenance` and `Creations` milestones are evergreen buckets; never close them.
+- **The repo is shared publicly, and that includes this file.** Recipe files and any markdown a cook would read should be written for a general audience — neutral voice, "you" or imperative form for instructions, no third-person asides about the owner. The README intro is the exception: it's the owner's own first-person voice, written and maintained by him, and it stays that way. Never put contact details (email addresses, phone numbers) for anyone in the repo, `CLAUDE.md` included. Personal context that shouldn't be public belongs in agent memory, not here.
+
+## Operations
+
+There's nothing to deploy: git is the database, rollback is `git revert`, and copies live on GitLab, GitHub, and every clone. Two moving parts:
+
+- **CI** (`.gitlab-ci.yml`). `check_toc` runs `scripts/check-toc.sh` on every push. `mirror_to_github` force-pushes `main` to GitHub, authenticating with the `GITHUB_DEPLOY_KEY` File-type CI variable, an SSH private key whose public half is a write-enabled deploy key on the GitHub repo. To rotate it: generate a new ed25519 key pair, replace the deploy key under the GitHub repo's Settings → Deploy keys (write access), and replace the private key in the `GITHUB_DEPLOY_KEY` variable (GitLab Settings → CI/CD → Variables, keeping it File type). The job re-adds the trailing newline glab strips. If the mirror job fails, `main` on GitLab is still fine; fix the key and re-run the job.
+- **Formatting** isn't configured in this repo. `mdformat --number` (with GFM and front matter plugins), whitespace fixers, gitleaks, and commitizen run from the owner's global pre-commit hook in dotfiles (`git/.config/git/hooks/pre-commit` and `git/.config/pre-commit/global.yaml`). A commit made anywhere that hook isn't installed skips all of it, and CI doesn't check formatting.
 
 ## Cook's preferences
 
@@ -18,6 +27,12 @@ Persistent preferences that should shape suggestions, edits, and new recipes acr
 
 **Good-enough store-bought.** Frozen gyoza and dumplings are bought, not made. When a restaurant dish centers on them, write the sauce and serving method as the recipe (see `sauces-and-condiments/sauces/dipping-sauce-gyoza.md`), not a from-scratch dumpling. Ask before assuming the same for other components.
 
+**Butter.** Salted is the default, always. A recipe may name an alternative when it genuinely matters, but say why, and expect salted to be used anyway: nobody is buying unsalted butter for one recipe.
+
+**Cooking for guests.** Some dishes get made for people with dietary or religious restrictions (for example, vegan, or no coffee or tea). Those are per-occasion constraints, not house rules. When a request mentions one, honor it everywhere, including hidden sources like black tea as a pickle tannin (use toasted oak cubes or grape leaves instead).
+
+**Grilling.** Grilled recipes get cooked on both charcoal and gas, so write the method for both: call out charcoal technique (wood chunks, char) and give a gas path rather than assuming charcoal. See `sides-and-starters/grilled-artichokes.md`.
+
 **Anti-preferences (hard nos).**
 
 - **Caraway.** Skip entirely, including in territory where it's the default (German, Eastern European, rye breads).
@@ -25,9 +40,10 @@ Persistent preferences that should shape suggestions, edits, and new recipes acr
 - **Sweet meat.** Fruit-with-meat pairings, honey-glazed savories, fruit-stuffed pork, etc. don't land. Push savory/funky/acid layers instead.
 - **Warming spices in Western savory cooking.** Cinnamon, allspice, cloves in American/European meat dishes (chili, roasts, etc.) are out. **Nutmeg is the odd exception** and is welcome. **South Asian / Indian cooking is fully exempt** — cinnamon, cloves, cardamom bloomed in fat are core technique there and explicitly welcome (Kerala coconut curry, basmati pulao, etc.). The aversion is to warm spices reading as "sweet" in Western savories, not to the spices themselves.
 
+**What this repo is.** A catch-all for everything the owner cooks, brews, or mixes, not a set of programs. Fermentation (sauerkraut, pickles, fermented hot sauces, mustard) and sodas (`drinks/sodas/`) are both dormant; the recipes and reference profiles below still apply whenever they come back.
+
 **Active interests.**
 
-- **Fermentation.** Sauerkraut, pickles, and fermented hot sauces are an active build-out area. Fermentation as a technique is already trusted ground — see also the soda program in `drinks/sodas/`.
 - **Hot dog eating contest, 2027.** Friend-group goal of 365 hot dogs across the year. Treat brat-, dog-, mustard-, sausage-, bun-, and topping-adjacent recipes as high-priority work for the duration.
 
 **Reference profiles and brand benchmarks.**
@@ -56,7 +72,8 @@ The house is climate-controlled at 21.5–24°C (~71–75°F) and there is no co
    - `## Ingredients` — bulleted list
    - `## Instructions` (or `## Directions` / `## Steps` — existing recipes vary) — a numbered list. Write `1.` on every line if that's easier; the fleet-wide `mdformat --number` pre-commit hook renumbers ordered lists sequentially (1, 2, 3) on commit, so the committed source always ends up numbered either way.
    - Optional `## Notes` section
-4. Add a link in the README under the correct subsection, in alphabetical order. CI enforces this: `scripts/check-toc.sh` (a `check_toc` job on every push) fails if any recipe file is missing from the README or the README links a file that no longer exists. Run it locally with `sh scripts/check-toc.sh` before pushing.
+4. Add a link in the README under the correct subsection, in alphabetical order. CI enforces this: `scripts/check-toc.sh` (a `check_toc` job on every push) fails if any recipe file is missing from the README or the README links a file that no longer exists. Run it locally with `sh scripts/check-toc.sh` before pushing. The script's exclusion list (READMEs, `CLAUDE.md`, `contributing.md`, `drinks/sodas/brew-day-notes/`) is the working definition of "not a recipe": any other new Markdown file needs an exclusion there, or CI fails.
+5. Name the file and title after what someone would search for. When a dish has two common names, put both in the title, for example "Dutch Baby (German Pancakes)".
 
 ## Directory structure
 
@@ -102,7 +119,8 @@ sweets/
 
 ## Recipe formatting quirks
 
-- Fractions and dashes are Unicode (`½`, `–`, `¼`), corpus-wide. Older recipes used HTML entities (`&frac12;`, `&ndash;`); the `mdformat` pre-commit hook converts them, so entities typed into a new recipe will be rewritten on commit rather than preserved.
+- **Units: spell them out in new and edited recipes** — `cup`, `tablespoon`, `teaspoon`, not `C` / `T` / `t`. The single-letter shorthand dominates older recipes (and `T` versus `t` is easy to misread); leave it alone in recipes you aren't otherwise touching.
+- Fractions and dashes are Unicode (`½`, `–`, `¼`) in new writing. Older recipes used HTML entities (`&frac12;`, `&ndash;`), which the `mdformat` hook converts on commit. It does **not** convert slash fractions, so about 25 older files still have `1/2`-style fractions; convert them when you edit those files.
 - Cross-recipe links use relative paths. Examples:
   - Same folder: `[birria de res](birria-de-res.md)`
   - Sibling folder: `[meatballs](../italian/meatballs.md)`
@@ -120,7 +138,7 @@ Ingredient defaults (salted butter, all-purpose flour, etc.), knife-cut sizing, 
 
 ## Importing from Bryce's Google Drive
 
-Bryce owns the shared Google Drive `Recipes/` folder; the user also has top-level `.gdoc` files in their own My Drive root. Periodically sync net-new recipes worth incorporating.
+Bryce owns the shared Google Drive `Recipes/` folder; the owner also has top-level `.gdoc` files in his own My Drive root. Syncing is on demand only, when the owner asks; there's no schedule.
 
 **Last sync: 2026-05-17** — 25 recipes imported, Caribbean entrée folder carved out of curries. See `git log -- entrees/caribbean/ bread/bread-baguette-paul-hollywood.md` for the haul.
 

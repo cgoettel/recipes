@@ -138,3 +138,4 @@ Bryce owns the shared Google Drive `Recipes/` folder; the user also has top-leve
 Open items only; shipped work lives in the git history.
 
 - **[#2 "Staff-engineer handover: knowledge transfer and "what would you do differently?""](https://gitlab.com/colby.goettel/recipes/-/work_items/2)** (`Present`, `priority::weeks`, milestone Maintenance) — a one-session exercise in which an agent plays a staff engineer inheriting the repo. It interviews the owner to transfer knowledge (folding the answers into the docs), then proposes what it would do differently, for discussion before anything is filed.
+- **[#3 "Cooking with tea: hōjicha and Kaga bōcha creations"](https://gitlab.com/colby.goettel/recipes/-/work_items/3)** (`Present`, `priority::months`, milestone Creations) — backlog of roasted-tea dishes beyond the bōcha curry and hōjicha panna cotta: lahpet (fermented tea-leaf salad), ochazuke, hōjicha salt, tea brine, tea smoking, sweets.

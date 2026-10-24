@@ -23,3 +23,4 @@ A classic Italian set custard. It's really a ratio to remember: one envelope of 
 ## Notes
 
 - To serve in the ramekin instead of unmolding, skip the hot-water dip. A spoonful of [strawberry syrup](../../drinks/syrups/strawberry-syrup.md) or fresh berries over the top is the usual finish.
+- **Hōjicha variation.** Bring the cream, half-and-half, and sugar to a boil as in step 3, then take it off the heat, add 3 Tbsp loose hōjicha or Kaga bōcha (roasted stem tea), and steep, covered, 8–10 minutes. Strain, pressing the leaves, and top back up to 3 cups with half-and-half, since the leaves absorb some. Rewarm until steaming, then continue with step 4, cutting the vanilla to ½ tsp so the toasted tea leads. A drizzle of kuromitsu (Okinawan black sugar syrup) is the classic finish.

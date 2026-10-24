@@ -129,8 +129,11 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 ### East Asian
 
 - [Butter Ramen](entrees/east-asian/butter-ramen.md)
+- [Chicken — Crispy, with Ponzu and Pink Peppercorn](entrees/east-asian/chicken-crispy-ponzu-pink-peppercorn.md)
 - [Chicken — Korean BBQ](entrees/east-asian/chicken-korean-bbq.md)
+- [Curry Rice — Kaga Bōcha](entrees/east-asian/curry-rice-kaga-bocha.md)
 - [Curry Rice — Kimono Mom](entrees/east-asian/curry-rice-kimono-mom.md)
+- [Curry Rice — Kyohana-Style](entrees/east-asian/curry-rice-kyohana-style.md)
 - [Steak — Kun Koki](entrees/east-asian/steak-kun-koki.md)
 
 ### Italian
@@ -223,6 +226,7 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 - [Frijoles de la Olla](sides-and-starters/frijoles-de-la-olla.md)
 - [Gobi 65](sides-and-starters/gobi-65.md)
 - [Grilled Artichokes](sides-and-starters/grilled-artichokes.md)
+- [Gyoza — Steamed](sides-and-starters/gyoza-steamed.md)
 - [Hot artichoke dip](sides-and-starters/hot-artichoke-dip.md)
 - [Pork and Beans — Dr. Hunn's](sides-and-starters/pork-and-beans-dr-hunns.md)
 - [Rice — Basmati Pulao](sides-and-starters/rice-basmati-pulao.md)

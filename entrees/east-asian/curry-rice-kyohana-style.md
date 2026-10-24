@@ -29,7 +29,9 @@ Serves 4–6.
 - 1 tsp black peppercorns
 - 1–2 dried red chilies, or ½–1 tsp cayenne
 - 1 Tbsp ground turmeric
+- ¼ tsp freshly grated nutmeg
 - 1 bay leaf
+- Optional: 1 tsp dried orange peel (chenpi), ground
 
 ### Curry
 
@@ -65,7 +67,7 @@ Serves 4–6.
 ### Spice blend
 
 1. Toast the whole seeds, peppercorns, chilies, and bay leaf in a dry skillet over medium heat, shaking the pan, until fragrant and a shade darker (2–3 minutes). Don't let the fenugreek go past light brown, or it turns bitter.
-2. Cool, then grind fine and stir in the turmeric.
+2. Cool, then grind fine and stir in the turmeric, nutmeg, and orange peel if using. Nutmeg and orange peel are both standard in Japanese curry blends: nutmeg adds warmth without sweetness, and the peel adds a bitter-citrus aroma that brings the blend closer to the shop flavor.
 
 ### Curry
 
@@ -82,5 +84,5 @@ Serves 4–6.
 ## Notes
 
 - **The jelly test.** Collagen from the feet and wings is what makes the curry set when cold. If it doesn't set, use more feet next time or reduce the stock further. Reheat gently and loosen with a splash of water.
-- **Shortcut spices.** S&B curry powder (the red can) can stand in for the homemade blend. It's still far better than bricks, and it includes cinnamon and clove.
+- **Shortcut spices.** S&B curry powder (the red can) can stand in for the homemade blend. It's still far better than bricks, and it includes cinnamon and clove. To freshen it, toast and grind 1 Tbsp coriander seed and 1–2 tsp cumin seed and stir them in with the S&B.
 - **Related.** The [Kaga bōcha curry](curry-rice-kaga-bocha.md) uses the same roux method with roasted tea in the liquid. This stock is the best base for it too.

@@ -132,3 +132,9 @@ Bryce owns the shared Google Drive `Recipes/` folder; the user also has top-leve
 - **AI-generated prose creeps in.** Flag doc bodies that read overly literary ("memory and mystery," nostalgic Nonna vignettes) before importing — may not be a real family recipe. On 2026-05-17 the user dropped a "Sunday Gravy" doc for this reason.
 - **Drive's folder ≠ repo's folder.** Drive often files rice and brunch items under `/Entrees`. Apply this repo's categorization rules instead (Dominican rice → sides; biscuits-and-gravy → breakfast).
 - **Triage strategy that worked**: pre-veto from filenames (most aren't wanted), then fetch only the keeps and skim for content quality. Batch-fetching everything is wasteful.
+
+## Roadmap
+
+Open items only; shipped work lives in the git history.
+
+- **[#2 "Staff-engineer handover: knowledge transfer and "what would you do differently?""](https://gitlab.com/colby.goettel/recipes/-/work_items/2)** (`Present`, `priority::weeks`, milestone Maintenance) — a one-session exercise in which an agent plays a staff engineer inheriting the repo. It interviews the owner to transfer knowledge (folding the answers into the docs), then proposes what it would do differently, for discussion before anything is filed.

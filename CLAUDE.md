@@ -159,6 +159,18 @@ Bryce owns the shared Google Drive `Recipes/` folder; the owner also has top-lev
 
 Open items only; shipped work lives in the git history.
 
+**Site (v1)** — recipes.skalchemy.com, time-boxed; close the milestone when v1 is live.
+
+- **[#5 "Build recipes.skalchemy.com"](https://gitlab.com/colby.goettel/recipes/-/work_items/5)** (`Present`, `priority::weeks`) — fleet app over this repo: git stays the source of truth for recipe text, Postgres holds pantry, checklist, and tested status, and "what can I make" reuses the cocktails ingredient abstraction. Mock first.
+- **[#6 "Add front matter and normalize recipe structure for the site"](https://gitlab.com/colby.goettel/recipes/-/work_items/6)** (`Present`, `priority::months`) — YAML front matter (`status`, `serves`, `tags`) and one heading per section; blocked by #5's data model, lands after #4.
+- **[#7 "Generate the README table of contents from front matter"](https://gitlab.com/colby.goettel/recipes/-/work_items/7)** (`Present`, `priority::months`) — the intro stays hand-written; the list becomes generated, alphabetical, and consistently cased.
+
+**Maintenance** and **Creations**:
+
 - **[#2 "Staff-engineer handover: knowledge transfer and "what would you do differently?""](https://gitlab.com/colby.goettel/recipes/-/work_items/2)** (`Present`, `priority::weeks`, milestone Maintenance) — a one-session exercise in which an agent plays a staff engineer inheriting the repo. It interviews the owner to transfer knowledge (folding the answers into the docs), then proposes what it would do differently, for discussion before anything is filed.
 - **[#4 "Audit and sweep recipe units to the spelled-out house style"](https://gitlab.com/colby.goettel/recipes/-/work_items/4)** (`Agent-ready`, `priority::weeks`, milestone Maintenance) — audit every unit and fraction form in use, set a canonical spelling for each, then mechanically convert older recipes (`C`/`T`/`t` to `cup`/`tablespoon`/`teaspoon`, `1/2` to `½`) with a hand-reviewed diff.
+- **[#8 "Check Markdown formatting and secrets in CI"](https://gitlab.com/colby.goettel/recipes/-/work_items/8)** (`Agent-ready`, `priority::weeks`, milestone Maintenance) — run the pinned `mdformat` and gitleaks in CI so commits made off the owner's Mac are checked too.
+- **[#9 "Give hot sauces their own folder"](https://gitlab.com/colby.goettel/recipes/-/work_items/9)** (`Present`, `priority::someday`, milestone Maintenance) — move the `sauce-*` hot sauces out of `salsas/`, if "hot sauce" is the right word for them.
+- **[#10 "Move the Drive-import procedure into a project skill"](https://gitlab.com/colby.goettel/recipes/-/work_items/10)** (`Agent-ready`, `priority::someday`, milestone Maintenance) — keep `CLAUDE.md` about the repo; load the import steps only when importing.
+- **[#11 "Rename Swedish pancakes v2 after what makes it different"](https://gitlab.com/colby.goettel/recipes/-/work_items/11)** (`Present`, `priority::someday`, milestone Maintenance).
 - **[#3 "Cooking with tea: hōjicha and Kaga bōcha creations"](https://gitlab.com/colby.goettel/recipes/-/work_items/3)** (`Present`, `priority::months`, milestone Creations) — backlog of roasted-tea dishes beyond the bōcha curry and hōjicha panna cotta: lahpet (fermented tea-leaf salad), ochazuke, hōjicha salt, tea brine, tea smoking, sweets.

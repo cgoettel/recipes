@@ -1,11 +1,2 @@
-*.aux
-*.bbl
-*.blg
-*.brf
-*.lof
-*.log
-*.lot
-*.out
-*.toc
+# Recipe zips dropped in for import (unpacked, then deleted)
 *.zip
-*~lock.*docx*

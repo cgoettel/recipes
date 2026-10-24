@@ -16,6 +16,8 @@ Persistent preferences that should shape suggestions, edits, and new recipes acr
 
 **Alcohol.** Used purely for flavor, never for effect. When choosing wine, beer, or spirits, pick for what they contribute to the dish — flavor depth, acid, fat-cutting, aromatic survivability through aging or heat — never "what's open" or "use up the cheap stuff."
 
+**Good-enough store-bought.** Frozen gyoza and dumplings are bought, not made. When a restaurant dish centers on them, write the sauce and serving method as the recipe (see `sauces-and-condiments/sauces/dipping-sauce-gyoza.md`), not a from-scratch dumpling. Ask before assuming the same for other components.
+
 **Anti-preferences (hard nos).**
 
 - **Caraway.** Skip entirely, including in territory where it's the default (German, Eastern European, rye breads).

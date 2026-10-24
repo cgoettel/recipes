@@ -43,10 +43,9 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 
 - [Biscuits and Gravy](breakfast/biscuits-and-gravy.md)
 - [Granola](breakfast/granola.md)
-- [Pancake — Dutch Baby](breakfast/pancake-dutch-baby.md)
+- [Pancake — Dutch Baby (German Pancakes)](breakfast/pancake-dutch-baby.md)
 - [Pancakes — Bacon Cornmeal](breakfast/pancakes-bacon-cornmeal.md)
 - [Pancakes — Classic](breakfast/pancakes-classic.md)
-- [Pancakes — German (Dutch Baby)](breakfast/pancakes-german-dutch-baby.md)
 - [Pancakes — Potato cakes](breakfast/pancakes-potato-cakes.md)
 - [Pancakes — Swedish (Åke Jon)](breakfast/pancakes-swedish-ake-jon.md)
 - [Pancakes — Swedish (Åke Jon) v2](breakfast/pancakes-swedish-ake-jon-v2.md)

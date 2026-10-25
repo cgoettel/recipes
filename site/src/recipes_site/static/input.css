@@ -217,6 +217,12 @@
   .staples { margin-top: 1.5rem; background: var(--color-surface); border-radius: 12px; padding: 0.75rem 1rem; }
   .staples summary { cursor: pointer; min-height: 32px; }
   .from { display: block; font-size: 0.78rem; }
+  .owner { margin-top: 2rem; background: var(--color-surface); border-radius: 12px; padding: 0.75rem 1rem; }
+  .owner-status { margin: 0 0 0.5rem; }
+  .owner-form { display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; }
+  .owner-form input { min-height: 44px; padding: 0 0.6rem; font: inherit; color: var(--color-text); background: var(--color-bg); border: 2px solid var(--color-line); border-radius: 10px; box-sizing: border-box; }
+  .owner-form input[type="text"] { flex: 1 1 14rem; }
+  .bar-coral { background: var(--color-coral); }
   .reset-row { margin-top: 1rem; display: flex; justify-content: flex-end; gap: 0.5rem; flex-wrap: wrap; }
   .extra { margin-top: 2rem; }
   .source-link { margin-top: 2rem; }

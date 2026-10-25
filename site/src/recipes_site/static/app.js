@@ -127,6 +127,30 @@
     });
   }
 
+  // The owner's cook log. /me/* is behind Cloudflare Access: for anyone else the
+  // request is redirected to a login page on another origin, fetch fails, and
+  // the widget stays hidden.
+  var owner = document.querySelector("[data-owner]");
+  if (owner) {
+    fetch("/me/status?slug=" + encodeURIComponent(owner.getAttribute("data-slug")), {
+      credentials: "same-origin",
+      redirect: "error",
+      headers: { Accept: "application/json" },
+    })
+      .then(function (res) { return res.ok ? res.json() : Promise.reject(); })
+      .then(function (st) {
+        var text = st.count === 0
+          ? "Untested: never logged"
+          : "Made " + st.count + (st.count === 1 ? " time" : " times") + ", last on " + st.last;
+        owner.querySelector("[data-owner-status]").textContent = text;
+        var d = new Date();
+        var local = new Date(d.getTime() - d.getTimezoneOffset() * 60000).toISOString().slice(0, 10);
+        owner.querySelector("[data-today]").value = local;
+        owner.hidden = false;
+      })
+      .catch(function () {});
+  }
+
   // Offline: once a page has loaded, it keeps working without signal.
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("/sw.js").catch(function () {});

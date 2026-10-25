@@ -24,6 +24,8 @@ class Settings(BaseSettings):
     # Where README.md and the recipe folders live. The image copies them to
     # /app/content; a checkout reads them from the repo root.
     content_dir: Path = _REPO_ROOT
+    # The public origin, for the CSRF check on the private POSTs.
+    public_origin: str = "https://recipes.skalchemy.com"
     # Short git SHA baked in at build time; /health reports it.
     asset_version: str = "dev"
 

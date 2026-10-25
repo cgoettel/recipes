@@ -3,8 +3,9 @@
 from __future__ import annotations
 
 import datetime as dt
+import uuid
 
-from sqlalchemy import Date, Integer, String
+from sqlalchemy import Date, DateTime, Integer, String, Text, Uuid, func
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 
 
@@ -24,3 +25,17 @@ class RecipeDailyCount(Base):
     day: Mapped[dt.date] = mapped_column(Date, primary_key=True)
     kind: Mapped[str] = mapped_column(String(20), primary_key=True)
     count: Mapped[int] = mapped_column(Integer, nullable=False, default=0)
+
+
+class CookLog(Base):
+    """The owner's private log: one row each time a recipe was made."""
+
+    __tablename__ = "cook_log"
+
+    id: Mapped[uuid.UUID] = mapped_column(Uuid, primary_key=True, default=uuid.uuid7)
+    slug: Mapped[str] = mapped_column(String(300), nullable=False, index=True)
+    made_on: Mapped[dt.date] = mapped_column(Date, nullable=False)
+    note: Mapped[str | None] = mapped_column(Text, nullable=True)
+    created_at: Mapped[dt.datetime] = mapped_column(
+        DateTime(timezone=True), nullable=False, server_default=func.now()
+    )

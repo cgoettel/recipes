@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}Cook log · recipes{% endblock %}
+{% block content %}
+<div class="title-row"><h1 class="recipe-title">Cook log</h1><span class="chip chip-violet">private</span></div>
+<p class="muted small">Only you can see this page. “Made it” at the end of any recipe adds a line here; a recipe never made is untested.</p>
+
+<section class="list-section">
+  <h2 class="section-heading"><span class="bar bar-yellow" aria-hidden="true"></span>Recently made</h2>
+  {% if recent %}
+  <ul class="plan-list">
+    {% for m in recent %}
+    <li>
+      <span class="muted small">{{ m.made_on.isoformat() }}</span>
+      {% if m.slug in recipes %}<a href="/{{ m.slug }}">{{ recipes[m.slug].title }}</a>{% else %}{{ m.slug }}{% endif %}
+      {% if m.note %}<span class="muted small">“{{ m.note }}”</span>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p class="muted">Nothing logged yet.</p>
+  {% endif %}
+</section>
+
+<section class="list-section">
+  <h2 class="section-heading"><span class="bar bar-sky" aria-hidden="true"></span>Most viewed</h2>
+  <ol class="prose">
+    {% for slug, n in top_viewed %}<li>{% if slug in recipes %}<a href="/{{ slug }}">{{ recipes[slug].title }}</a>{% else %}{{ slug }}{% endif %} <span class="muted small">{{ n }}</span></li>{% else %}<li class="muted">No views counted yet.</li>{% endfor %}
+  </ol>
+  {% if top_scaled %}
+  <h3 class="subheading">Most scaled</h3>
+  <ol class="prose">
+    {% for slug, n in top_scaled %}<li>{% if slug in recipes %}<a href="/{{ slug }}">{{ recipes[slug].title }}</a>{% else %}{{ slug }}{% endif %} <span class="muted small">{{ n }}</span></li>{% endfor %}
+  </ol>
+  {% endif %}
+</section>
+
+<details class="staples">
+  <summary class="section-heading"><span class="bar bar-coral" aria-hidden="true"></span>Untested ({{ untested | length }})</summary>
+  <ul class="recipe-list">
+    {% for r in untested %}<li><a href="/{{ r.slug }}">{{ r.title }}</a></li>{% endfor %}
+  </ul>
+</details>
+{% endblock %}

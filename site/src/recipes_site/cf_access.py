@@ -43,6 +43,14 @@ def verify(token: str, team_domain: str, audience: str, allowed: set[str]) -> st
     return email
 
 
+def _forbidden(request: Request) -> Response:
+    """A plain page for a browser that reaches /me signed in as someone else."""
+    templates = getattr(request.app.state, "templates", None)
+    if templates is not None and "text/html" in request.headers.get("accept", ""):
+        return templates.TemplateResponse(request, "private.html", status_code=403)  # type: ignore[no-any-return]
+    return JSONResponse({"detail": "forbidden"}, status_code=403)
+
+
 class CloudflareAccessMiddleware(BaseHTTPMiddleware):
     def __init__(self, app: object, *, settings: Settings) -> None:
         super().__init__(app)  # type: ignore[arg-type]
@@ -63,7 +71,7 @@ class CloudflareAccessMiddleware(BaseHTTPMiddleware):
             "CF_Authorization"
         )
         if not token or not s.cf_access_team_domain or not s.cf_access_audience:
-            return JSONResponse({"detail": "forbidden"}, status_code=403)
+            return _forbidden(request)
         try:
             # The JWKS fetch is blocking network I/O; keep it off the event loop.
             await asyncio.to_thread(
@@ -75,6 +83,6 @@ class CloudflareAccessMiddleware(BaseHTTPMiddleware):
             )
         except (jwt.PyJWTError, ValueError) as exc:
             logger.warning("cf_access.reject", path=request.url.path, reason=str(exc))
-            return JSONResponse({"detail": "forbidden"}, status_code=403)
+            return _forbidden(request)
         request.state.owner = True
         return await call_next(request)

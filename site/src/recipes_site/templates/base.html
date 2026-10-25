@@ -29,14 +29,36 @@
       {%- for ch in "recipes" -%}<span class="wm-{{ loop.index }}" aria-hidden="true">{{ ch }}</span>{%- endfor -%}
     </a>
     {% set st = stripes() %}<a class="header-stripes" href="/" tabindex="-1" aria-hidden="true">{% for s in st.header %}<i{% if s.thick %} class="thick"{% endif %} style="width: {{ s.width }}%; background: var(--color-{{ s.color }})"></i>{% endfor %}</a>
-    <a class="theme-toggle list-link" href="/list" data-list-link aria-label="Shopping list">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6h11M9 12h11M9 18h11"/><path d="M4 6l1 1 2-2M4 12l1 1 2-2M4 18l1 1 2-2"/></svg>
+    <a class="icon-btn list-link" href="/list" data-list-link aria-label="Shopping list">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/><path d="M2.5 3.5h2.6l2.4 11.2a1.6 1.6 0 0 0 1.6 1.3h8.4a1.6 1.6 0 0 0 1.6-1.2l1.6-6.8H6.2"/></svg>
       <span class="list-count" data-list-count hidden></span>
     </a>
-    <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch light or dark">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+    <button type="button" class="icon-btn" data-panel-toggle="menu" aria-controls="panel-menu" aria-expanded="false" aria-label="Menu">
+      <svg class="when-closed" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      <svg class="when-open" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <button type="button" class="icon-btn person" data-panel-toggle="person" data-person aria-controls="panel-person" aria-expanded="false" aria-label="You: day or night, and your cook log">
+      <svg class="person-outline" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.2-4 4.2-6 8-6s6.8 2 8 6"/></svg>
+      <span class="person-emoji" aria-hidden="true" hidden>👩🏻‍🦳</span>
     </button>
   </header>
+  <div class="panel" id="panel-menu" data-panel="menu" hidden>
+    <ul class="menu-links">
+      <li><a href="/">All recipes</a></li>
+      <li><a href="/list">Shopping list</a></li>
+      <li><a href="/learn/bakers-percentages">Baker's percentages <span class="muted">the theory</span></a></li>
+    </ul>
+    <p class="panel-cap">Jump to</p>
+    <nav class="jump" aria-label="Categories">
+      {% for cat in nav_categories() %}<a href="/#{{ cat.slug }}" class="chip chip-{{ cat.color }}">{{ cat.title | lower }}</a>{% endfor %}
+    </nav>
+  </div>
+  <div class="panel panel-person" id="panel-person" data-panel="person" hidden>
+    <div class="seg" role="group" aria-label="Day or night">
+      <button type="button" data-set-theme="light">🌻 Day</button><button type="button" data-set-theme="dark">🌘 Night</button>
+    </div>
+    <a class="panel-link" href="/me" data-person-link>Sign in to your cook log</a>
+  </div>
   <main class="page">
     {% block content %}{% endblock %}
   </main>

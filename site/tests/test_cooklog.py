@@ -69,3 +69,17 @@ def test_unknown_recipe_not_logged(logged: list[object]) -> None:  # noqa: ARG00
 def test_recipe_page_has_hidden_owner_widget(logged: list[object]) -> None:  # noqa: ARG001
     html = _client(auth_disabled=False).get("/breakfast/pancake-dutch-baby").text
     assert 'data-owner data-slug="breakfast/pancake-dutch-baby" hidden' in html
+
+
+def test_strangers_get_a_private_page_and_owners_a_whoami(logged: list[object]) -> None:  # noqa: ARG001
+    stranger = _client(auth_disabled=False)
+    page = stranger.get("/me", headers={"Accept": "text/html"})
+    assert page.status_code == 403 and "This page is private" in page.text
+    assert stranger.get("/me/whoami").status_code == 403
+    assert _client(auth_disabled=True).get("/me/whoami").json() == {"owner": True}
+
+
+def test_header_has_cart_menu_and_person(logged: list[object]) -> None:  # noqa: ARG001
+    html = _client(auth_disabled=False).get("/").text
+    assert 'data-panel-toggle="menu"' in html and "data-person" in html
+    assert 'href="/#bread"' in html  # the menu's category chips

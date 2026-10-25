@@ -13,14 +13,73 @@
     }
   }
 
-  // Theme
-  var toggle = document.querySelector("[data-theme-toggle]");
-  if (toggle) {
-    toggle.addEventListener("click", function () {
-      var next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+  // Header panels: the menu and the person panel. One open at a time; a tap
+  // outside or Escape closes it.
+  var toggles = Array.prototype.slice.call(document.querySelectorAll("[data-panel-toggle]"));
+  function closePanels(except) {
+    toggles.forEach(function (t) {
+      var name = t.getAttribute("data-panel-toggle");
+      if (name === except) return;
+      t.setAttribute("aria-expanded", "false");
+      var panel = document.querySelector('[data-panel="' + name + '"]');
+      if (panel) panel.hidden = true;
+    });
+  }
+  toggles.forEach(function (t) {
+    t.addEventListener("click", function (ev) {
+      ev.stopPropagation();
+      var name = t.getAttribute("data-panel-toggle");
+      var panel = document.querySelector('[data-panel="' + name + '"]');
+      var open = panel.hidden;
+      closePanels(name);
+      panel.hidden = !open;
+      t.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+  });
+  document.addEventListener("click", function (ev) {
+    if (!ev.target.closest("[data-panel]")) closePanels(null);
+  });
+  document.addEventListener("keydown", function (ev) {
+    if (ev.key === "Escape") closePanels(null);
+  });
+
+  // Day or night, from the person panel.
+  var themeButtons = Array.prototype.slice.call(document.querySelectorAll("[data-set-theme]"));
+  function paintTheme() {
+    var now = document.documentElement.dataset.theme;
+    themeButtons.forEach(function (b) {
+      var on = b.getAttribute("data-set-theme") === now;
+      b.classList.toggle("is-on", on);
+      b.setAttribute("aria-pressed", on ? "true" : "false");
+    });
+  }
+  themeButtons.forEach(function (b) {
+    b.addEventListener("click", function () {
+      var next = b.getAttribute("data-set-theme");
       document.documentElement.dataset.theme = next;
       try { localStorage.setItem("theme", next); } catch (e) {}
+      paintTheme();
     });
+  });
+  paintTheme();
+
+  // Signed in? /me/* sits behind Cloudflare Access, so for anyone without a
+  // current login the request is redirected off-site and fetch fails. Success
+  // swaps the outline for the owner's emoji.
+  var person = document.querySelector("[data-person]");
+  if (person) {
+    fetch("/me/whoami", { credentials: "same-origin", redirect: "error", headers: { Accept: "application/json" } })
+      .then(function (res) { return res.ok ? res.json() : Promise.reject(); })
+      .then(function (who) {
+        if (!who.owner) return;
+        person.classList.add("is-owner");
+        person.querySelector(".person-outline").setAttribute("hidden", "");
+        person.querySelector(".person-emoji").hidden = false;
+        person.setAttribute("aria-label", "You're signed in: day or night, and your cook log");
+        var link = document.querySelector("[data-person-link]");
+        if (link) link.textContent = "Cook log";
+      })
+      .catch(function () {});
   }
 
   // Search on the index

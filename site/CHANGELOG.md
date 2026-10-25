@@ -2,6 +2,12 @@
 
 The site's running version is the newest header here; CI bakes it into the image.
 
+## v0.7.0 (2026-10-25)
+
+- A new header: a cart for the shopping list, a menu (all recipes, the shopping list, baker's percentages, and the categories), and a person button for day or night and the cook log.
+- The person button shows 👩🏻‍🦳 when the owner's login is current and a plain outline otherwise, so an expired login is visible at a glance.
+- Anyone else who reaches `/me` gets a plain "this page is private" page.
+
 ## v0.6.0 (2026-10-25)
 
 - Butter reads in sticks, with tablespoons alongside: "¾ stick (6 tablespoons) butter". Scaling keeps both in step, shows cups from two sticks up, and drops to tablespoons when the amount isn't a quarter stick. Cinnamon sticks are still just counted.

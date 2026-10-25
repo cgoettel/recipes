@@ -97,7 +97,7 @@
   .small { font-size: 0.85rem; }
 
   /* Header: the wordmark plus mural stripes */
-  .site-header { max-width: 44rem; width: 100%; margin: 0 auto; box-sizing: border-box; padding: 1rem 1rem 0.75rem; display: flex; align-items: center; gap: 0.75rem; }
+  .site-header { max-width: 44rem; width: 100%; margin: 0 auto; box-sizing: border-box; padding: 1rem 1rem 0.75rem; display: flex; align-items: center; gap: 0.6rem; }
   .wordmark { font-family: var(--font-brand); font-size: 2.1rem; line-height: 1; text-decoration: none; white-space: nowrap; letter-spacing: -0.01em; }
   .wordmark span { text-shadow: 3px 3px 0 var(--color-shade); }
   .wm-1 { color: var(--color-crimson); } .wm-2 { color: var(--color-cobalt); } .wm-3 { color: var(--color-yellow); }
@@ -107,7 +107,26 @@
   /* Colors and widths come from stripes.py, fresh on every page. */
   .header-stripes i { display: block; height: 5px; }
   .header-stripes i.thick { height: 9px; }
-  .theme-toggle { flex: none; width: 44px; height: 44px; border-radius: 22px; border: 2px solid var(--color-line); background: transparent; display: inline-flex; align-items: center; justify-content: center; }
+  @media (max-width: 26rem) { .wordmark { font-size: 1.8rem; } }
+  .icon-btn { flex: none; width: 44px; height: 44px; border-radius: 22px; border: 2px solid var(--color-line); background: transparent; color: var(--color-text); display: inline-flex; align-items: center; justify-content: center; cursor: pointer; padding: 0; box-sizing: border-box; }
+  .icon-btn .when-open { display: none; }
+  .icon-btn[aria-expanded="true"] .when-open { display: block; }
+  .icon-btn[aria-expanded="true"] .when-closed { display: none; }
+  .person.is-owner { border-color: var(--color-yellow); }
+  .person-emoji { font-size: 1.4rem; line-height: 1; }
+
+  /* Header panels: the menu and the person panel drop in under the header. */
+  .panel { max-width: 44rem; width: 100%; margin: 0 auto; box-sizing: border-box; padding: 0 1rem 0.9rem; display: flex; flex-direction: column; gap: 0.6rem; border-bottom: 2px solid var(--color-line); }
+  .panel[hidden] { display: none; }
+  .panel-person { align-items: flex-end; }
+  .menu-links { list-style: none; margin: 0; padding: 0; }
+  .menu-links a { display: flex; justify-content: space-between; align-items: center; gap: 1rem; min-height: 44px; border-bottom: 1px solid var(--color-line); color: var(--color-text); text-decoration: none; font-weight: 700; font-size: 1.05rem; }
+  .panel-cap { margin: 0.3rem 0 0; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-muted); }
+  .panel .jump { margin: 0; }
+  .seg { display: inline-flex; border: 2px solid var(--color-line); border-radius: 22px; overflow: hidden; }
+  .seg button { font: inherit; font-weight: 700; font-size: 0.95rem; min-height: 44px; padding: 0 1rem; border: 0; background: transparent; color: var(--color-text); cursor: pointer; }
+  .seg button.is-on { background: var(--color-accent); color: var(--color-on-accent); }
+  .panel-link { display: inline-flex; align-items: center; min-height: 44px; font-weight: 700; }
 
   .site-footer { max-width: 44rem; width: 100%; margin: 0 auto; padding: 1.5rem 1rem 2rem; box-sizing: border-box; color: var(--color-muted); font-size: 0.85rem; }
   .stripes { display: flex; margin-bottom: 0.75rem; }
@@ -206,7 +225,7 @@
   .dough-form input { width: 6.5rem; min-height: 44px; padding: 0 0.6rem; font: inherit; color: var(--color-text); background: var(--color-bg); border: 2px solid var(--color-line); border-radius: 10px; box-sizing: border-box; }
   .learn h2 { margin-top: 1.75rem; }
   .list-link { position: relative; color: var(--color-text); text-decoration: none; }
-  .list-count { position: absolute; top: -4px; right: -4px; min-width: 20px; height: 20px; border-radius: 10px; background: var(--color-crimson); color: #fff; font-size: 0.72rem; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; padding: 0 4px; box-sizing: border-box; }
+  .list-count { position: absolute; top: -4px; right: -4px; min-width: 20px; height: 20px; border-radius: 10px; background: var(--color-yellow); color: #283258; font-size: 0.72rem; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; padding: 0 4px; box-sizing: border-box; }
   .plan-list { list-style: none; padding: 0; margin: 0.25rem 0 0; }
   .plan-list li { display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; min-height: 44px; border-bottom: 1px solid var(--color-line); }
   .link-button { margin-left: auto; background: none; border: 0; color: var(--color-accent); text-decoration: underline; min-height: 44px; padding: 0 0.25rem; }

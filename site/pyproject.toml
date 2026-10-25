@@ -1,0 +1,67 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "recipes-site"
+# Placeholder only: the running version is the newest CHANGELOG.md header,
+# baked into the image at build time (src/recipes_site/_version.py).
+version = "0.0.0"
+description = "recipes.skalchemy.com: the public site over the recipes repo"
+readme = "README.md"
+requires-python = ">=3.15"
+license = "MIT"
+authors = [{ name = "Colby Goettel" }]
+dependencies = [
+    "alembic>=1.14",
+    "fastapi>=0.150",
+    "jinja2>=3.1",
+    "mistune>=3.0",
+    "prometheus-client>=0.21",
+    "psycopg[binary]>=3.3.6",
+    "pydantic>=2.14.1",
+    "pydantic-settings>=2.2",
+    # Cloudflare Access JWT verification (RS256 via the team JWKS).
+    "pyjwt[crypto]>=2.9",
+    "sqlalchemy>=2.0",
+    "structlog>=24",
+    "uvicorn[standard]>=0.32",
+]
+
+[project.optional-dependencies]
+dev = [
+    "httpx2",
+    "mypy>=1.10",
+    "pytest>=8.0",
+    "ruff>=0.6",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/recipes_site"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py315"
+src = ["src", "tests"]
+extend-exclude = ["migrations/versions"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B", "ARG", "SIM", "TC"]
+
+[tool.ruff.lint.per-file-ignores]
+# SQLAlchemy resolves Mapped[...] annotations at runtime.
+"src/recipes_site/models.py" = ["TC001", "TC002", "TC003"]
+# FastAPI resolves handler signatures at runtime.
+"src/recipes_site/app.py" = ["TC001", "TC002", "TC003", "B008"]
+"src/recipes_site/cf_access.py" = ["TC001", "TC002", "TC003"]
+"tests/**" = ["TC001", "TC002", "TC003"]
+
+[tool.mypy]
+python_version = "3.15"
+strict = true
+ignore_missing_imports = true
+files = ["src", "tests"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

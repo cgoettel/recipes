@@ -1,28 +1,43 @@
+# Pipelines run for merge requests, and for pushes to a branch with no open MR
+# (so main, and recipe edits pushed straight to it). No duplicate branch + MR
+# pipelines.
+workflow:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH && $CI_OPEN_MERGE_REQUESTS && $CI_PIPELINE_SOURCE == "push"
+      when: never
+    - if: $CI_PIPELINE_SOURCE == "push"
+    - if: $CI_PIPELINE_SOURCE == "web"
+
+stages:
+  - check
+  - build
+  - verify
+
 # Guard the README table of contents: every recipe linked, no dead links.
 check_toc:
+  stage: check
   image: alpine:latest
   before_script:
     - apk add --no-cache git grep sed coreutils findutils
   script:
     - sh scripts/check-toc.sh
-  rules:
-    - if: $CI_PIPELINE_SOURCE == "push"
 
 # Markdown formatting, check only. Same pinned mdformat as the owner's global
 # pre-commit hook, so commits made off his Mac (or in the web editor) are
 # checked too. Config: .pre-commit-config.yaml.
 check_format:
+  stage: check
   image: python:3.14-slim
   before_script:
     - apt-get update -qq && apt-get install -y -qq git >/dev/null
     - pip install -q pre-commit==4.3.0
   script:
     - pre-commit run --hook-stage manual --all-files --show-diff-on-failure
-  rules:
-    - if: $CI_PIPELINE_SOURCE == "push"
 
 # Secret scanning over the full history (the repo is small).
 check_secrets:
+  stage: check
   image:
     name: zricethezav/gitleaks:v8.30.0
     entrypoint: [""]
@@ -30,14 +45,125 @@ check_secrets:
     GIT_DEPTH: 0
   script:
     - gitleaks git --redact --verbose .
+
+# --- The site (site/) --------------------------------------------------------
+# Tests run on every pipeline, because they parse every recipe: a recipe edit
+# that breaks the parser fails here, before it ships.
+#
+# These run on GitLab's shared runners. The fleet apps use an in-cluster runner;
+# this repo can move to one by tagging the jobs `self-hosted` once a project
+# runner is registered for it.
+site_test:
+  stage: check
+  image: python:3.15-slim
+  variables:
+    PIP_DISABLE_PIP_VERSION_CHECK: "1"
+    PIP_NO_CACHE_DIR: "1"
+  before_script:
+    - cd site
+    - pip install -q uv
+    - uv export --frozen --no-emit-project --extra dev --no-hashes -o /tmp/requirements-dev.txt
+    - uv pip install --system -q -r /tmp/requirements-dev.txt
+    - uv pip install --system -q --no-deps -e .
+  script:
+    - ruff check .
+    - ruff format --check .
+    - mypy src tests
+    - pytest -q
+
+# Docker-in-Docker with buildx, on the shared runners. The layer cache lives in
+# the registry, so a recipe-only change rebuilds only the last layers.
+.docker_build:
+  image: docker:28
+  services:
+    - docker:28-dind
+  variables:
+    DOCKER_TLS_CERTDIR: "/certs"
+    CACHE_REF: ${CI_REGISTRY_IMAGE}/buildcache:main
+  before_script:
+    - echo "$CI_REGISTRY_PASSWORD" | docker login -u "$CI_REGISTRY_USER" --password-stdin "$CI_REGISTRY"
+    # buildx can't build a builder from the dind TLS env vars directly.
+    - docker context create dind
+    - docker buildx create --use --driver docker-container dind
+
+# Every push to main builds and pushes an immutable, sortable tag
+# (main-<pipeline iid>-<sha>). Flux image automation picks the highest iid and
+# commits it to smart-home, so a recipe edit or a code change ships on its own.
+site_build:
+  extends: .docker_build
+  stage: build
+  needs: [site_test, check_toc]
   rules:
-    - if: $CI_PIPELINE_SOURCE == "push"
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $CI_PIPELINE_SOURCE != "merge_request_event"
+  script:
+    - VERSION=$(grep -m1 '^## v' site/CHANGELOG.md | sed -E 's/^## v([0-9]+\.[0-9]+\.[0-9]+).*/\1/')
+    - '[ -n "$VERSION" ] || { echo "no version header in site/CHANGELOG.md"; exit 1; }'
+    - docker buildx build
+      -f site/Dockerfile
+      --cache-from type=registry,ref=${CACHE_REF}
+      --cache-to type=registry,ref=${CACHE_REF},mode=max
+      --build-arg ASSET_VERSION=${CI_COMMIT_SHORT_SHA}
+      --build-arg APP_VERSION=${VERSION}
+      -t ${CI_REGISTRY_IMAGE}/api:main-${CI_PIPELINE_IID}-${CI_COMMIT_SHORT_SHA}
+      -t ${CI_REGISTRY_IMAGE}/api:${CI_COMMIT_SHORT_SHA}
+      --push .
+
+# On an MR that touches the build itself, prove the image still builds (no push).
+site_build_mr:
+  extends: .docker_build
+  stage: build
+  needs: []
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        - site/Dockerfile
+        - site/pyproject.toml
+        - site/uv.lock
+        - site/package.json
+        - site/package-lock.json
+        - .dockerignore
+        - .gitlab-ci.yml
+  script:
+    - docker buildx build -f site/Dockerfile --cache-from type=registry,ref=${CACHE_REF} .
+
+# A green pipeline means serving, not just built: wait until the public /health
+# reports this commit. Flux image automation scans the registry every minute,
+# commits the tag, and the rollout runs migrations in an init container first.
+verify_live:
+  stage: verify
+  image: alpine:latest
+  needs: [site_build]
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $CI_PIPELINE_SOURCE != "merge_request_event"
+  timeout: 20m
+  variables:
+    GIT_DEPTH: 0
+  script:
+    - apk add --no-cache curl jq git >/dev/null
+    # Flux deploys only the newest tag, so if a later commit beat this one to
+    # production, that later build includes this commit and counts as success.
+    - |
+      for i in $(seq 1 90); do
+        build=$(curl -fsS https://recipes.skalchemy.com/health | jq -r .build || true)
+        echo "attempt $i: live build ${build:-none}, want ${CI_COMMIT_SHORT_SHA} or newer"
+        [ "$build" = "$CI_COMMIT_SHORT_SHA" ] && exit 0
+        if [ -n "$build" ] && [ "$build" != "dev" ]; then
+          git fetch -q origin "$CI_DEFAULT_BRANCH" || true
+          if git merge-base --is-ancestor "$CI_COMMIT_SHA" "$build" 2>/dev/null; then
+            echo "a newer build that includes this commit is live"
+            exit 0
+          fi
+        fi
+        sleep 10
+      done
+      echo "recipes.skalchemy.com never reported ${CI_COMMIT_SHORT_SHA}"
+      exit 1
 
 # Mirror main to github.com/cgoettel/recipes on every push to main.
 # GITHUB_DEPLOY_KEY is a File-type CI variable holding the SSH private key
 # whose public half is a write-enabled deploy key on the GitHub repo.
-
 mirror_to_github:
+  stage: check
   image:
     name: alpine/git:latest
     entrypoint: [""]

@@ -1,0 +1,13 @@
+{
+  "name": "recipes-site-web",
+  "private": true,
+  "description": "Tailwind CSS build for the recipes site. Used by the Dockerfile at image-build time and locally for dev.",
+  "scripts": {
+    "build": "tailwindcss -i src/recipes_site/static/input.css -o src/recipes_site/static/output.css --minify",
+    "watch": "tailwindcss -i src/recipes_site/static/input.css -o src/recipes_site/static/output.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.0",
+    "tailwindcss": "^4.3.0"
+  }
+}

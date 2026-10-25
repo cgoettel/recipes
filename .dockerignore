@@ -1,0 +1,13 @@
+# The site image is built from the repo root (site/Dockerfile) so it can read
+# the recipes. Keep everything else out of the build context.
+.git
+.claude
+.gitlab-ci.yml
+.pre-commit-config.yaml
+scripts
+site/.env*
+site/.venv
+site/node_modules
+site/**/__pycache__
+site/src/recipes_site/static/output.css
+**/*.zip

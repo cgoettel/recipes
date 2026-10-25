@@ -1,0 +1,40 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "prConcurrentLimit": 0,
+  "prHourlyLimit": 0,
+  "assignees": [
+    "colby.goettel"
+  ],
+  "labels": [
+    "renovate",
+    "dependencies"
+  ],
+  "packageRules": [
+    {
+      "description": "Ignore the Python interpreter constraint; the Dockerfile pins it, not pyproject.toml",
+      "matchDepTypes": [
+        "python-version"
+      ],
+      "enabled": false
+    },
+    {
+      "description": "Link the official Python image to CPython for release notes",
+      "matchPackageNames": [
+        "python"
+      ],
+      "sourceUrl": "https://github.com/python/cpython"
+    },
+    {
+      "description": "Auto-merge patch updates when CI passes",
+      "matchUpdateTypes": [
+        "patch"
+      ],
+      "automerge": true,
+      "automergeType": "pr",
+      "platformAutomerge": true
+    }
+  ]
+}

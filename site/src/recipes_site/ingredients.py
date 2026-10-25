@@ -41,6 +41,11 @@ _AMOUNT_RE = re.compile(
     rf"(?P<plus>\+)?(?=\s|$|[a-zA-Z\"])"
 )
 
+# "(≈240 g)" or "(240 g)" right after the amount and unit.
+_GRAMS_RE = re.compile(
+    r"^\((?P<est>≈)?\s*(?P<lo>\d+(?:\.\d+)?)(?:\s*–\s*(?P<hi>\d+(?:\.\d+)?))?\s*g\)\s*"
+)
+
 # Canonical unit -> (singular, plural, kind). Kind drives rounding and conversion.
 _CANONICAL = {
     "cup": ("cup", "cups", "volume"),
@@ -155,6 +160,10 @@ class Ingredient:
     high: Fraction | None = None
     approx: bool = False
     plus: bool = False  # "4+ cloves": at least this much
+    # A weight note after the amount: "2 cups (≈240 g) flour".
+    grams_low: Fraction | None = None
+    grams_high: Fraction | None = None
+    grams_estimated: bool = False
     unit: str | None = None  # canonical (cup, tablespoon, g, …) or None
     unit_forms: tuple[str, str] | None = None  # (singular, plural) for kept units
     item: str = ""
@@ -217,6 +226,16 @@ def parse(line: str) -> Ingredient:
             # A size, not an amount ("1\" piece ginger", "6 inch tortillas"):
             # scaling it would change the piece, not the count. Show as written.
             return Ingredient(raw=raw, item=raw)
+    grams_low = grams_high = None
+    grams_estimated = False
+    note = _GRAMS_RE.match(rest)
+    if note:
+        grams_estimated = bool(note.group("est"))
+        grams_low = Fraction(note.group("lo"))
+        grams_high = Fraction(note.group("hi")) if note.group("hi") else None
+        rest = rest[note.end() :]
+    elif unit == "g":
+        grams_low, grams_high = low, high
     if rest.startswith("of "):
         rest = rest[3:]
     return Ingredient(
@@ -225,6 +244,9 @@ def parse(line: str) -> Ingredient:
         high=high,
         approx=bool(m.group("approx")),
         plus=bool(m.group("plus")),
+        grams_low=grams_low,
+        grams_high=grams_high,
+        grams_estimated=grams_estimated,
         unit=unit,
         unit_forms=forms,
         item=rest.strip(),
@@ -315,6 +337,11 @@ def display(ing: Ingredient, scale: Fraction = Fraction(1)) -> Display:
     prefix = "~" if ing.approx else ""
     suffix = "+" if ing.plus else ""
     amount = f"{prefix}{number}{suffix} {words}".strip()
+    if ing.grams_low is not None and ing.unit != "g":
+        grams = format_number(ing.grams_low * scale, metric=True)
+        if ing.grams_high is not None:
+            grams += "–" + format_number(ing.grams_high * scale, metric=True)
+        amount += f" ({'≈' if ing.grams_estimated else ''}{grams} g)"
     return Display(amount=amount, item=ing.item, scaled=True)
 
 

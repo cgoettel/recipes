@@ -1,0 +1,10 @@
+.venv/
+node_modules/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# Built by Tailwind (npm run build, or the Dockerfile).
+src/recipes_site/static/output.css
+# Written at image build time.
+src/recipes_site/_version.py

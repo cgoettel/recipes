@@ -15,9 +15,12 @@ tmp=$(mktemp -d)
 trap 'rm -rf "$tmp"' EXIT
 
 # Recipe files that must appear in the table of contents. Excluded: every
-# README, the repo meta docs, and the soda brew-day notes (logs, not recipes).
+# README, the repo meta docs, the soda brew-day notes (logs, not recipes), and
+# the site app under site/ (plus its node_modules).
 find . -type f -name '*.md' \
   ! -path './.git/*' \
+  ! -path './.claude/*' \
+  ! -path './site/*' \
   ! -name 'README.md' \
   ! -name 'CLAUDE.md' \
   ! -name 'contributing.md' \

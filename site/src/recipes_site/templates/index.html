@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="search">
+  <label for="search" class="sr-only">Search recipes</label>
+  <input id="search" type="search" placeholder="Search recipes" autocomplete="off" data-search>
+</div>
+
+<nav class="jump" aria-label="Categories">
+  {% for cat in categories %}
+  <a href="#{{ cat.slug }}" class="chip chip-{{ cat.color }}">{{ cat.title | lower }}</a>
+  {% endfor %}
+</nav>
+
+{% for cat in categories %}
+<section class="category" id="{{ cat.slug }}" data-category>
+  <h2 class="section-heading"><span class="bar bar-{{ cat.color }}" aria-hidden="true"></span>{{ cat.title }}</h2>
+  {% for sub in cat.subcategories %}
+  <div data-subcategory>
+    {% if sub.title %}<h3 class="subheading">{{ sub.title }}</h3>{% endif %}
+    <ul class="recipe-list">
+      {% for entry in sub.entries %}
+      <li data-entry data-text="{{ (entry.title ~ ' ' ~ recipes[entry.slug].title ~ ' ' ~ (recipes[entry.slug].subtitle or '')) | lower }}">
+        <a href="/{{ entry.slug }}">{{ entry.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</section>
+{% endfor %}
+
+<p class="empty" data-search-empty hidden>Nothing matches. Try another word.</p>
+
+<details class="house-notes">
+  <summary>House conventions</summary>
+  <div class="prose">{{ house_notes }}</div>
+</details>
+{% endblock %}

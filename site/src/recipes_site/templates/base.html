@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    // Theme before first paint: an explicit choice wins, else the OS preference.
+    (function () {
+      try {
+        var t = localStorage.getItem("theme");
+        if (t !== "light" && t !== "dark") {
+          t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    })();
+  </script>
+  <title>{% block title %}recipes{% endblock %}</title>
+  <meta name="description" content="{% block description %}A family recipe collection: scale it, cook from it, shop for it.{% endblock %}">
+  <meta name="theme-color" content="#e6e2dd">
+  <link rel="icon" type="image/svg+xml" href="{{ url_for('static', path='/favicon.svg') }}">
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ url_for('static', path='/fonts/chango-400-normal-latin.woff2') }}">
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ url_for('static', path='/fonts/hanken-grotesk-400-normal-latin.woff2') }}">
+  <link rel="stylesheet" href="{{ url_for('static', path='/output.css') }}?v={{ asset_version }}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="/" aria-label="recipes, home">
+      {%- for ch in "recipes" -%}<span class="wm-{{ loop.index }}" aria-hidden="true">{{ ch }}</span>{%- endfor -%}
+    </a>
+    <div class="header-stripes" aria-hidden="true"><i></i><i></i><i></i></div>
+    <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch light or dark">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+    </button>
+  </header>
+  <main class="page">
+    {% block content %}{% endblock %}
+  </main>
+  <footer class="site-footer">
+    <div class="stripes" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+    <p>Every recipe here lives as Markdown in <a href="https://gitlab.com/colby.goettel/recipes">the recipes repo</a>. v{{ app_version }}</p>
+  </footer>
+  <script src="{{ url_for('static', path='/app.js') }}?v={{ asset_version }}" defer></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+{% block title %}{{ recipe.title }} · recipes{% endblock %}
+{% block description %}{{ recipe.title }}{% if recipe.subtitle %} ({{ recipe.subtitle }}){% endif %}: ingredients, steps, and a cook mode that scales.{% endblock %}
+{% block content %}
+<article class="recipe" data-recipe="{{ recipe.slug }}">
+  <div class="title-row">
+    <h1 class="recipe-title">{{ recipe.title }}</h1>
+    <a class="chip chip-{{ recipe.color }}" href="/#{{ recipe.anchor }}">{{ recipe.tag }}</a>
+  </div>
+  {% if recipe.subtitle %}<p class="recipe-subtitle">{{ recipe.subtitle }}</p>{% endif %}
+  {% if intro_html %}<div class="prose intro">{{ intro_html }}</div>{% endif %}
+
+  {% if recipe.structured %}
+  <div class="scale-row" role="group" aria-label="Scale the recipe">
+    <span class="muted small">Scale</span>
+    {% for label, value in scales %}
+    <a class="pill{% if value == scale %} is-on{% endif %}" href="?scale={{ value }}"{% if value == scale %} aria-current="true"{% endif %} rel="nofollow">{{ label }}</a>
+    {% endfor %}
+  </div>
+  {% if scale != 1 %}<p class="muted small scale-note">Times don’t scale. A bigger batch wants a bigger pan.</p>{% endif %}
+
+  <section class="cook-section">
+    <div class="section-head">
+      <h2 class="section-heading">Ingredients</h2>
+      <span class="muted small" data-ing-count></span>
+    </div>
+    {% for group in ingredient_groups %}
+    {% if group.heading %}<h3 class="subheading">{{ group.heading }}</h3>{% endif %}
+    <ul class="ingredients">
+      {% for row in group.rows %}
+      <li>
+        <button type="button" class="ing" data-check="{{ row.id }}" aria-pressed="false">
+          <span class="box" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>
+          <span class="ing-text{% if row.flagged %} is-unparsed{% endif %}"{% if row.flagged %} title="This line didn’t parse, so it doesn’t scale"{% endif %}>{% if row.amount %}<strong>{{ row.amount }}</strong> {% endif %}{{ row.item_html }}</span>
+        </button>
+        {% if row.links %}<span class="row-links">{% for href, text in row.links %}<a href="{{ href }}">{{ text }} →</a>{% endfor %}</span>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </section>
+
+  {% if step_groups %}
+  <section class="cook-section">
+    <div class="section-head">
+      <h2 class="section-heading">Steps</h2>
+      <span class="muted small" data-step-label></span>
+    </div>
+    <div class="progress" aria-hidden="true">
+      {% for group in step_groups %}{% for row in group.rows %}<i data-seg="{{ row.id }}"></i>{% endfor %}{% endfor %}
+    </div>
+    {% for group in step_groups %}
+    {% if group.heading %}<h3 class="subheading">{{ group.heading }}</h3>{% endif %}
+    <ol class="steps">
+      {% for row in group.rows %}
+      <li>
+        <button type="button" class="step" data-check="{{ row.id }}" data-step aria-pressed="false">
+          <span class="num" aria-hidden="true">{{ row.number }}</span>
+          <span class="step-text">{{ row.html }}</span>
+        </button>
+        {% if row.links %}<span class="row-links">{% for href, text in row.links %}<a href="{{ href }}">{{ text }} →</a>{% endfor %}</span>{% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  <div class="reset-row">
+    <button type="button" class="pill" data-reset>Start over</button>
+  </div>
+
+  {% for heading, html in sections %}
+  <section class="extra">
+    <h2 class="section-heading">{{ heading }}</h2>
+    <div class="prose">{{ html }}</div>
+  </section>
+  {% endfor %}
+  {% else %}
+  <div class="prose">{{ body_html }}</div>
+  {% endif %}
+
+  <p class="muted small source-link"><a href="https://gitlab.com/colby.goettel/recipes/-/blob/main/{{ recipe.slug }}.md">View or edit the Markdown</a></p>
+</article>
+{% endblock %}

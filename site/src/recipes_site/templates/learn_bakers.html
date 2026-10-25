@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}Baker’s percentages · recipes{% endblock %}
+{% block description %}How baker's percentages work, and what each ratio does to a bread.{% endblock %}
+{% block content %}
+<article class="prose learn">
+  <div class="title-row"><h1 class="recipe-title">Baker’s percentages</h1><span class="chip chip-peach">bread</span></div>
+  <p>Bakers write recipes as ratios instead of cups. Flour is always <strong>100%</strong>, and every other ingredient is its weight as a percentage of the flour’s weight. A dough with 500 g flour and 350 g water is 70% water.</p>
+  <p>Ratios travel. The same percentages make one loaf or twenty, and they tell you what kind of bread you’re making before you mix anything. A recipe that says “70% hydration, 2% salt, 1% yeast” has already told you a lot.</p>
+
+  <h2>Why weigh</h2>
+  <p>A cup of flour weighs anywhere from 120 to 150 g depending on how you scoop it. That swing alone moves a dough from 65% to 80% hydration. Weights take the guesswork out. The bread recipes here carry gram estimates marked ≈, converted from volume; a real weighing beats them.</p>
+
+  <h2>Working it out</h2>
+  <ol>
+    <li>Add up all the flour (every kind counts toward the 100%).</li>
+    <li>Divide each other ingredient’s weight by the flour weight, times 100.</li>
+    <li>To make a different amount, pick the flour weight you want and multiply each percentage by it. Or pick a total dough weight: divide it by the sum of all the percentages.</li>
+  </ol>
+  <p>Example: 500 g flour, 350 g water, 10 g salt, 5 g yeast is 100% + 70% + 2% + 1% = 173%. For a 900 g dough, flour is 900 ÷ 1.73 ≈ 520 g, water 364 g, salt 10 g, yeast 5 g.</p>
+
+  <h2>What each ratio does</h2>
+  <h3>Hydration</h3>
+  <p>All the water in the dough as a share of flour; milk counts at about 87%, since that’s how much of it is water. More water means a looser dough, a more open crumb, and a dough that’s harder to shape.</p>
+  <ul>{% for upper, text in guide.hydration %}<li>{% if upper < 999 %}Under {{ upper }}%{% else %}Higher{% endif %}: {{ text }}</li>{% endfor %}</ul>
+  <h3>Salt</h3>
+  <p>Flavor first, but it also tightens the gluten and slows the yeast.</p>
+  <ul>{% for upper, text in guide.salt %}<li>{% if upper < 999 %}Under {{ upper }}%{% else %}Higher{% endif %}: {{ text }}</li>{% endfor %}</ul>
+  <h3>Yeast</h3>
+  <p>Less yeast and more time make a better-tasting bread; more yeast is faster. Active dry yeast needs about 25% more than instant.</p>
+  <ul>{% for upper, text in guide.yeast %}<li>{% if upper < 999 %}Under {{ upper }}%{% else %}Higher{% endif %}: {{ text }}</li>{% endfor %}</ul>
+  <h3>Sugar</h3>
+  <ul>{% for upper, text in guide.sugar %}<li>{% if upper < 999 %}Under {{ upper }}%{% else %}Higher{% endif %}: {{ text }}</li>{% endfor %}</ul>
+  <h3>Fat</h3>
+  <p>Butter, oil, shortening or lard coat the gluten, which makes the crumb tender and the crust softer.</p>
+  <ul>{% for upper, text in guide.fat %}<li>{% if upper < 999 %}Under {{ upper }}%{% else %}Higher{% endif %}: {{ text }}</li>{% endfor %}</ul>
+
+  <h2>Try it</h2>
+  <p>Open any bread recipe and expand “Baker’s percentages” under the ingredients. Each ratio says where the recipe sits, and you can scale the whole thing to a dough weight.</p>
+  <p><a href="/#bread">All the bread recipes</a></p>
+</article>
+{% endblock %}

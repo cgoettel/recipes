@@ -40,6 +40,32 @@
     {% endfor %}
   </section>
 
+  {% if bread %}
+  <details class="bakers"{% if by_dough %} open{% endif %}>
+    <summary class="section-heading"><span class="bar bar-peach" aria-hidden="true"></span>Baker’s percentages</summary>
+    <p class="muted small">Flour is 100%; everything else is a share of the flour’s weight.{% if bread.estimated %} Weights marked ≈ are estimates from volume.{% endif %} <a href="/learn/bakers-percentages">How this works</a></p>
+    <table class="bakers-table">
+      <thead><tr><th scope="col">Ingredient</th><th scope="col" class="num">Grams</th><th scope="col" class="num">%</th></tr></thead>
+      <tbody>
+      {% for row in bread.rows %}
+        <tr{% if row.role == "flour" %} class="is-flour"{% endif %}><td>{{ row.label }}</td><td class="num">{{ (row.grams * scale) | grams }}</td><td class="num">{{ row.percent | pct }}</td></tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    <ul class="ratios">
+      {% for r in bread.ratios %}
+      <li><strong>{{ r.label }} {{ r.percent | pct }}%</strong> <span class="muted">{{ r.note }}</span></li>
+      {% endfor %}
+    </ul>
+    <form class="dough-form" method="get">
+      <label for="dough">Make a dough weighing</label>
+      <input id="dough" name="dough" type="number" inputmode="numeric" min="50" step="10" value="{{ dough_target }}">
+      <span>g</span>
+      <button type="submit" class="pill">Scale</button>
+    </form>
+  </details>
+  {% endif %}
+
   {% if step_groups %}
   <section class="cook-section">
     <div class="section-head">

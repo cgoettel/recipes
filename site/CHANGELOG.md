@@ -2,6 +2,12 @@
 
 The site's running version is the newest header here; CI bakes it into the image.
 
+## v0.2.0 (2026-10-25)
+
+- Bread recipes show baker's percentages: each ingredient as a share of the flour, the hydration, salt, yeast, sugar and fat ratios with what each one means, and a "make a dough weighing" scaler.
+- A theory page at `/learn/bakers-percentages`.
+- Gram notes like `(≈240 g)` scale along with the amount.
+
 ## v0.1.0 (2026-10-25)
 
 - The public site: every recipe from the README, searchable, with scaling (½× to 3×) and cook mode (check off ingredients and steps; finished items collapse; the current step is highlighted; the screen stays awake).

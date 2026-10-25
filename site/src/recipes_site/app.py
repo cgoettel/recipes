@@ -17,7 +17,7 @@ from fastapi.templating import Jinja2Templates
 from markupsafe import Markup
 from prometheus_client import CONTENT_TYPE_LATEST, generate_latest
 
-from recipes_site import __version__, catalog, counts
+from recipes_site import __version__, bakers, catalog, counts
 from recipes_site import ingredients as ing
 from recipes_site.cf_access import CloudflareAccessMiddleware
 from recipes_site.config import Settings, get_settings
@@ -133,6 +133,8 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     templates.env.globals["asset_version"] = settings.asset_version
     templates.env.globals["app_version"] = __version__
     templates.env.globals["scales"] = ing.SCALES
+    templates.env.filters["pct"] = lambda v: f"{float(v):.1f}".rstrip("0").rstrip(".")
+    templates.env.filters["grams"] = lambda v: ing.format_number(v, metric=True)
     app.state.templates = templates
     app.state.settings = settings
 
@@ -166,9 +168,17 @@ def create_app(settings: Settings | None = None) -> FastAPI:
             },
         )
 
+    @app.get("/learn/bakers-percentages", response_class=HTMLResponse)
+    def learn_bakers(request: Request) -> Response:
+        return templates.TemplateResponse(request, "learn_bakers.html", {"guide": bakers.GUIDE})
+
     @app.get("/{slug:path}", response_class=HTMLResponse)
     def recipe_page(
-        request: Request, slug: str, background: BackgroundTasks, scale: str | None = None
+        request: Request,
+        slug: str,
+        background: BackgroundTasks,
+        scale: str | None = None,
+        dough: str | None = None,
     ) -> Response:
         slug = slug.strip("/")
         if slug.endswith(".md"):
@@ -178,6 +188,10 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         if recipe is None:
             raise HTTPException(status_code=404)
         factor = ing.parse_scale(scale)
+        bread = bakers.breakdown(recipe)
+        dough_factor = bakers.dough_scale(dough, bread.total) if bread else None
+        if dough_factor is not None:
+            factor = dough_factor
         ing_groups, step_groups = build_rows(recipe, factor)
         # After the response is sent, so a slow database never delays a page.
         background.add_task(counts.bump, slug, "view" if factor == 1 else "scale")
@@ -188,6 +202,9 @@ def create_app(settings: Settings | None = None) -> FastAPI:
             {
                 "recipe": recipe,
                 "scale": factor,
+                "bread": bread,
+                "dough_target": round(float(bread.total * factor)) if bread else None,
+                "by_dough": dough_factor is not None,
                 "ingredient_groups": ing_groups,
                 "step_groups": step_groups,
                 "intro_html": Markup(catalog.render_markdown(recipe.intro, base)),

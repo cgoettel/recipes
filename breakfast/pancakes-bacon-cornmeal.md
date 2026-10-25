@@ -1,3 +1,8 @@
+---
+family: Pancakes
+variant: Bacon cornmeal
+---
+
 # Bacon and cornmeal pancakes
 
 ## Ingredients

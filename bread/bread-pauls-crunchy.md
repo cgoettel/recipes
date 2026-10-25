@@ -1,3 +1,8 @@
+---
+family: Bread
+variant: Paul's crunchy
+---
+
 # Paul's crunchy bread
 
 ## Ingredients

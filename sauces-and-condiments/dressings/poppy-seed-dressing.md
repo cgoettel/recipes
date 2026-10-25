@@ -1,3 +1,7 @@
+---
+tags: [no-cook, vegetarian]
+---
+
 # Poppy seed dressing
 
 From [Whitney Bond](https://whitneybond.com/poppy-seed-dressing/).

@@ -1,3 +1,7 @@
+---
+makes: 1 large loaf
+---
+
 # Meatloaf
 
 ## Ingredients
@@ -10,7 +14,7 @@
 - Salt and pepper
 - ½ cup ketchup
 
-## Directions
+## Instructions
 
 - Preheat oven to 350°F.
 - Mix everything together and place in a greased loaf pan.
@@ -19,4 +23,4 @@
 - Bake at 350°F for 1 hour.
 - Remove foil, continue baking for 30 minutes.
 
-Makes one large loaf. Might be best to make two loaves and freeze one.
+Might be best to make two loaves and freeze one.

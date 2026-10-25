@@ -1,4 +1,4 @@
-# Pollo Guisado (Dominican Stewed Chicken)
+# Pollo guisado (Dominican stewed chicken)
 
 From [My Dominican Food](http://www.mydominicanfood.com/stewed-chicken.php). Part of the "Dominican flag" trio with [arroz blanco](../../sides-and-starters/rice-dominican.md) and stewed red beans. This version uses a sofrito instead of the traditional browned-sugar caramelization.
 

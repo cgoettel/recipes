@@ -1,8 +1,13 @@
-# Lasagna
+---
+family: Lasagna
+variant: Classic
+---
+
+# Classic lasagna
 
 ## Ingredients
 
-- 1 batch of (red sauce)[../sauces/red-sauce.md]
+- 1 batch of [red sauce](../../sauces-and-condiments/sauces/sauce-red.md)
 - béchamel:
   - ¼ stick (2 tablespoons) butter
   - 2 tablespoons flour
@@ -14,7 +19,7 @@
 - Low moisture mozzarella
 - 1 box oven-ready lasagna noodles
 
-## Steps
+## Instructions
 
 - Make a batch of red sauce
 - Make the béchamel and season to taste

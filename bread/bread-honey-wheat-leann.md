@@ -1,4 +1,9 @@
-# Bread — Honey Wheat (LeAnn's)
+---
+family: Bread
+variant: Honey wheat (LeAnn's)
+---
+
+# LeAnn's honey wheat bread
 
 From LeAnn. Makes 3 loaves.
 

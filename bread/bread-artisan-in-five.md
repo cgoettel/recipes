@@ -1,4 +1,9 @@
-# Bread — Artisan in Five (Master Recipe)
+---
+family: Bread
+variant: Artisan in five
+---
+
+# Artisan bread in five (master recipe)
 
 From [Artisan Bread in Five Minutes a Day](https://artisanbreadinfive.com/). The master recipe — refrigerator-aged dough that keeps two weeks, developing sourdough notes over time.
 

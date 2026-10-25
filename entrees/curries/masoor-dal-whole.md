@@ -1,17 +1,24 @@
-# Whole Masoor Dal (Sabut Masoor)
+---
+family: Masoor dal
+variant: Whole (sabut masoor)
+serves: 3–4 with rice or roti
+tags: [vegetarian]
+---
+
+# Whole masoor dal (sabut masoor)
 
 Heartier than red lentil dal — the lentils hold their shape and the dish eats like a full meal. Plan ~75 minutes start to finish, mostly hands-off. Similar rhythm to [frijoles de la olla](../../sides-and-starters/frijoles-de-la-olla.md).
 
-Serves 3–4 with rice or roti.
+## Ingredients
 
-## Lentils
+### Lentils
 
 - 1 cup whole masoor (sabut masoor), rinsed
 - 4 cups water
 - 1 teaspoon turmeric
 - salt
 
-## Masala
+### Masala
 
 - 2 tablespoons ghee (or neutral oil + a knob of butter at the end)
 - 1 teaspoon cumin seeds
@@ -24,12 +31,12 @@ Serves 3–4 with rice or roti.
 - ¼ teaspoon cayenne or Kashmiri chile, to taste
 - ½ teaspoon garam masala (at the end)
 
-## Finish
+### Finish
 
 - cilantro
 - lemon wedge
 
-## Method
+## Instructions
 
 Simmer the lentils with water, turmeric, and a big pinch of salt. Bring to a boil, drop to a simmer, skim foam the first few minutes. Cook 35–45 minutes, stirring occasionally. You want them tender but still holding shape — stew consistency, not the porridge breakdown red lentils do. Add water if it tightens up too much.
 
@@ -45,7 +52,7 @@ Tip the masala into the dal pot. Simmer together 10 minutes so they marry. Salt 
 - Eats best over rice with yogurt and something pickled (mango, lime, even a quick salted onion).
 - Day 2 is significantly better — flavors deepen, lentils tighten up. Freezes well.
 
-## Serve With
+## Serve with
 
 - Basmati rice ([jeera rice](../../sides-and-starters/rice-jeera.md) or [light pulao](../../sides-and-starters/rice-basmati-pulao.md))
 - Roti

@@ -1,8 +1,10 @@
-# Curried Shrimp
+---
+family: Shrimp
+variant: Curried
+serves: 8
+---
 
-## Serves
-
-8
+# Curried shrimp
 
 ## Ingredients
 
@@ -16,7 +18,7 @@
 - 1 teaspoon salt
 - hot pepper to taste
 
-## Method
+## Instructions
 
 1. Season shrimp with garlic, onion and green seasoning.
 2. Mix curry powder with ¼ cup water.
@@ -27,6 +29,6 @@
 
 ## Variation
 
-### Shrimp Biryani
+### Shrimp biryani
 
 Substitute 1 lb medium-size shrimp for meat. Cook for only 3-4 minutes.

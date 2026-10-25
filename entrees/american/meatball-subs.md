@@ -1,3 +1,7 @@
+---
+tags: [game-day]
+---
+
 # Meatball subs
 
 ## Ingredients
@@ -9,7 +13,7 @@
 - 1 loaf French bread
 - Butter
 
-## Steps
+## Instructions
 
 - Set oven to broil on high
 - Slice the bread in half, butter, add parmigiano reggiano and mozzarella to taste (more is best)

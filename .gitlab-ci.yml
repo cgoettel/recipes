@@ -20,14 +20,50 @@ default:
   tags:
     - self-hosted
 
-# Guard the README table of contents: every recipe linked, no dead links.
-check_toc:
+# The README's recipe list is generated from the recipe files
+# (site/src/recipes_site/toc.py). On main, CI regenerates it and commits any
+# change back with the readme-bot project token (README_BOT_TOKEN, a masked,
+# protected variable; it expires 2027-10-24). The push skips CI, since only the
+# README list changed and the site doesn't read it. On other branches it just
+# runs the generator, to prove it still works: a branch's list may be stale
+# until it reaches main, which regenerates it.
+readme_toc:
   stage: check
-  image: alpine:latest
+  image: python:3.15-slim
+  variables:
+    PIP_DISABLE_PIP_VERSION_CHECK: "1"
+    PIP_NO_CACHE_DIR: "1"
   before_script:
-    - apk add --no-cache git grep sed coreutils findutils
+    - apt-get update -qq && apt-get install -y -qq git >/dev/null
+    - pip install -q uv
+    - uv export --directory site --frozen --no-emit-project --no-hashes -o /tmp/requirements.txt
+    - uv pip install --system -q -r /tmp/requirements.txt
+    - uv pip install --system -q --no-deps -e site
   script:
-    - sh scripts/check-toc.sh
+    - |
+      if [ "$CI_COMMIT_BRANCH" = "$CI_DEFAULT_BRANCH" ] && [ "$CI_PIPELINE_SOURCE" = "push" ]; then
+        python -m recipes_site.toc .
+        if git diff --quiet -- README.md; then exit 0; fi
+        git config user.name "recipes CI"
+        git config user.email "noreply@gitlab.com"
+        git commit -q -m "docs: regenerate the README recipe list" -- README.md
+        if git push -o ci.skip "https://readme-bot:${README_BOT_TOKEN}@gitlab.com/${CI_PROJECT_PATH}.git" HEAD:"$CI_DEFAULT_BRANCH"; then
+          exit 0
+        fi
+        # Forgive only a race: a newer push landed first, and its own pipeline
+        # regenerates the list. Anything else (an expired or revoked token)
+        # fails, so the list never goes stale quietly.
+        git fetch -q origin "$CI_DEFAULT_BRANCH"
+        if [ "$(git rev-parse FETCH_HEAD)" != "$CI_COMMIT_SHA" ]; then
+          echo "main moved on; the next pipeline regenerates the list."
+          exit 0
+        fi
+        echo "Pushing the regenerated README failed. Is README_BOT_TOKEN current? See CLAUDE.md, Operations, CI."
+        exit 1
+      else
+        # The workspace is thrown away, so writing the README here is harmless.
+        python -m recipes_site.toc .
+      fi
 
 # Markdown formatting, check only. Same pinned mdformat as the owner's global
 # pre-commit hook, so commits made off his Mac (or in the web editor) are
@@ -101,7 +137,7 @@ site_test:
 # recipes-dev; prod waits for the promote job below.
 site_build:
   extends: .buildkit_build
-  needs: [site_test, check_toc]
+  needs: [site_test]
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $CI_PIPELINE_SOURCE != "merge_request_event"
   script:
@@ -204,9 +240,12 @@ verify_live:
 
 # Mirror main to github.com/cgoettel/recipes on every push to main.
 # GITHUB_DEPLOY_KEY is a File-type CI variable holding the SSH private key
-# whose public half is a write-enabled deploy key on the GitHub repo.
+# whose public half is a write-enabled deploy key on the GitHub repo. It runs
+# after readme_toc and pushes main's tip, so the regenerated README (whose push
+# skips CI) reaches GitHub too.
 mirror_to_github:
   stage: check
+  needs: [readme_toc]
   image:
     name: alpine/git:latest
     entrypoint: [""]
@@ -221,6 +260,9 @@ mirror_to_github:
     - ssh-keyscan github.com >> ~/.ssh/known_hosts 2>/dev/null
   script:
     - git remote add github git@github.com:cgoettel/recipes.git
-    - git push --force github HEAD:refs/heads/main
+    - git fetch -q origin "$CI_DEFAULT_BRANCH"
+    - git push --force github FETCH_HEAD:refs/heads/main
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $CI_PIPELINE_SOURCE == "push"
+      # Mirror even if readme_toc fails: GitHub shouldn't stall on a README problem.
+      when: always

@@ -1,3 +1,10 @@
+---
+family: Muffins
+variant: Almond poppy seed
+makes: 12–14 muffins
+tags: [quick-bread]
+---
+
 # Almond poppy seed muffins
 
 I have adapted this recipe from https://www.yourcupofcake.com/better-than-costco-almond-poppy-seed-muffins/.
@@ -16,8 +23,6 @@ I have adapted this recipe from https://www.yourcupofcake.com/better-than-costco
 - 2 teaspoons almond extract
 - 2 eggs
 - 1 stick (8 tablespoons, ≈115 g) butter, melted and cooled slightly
-
-Yields 12–14 muffins.
 
 ## Instructions
 

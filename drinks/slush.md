@@ -1,3 +1,7 @@
+---
+tags: [no-cook]
+---
+
 # Slush
 
 ## Ingredients

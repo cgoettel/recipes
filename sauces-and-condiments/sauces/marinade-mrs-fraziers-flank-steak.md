@@ -1,8 +1,13 @@
-# Marinade — Mrs. Frazier's Flank Steak
+---
+family: Marinade
+variant: Mrs. Frazier's flank steak
+makes: enough for 2–3 lb of meat
+tags: [grill]
+---
+
+# Mrs. Frazier's flank steak marinade
 
 From Mrs. Frazier, whose original recipe card carried the instruction "(do not give out this recipe)." Written for flank steak, but it is arguably even better on chicken — thighs or a spatchcocked bird especially, where the sugar in the teriyaki has skin to caramelize against.
-
-Makes enough for 2–3 lb of meat.
 
 ## Ingredients
 

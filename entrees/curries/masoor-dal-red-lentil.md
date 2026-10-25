@@ -1,17 +1,24 @@
-# Masoor Dal (Red Lentil)
+---
+family: Masoor dal
+variant: Red lentil
+serves: 3–4 with rice
+tags: [vegetarian]
+---
+
+# Masoor dal (red lentil)
 
 Quick everyday dal. ~25 minutes start to finish. Best effort-to-reward ratio in home cooking — no soak, lentils break down on their own, the tadka does all the aromatic work.
 
-Serves 3–4 with rice.
+## Ingredients
 
-## Lentils
+### Lentils
 
 - 1 cup red lentils (masoor dal dhuli), rinsed until the water runs mostly clear
 - 4 cups water
 - 1 teaspoon turmeric
 - ½ teaspoon salt (more to taste at the end)
 
-## Tadka
+### Tadka
 
 - 2 tablespoons ghee
 - 1 teaspoon cumin seeds
@@ -22,12 +29,12 @@ Serves 3–4 with rice.
 - 3 garlic cloves, thinly sliced
 - ½ teaspoon Kashmiri chile or paprika
 
-## Finish
+### Finish
 
 - juice from ½ lemon
 - cilantro
 
-## Method
+## Instructions
 
 Combine lentils, water, turmeric, and salt in a pot. Bring to a boil, skim the foam in the first few minutes, then drop to a gentle simmer. Cook 15–20 minutes, stirring occasionally, until the lentils have fully broken down into a loose porridge. Add water if it tightens too much — you want it pourable, not pasty.
 
@@ -43,7 +50,7 @@ Pour the entire hot tadka over the dal. Stir half of it in, leave the rest swirl
 - Eats like congee — soupy, comforting, standalone meal with rice. Day 2 is even better.
 - For a heartier dal that holds its shape and eats like a full meal, see [whole masoor dal](masoor-dal-whole.md).
 
-## Serve With
+## Serve with
 
 - Basmati rice ([jeera rice](../../sides-and-starters/rice-jeera.md) is the classic pairing)
 - Yogurt

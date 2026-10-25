@@ -1,4 +1,10 @@
-# Pickles — Dill
+---
+family: Pickles
+variant: Dill
+tags: [vegetarian, hot-dog-contest, ferment]
+---
+
+# Dill pickles
 
 A bright, crisp refrigerator dill pickle in the Grillo's school. Cold-pack, never heated, garlic- and dill-forward, ready in 2–3 days. No fermentation — straight vinegar brine. Yields one quart jar.
 
@@ -42,7 +48,7 @@ A bright, crisp refrigerator dill pickle in the Grillo's school. Cold-pack, neve
 
 **Variations.**
 
-- **Hot spears** — see [Pickles — Hot Spears](pickles-hot-spears.md) for the jalapeño-and-pepper-flake variant.
+- **Hot spears** — see [hot pickle spears](pickles-hot-spears.md) for the jalapeño-and-pepper-flake variant.
 - **Whole pickles vs spears vs chips.** Whole takes longest to flavor through (4–7 days for full infusion). Spears infuse in 2–3 days. Chips/rounds in 24 hours.
 - **Bread and butter pickles.** Sweeter, with onion and turmeric. A different recipe entirely — and pushes sweet enough to not be in this household's wheelhouse.
 - **Sour vs full-sour lacto-fermented pickles.** A completely different family (lacto-fermentation, weeks-long process). Bubbies territory; not the preferred profile here, so no recipe planned in that direction.

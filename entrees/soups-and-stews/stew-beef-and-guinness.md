@@ -1,4 +1,9 @@
-# Beef and Guinness Stew
+---
+family: Stew
+variant: Beef and Guinness
+---
+
+# Beef and Guinness stew
 
 This is adapted from a recipe on TikTok from @lelo_lemons.
 
@@ -23,7 +28,7 @@ This is adapted from a recipe on TikTok from @lelo_lemons.
 - Water to cover ingredients
 - Fresh parsley (minced) to garnish (optional)
 
-## Directions
+## Instructions
 
 01. If meat is not already in bite-sized pieces, cut into pieces.
 02. Salt and pepper meat and, optionally, allow to dry brine in the fridge.

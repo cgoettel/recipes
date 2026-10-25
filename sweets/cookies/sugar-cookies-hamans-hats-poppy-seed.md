@@ -1,3 +1,8 @@
+---
+family: Sugar cookies
+variant: Haman's hats (poppy seed)
+---
+
 # Poppy seed sugar cookies (Haman's hats)
 
 **Source:** http://www.ou.org/life/food/recipes/guide-delicious-hamantaschen-norene-gilletz/

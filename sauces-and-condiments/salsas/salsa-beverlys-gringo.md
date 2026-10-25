@@ -1,3 +1,9 @@
+---
+family: Salsa
+variant: Beverly's gringo
+tags: [no-cook, vegan]
+---
+
 # Beverly's gringo salsa
 
 ## Ingredients
@@ -10,7 +16,7 @@
 - 1 tablespoon granulated garlic
 - 1 tablespoon salt
 
-## Directions
+## Instructions
 
 - Remove core and seeds from tomatoes, crush through fingers. Add to large (large) bowl.
 - Cut up jalapeños, green onions. Use as much of the stem as possible. Add to bowl.

@@ -1,4 +1,10 @@
-# Raita — Onion-Tomato
+---
+family: Raita
+variant: Onion-tomato
+tags: [no-cook, vegetarian]
+---
+
+# Onion-tomato raita
 
 A cooling yogurt condiment, essentially pico de gallo folded into spiced yogurt. It's the foil to anything spicy or fried — especially good next to crispy gobi or a rich biryani.
 

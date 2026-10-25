@@ -1,8 +1,11 @@
-# Frijoles de la Olla
+---
+serves: 2–3 as a side, or several meals for one
+tags: [make-ahead]
+---
+
+# Frijoles de la olla
 
 Adapted from Gordo Rancho's frijoles de la olla, scaled to 250 g of beans — enough for several meals. A pot of beans cooked slowly in their own broth: a bowl on its own with the caldo, or the base for refried beans and taco nights.
-
-Serves several meals for one, or 2–3 as a side.
 
 ## Ingredients
 
@@ -13,7 +16,7 @@ Serves several meals for one, or 2–3 as a side.
 - water to cover
 - salt
 
-## Method
+## Instructions
 
 Soak the beans overnight in plenty of cool water — no salt. Salt this early toughens the skins and slows softening. Drain.
 

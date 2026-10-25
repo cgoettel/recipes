@@ -1,3 +1,9 @@
+---
+family: Roast
+variant: Chuck
+tags: [slow-cooker]
+---
+
 # Chuck roast
 
 ## Ingredients
@@ -9,7 +15,7 @@
 - pepper
 - 1–1½ cups water
 
-## Directions
+## Instructions
 
 - Sear chuck roast and place in crock pot.
 - Pour soy sauce over roast. Add enough pepper to light–medium coat the roast.

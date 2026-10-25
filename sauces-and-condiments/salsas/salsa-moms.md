@@ -1,3 +1,9 @@
+---
+family: Salsa
+variant: Mom's
+tags: [vegan]
+---
+
 # Mom's salsa
 
 This is her updated version based off of [Beverly's](salsa-beverlys-gringo.md) and the Pioneer Woman's, among others.

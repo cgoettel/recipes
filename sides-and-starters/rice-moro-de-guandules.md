@@ -1,4 +1,10 @@
-# Rice — Moro de Guandules con Coco
+---
+family: Rice
+variant: Moro de guandules con coco
+tags: [vegetarian]
+---
+
+# Moro de guandules con coco
 
 Dominican rice cooked with pigeon peas and coconut milk.
 

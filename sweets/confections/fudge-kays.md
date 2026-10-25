@@ -1,3 +1,9 @@
+---
+family: Fudge
+variant: Kay's
+tags: [christmas]
+---
+
 # Kay's fudge
 
 This recipe is from a tombstone in Utah.

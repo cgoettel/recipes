@@ -403,3 +403,41 @@ def parse_scale(value: str | None) -> Fraction:
         if value is not None and value == str(scale):
             return scale
     return Fraction(1)
+
+
+_YIELD_RE = re.compile(rf"(?P<low>{_NUM})(?:\s*(?:–|-|to)\s*(?P<high>{_NUM}))?")
+
+
+def _decimal(value: Fraction) -> str:
+    return f"{float(value):.3f}".rstrip("0").rstrip(".")
+
+
+def scale_yield(text: str, scale: Fraction = Fraction(1), *, servings: bool = False) -> str:
+    """Scale the first amount in a serves/makes line: "6–8" at 2× reads "12–16".
+
+    Servings round to whole people. A count of things ("2 loaves") only scales
+    when it lands on whole numbers above one; otherwise, rather than "1 loaves"
+    or "1½ cheeseballs", the line keeps its amount and adds "× ½". A decimal
+    ("3.375 gallons") scales exactly.
+    """
+    if scale == 1:
+        return text
+    m = _YIELD_RE.search(text)
+    if not m:
+        return text
+    try:
+        low = _parse_number(m.group("low"))
+        high = _parse_number(m.group("high")) if m.group("high") else None
+    except ValueError, ZeroDivisionError:
+        return text
+    values = [v * scale for v in (low, high) if v is not None]
+    if "." in m.group("low"):
+        scaled = "–".join(_decimal(v) for v in values)
+    elif servings:
+        people = list(dict.fromkeys(max(1, round(v)) for v in values))  # "2–2" reads "2"
+        scaled = "–".join(str(p) for p in people)
+    elif all(v.denominator == 1 and v > 1 for v in values) and low > 1:
+        scaled = "–".join(str(int(v)) for v in values)
+    else:
+        return f"{text} × {format_number(scale)}"
+    return text[: m.start()] + scaled + text[m.end() :]

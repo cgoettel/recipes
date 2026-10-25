@@ -1,3 +1,9 @@
+---
+family: Peanut sauce
+variant: Thai
+tags: [vegetarian]
+---
+
 # Thai peanut sauce
 
 ## Ingredients

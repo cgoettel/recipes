@@ -1,4 +1,4 @@
-# Lime Cordial
+# Lime cordial
 
 An acid-adjusted lime cordial adapted from *Tropical Standard*. Simmering the juice with sugar and peel pulls oil and depth out of the skins; the malic and citric acid stirred in off-heat rebuild the fresh-lime tartness that cooking would otherwise dull. Use anywhere a recipe calls for lime cordial — it keeps far longer than fresh juice.
 

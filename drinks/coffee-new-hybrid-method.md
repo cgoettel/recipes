@@ -1,3 +1,9 @@
+---
+family: Coffee
+variant: New hybrid method
+tags: [coffee]
+---
+
 # New hybrid method
 
 From [Tetsu Kasuya](https://www.youtube.com/watch?v=4FeUp_zNiiY).

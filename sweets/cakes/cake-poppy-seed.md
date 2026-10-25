@@ -1,3 +1,8 @@
+---
+family: Cake
+variant: Poppy seed
+---
+
 # Poppy seed cake
 
 From [Aunt Kay](https://www.familysearch.org/tree/person/details/K26F-HCV)

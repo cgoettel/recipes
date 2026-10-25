@@ -1,3 +1,7 @@
+---
+tags: [no-cook, vegetarian]
+---
+
 # Coleslaw dressing
 
 From Uncle Bryan

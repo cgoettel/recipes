@@ -1,3 +1,8 @@
+---
+family: Soup
+variant: Broccoli and cheese
+---
+
 # Broccoli and cheese soup
 
 ## Ingredients
@@ -17,7 +22,7 @@
 - Paprika
 - All of the cheese
 
-## Directions
+## Instructions
 
 - In a large, heavy-bottomed put, melt the butter in olive oil until it begins to foam.
 - Sautée the onions, celery, and carrots in butter until aromatic.

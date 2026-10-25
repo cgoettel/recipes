@@ -1,4 +1,10 @@
-# Cinnamon rolls (LeAnn's)
+---
+family: Cinnamon rolls
+variant: LeAnn's
+tags: [make-ahead]
+---
+
+# LeAnn's cinnamon rolls
 
 From LeAnn. Distinct from the [other cinnamon rolls](cinnamon-rolls.md) — this version uses oil instead of lard and gets an overnight counter rise before baking.
 

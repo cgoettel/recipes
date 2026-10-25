@@ -1,4 +1,10 @@
-# Marinade — El Pollo Loco Chicken
+---
+family: Marinade
+variant: El Pollo Loco
+tags: [grill, make-ahead]
+---
+
+# El Pollo Loco chicken marinade
 
 Copycat marinade for El Pollo Loco-style grilled chicken.
 

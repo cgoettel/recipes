@@ -1,4 +1,10 @@
-# Beef Stew — Raquelle's
+---
+family: Stew
+variant: Raquelle's beef
+tags: [slow-cooker]
+---
+
+# Raquelle's beef stew
 
 Raquelle's slow-cooker adaptation of a Ligurian veal stew, rebuilt with stew beef. Everything goes in the crockpot and comes together over a long low cook, so it's a hands-off weeknight braise. Add the tomatoes and basil last so they sit on top rather than getting buried.
 
@@ -18,7 +24,7 @@ Raquelle's slow-cooker adaptation of a Ligurian veal stew, rebuilt with stew bee
 - Salt and pepper to taste
 - Additional minced fresh basil or parsley for garnish (optional)
 
-## Directions
+## Instructions
 
 1. Set a large fine sieve over a bowl and let the tomatoes drain for 1 hour 30 minutes.
 2. To the crockpot, add the beef, garlic, onion, celery, carrots, potatoes, and zucchini. Pour in the chicken broth and white wine. Add the drained tomatoes and basil last. Cover and cook on low for 8 hours.

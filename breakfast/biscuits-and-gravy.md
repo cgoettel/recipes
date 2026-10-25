@@ -1,4 +1,4 @@
-# Biscuits and Gravy
+# Biscuits and gravy
 
 Gravy by Colby; biscuits adapted from Paula Deen. See also [biscuits](../bread/biscuits.md) for a standalone biscuit recipe.
 

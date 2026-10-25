@@ -1,3 +1,7 @@
+---
+tags: [vegetarian]
+---
+
 # Gobi 65
 
 Dry, crispy South Indian–style fried cauliflower — the fried starter that shows up at most Indian restaurants. Florets get a thin, well-spiced cornstarch-and-rice-flour coating, fry up shatter-crisp, then get tossed in a quick curry-leaf-and-chili temper. It stays crunchy rather than going saucy; serve hot, right out of the pan, with a cooling raita.

@@ -1,3 +1,8 @@
+---
+family: Sauce
+variant: Orange
+---
+
 # Orange sauce
 
 From [Grandma Goettel](https://www.familysearch.org/tree/person/details/KWCR-R7H). Fun note: this was on "Flora Goettel" letterhead (from Carl Sandberg Realty) and done in Dad's handwriting.

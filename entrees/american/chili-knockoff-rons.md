@@ -1,4 +1,10 @@
-# Knockoff Ron's chili recipe
+---
+family: Chili
+variant: Ron's (knockoff)
+tags: [game-day]
+---
+
+# Ron's chili (knockoff)
 
 ## Ingredients
 
@@ -18,7 +24,7 @@
 - 2 lb ground beef
 - ½ cup flour
 
-## Directions
+## Instructions
 
 - Combine seasonings in a bowl. Set aside.
 - Bring water to a boil (or heavy simmer) in a large saucepan.

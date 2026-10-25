@@ -1,8 +1,11 @@
-# White Chicken Chili
+---
+family: Chili
+variant: White chicken
+serves: 8
+tags: [slow-cooker, game-day]
+---
 
-## Serves
-
-8
+# White chicken chili
 
 ## Prep time
 
@@ -26,7 +29,7 @@
 - ½ teaspoon salt
 - 1 tablespoon dried minced onion, or to taste
 
-## Directions
+## Instructions
 
 1. Place chicken and chicken broth in a saucepan over medium heat. Bring to a boil and cook until chicken is no longer pink and juices run clear, 7 to 10 minutes.
 2. Transfer chicken and broth to a slow cooker. Stir in navy beans, corn, green chilies, garlic, cumin, red pepper flakes, oregano, salt, and onion powder. Cover and cook on Low until flavors are blended, 8 to 9 hours.

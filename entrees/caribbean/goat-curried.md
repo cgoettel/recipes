@@ -1,8 +1,10 @@
-# Curried Goat
+---
+family: Goat
+variant: Curried
+serves: 6
+---
 
-## Serves
-
-6
+# Curried goat
 
 ## Ingredients
 
@@ -17,7 +19,7 @@
 - 2 bay leaves
 - 1½ cups hot water
 
-## Method
+## Instructions
 
 1. Trim, wash and cut meat in bite-size pieces.
 2. Season well with salt, black pepper, onion, garlic and green seasoning.

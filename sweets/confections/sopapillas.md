@@ -1,3 +1,7 @@
+---
+makes: about 40
+---
+
 # Sopapillas
 
 ## Ingredients
@@ -22,5 +26,3 @@
 08. Fry 3 or 4 sopapillas as a time in deep hot fat (400°), about 30 seconds on each side.
 09. Drain on paper towels.
 10. Roll in a cinnamon-sugar mixture.
-
-Makes about 40.

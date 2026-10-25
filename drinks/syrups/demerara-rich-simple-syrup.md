@@ -1,4 +1,4 @@
-# Demerara Rich Simple Syrup
+# Demerara rich simple syrup
 
 Rich (2:1) demerara syrup — deeper, faintly molasses sweetness for rum drinks and stirred cocktails. At 2:1 it's thicker and about twice as sweet per ounce as a 1:1 syrup, so recipes call for less.
 

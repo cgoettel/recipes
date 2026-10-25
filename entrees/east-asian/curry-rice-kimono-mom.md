@@ -1,8 +1,10 @@
-# Curry Rice (Kimono Mom)
+---
+family: Curry rice
+variant: Kimono Mom's
+serves: 4
+---
 
-## Servings
-
-4
+# Kimono Mom's curry rice
 
 ## Ingredients
 

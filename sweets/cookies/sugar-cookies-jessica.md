@@ -1,4 +1,9 @@
-# Sugar Cookies — Jessica's easy sugar cookies
+---
+family: Sugar cookies
+variant: Jessica's easy
+---
+
+# Jessica's easy sugar cookies
 
 ## Ingredients
 

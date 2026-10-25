@@ -1,3 +1,9 @@
+---
+family: Pie
+variant: Nick Estrada's apple
+tags: [thanksgiving]
+---
+
 # Nick Estrada's apple pie
 
 ## Ingredients

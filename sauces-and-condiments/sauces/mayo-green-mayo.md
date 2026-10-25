@@ -1,3 +1,9 @@
+---
+family: Mayo
+variant: Green
+tags: [no-cook, vegetarian]
+---
+
 # Green mayo
 
 ## Ingredients
@@ -9,6 +15,6 @@
 - ½ teaspoon cumin
 - 2 cups crema Mexicana or mayonnaise
 
-## Directions
+## Instructions
 
 - Blend everything until smooth.

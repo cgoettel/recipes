@@ -1,6 +1,12 @@
-# Pickles — Hot Spears
+---
+family: Pickles
+variant: Hot spears
+tags: [hot-dog-contest, ferment]
+---
 
-A jalapeño-spiked refrigerator dill pickle in the Grillo's hot spears school. Same template as [Pickles — Dill](pickles-dill.md); just adds heat. Yields one quart jar.
+# Hot pickle spears
+
+A jalapeño-spiked refrigerator dill pickle in the Grillo's hot spears school. Same template as [dill pickles](pickles-dill.md); just adds heat. Yields one quart jar.
 
 The dill recipe carries the technique details (cucumber sourcing, blossom-end trim, tannin trick, no-heat rule, brine ratios). Same rules apply here.
 

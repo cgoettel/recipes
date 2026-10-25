@@ -1,6 +1,6 @@
 # Recipes repo
 
-Personal recipe collection in markdown. Each recipe is its own file under a category folder; the [README](README.md) is the canonical table of contents.
+Personal recipe collection in markdown. Each recipe is its own file under a category folder. The folders and each recipe's front matter are the catalog; the [README](README.md)'s recipe list is generated from them by CI.
 
 ## Working in this repo
 
@@ -15,7 +15,7 @@ Personal recipe collection in markdown. Each recipe is its own file under a cate
 Git is the database for recipe text: rollback is `git revert`, and copies live on GitLab, GitHub, and every clone. The moving parts:
 
 - **The site** ([recipes.skalchemy.com](https://recipes.skalchemy.com), app in `site/`, see [site/README.md](site/README.md)). Every push to `main`, recipe edits included, builds an image with the recipes baked in and tags it `main-<pipeline iid>-<sha>`. Flux image automation in smart-home deploys it to `recipes-dev` first; `verify_dev` waits for dev's `/health` to report the build, `promote` re-tags the same image `prod-<iid>-<sha>`, Flux commits that tag for prod (`kubernetes/recipes/app/values.yaml`), the api pod's init container runs the migrations, and `verify_live` goes green once the public `/health` reports it. CI runs on recipes' own in-cluster runner (smart-home `kubernetes/recipes-runner`). So a pushed recipe goes live in a few minutes with no other step, and a green pipeline means it's serving. Roll back with `git revert` of the `chore(deploy)` commit in smart-home. Changes under `site/` go through an MR with green CI (`~/.claude/scripts/merge-mr`); recipe edits still go straight to `main`. `site_test` parses every recipe, so a recipe the parser can't read fails CI before it ships. The site follows the fleet conventions in the `unified-design` skill.
-- **CI** (`.gitlab-ci.yml`). `check_toc` runs `scripts/check-toc.sh` on every push. `mirror_to_github` force-pushes `main` to GitHub, authenticating with the `GITHUB_DEPLOY_KEY` File-type CI variable, an SSH private key whose public half is a write-enabled deploy key on the GitHub repo. To rotate it: generate a new ed25519 key pair, replace the deploy key under the GitHub repo's Settings → Deploy keys (write access), and replace the private key in the `GITHUB_DEPLOY_KEY` variable (GitLab Settings → CI/CD → Variables, keeping it File type). The job re-adds the trailing newline glab strips. If the mirror job fails, `main` on GitLab is still fine; fix the key and re-run the job.
+- **CI** (`.gitlab-ci.yml`). `readme_toc` keeps the README's recipe list current (`site/src/recipes_site/toc.py`). On `main` it regenerates the list and commits any change back as "recipes CI", pushing with the `readme-bot` project access token in the masked, protected `README_BOT_TOKEN` variable. That push skips CI, since the site doesn't read the list. On any other branch a stale list fails the job. The token expires 2027-10-24: to rotate it, create a new project access token (`write_repository`, Maintainer) and replace the variable's value (#16 is the reminder). `mirror_to_github` runs after it and force-pushes `main` to GitHub, authenticating with the `GITHUB_DEPLOY_KEY` File-type CI variable, an SSH private key whose public half is a write-enabled deploy key on the GitHub repo. To rotate it: generate a new ed25519 key pair, replace the deploy key under the GitHub repo's Settings → Deploy keys (write access), and replace the private key in the `GITHUB_DEPLOY_KEY` variable (GitLab Settings → CI/CD → Variables, keeping it File type). The job re-adds the trailing newline glab strips. If the mirror job fails, `main` on GitLab is still fine; fix the key and re-run the job.
 - **Formatting and secrets.** Locally, `mdformat --number` (with GFM and front matter plugins), whitespace fixers, gitleaks, and commitizen run from the owner's global pre-commit hook in dotfiles (`git/.config/git/hooks/pre-commit` and `git/.config/pre-commit/global.yaml`). CI checks the same things for commits made where that hook isn't installed: `check_format` runs the pinned mdformat from `.pre-commit-config.yaml` (on the `manual` stage, so it doesn't run twice locally; keep its versions in step with the global file), and `check_secrets` runs gitleaks over the full history. To fix a `check_format` failure, recommit the file through the global hook, which reformats it.
 
 ## Cook's preferences
@@ -67,20 +67,49 @@ The house is climate-controlled at 21.5–24°C (~71–75°F) and there is no co
 
 ## Adding a recipe
 
-1. Pick the right category folder (see structure below). Folder names mirror README friendly names exactly — what you see in the README is the folder name.
+1. Pick the right category folder (see structure below). The folder names become the README's and the site's section names.
 2. Filename is kebab-case, no special characters. Examples: `chiles-gueros-rellenos-de-camaron.md`, `roast-chuck.md`.
 3. File structure:
-   - `# Title` (H1)
-   - Optional intro / attribution paragraph
-   - `## Ingredients` — bulleted list
-   - `## Instructions` (or `## Directions` / `## Steps` — existing recipes vary) — a numbered list. Write `1.` on every line if that's easier; the fleet-wide `mdformat --number` pre-commit hook renumbers ordered lists sequentially (1, 2, 3) on commit, so the committed source always ends up numbered either way.
-   - Optional `## Notes` section
-4. Add a link in the README under the correct subsection, in alphabetical order. CI enforces this: `scripts/check-toc.sh` (a `check_toc` job on every push) fails if any recipe file is missing from the README or the README links a file that no longer exists. Run it locally with `sh scripts/check-toc.sh` before pushing. The script's exclusion list (READMEs, `CLAUDE.md`, `contributing.md`, `drinks/sodas/brew-day-notes/`, and everything under `site/`) is the working definition of "not a recipe": any other new Markdown file needs an exclusion there, or CI fails.
-5. Name the file and title after what someone would search for. When a dish has two common names, put both in the title, for example "Dutch Baby (German Pancakes)".
+   - Optional YAML front matter (below).
+   - `# Title` (H1).
+   - Optional intro or attribution paragraph.
+   - `## Ingredients`: a bulleted list, with `###` subheadings for parts ("### Crust", "### Filling").
+   - `## Instructions`: a numbered list, with the same `###` parts. Write `1.` on every line if that's easier; the fleet-wide `mdformat --number` pre-commit hook renumbers ordered lists sequentially (1, 2, 3) on commit.
+   - Optional `## Notes`, and any other sections a recipe needs (`## Equipment`, `## Serve with`).
+4. Don't touch the README: CI adds the recipe to its list when it reaches `main` (see Operations, CI). On a branch the README list can lag; that's expected.
+5. **Titles and headings are sentence case, per the Wikipedia style guide:** capitalize only the first word and proper nouns ("Almond bread", "Mom's chili", "Swedish pancakes (Åke Jon)"). Attributions are possessive ("Shirley's rolls"). Name the recipe after what someone would search for, and when a dish has two common names, put both in the title, for example "Dutch baby (German pancakes)".
+
+### Front matter
+
+All fields are optional:
+
+```yaml
+---
+family: Pancakes # groups recipes under one label in the README and on the site
+variant: Bacon cornmeal # what shows under that label
+serves: 4 # or makes: 2 loaves; the site scales it
+tags: [make-ahead]
+---
+```
+
+- `family` and `variant` go together. A family with two or more recipes in a section shows as a label over its variants, and a family named after its section ("Bread" under Bread) lists just the variants. A recipe in no family lists under its title.
+
+- `serves` or `makes`: the first number scales with the recipe ("6–8" at 2× reads "12–16").
+
+- `tags`, from this vocabulary (`TAGS` in `catalog.py`; add a tag there when a recipe needs a new one, since CI rejects any tag that isn't listed):
+
+  - Method: `grill`, `smoker`, `slow-cooker`, `instant-pot`, `no-cook`, `make-ahead`.
+  - Diet: `vegetarian`, `vegan`.
+  - Occasion: `thanksgiving`, `christmas`, `game-day`, `hot-dog-contest`.
+  - Kind: `quick-bread`, `ferment`, `coffee`, `tea`.
+
+  Tag diets conservatively, counting hidden sources: stock, fish sauce, gelatin, Miracle Whip, and any recipe a recipe links to (the classic lasagna isn't vegetarian because its red sauce has sausage). Diet tags are only on savory recipes, where they help.
+
+What isn't a recipe: every `README.md`, `CLAUDE.md`, `contributing.md`, `drinks/sodas/brew-day-notes/`, and everything under `site/` (`catalog.py`, `_NOT_RECIPES`). Any other new Markdown file in a category folder shows up as a recipe.
 
 ## Directory structure
 
-Folder names match README friendly names exactly so navigation maps 1:1 between filesystem and TOC.
+Folder names become the section names (dashes to spaces, first letter capitalized; `FOLDER_NAMES` in `catalog.py` holds the exceptions, "Entrées" and "East Asian"), so navigation maps 1:1 between filesystem, README, and site.
 
 ```
 bread/
@@ -179,14 +208,10 @@ Bryce owns the shared Google Drive `Recipes/` folder; the owner also has top-lev
 
 Open items only; shipped work lives in the git history.
 
-**Site (v1)** — recipes.skalchemy.com is live; what remains is the Markdown cleanup below. Time-boxed: close the milestone once these land.
-
-- **[#6 "Add front matter and normalize recipe structure for the site"](https://gitlab.com/colby.goettel/recipes/-/work_items/6)** (`Present`, `priority::months`) — YAML front matter (`serves`, `tags`; tested status now comes from the cook log) and one heading per section. Unblocked now that the site and the units sweep have landed.
-- **[#7 "Generate the README table of contents from front matter"](https://gitlab.com/colby.goettel/recipes/-/work_items/7)** (`Present`, `priority::months`) — the intro stays hand-written; the list becomes generated, alphabetical, and consistently cased.
-
 **Maintenance** and **Creations**:
 
-- **[#15 "Staff-engineer handover for the recipes site"](https://gitlab.com/colby.goettel/recipes/-/work_items/15)** (`Present`, `priority::months`, milestone Maintenance) — the #2 handover exercise run again on `site/`, once Site (v1) closes: a knowledge-transfer interview, then proposals discussed before anything is filed.
+- **[#15 "Staff-engineer handover for the recipes site"](https://gitlab.com/colby.goettel/recipes/-/work_items/15)** (`Present`, `priority::months`, milestone Maintenance) — the #2 handover exercise run again on `site/`, now that Site (v1) has closed: a knowledge-transfer interview, then proposals discussed before anything is filed.
+- **[#16 "Rotate the README bot token before it expires"](https://gitlab.com/colby.goettel/recipes/-/work_items/16)** (`Agent-ready`, `priority::someday`, milestone Maintenance, due 2027-10-19) — the `readme-bot` token CI uses to commit the generated README list expires 2027-10-24.
 - **[#9 "Give hot sauces their own folder"](https://gitlab.com/colby.goettel/recipes/-/work_items/9)** (`Present`, `priority::someday`, milestone Maintenance) — move the `sauce-*` hot sauces out of `salsas/`, if "hot sauce" is the right word for them.
 - **[#10 "Move the Drive-import procedure into a project skill"](https://gitlab.com/colby.goettel/recipes/-/work_items/10)** (`Agent-ready`, `priority::someday`, milestone Maintenance) — keep `CLAUDE.md` about the repo; load the import steps only when importing.
 - **[#11 "Rename Swedish pancakes v2 after what makes it different"](https://gitlab.com/colby.goettel/recipes/-/work_items/11)** (`Present`, `priority::someday`, milestone Maintenance).

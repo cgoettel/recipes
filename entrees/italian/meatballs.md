@@ -1,3 +1,7 @@
+---
+makes: 24 2½-inch meatballs
+---
+
 # Meatballs
 
 This recipe is inspired by [Matty Matheson's meatball recipe](https://www.vice.com/en/article/8x5wq3/spaghetti-and-meatballs-recipe) and [Walter Food's meatball subs recipe](https://www.vice.com/en/article/3d4gvn/meatball-subs).
@@ -18,9 +22,7 @@ This recipe is inspired by [Matty Matheson's meatball recipe](https://www.vice.c
 - 2½ tablespoons kosher salt
 - fresh-cracked pepper, to taste
 
-Yields 24 2½" meatballs
-
-## Steps
+## Instructions
 
 - Preheat oven to 425°F
 - Put all ingredients into a large bowl

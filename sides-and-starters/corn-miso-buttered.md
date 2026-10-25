@@ -1,6 +1,11 @@
-# Miso-Buttered Corn
+---
+family: Corn
+variant: Miso-buttered
+serves: 2–4 as a side
+tags: [vegetarian]
+---
 
-Serves 2 to 4 as a side dish
+# Miso-buttered corn
 
 ## Ingredients
 
@@ -14,12 +19,12 @@ Serves 2 to 4 as a side dish
 - 1 tablespoon rice vinegar
 - 1 tablespoon unsalted butter
 
-## For Serving
+## For serving
 
 - Furikake, store-bought or your choice of homemade (page 236 or 237)
 - Sliced scallions
 
-## Directions
+## Instructions
 
 - One at a time, stand the ears of corn up in a flat-bottomed bowl or other container and slice the kernels off the cob. (The container will catch the kernels as they fall.)
 - Heat a large skillet over high heat, then coat with 1 tablespoon of the vegetable oil. Add the corn, season with the salt, and sauté until the kernels begin to brown along the edges, about 5 minutes. Transfer to a bowl.

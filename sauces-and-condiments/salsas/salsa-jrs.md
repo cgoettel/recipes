@@ -1,3 +1,9 @@
+---
+family: Salsa
+variant: J.R.'s
+tags: [vegan]
+---
+
 # J.R.'s salsa
 
 ## Ingredients

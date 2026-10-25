@@ -1,8 +1,13 @@
-# Jeera Rice
+---
+family: Rice
+variant: Jeera (cumin)
+serves: 2–3
+tags: [vegetarian]
+---
+
+# Jeera rice
 
 Cumin-scented basmati. The workhorse Indian rice — what you want next to [dal](../entrees/curries/masoor-dal-red-lentil.md) or anything not deeply aromatic on its own.
-
-Serves 2–3.
 
 ## Ingredients
 
@@ -13,7 +18,7 @@ Serves 2–3.
 - ½ teaspoon salt
 - 1 bay leaf (optional)
 
-## Method
+## Instructions
 
 Rinse the rice in cool water, swirling and pouring off, until the water runs mostly clear — usually 5–7 changes. Then soak in cool water for 20–30 minutes. Drain well.
 

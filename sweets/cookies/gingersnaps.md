@@ -1,4 +1,4 @@
-# King Arthur gingernsaps
+# King Arthur gingersnaps
 
 ## Ingredients
 
@@ -20,7 +20,7 @@
 - ¼ cup sugar
 - 1 teaspoon ground cinnamon
 
-## Directions
+## Instructions
 
 - Preheat oven to 375°F
 - Beat butter and sugar. Add sugar, salt, and baking soda.

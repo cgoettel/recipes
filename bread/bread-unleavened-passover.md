@@ -1,3 +1,8 @@
+---
+family: Bread
+variant: Unleavened (Passover)
+---
+
 # Unleavened bread for Passover
 
 ## Ingredients

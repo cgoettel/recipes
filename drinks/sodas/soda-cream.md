@@ -1,3 +1,8 @@
+---
+family: Soda
+variant: Cream
+---
+
 # Cream soda
 
 This recipe comes from [Glen and Friends Cooking](https://www.youtube.com/watch?v=NOhnrLhyOtU).
@@ -12,7 +17,7 @@ This recipe comes from [Glen and Friends Cooking](https://www.youtube.com/watch?
 - pinch of salt
 - 100 mL vanilla extract
 
-## Method
+## Instructions
 
 - Heat the water until almost boiling
 - Mix in the sugar, lactose, cacao, citric acid, and salt
@@ -21,6 +26,6 @@ This recipe comes from [Glen and Friends Cooking](https://www.youtube.com/watch?
 - Once cool, strain out the cacao and mix in the vanilla
 - Mix 1 part syrup with 2 parts water and force carbonate
 
-## For 5 gal (18.925 L) keg
+## For a 5-gallon (18.925 L) keg
 
 - Original recipe is about 2.25 L of syrup. Mix 2.25 L syrup + (2\*2.25 L) water should yield 6.75 L soda. 18.925 L / 6.75 L = 2.8x recipe for 1 keg, assuming initial starting syrup and ratio are correct. Which really means that the original recipe would be perfect in a half Corny keg.

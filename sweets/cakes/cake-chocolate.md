@@ -1,3 +1,8 @@
+---
+family: Cake
+variant: Chocolate
+---
+
 # Ann Myer's chocolate cake
 
 ## Ingredients

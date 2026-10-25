@@ -1,4 +1,9 @@
-# Chocolate Chip, Nut, and Dried Fruit Cookies
+---
+family: Chocolate chip cookies
+variant: Nut and dried fruit
+---
+
+# Chocolate chip, nut, and dried fruit cookies
 
 ## Ingredients
 
@@ -13,7 +18,7 @@
 - ⅓ cup diced (¼-inch) dried cherries
 - ⅔ cup semisweet chocolate chips
 
-## Directions
+## Instructions
 
 - Preheat the oven to 375 degrees, with a rack in the center.
 - Put the butter, oil, brown sugar, eggs, and vanilla in a food processor and process for a few seconds, just until smooth. Add the flour and baking powder and process until they are incorporated and the dough is smooth, about 5 seconds.

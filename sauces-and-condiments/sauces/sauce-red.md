@@ -1,3 +1,8 @@
+---
+family: Sauce
+variant: Red
+---
+
 # Red sauce
 
 ## Ingredients

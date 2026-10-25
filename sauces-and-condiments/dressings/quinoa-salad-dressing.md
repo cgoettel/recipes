@@ -1,3 +1,7 @@
+---
+tags: [no-cook, vegan]
+---
+
 # Quinoa salad dressing
 
 ## Ingredients

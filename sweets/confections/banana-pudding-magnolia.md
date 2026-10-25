@@ -1,4 +1,9 @@
-# Banana Pudding — Magnolia Bakery
+---
+family: Banana pudding
+variant: Magnolia Bakery
+---
+
+# Magnolia Bakery banana pudding
 
 The classic from Magnolia Bakery in New York.
 

@@ -1,8 +1,8 @@
-# Dhalpurie (Ground Split Peas Roti)
+---
+serves: 8 or more
+---
 
-## Serves
-
-8 or more
+# Dhalpurie (ground split pea roti)
 
 ## Ingredients
 
@@ -17,7 +17,7 @@
 - 1½ cups (≈340 g) water to mix (approx.)
 - ¼ cup (≈50 g) oil or melted margarine or combination of both for coating
 
-## Method
+## Instructions
 
 01. Boil split peas with saffron, 1 teaspoon salt and garlic until firm but cooked. Drain well.
 02. Grind to a powder and fry in 1 tablespoon oil for 1 minute turning constantly to avoid sticking or burning.

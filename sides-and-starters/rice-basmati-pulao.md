@@ -1,10 +1,14 @@
-# Light Basmati Pulao
+---
+family: Rice
+variant: Basmati pulao
+serves: 2–3
+---
+
+# Light basmati pulao
 
 Perfumed basmati with whole warm spices. More aromatic than [jeera rice](rice-jeera.md) — what you want next to the [coconut chicken curry](../entrees/curries/coconut-chicken-curry.md) or any dish where you want the rice to actively contribute aroma rather than just sit there.
 
 Not a full pulao with vegetables/meat — just the fragrant base.
-
-Serves 2–3.
 
 ## Ingredients
 
@@ -17,7 +21,7 @@ Serves 2–3.
 - 1 bay leaf
 - ½ teaspoon salt
 
-## Method
+## Instructions
 
 Rinse the rice in cool water, swirling and pouring off, until the water runs mostly clear — usually 5–7 changes. Then soak in cool water for 20–30 minutes. Drain well.
 

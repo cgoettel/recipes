@@ -1,3 +1,8 @@
+---
+family: Cake
+variant: Jewish coffee
+---
+
 # Jewish coffee cake
 
 ## Ingredients

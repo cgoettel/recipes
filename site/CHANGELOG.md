@@ -2,6 +2,13 @@
 
 The site's running version is the newest header here; CI bakes it into the image.
 
+## v0.8.0 (2026-10-25)
+
+- The site reads recipes straight from their folders and front matter, not from the README. The README's recipe list is now generated from the same data, by CI.
+- Recipes can say how much they make: "Serves 6–8" or "Makes 2 loaves" shows under the title and scales with the recipe.
+- Tags show as chips on each recipe and open the index filtered to that tag (`/?q=grill`).
+- Recipe families come from front matter (`family` and `variant`), so titles read naturally ("Almond bread") while the index still groups them.
+
 ## v0.7.2 (2026-10-25)
 
 - The menu opens over the page instead of pushing it down.

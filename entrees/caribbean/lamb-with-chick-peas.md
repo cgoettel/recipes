@@ -1,8 +1,11 @@
-# Lamb with Chick Peas (Channa)
+---
+family: Lamb
+variant: With chick peas (channa)
+serves: 8
+tags: [instant-pot, make-ahead]
+---
 
-## Serves
-
-8
+# Lamb with chick peas (channa)
 
 ## Ingredients
 
@@ -20,7 +23,7 @@
 - ¼ cup lemon juice
 - salt to taste
 
-## Method
+## Instructions
 
 1. Soak chick peas in water overnight.
 2. Parboil in water and drain.
@@ -31,7 +34,7 @@
 7. Add water, lemon juice, chick peas and salt; stir well.
 8. Lower heat, cover and simmer until meat is tender and sauce is thickened.
 
-## Method
+## Instructions
 
 1. Soak chick peas overnight. Drain.
 2. Pressure cook or boil until tender.

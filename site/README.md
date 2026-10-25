@@ -6,7 +6,8 @@ The recipes stay plain Markdown at the top of the repo, and the README there sta
 
 ## Layout
 
-- `src/recipes_site/catalog.py`: reads `README.md` and every recipe file into records.
+- `src/recipes_site/catalog.py`: reads the recipe folders and each recipe's front matter into records (and the README intro, as the house notes).
+- `src/recipes_site/toc.py`: generates the README's recipe list from the same data; CI runs it.
 - `src/recipes_site/ingredients.py`: parses ingredient lines into amount, unit and item; scales and formats them.
 - `src/recipes_site/app.py`: the routes. `/` is the list; `/<category>/<recipe>` is a recipe, mirroring the repo path.
 - `src/recipes_site/static/app.js`: search, cook-mode check-offs (stored in the visitor's browser only), and the screen wake lock.

@@ -1,8 +1,10 @@
-# Curried Chicken (Trinidad Style)
+---
+family: Chicken
+variant: Curried (Trinidad style)
+serves: 6
+---
 
-## Serves
-
-6
+# Curried chicken (Trinidad style)
 
 ## Ingredients
 
@@ -17,7 +19,7 @@
 - ½ cup chopped onion
 - ½ cup hot water
 
-## Method
+## Instructions
 
 1. Cut chicken in small pieces and season with garlic, green seasoning, salt and hot pepper.
 2. Marinate for 30 minutes or more.

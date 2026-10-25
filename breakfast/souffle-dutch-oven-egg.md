@@ -1,3 +1,9 @@
+---
+family: Soufflé
+variant: Dutch oven egg
+serves: 6–8
+---
+
 # Dutch oven egg soufflé
 
 ## Ingredients
@@ -9,8 +15,6 @@
 - Cheese, grated (we use cheddar or a Mexican cheese blend)
 - 6–8 slices bread, ripped into bite size pieces
 - Salt and pepper to taste.
-
-Serves 6–8 people.
 
 ## Instructions
 

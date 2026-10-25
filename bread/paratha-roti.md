@@ -1,8 +1,8 @@
-# Paratha Roti
+---
+serves: 8
+---
 
-## Serves
-
-8
+# Paratha roti
 
 ## Ingredients
 
@@ -13,7 +13,7 @@
 - 1½ oz or 3 tablespoons softened margarine or ghee
 - ¼ cup (≈50 g) or 2 oz oil for coating
 
-## Method
+## Instructions
 
 01. Stir flour, add baking powder and salt.
 02. Add enough water to form a smooth soft dough.

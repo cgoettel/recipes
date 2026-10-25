@@ -1,6 +1,10 @@
-# Rolls — Shirley
+---
+family: Rolls
+variant: Shirley's
+makes: 24 dinner rolls
+---
 
-Makes 24 dinner rolls.
+# Shirley's rolls
 
 ## Ingredients
 

@@ -1,4 +1,4 @@
-# Chiles Güeros Rellenos de Camarón
+# Chiles güeros rellenos de camarón
 
 Yellow chiles stuffed with shrimp and melty cheese, capeado-style and fried until golden. Sinaloan coast on a plate. Serves 4.
 

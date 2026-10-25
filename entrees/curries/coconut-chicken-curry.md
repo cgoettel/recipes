@@ -1,10 +1,16 @@
-# Kerala-Style Coconut Chicken Curry
+---
+family: Coconut chicken curry
+variant: Kerala-style
+serves: 1–2 across multiple meals
+---
+
+# Kerala-style coconut chicken curry
 
 Coconut milk based, glossy, bone-in chicken thighs. Tested at the 3-thigh scale for one person to eat across multiple meals. Scales up cleanly to a full can of coconut milk and 1.5–2 lb of chicken. ~45 minutes total, mostly hands-off after the initial ~20 minutes of masala building.
 
-Serves 1–2 across multiple meals at this scale.
+## Ingredients
 
-## Aromatics & Whole Spices
+### Aromatics & whole spices
 
 - 1 tablespoon coconut oil
 - 1 small cinnamon stick (or ½ a regular one)
@@ -17,7 +23,7 @@ Serves 1–2 across multiple meals at this scale.
 - 1 green chile, slit
 - 6–8 fresh curry leaves
 
-## Ground Spices
+### Ground spices
 
 - ½ teaspoon turmeric
 - 1½ teaspoons coriander powder
@@ -25,7 +31,7 @@ Serves 1–2 across multiple meals at this scale.
 - ½ teaspoon coarsely cracked black pepper
 - ¼ teaspoon garam masala (at the end)
 
-## Body
+### Body
 
 - 1 small/medium tomato, finely chopped (or ¼ cup crushed)
 - ½ can (~7 oz) full-fat coconut milk + ¼ cup water
@@ -33,12 +39,12 @@ Serves 1–2 across multiple meals at this scale.
 - 3 bone-in skinless chicken thighs
 - salt
 
-## Finish
+### Finish
 
 - cilantro
 - lime wedge
 
-## Method
+## Instructions
 
 Use a 10-inch sauté pan or small Dutch oven — too much surface area and the sauce reduces too fast.
 
@@ -60,7 +66,7 @@ Off heat: garam masala, lime, cilantro. Rest 5 minutes before serving.
 - Day 2 is markedly better — flavors deepen, gravy tightens up.
 - Scales up cleanly — double everything for 6 thighs and a full can of coconut milk. Move to a larger Dutch oven.
 
-## Scaling Up to Full Batch
+## Scaling up to a full batch
 
 For 1.5–2 lb bone-in skinless chicken thighs (5–6 thighs), serves 3–4:
 
@@ -73,7 +79,7 @@ For 1.5–2 lb bone-in skinless chicken thighs (5–6 thighs), serves 3–4:
 - 1 full can (14 oz) coconut milk + ½ can water
 - Onion browning closer to 10–12 min, masala bhuna closer to 8 min
 
-## Serve With
+## Serve with
 
 - Basmati rice ([jeera rice](../../sides-and-starters/rice-jeera.md) or [light pulao](../../sides-and-starters/rice-basmati-pulao.md))
 - Naan or roti

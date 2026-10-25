@@ -1,3 +1,9 @@
+---
+family: Bread
+variant: Banana
+tags: [quick-bread]
+---
+
 # Banana bread
 
 ## Ingredients

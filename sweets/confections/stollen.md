@@ -1,3 +1,7 @@
+---
+tags: [christmas]
+---
+
 # Stollen
 
 From [Patrick Ryan](https://www.youtube.com/watch?v=YFEa1QMaBoo&t=317s). 4 hours 40 minutes total. Makes 3 large or 6 small stollen.

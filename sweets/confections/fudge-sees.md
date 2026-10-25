@@ -1,3 +1,9 @@
+---
+family: Fudge
+variant: See's
+tags: [christmas]
+---
+
 # See's fudge
 
 From Aunt Diane

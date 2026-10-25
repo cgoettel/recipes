@@ -1,4 +1,4 @@
-# Semi-Rich Simple Syrup (1.5:1)
+# Semi-rich simple syrup (1.5:1)
 
 A 1.5:1 white-sugar syrup — the middle ground between standard 1:1 and rich 2:1. A little more body and sweetness than plain simple without tipping fully rich; a good house default that doesn't water drinks down as fast.
 

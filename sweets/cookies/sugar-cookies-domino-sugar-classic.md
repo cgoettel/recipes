@@ -1,3 +1,8 @@
+---
+family: Sugar cookies
+variant: Domino Sugar's classic
+---
+
 # Domino Sugar's classic sugar cookies
 
 ## Ingredients

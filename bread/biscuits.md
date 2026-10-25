@@ -1,3 +1,8 @@
+---
+makes: 12 biscuits
+tags: [quick-bread]
+---
+
 # Biscuits
 
 ## Ingredients
@@ -7,8 +12,6 @@
 - 1 teaspoon (≈6 g) salt
 - ¼ cup shortening or lard
 - ¾ cup (≈170 g) milk
-
-Yields a dozen biscuits.
 
 ## Instructions
 

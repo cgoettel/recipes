@@ -1,4 +1,8 @@
-# Panna Cotta
+---
+tags: [make-ahead]
+---
+
+# Panna cotta
 
 A classic Italian set custard. It's really a ratio to remember: one envelope of gelatin sets about 3 cups of dairy. Don't let the cream come to a hard boil — you want it just to the point of steaming with bubbles at the edge, enough to dissolve the sugar and marry the gelatin, no more. Yields 8 servings.
 

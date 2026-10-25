@@ -24,6 +24,7 @@ dependencies = [
     # Cloudflare Access JWT verification (RS256 via the team JWKS).
     "pyjwt[crypto]>=2.9",
     "python-multipart>=0.0.9",
+    "pyyaml>=6.0",
     "sqlalchemy>=2.0",
     "structlog>=24",
     "uvicorn[standard]>=0.32",
@@ -35,6 +36,7 @@ dev = [
     "mypy>=1.10",
     "pytest>=8.0",
     "ruff>=0.6",
+    "types-pyyaml>=6.0.12.20260906",
 ]
 
 [tool.hatch.build.targets.wheel]

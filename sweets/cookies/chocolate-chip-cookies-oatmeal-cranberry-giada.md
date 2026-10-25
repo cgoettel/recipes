@@ -1,4 +1,9 @@
-# Chocolate Chip Cookies — Oatmeal Cranberry (Giada)
+---
+family: Chocolate chip cookies
+variant: Giada's oatmeal cranberry
+---
+
+# Giada's oatmeal cranberry chocolate chip cookies
 
 From [Giada De Laurentiis](https://www.foodnetwork.com/recipes/giada-de-laurentiis/oatmeal-cranberry-and-chocolate-chunk-cookies-recipe).
 

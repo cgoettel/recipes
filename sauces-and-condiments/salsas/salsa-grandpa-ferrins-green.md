@@ -1,4 +1,10 @@
-# Salsa — Grandpa Ferrin's Green
+---
+family: Salsa
+variant: Grandpa Ferrin's green
+tags: [vegan]
+---
+
+# Grandpa Ferrin's green salsa
 
 Lineage: Bryan Weight → Meredith → Grandma Ferrin → the current salsa master, Grandpa Ferrin. Makes 6 quarts.
 

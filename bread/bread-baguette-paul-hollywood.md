@@ -1,4 +1,9 @@
-# Bread — Baguette (Paul Hollywood)
+---
+family: Bread
+variant: Baguette (Paul Hollywood)
+---
+
+# Paul Hollywood's baguettes
 
 From Paul Hollywood. Makes 4 baguettes.
 

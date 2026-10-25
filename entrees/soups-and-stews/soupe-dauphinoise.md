@@ -1,4 +1,4 @@
-# Soupe Dauphinoise
+# Soupe dauphinoise
 
 This recipe is adapted from the [French Cooking Academy](https://www.thefrenchcookingacademy.com/recipes/dauphinoise-soup). I adjusted the amounts just a little and added a couple ingredients.
 
@@ -18,7 +18,7 @@ This recipe is adapted from the [French Cooking Academy](https://www.thefrenchco
 - Salt and pepper, to taste
 - Toasted bread to serve
 
-## Method
+## Instructions
 
 1. Thinly slice the leeks, onions, and carrots.
 2. Warm the olive oil and melt the butter in a stock pot on medium heat until the butter starts to foam.

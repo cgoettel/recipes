@@ -1,4 +1,10 @@
-# Salsa — Fresno (Fermented)
+---
+family: Salsa
+variant: Fresno (fermented)
+tags: [vegan, ferment]
+---
+
+# Fermented Fresno salsa
 
 A lacto-fermented hot sauce in the modern craft template: red Fresno chiles, carrot for body, garlic for depth, onion for round. Funky, savory, layered — fundamentally different from a fresh-blended sauce. Yields about 24 oz Active time is roughly 30 minutes; fermentation runs 2–4 weeks.
 

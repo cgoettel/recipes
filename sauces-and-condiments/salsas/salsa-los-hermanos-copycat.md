@@ -1,4 +1,10 @@
-# Los Hermanos salsa
+---
+family: Salsa
+variant: Los Hermanos (copycat)
+tags: [vegan]
+---
+
+# Los Hermanos salsa (copycat)
 
 ## Ingredients
 
@@ -10,7 +16,7 @@
 - 1 tablespoon salt
 - 2 cloves garlic
 
-## Directions
+## Instructions
 
 - Drain tomatoes
 - Blend (might need to do two loads depending on blender capacity)

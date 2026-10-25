@@ -1,3 +1,9 @@
+---
+family: Tea
+variant: Sun
+tags: [tea]
+---
+
 # Sun tea
 
 ## Ingredients

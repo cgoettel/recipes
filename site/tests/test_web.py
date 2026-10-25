@@ -22,7 +22,7 @@ def test_health_reports_build(client: TestClient) -> None:
 def test_index_lists_recipes(client: TestClient) -> None:
     r = client.get("/")
     assert r.status_code == 200
-    assert "Dutch Baby" in r.text
+    assert "Dutch baby" in r.text
     assert 'href="/breakfast/pancake-dutch-baby"' in r.text
 
 

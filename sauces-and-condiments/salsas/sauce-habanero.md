@@ -1,4 +1,10 @@
-# Habanero Sauce
+---
+family: Salsa
+variant: Habanero
+tags: [vegan]
+---
+
+# Habanero sauce
 
 I originally got this from Javier Maya in Regina, SK, but have adapted it and changed it into my own thing.
 
@@ -10,7 +16,7 @@ I originally got this from Javier Maya in Regina, SK, but have adapted it and ch
 - 1 teaspoon salt
 - ½ cup white vinegar (enough to blend)
 
-## Directions
+## Instructions
 
 - Remove stems from habaneros.
 - Add everything except vinegar. Add enough vinegar to blend. I don't know exaclty how much cause I don't measure this part, but it feels like ¼–½ cup

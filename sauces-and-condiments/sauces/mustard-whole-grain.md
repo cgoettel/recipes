@@ -1,4 +1,10 @@
-# Mustard — Whole Grain
+---
+family: Mustard
+variant: Whole grain
+tags: [hot-dog-contest]
+---
+
+# Whole grain mustard
 
 A Maille-style whole grain. Plump intact seeds bound by a wine-vinegar paste, mellowed by a couple weeks in the fridge. Fresh out of the processor it tastes bitter and acrid — that is correct, do not try to fix it. The transformation happens during the rest. Yields about 1½ cups (one jar).
 

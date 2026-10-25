@@ -8,6 +8,12 @@
     <a class="chip chip-{{ recipe.color }}" href="/#{{ recipe.anchor }}">{{ recipe.tag }}</a>
   </div>
   {% if recipe.subtitle %}<p class="recipe-subtitle">{{ recipe.subtitle }}</p>{% endif %}
+  {% if yield_text or recipe.tags %}
+  <p class="recipe-meta">
+    {% if yield_text %}<span class="recipe-yield">{{ yield_text }}</span>{% endif %}
+    {% for t in recipe.tags %}<a class="tag" href="/?tag={{ t | urlencode }}">{{ t }}</a>{% endfor %}
+  </p>
+  {% endif %}
   {% if intro_html %}<div class="prose intro">{{ intro_html }}</div>{% endif %}
 
   {% if recipe.structured %}

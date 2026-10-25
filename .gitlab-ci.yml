@@ -8,6 +8,31 @@ check_toc:
   rules:
     - if: $CI_PIPELINE_SOURCE == "push"
 
+# Markdown formatting, check only. Same pinned mdformat as the owner's global
+# pre-commit hook, so commits made off his Mac (or in the web editor) are
+# checked too. Config: .pre-commit-config.yaml.
+check_format:
+  image: python:3.14-slim
+  before_script:
+    - apt-get update -qq && apt-get install -y -qq git >/dev/null
+    - pip install -q pre-commit==4.3.0
+  script:
+    - pre-commit run --hook-stage manual --all-files --show-diff-on-failure
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "push"
+
+# Secret scanning over the full history (the repo is small).
+check_secrets:
+  image:
+    name: zricethezav/gitleaks:v8.30.0
+    entrypoint: [""]
+  variables:
+    GIT_DEPTH: 0
+  script:
+    - gitleaks git --redact --verbose .
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "push"
+
 # Mirror main to github.com/cgoettel/recipes on every push to main.
 # GITHUB_DEPLOY_KEY is a File-type CI variable holding the SSH private key
 # whose public half is a write-enabled deploy key on the GitHub repo.

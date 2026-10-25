@@ -1,0 +1,19 @@
+# Repo tier of pre-commit. CI runs these; locally they're on the `manual`
+# stage so they don't run twice, because the owner's global hook in dotfiles
+# (git/.config/pre-commit/global.yaml) already runs the same tools on commit.
+# Keep the revs and plugin versions in step with that file. Secret scanning
+# is its own CI job (gitleaks over the full history), since the gitleaks
+# pre-commit hook only scans staged changes.
+#
+# CI: pre-commit run --hook-stage manual --all-files
+repos:
+  - repo: https://github.com/hukkin/mdformat
+    rev: 1.0.0
+    hooks:
+      - id: mdformat
+        name: mdformat (markdown, check only)
+        args: [--number, --check]
+        stages: [manual]
+        additional_dependencies:
+          - mdformat-gfm==1.0.0
+          - mdformat-frontmatter==2.1.2

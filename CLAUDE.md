@@ -183,6 +183,7 @@ Open items only; shipped work lives in the git history.
 
 **Maintenance** and **Creations**:
 
+- **[#15 "Staff-engineer handover for the recipes site"](https://gitlab.com/colby.goettel/recipes/-/work_items/15)** (`Present`, `priority::months`, milestone Maintenance) — the #2 handover exercise run again on `site/`, once Site (v1) closes: a knowledge-transfer interview, then proposals discussed before anything is filed.
 - **[#9 "Give hot sauces their own folder"](https://gitlab.com/colby.goettel/recipes/-/work_items/9)** (`Present`, `priority::someday`, milestone Maintenance) — move the `sauce-*` hot sauces out of `salsas/`, if "hot sauce" is the right word for them.
 - **[#10 "Move the Drive-import procedure into a project skill"](https://gitlab.com/colby.goettel/recipes/-/work_items/10)** (`Agent-ready`, `priority::someday`, milestone Maintenance) — keep `CLAUDE.md` about the repo; load the import steps only when importing.
 - **[#11 "Rename Swedish pancakes v2 after what makes it different"](https://gitlab.com/colby.goettel/recipes/-/work_items/11)** (`Present`, `priority::someday`, milestone Maintenance).

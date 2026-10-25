@@ -151,6 +151,8 @@ _COUNT_UNITS = {
     "bottle": ("bottle", "bottles"),
     "bottles": ("bottle", "bottles"),
 }
+# Every (singular, plural) pair the kept units use.
+COUNT_FORMS: set[tuple[str, str]] = set(_COUNT_UNITS.values())
 
 
 @dataclass(frozen=True)

@@ -2,6 +2,11 @@
 
 The site's running version is the newest header here; CI bakes it into the image.
 
+## v0.3.0 (2026-10-25)
+
+- Shopping list: "Add to shopping list" on any recipe (at its current scale), then `/list` merges every recipe you're making into one list grouped by store section, with staples collapsed at the bottom. Checking items off there is separate from cook mode. Your list lives only in your browser.
+- Pages you've opened keep working without signal, through a small service worker.
+
 ## v0.2.0 (2026-10-25)
 
 - Bread recipes show baker's percentages: each ingredient as a share of the flour, the hydration, salt, yeast, sugar and fat ratios with what each one means, and a "make a dough weighing" scaler.

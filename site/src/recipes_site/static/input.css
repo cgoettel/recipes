@@ -207,7 +207,17 @@
   .dough-form { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.5rem; }
   .dough-form input { width: 6.5rem; min-height: 44px; padding: 0 0.6rem; font: inherit; color: var(--color-text); background: var(--color-bg); border: 2px solid var(--color-line); border-radius: 10px; box-sizing: border-box; }
   .learn h2 { margin-top: 1.75rem; }
-  .reset-row { margin-top: 1rem; display: flex; justify-content: flex-end; }
+  .list-link { position: relative; color: var(--color-text); text-decoration: none; }
+  .list-count { position: absolute; top: -4px; right: -4px; min-width: 20px; height: 20px; border-radius: 10px; background: var(--color-crimson); color: #fff; font-size: 0.72rem; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; padding: 0 4px; box-sizing: border-box; }
+  .plan-list { list-style: none; padding: 0; margin: 0.25rem 0 0; }
+  .plan-list li { display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; min-height: 44px; border-bottom: 1px solid var(--color-line); }
+  .link-button { margin-left: auto; background: none; border: 0; color: var(--color-accent); text-decoration: underline; min-height: 44px; padding: 0 0.25rem; }
+  .list-actions { display: flex; gap: 0.5rem; justify-content: flex-end; margin: 1rem 0 0.5rem; flex-wrap: wrap; }
+  .list-section { margin-top: 1.25rem; }
+  .staples { margin-top: 1.5rem; background: var(--color-surface); border-radius: 12px; padding: 0.75rem 1rem; }
+  .staples summary { cursor: pointer; min-height: 32px; }
+  .from { display: block; font-size: 0.78rem; }
+  .reset-row { margin-top: 1rem; display: flex; justify-content: flex-end; gap: 0.5rem; flex-wrap: wrap; }
   .extra { margin-top: 2rem; }
   .source-link { margin-top: 2rem; }
 

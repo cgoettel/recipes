@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block title %}Shopping list · recipes{% endblock %}
+{% block description %}One shopping list from the recipes you're making.{% endblock %}
+{% block content %}
+<div class="title-row"><h1 class="recipe-title">Shopping list</h1></div>
+
+<section class="plan" data-plan-section>
+  {% if plan %}
+  <p class="muted small">Making:</p>
+  <ul class="plan-list">
+    {% for recipe, scale, scale_label in plan %}
+    <li data-plan-item="{{ recipe.slug }}">
+      <a href="/{{ recipe.slug }}{% if scale != 1 %}?scale={{ scale }}{% endif %}">{{ recipe.title }}</a>
+      <span class="muted small">{{ scale_label }}</span>
+      <button type="button" class="link-button" data-plan-remove="{{ recipe.slug }}">Remove</button>
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p data-list-empty>Nothing here yet. Open a recipe and tap <strong>Add to shopping list</strong>; add as many as you’re making, and they merge into one list.</p>
+  {% endif %}
+</section>
+
+{% if sections %}
+<div class="list-actions">
+  <button type="button" class="pill" data-clear-bought>Uncheck all</button>
+  <button type="button" class="pill" data-clear-plan>Clear the list</button>
+</div>
+<div data-list>
+  {% for section in sections %}
+  {% if section.name == "Staples" %}
+  <details class="staples">
+    <summary class="section-heading"><span class="bar bar-lilac" aria-hidden="true"></span>You probably have these</summary>
+  {% else %}
+  <section class="list-section">
+    <h2 class="section-heading"><span class="bar bar-{{ section_colors.get(section.name, 'sky') }}" aria-hidden="true"></span>{{ section.name }}</h2>
+  {% endif %}
+    <ul class="ingredients">
+      {% for entry in section.entries %}
+      <li>
+        <button type="button" class="ing" data-bought="{{ entry.key }}" aria-pressed="false">
+          <span class="box" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>
+          <span class="ing-text">{% if entry.amount %}<strong>{{ entry.amount }}</strong> {% endif %}{{ entry.label }}{% if entry.amount and entry.unscaled %} <span class="muted">+ more to taste</span>{% endif %}{% if plan | length > 1 %}<span class="from muted"> {{ entry.recipes | join(", ") }}</span>{% endif %}</span>
+        </button>
+      </li>
+      {% endfor %}
+    </ul>
+  {% if section.name == "Staples" %}</details>{% else %}</section>{% endif %}
+  {% endfor %}
+</div>
+{% endif %}
+{% endblock %}

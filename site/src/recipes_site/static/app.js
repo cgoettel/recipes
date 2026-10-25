@@ -47,6 +47,91 @@
     });
   }
 
+  // Shopping list: which recipes you're making lives in this browser only.
+  var PLAN = "recipes:plan";
+  var BOUGHT = "recipes:bought";
+  function plan() { return store(PLAN) || []; }
+  function planQuery(items) {
+    return items.map(function (p) { return "r=" + encodeURIComponent(p.slug + "@" + p.scale); }).join("&");
+  }
+  function showCount() {
+    var badge = document.querySelector("[data-list-count]");
+    if (!badge) return;
+    var n = plan().length;
+    badge.textContent = n;
+    badge.hidden = n === 0;
+  }
+  showCount();
+
+  var addBtn = document.querySelector("[data-add-to-list]");
+  if (addBtn) {
+    var slug = document.querySelector("[data-recipe]").getAttribute("data-recipe");
+    var markAdded = function () {
+      addBtn.textContent = "On your list ✓";
+      addBtn.classList.add("is-on");
+    };
+    if (plan().some(function (p) { return p.slug === slug; })) markAdded();
+    addBtn.addEventListener("click", function () {
+      var items = plan().filter(function (p) { return p.slug !== slug; });
+      items.push({ slug: slug, scale: addBtn.getAttribute("data-scale"), title: addBtn.getAttribute("data-title") });
+      store(PLAN, items);
+      markAdded();
+      showCount();
+    });
+  }
+
+  if (location.pathname === "/list") {
+    var params = new URLSearchParams(location.search);
+    var saved = plan();
+    if (!params.has("r") && saved.length) {
+      location.replace("/list?" + planQuery(saved));
+      return;
+    }
+    var bought = store(BOUGHT) || {};
+    var rows = Array.prototype.slice.call(document.querySelectorAll("[data-bought]"));
+    var paint = function () {
+      rows.forEach(function (b) {
+        var on = !!bought[b.getAttribute("data-bought")];
+        b.classList.toggle("is-done", on);
+        b.setAttribute("aria-pressed", on ? "true" : "false");
+      });
+    };
+    rows.forEach(function (b) {
+      b.addEventListener("click", function () {
+        var k = b.getAttribute("data-bought");
+        if (bought[k]) delete bought[k]; else bought[k] = true;
+        store(BOUGHT, bought);
+        paint();
+      });
+    });
+    paint();
+    document.querySelectorAll("[data-plan-remove]").forEach(function (b) {
+      b.addEventListener("click", function () {
+        var gone = b.getAttribute("data-plan-remove");
+        var items = plan().filter(function (p) { return p.slug !== gone; });
+        store(PLAN, items);
+        location.replace(items.length ? "/list?" + planQuery(items) : "/list");
+      });
+    });
+    var clearPlan = document.querySelector("[data-clear-plan]");
+    if (clearPlan) clearPlan.addEventListener("click", function () {
+      store(PLAN, null);
+      store(BOUGHT, null);
+      location.replace("/list");
+    });
+    var clearBought = document.querySelector("[data-clear-bought]");
+    if (clearBought) clearBought.addEventListener("click", function () {
+      bought = {};
+      store(BOUGHT, null);
+      paint();
+    });
+  }
+
+  // Offline: once a page has loaded, it keeps working without signal.
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("/sw.js").catch(function () {});
+  }
+
   // Cook mode
   var recipe = document.querySelector("[data-recipe]");
   if (!recipe) return;

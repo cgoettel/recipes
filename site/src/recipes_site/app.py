@@ -143,6 +143,8 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     def get_catalog() -> catalog.Catalog:
         return catalog.cached(str(settings.content_dir))
 
+    templates.env.globals["nav_categories"] = lambda: get_catalog().categories
+
     @app.get("/health")
     def health() -> dict[str, str]:
         return {"status": "ok", "version": __version__, "build": settings.asset_version}
@@ -233,6 +235,12 @@ def create_app(settings: Settings | None = None) -> FastAPI:
                 "top_scaled": counts.top("scale"),
             },
         )
+
+    @app.get("/me/whoami")
+    def me_whoami() -> dict[str, bool]:
+        # Reaching this at all means the Access check passed. The header's
+        # person button calls it to show whether you're signed in.
+        return {"owner": True}
 
     @app.get("/me/status")
     def me_status(slug: str) -> dict[str, object]:

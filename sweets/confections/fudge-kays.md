@@ -5,10 +5,10 @@ This recipe is from a tombstone in Utah.
 ## Ingredients
 
 - 2 oz chocolate
-- 2 T butter
-- 1 C milk
-- 3 C sugar
-- 1 T vanilla
+- 2 tablespoons butter
+- 1 cup milk
+- 3 cups sugar
+- 1 tablespoon vanilla
 - pinch salt
 
 ## Instructions

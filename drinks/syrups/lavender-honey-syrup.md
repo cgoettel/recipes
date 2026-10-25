@@ -9,7 +9,7 @@ lavender — it turns soapy fast.
 
 - 1 part honey
 - 1 part warm water
-- ~1 tsp dried culinary lavender per cup of finished syrup
+- ~1 teaspoon dried culinary lavender per cup of finished syrup
 
 ## Instructions
 

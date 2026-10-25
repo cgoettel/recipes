@@ -6,7 +6,7 @@ From [Grandma Goettel](https://www.familysearch.org/tree/person/details/KWCR-R7H
 
 - Corn tortillas
 - Oil (for frying)
-- Ground beef (1–2 lbs, depending on how many people you're feeding)
+- Ground beef (1–2 lb, depending on how many people you're feeding)
 - Salt and pepper, to taste
 - Cheese, shredded (we use cheddar or a Mexican cheese blend)
 - 1 onion, diced
@@ -17,12 +17,12 @@ From [Grandma Goettel](https://www.familysearch.org/tree/person/details/KWCR-R7H
 - 1 46 oz can tomato juice
 - ¾ tomato juice can water
 - 1 can El Pato (yellow can, not the green one)
-- 1 T garlic powder
-- 1 T kosher salt
-- 2-3 T chili powder
-- ¾ t pepper
-- 2 C cold water
-- 1 C flour
+- 1 tablespoon garlic powder
+- 1 tablespoon kosher salt
+- 2-3 tablespoons chili powder
+- ¾ teaspoon pepper
+- 2 cups cold water
+- 1 cup flour
 
 ## Instructions
 
@@ -33,7 +33,7 @@ From [Grandma Goettel](https://www.familysearch.org/tree/person/details/KWCR-R7H
    3. Add El Pato. For a mild sauce, add ¼-½ can. For a fuller flavor, add the whole can. It's really not that spicy.
    4. Add garlic powder, kosher salt, chili powder, and pepper.
    5. Bring to a boil.
-   6. Separately, whisk 1 C flour into 2 C cold water.
+   6. Separately, whisk 1 cup flour into 2 cups cold water.
    7. Pour flour solution through a sieve into the saucepan and whisk until sauce is at desired thickness.
 
 2. Prepare the beef. Season with Lawry's season salt and pepper.

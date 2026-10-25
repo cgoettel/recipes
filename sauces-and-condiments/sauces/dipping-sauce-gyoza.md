@@ -6,10 +6,10 @@ Makes enough for about 20 gyoza.
 
 ## Ingredients
 
-- 3 Tbsp soy sauce
-- 1 Tbsp mirin
-- 1–2 tsp apple cider vinegar (a small splash; start with 1)
-- ½ tsp grated ginger
+- 3 tablespoons soy sauce
+- 1 tablespoon mirin
+- 1–2 teaspoons apple cider vinegar (a small splash; start with 1)
+- ½ teaspoon grated ginger
 - ½ small garlic clove, grated
 - 1 green onion, thinly sliced
 

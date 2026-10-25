@@ -5,9 +5,9 @@ The classic from Magnolia Bakery in New York.
 ## Ingredients
 
 - 1 (14 oz) can sweetened condensed milk
-- 1½ C ice cold water
+- 1½ cups ice cold water
 - 1 (3.4 oz) package instant vanilla pudding mix (Jell-O recommended)
-- 3 C heavy cream
+- 3 cups heavy cream
 - 1 (11 oz) box vanilla wafers (Nabisco Nilla recommended; for gluten-free, Magnolia recommends Kinnikinnick)
 - 4–5 ripe bananas, sliced
 

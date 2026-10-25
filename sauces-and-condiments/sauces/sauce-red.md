@@ -7,10 +7,10 @@
 - 1 large carrot, diced
 - ½ large onion or 1 medium onion, diced
 - 1 stalk celery, diced
-- 4 t minced garlic
-- 2 T tomato paste
+- 4 teaspoons minced garlic
+- 2 tablespoons tomato paste
 - 2 28 oz cans Cento brand whole peeled San Marzano tomatoes
-- 2 C chicken stock
+- 2 cups chicken stock
 - 2 bunches fresh basil
 - 1 parmigiano reggiano rind
 - oregano, to taste

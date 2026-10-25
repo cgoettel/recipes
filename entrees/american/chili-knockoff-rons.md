@@ -4,19 +4,19 @@
 
 ### Seasoning
 
-- ½ C chili powder
-- 1 T oregano
-- 1 T cumin
-- 1 T paprika
-- 1 T black pepper
-- 1 T salt
-- 2 t granulated garlic
+- ½ cup chili powder
+- 1 tablespoon oregano
+- 1 tablespoon cumin
+- 1 tablespoon paprika
+- 1 tablespoon black pepper
+- 1 tablespoon salt
+- 2 teaspoons granulated garlic
 
 ### Cooking the meat
 
-- 1–1½ C water
-- 2 lbs ground beef
-- ½ C flour
+- 1–1½ cups water
+- 2 lb ground beef
+- ½ cup flour
 
 ## Directions
 

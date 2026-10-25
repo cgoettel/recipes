@@ -4,13 +4,13 @@
 
 ### Brine
 
-- 6 C water
-- ½ C kosher salt
+- 6 cups water
+- ½ cup kosher salt
 - <sup>1</sup>⁄<sub>3</sub> C sugar
-- ¼ C white vinegar
-- ¼ C buffalo sauce
-- 2 T black pepper
-- 3 lbs chicken wings
+- ¼ cup white vinegar
+- ¼ cup buffalo sauce
+- 2 tablespoons black pepper
+- 3 lb chicken wings
 
 ### Frying
 

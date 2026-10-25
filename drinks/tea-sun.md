@@ -20,12 +20,12 @@
 
 Amounts are for the full 2 L batch. Sweeten toward the low end of a row, chill, then taste and adjust — cold suppresses perceived sweetness noticeably, so a pitcher that tastes right at room temperature reads flat straight out of the fridge. It's much easier to add than to subtract.
 
-| Sweetness level      | Granulated sugar | Honey         | Agave nectar   | Sugar per 8 oz glass |
-| -------------------- | ---------------- | ------------- | -------------- | -------------------- |
-| Barely there         | ¼ cup (50 g)     | 2 Tbsp (40 g) | 1½ Tbsp (32 g) | ~6 g                 |
-| Semi-sweet           | ½ cup (100 g)    | ¼ cup (85 g)  | 3½ Tbsp (72 g) | ~12 g                |
-| Sweet                | 1 cup (200 g)    | ½ cup (170 g) | 7 Tbsp (145 g) | ~24 g                |
-| Southern-diner sweet | 1½ cups (300 g)  | ¾ cup (255 g) | ⅔ cup (215 g)  | ~36 g                |
+| Sweetness level      | Granulated sugar | Honey                | Agave nectar          | Sugar per 8 oz glass |
+| -------------------- | ---------------- | -------------------- | --------------------- | -------------------- |
+| Barely there         | ¼ cup (50 g)     | 2 tablespoons (40 g) | 1½ tablespoons (32 g) | ~6 g                 |
+| Semi-sweet           | ½ cup (100 g)    | ¼ cup (85 g)         | 3½ tablespoons (72 g) | ~12 g                |
+| Sweet                | 1 cup (200 g)    | ½ cup (170 g)        | 7 tablespoons (145 g) | ~24 g                |
+| Southern-diner sweet | 1½ cups (300 g)  | ¾ cup (255 g)        | ⅔ cup (215 g)         | ~36 g                |
 
 The three columns are matched for equal sweetness, not equal volume. Honey runs roughly 15–20% sweeter than granulated sugar by weight and agave about 40% sweeter, both from their higher fructose content, so each one needs less than the column to its left. The last column is what a single glass ends up carrying — the "sweet" row lands at about the sweetness of a cola, which is what bottled sweet tea actually is.
 

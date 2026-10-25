@@ -3,12 +3,12 @@
 ## Ingredients
 
 - 5 goodly-sized Granny Smith apples
-- ¾ C sugar
-- 2 T flour
-- 1 T cinnamon
-- 1 t ginger
-- ½ t nutmeg
-- ⅛ t clove
+- ¾ cup sugar
+- 2 tablespoons flour
+- 1 tablespoon cinnamon
+- 1 teaspoon ginger
+- ½ teaspoon nutmeg
+- ⅛ teaspoon clove
 
 ## Instructions
 

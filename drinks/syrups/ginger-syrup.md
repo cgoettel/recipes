@@ -4,8 +4,8 @@ A steeped fresh-ginger syrup. The short simmer extracts ginger quickly; the long
 
 ## Ingredients
 
-- 1 ½ cups (360 ml) white sugar
-- 1 cup (240 ml) water
+- 1 ½ cups (360 mL) white sugar
+- 1 cup (240 mL) water
 - 250 g fresh ginger
 
 ## Instructions

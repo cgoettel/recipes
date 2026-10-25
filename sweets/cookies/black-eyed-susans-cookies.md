@@ -4,11 +4,11 @@ From [Grandma Goettel](https://www.familysearch.org/tree/person/details/KWCR-R7H
 
 ## Ingredients
 
-- 1 C butter
-- 3T sugar
-- 1t vanilla
-- 2C flour
-- ½t salt
+- 1 cup butter
+- 3 tablespoons sugar
+- 1 teaspoon vanilla
+- 2 cups flour
+- ½ teaspoon salt
 
 ## Instructions
 

@@ -8,7 +8,7 @@ This recipe comes from [Glen and Friends Cooking](https://www.youtube.com/watch?
 - 650 g cane sugar
 - 100 g lactose (optional; helps with the head)
 - 5 g cacao nibs
-- 1 g (¼ t) citric acid
+- 1 g (¼ teaspoon) citric acid
 - pinch of salt
 - 100 mL vanilla extract
 

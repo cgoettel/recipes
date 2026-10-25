@@ -10,10 +10,10 @@ Yellow chiles stuffed with shrimp and melty cheese, capeado-style and fried unti
 - 3 garlic cloves, minced
 - 2 roma tomatoes, finely diced
 - ¼ cup cilantro, chopped
-- 1 tsp Mexican oregano
+- 1 teaspoon Mexican oregano
 - 8 oz Oaxaca or Monterey Jack cheese, cut into strips
-- 2 tbsp olive oil (for the filling)
-- 1 tsp kosher salt
+- 2 tablespoons olive oil (for the filling)
+- 1 teaspoon kosher salt
 - 4 large eggs, separated
 - ¼ cup all-purpose flour (for dredging)
 - 2 cups neutral oil (for frying)

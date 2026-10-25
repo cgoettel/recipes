@@ -2,14 +2,14 @@
 
 ## Ingredients
 
-- 2 C flour
-- ½ t ground cloves
-- ½ t ground ginger
-- 2 t baking soda
-- 1 t ground cinnamon
-- ½ t kosher salt
-- ¾ C vegetable oil
-- 1 C granulated sugar, plus extra for rolling dough balls in
+- 2 cups flour
+- ½ teaspoon ground cloves
+- ½ teaspoon ground ginger
+- 2 teaspoons baking soda
+- 1 teaspoon ground cinnamon
+- ½ teaspoon kosher salt
+- ¾ cup vegetable oil
+- 1 cup granulated sugar, plus extra for rolling dough balls in
 - ¼ molasses
 - 1 large egg
 

@@ -4,21 +4,21 @@ From [Giada De Laurentiis](https://www.foodnetwork.com/recipes/giada-de-laurenti
 
 ## Ingredients
 
-- 1 C all-purpose flour
-- ¾ t ground cinnamon
-- ½ t baking powder
-- ½ t baking soda
-- ½ t fine sea salt
+- 1 cup all-purpose flour
+- ¾ teaspoon ground cinnamon
+- ½ teaspoon baking powder
+- ½ teaspoon baking soda
+- ½ teaspoon fine sea salt
 - 1 stick unsalted butter, room temperature
-- ½ C light brown sugar
-- ½ C sugar
+- ½ cup light brown sugar
+- ½ cup sugar
 - 1 large egg, room temperature
-- ½ t pure vanilla extract
-- 2 C old-fashioned oats
-- 1 C dried cranberries
+- ½ teaspoon pure vanilla extract
+- 2 cups old-fashioned oats
+- 1 cup dried cranberries
 - 1 (4 oz) bar 60% cacao bittersweet chocolate (Ghirardelli recommended), chopped into ¼" chunks
 
-Special equipment: a 4 oz (½ C) ice cream or cookie scoop.
+Special equipment: a 4 oz (½ cup) ice cream or cookie scoop.
 
 ## Instructions
 

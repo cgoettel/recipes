@@ -4,13 +4,13 @@ This recipe is from [SBS](https://www.sbs.com.au/food/article/2022/07/15/hawaiia
 
 ## Ingredients
 
-- 3 C glutinous rice flour
-- 2 C sugar
+- 3 cups glutinous rice flour
+- 2 cups sugar
 - 1 stick butter, melted
 - 3 eggs
-- 2 C coconut milk
-- 2 t baking powder
-- ½ t salt
+- 2 cups coconut milk
+- 2 teaspoons baking powder
+- ½ teaspoon salt
 
 ## Instructions
 

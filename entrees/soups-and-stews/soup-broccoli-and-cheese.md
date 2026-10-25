@@ -2,16 +2,16 @@
 
 ## Ingredients
 
-- 1 T olive oil
-- 4 T butter
+- 1 tablespoon olive oil
+- 4 tablespoons butter
 - 1 medium onion
 - 1–2 stalks celery
 - 2 large carrots
 - 2 stalks broccoli (maybe more depending on tastes)
 - 1 head cauliflower
-- 2 C chicken stock (or vegetable stock if you prefer)
-- 2 C heavy cream (use half and half for a lighter soup)
-- 1½ T tomato paste
+- 2 cups chicken stock (or vegetable stock if you prefer)
+- 2 cups heavy cream (use half and half for a lighter soup)
+- 1½ tablespoons tomato paste
 - Salt
 - Black pepper
 - Paprika

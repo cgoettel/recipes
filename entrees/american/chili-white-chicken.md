@@ -19,11 +19,11 @@
 - 5 (14 ounce) cans navy beans, rinsed and drained
 - 2 (14 ounce) cans white corn, drained
 - 2 (4 ounce) cans chopped green chilies
-- 1 1/2 teaspoons minced garlic
+- 1½ teaspoons minced garlic
 - 2 teaspoons ground cumin
-- 1 1/2 teaspoons red pepper flakes
+- 1½ teaspoons red pepper flakes
 - 1 teaspoon dried oregano
-- 1/2 teaspoon salt
+- ½ teaspoon salt
 - 1 tablespoon dried minced onion, or to taste
 
 ## Directions

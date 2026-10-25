@@ -2,16 +2,16 @@
 
 ## Ingredients
 
-- 2 ¼ C flour
-- 1 t baking soda
-- 1 t salt
-- 1 C butter, softened
+- 2 ¼ cups flour
+- 1 teaspoon baking soda
+- 1 teaspoon salt
+- 1 cup butter, softened
 - ¾ sugar
 - ¾ brown sugar, packed
 - 2 large eggs
-- 1 t vanilla
-- 2 C chocolate chips
-- 1 C chopped nuts
+- 1 teaspoon vanilla
+- 2 cups chocolate chips
+- 1 cup chopped nuts
 
 ## Directions
 

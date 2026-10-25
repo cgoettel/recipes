@@ -5,7 +5,7 @@ This is adapted from a recipe on TikTok from @lelo_lemons.
 ## Ingredients
 
 - 650–700 g steak pieces (stewing meat)
-- 2 T butter
+- 2 tablespoons butter
 - 1 large white onion, thinly sliced
 - 2 leeks, thinly sliced
 - 4 carrots, peeled and chunky sliced
@@ -13,12 +13,12 @@ This is adapted from a recipe on TikTok from @lelo_lemons.
 - Any additional vegetables you want (see [Notes](#notes))
 - 2 heaping T flour
 - 1 pint Guinness
-- 2 T tomato purée
+- 2 tablespoons tomato purée
 - Salt and pepper to taste
-- 1 t granulated garlic or 2 cloves fresh garlic
-- 1 t thyme (or a couple of sprigs of fresh thyme)
+- 1 teaspoon granulated garlic or 2 cloves fresh garlic
+- 1 teaspoon thyme (or a couple of sprigs of fresh thyme)
 - Condensed beef stock
-- 1 T Worcestershire sauce
+- 1 tablespoon Worcestershire sauce
 - 2 bay leaves
 - Water to cover ingredients
 - Fresh parsley (minced) to garnish (optional)

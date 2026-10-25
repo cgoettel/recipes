@@ -2,13 +2,13 @@
 
 ## Ingredients
 
-- 1¾ C flour
-- 1 T baking powder
-- ½ t salt
-- 1¼ C milk
-- ½ C oil
+- 1¾ cups flour
+- 1 tablespoon baking powder
+- ½ teaspoon salt
+- 1¼ cups milk
+- ½ cup oil
 - 2 eggs
-- (Optional) 1½ t vanilla
+- (Optional) 1½ teaspoons vanilla
 
 ## Instructions
 

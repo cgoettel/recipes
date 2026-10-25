@@ -2,13 +2,13 @@
 
 ## Ingredients
 
-- 3 C frozen corn
-- ½ C whole milk
+- 3 cups frozen corn
+- ½ cup whole milk
 - 4 oz cream cheese
-- ¼ C butter
-- 1½ t sugar
-- ½ t pepper
-- ½ t salt
+- ¼ cup butter
+- 1½ teaspoons sugar
+- ½ teaspoon pepper
+- ½ teaspoon salt
 
 ## Directions
 

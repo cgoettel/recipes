@@ -2,9 +2,9 @@
 
 ## Ingredients
 
-- 1 C sifted flour
-- ¾ C sugar
-- ½ C butter, softened
+- 1 cup sifted flour
+- ¾ cup sugar
+- ½ cup butter, softened
 
 ## Instructions
 

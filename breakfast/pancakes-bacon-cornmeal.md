@@ -2,13 +2,13 @@
 
 ## Ingredients
 
-- 1¼ C flour
-- ¾ C cornmeal
-- ¼ C sugar
-- 2 t baking powder
-- ½ t salt
-- 1⅓ C milk
-- ¼ C oil
+- 1¼ cups flour
+- ¾ cup cornmeal
+- ¼ cup sugar
+- 2 teaspoons baking powder
+- ½ teaspoon salt
+- 1⅓ cups milk
+- ¼ cup oil
 - 1 egg
 - ½ lb bacon
 

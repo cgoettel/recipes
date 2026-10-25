@@ -4,25 +4,25 @@ Dominican rice cooked with pigeon peas and coconut milk.
 
 ## Ingredients
 
-- 4 C rice
-- 3 C boiled green pigeon peas (gandules)
-- 3 C coconut milk
-- 4 C water
-- 2 T oil (divided)
-- 4 t tomato paste (optional)
-- ¼ C chopped green peppers
+- 4 cups rice
+- 3 cups boiled green pigeon peas (gandules)
+- 3 cups coconut milk
+- 4 cups water
+- 2 tablespoons oil (divided)
+- 4 teaspoons tomato paste (optional)
+- ¼ cup chopped green peppers
 - 1 pinch of oregano
-- ½ t mashed garlic
-- ¼ C capers (optional)
-- ¼ C chopped celery
-- 1 t finely chopped coriander (cilantro)
-- ½ t thyme leaves
-- 1 t salt
+- ½ teaspoon mashed garlic
+- ¼ cup capers (optional)
+- ¼ cup chopped celery
+- 1 teaspoon finely chopped coriander (cilantro)
+- ½ teaspoon thyme leaves
+- 1 teaspoon salt
 - 12 pitted olives, cut into halves
 
 ## Instructions
 
-01. Heat 1 T of oil in an iron pot and add the cilantro, celery, capers, garlic, olives, thyme, peppers, oregano, and salt.
+01. Heat 1 tablespoon of oil in an iron pot and add the cilantro, celery, capers, garlic, olives, thyme, peppers, oregano, and salt.
 02. Stir while adding the tomato paste.
 03. Add the peas, also while stirring.
 04. Once well heated, add the water and coconut milk and bring to a boil.

@@ -2,13 +2,13 @@
 
 ## Ingredients
 
-- 2½ t yeast
-- ¼ C sugar
-- 1 C warm water
+- 2½ teaspoons (≈7.5 g) yeast
+- ¼ cup (≈50 g) sugar
+- 1 cup (≈225 g) warm water
 - 1 egg
-- 6 T butter
-- 1 T salt
-- 3 C flour
+- 6 tablespoons (≈85 g) butter
+- 1 tablespoon (≈18 g) salt
+- 3 cups (≈360 g) flour
 
 ## Instructions
 

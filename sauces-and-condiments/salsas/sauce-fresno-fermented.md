@@ -1,6 +1,6 @@
 # Salsa — Fresno (Fermented)
 
-A lacto-fermented hot sauce in the modern craft template: red Fresno chiles, carrot for body, garlic for depth, onion for round. Funky, savory, layered — fundamentally different from a fresh-blended sauce. Yields about 24 oz. Active time is roughly 30 minutes; fermentation runs 2–4 weeks.
+A lacto-fermented hot sauce in the modern craft template: red Fresno chiles, carrot for body, garlic for depth, onion for round. Funky, savory, layered — fundamentally different from a fresh-blended sauce. Yields about 24 oz Active time is roughly 30 minutes; fermentation runs 2–4 weeks.
 
 ## Ingredients
 
@@ -10,7 +10,7 @@ A lacto-fermented hot sauce in the modern craft template: red Fresno chiles, car
 - 6–8 cloves garlic, peeled
 - 25 g kosher salt (~2.5% of total vegetable weight)
 - Filtered (non-chlorinated) water, as needed
-- Optional: 1–2 T white wine vinegar at the end
+- Optional: 1–2 tablespoons white wine vinegar at the end
 
 ## Instructions
 
@@ -47,4 +47,4 @@ A lacto-fermented hot sauce in the modern craft template: red Fresno chiles, car
 - **Serrano + carrot + garlic** — same template, hotter, more grassy.
 - **Cayenne + carrot + garlic** — same template, leaner, sharper.
 - **Smoked element** — replace 2–3 oz of the Fresnos with chipotle morita (smoked jalapeños), rehydrated briefly in hot water before adding. Adds depth and a deliberately Tabasco-adjacent direction.
-- **Aromatic add-ins** (sparingly, at the start): a few peppercorns, a small bay leaf, 1 t fresh oregano, a strip of lime peel.
+- **Aromatic add-ins** (sparingly, at the start): a few peppercorns, a small bay leaf, 1 teaspoon fresh oregano, a strip of lime peel.

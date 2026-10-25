@@ -4,11 +4,11 @@ From [Grandma Goettel](https://www.familysearch.org/tree/person/details/KWCR-R7H
 
 ## Ingredients
 
-- ½C sugar
-- 1T corn starch
-- ½t salt
-- 1T butter
-- 1C orange juice
+- ½ cup sugar
+- 1 tablespoon corn starch
+- ½ teaspoon salt
+- 1 tablespoon butter
+- 1 cup orange juice
 
 ## Instructions
 

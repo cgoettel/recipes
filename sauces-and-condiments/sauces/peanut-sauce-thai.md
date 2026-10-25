@@ -2,12 +2,12 @@
 
 ## Ingredients
 
-- 1½ C peanut butter
-- ¼ C cream
+- 1½ cups peanut butter
+- ¼ cup cream
 - 1 can coconut milk (next time, buy two and try only coconut milk)
-- 2 T sesame oil
-- 1 T soy sauce
-- 4 T water
-- 5 T brown sugar
+- 2 tablespoons sesame oil
+- 1 tablespoon soy sauce
+- 4 tablespoons water
+- 5 tablespoons brown sugar
 - juice of 2 limes
-- 1-1½ T minced cilantro
+- 1-1½ tablespoons minced cilantro

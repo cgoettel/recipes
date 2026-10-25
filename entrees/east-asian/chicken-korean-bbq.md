@@ -9,16 +9,16 @@
 
 ### Marinade
 
-- ½ C crushed pear
-- ¼ C onion purée
+- ½ cup crushed pear
+- ¼ cup onion purée
 - 4 cloves garlic, minced
-- ½ t ginger, minced
+- ½ teaspoon ginger, minced
 - 1 green onion, chopped
-- 1 T soy sauce
-- 2 T brown sugar
+- 1 tablespoon soy sauce
+- 2 tablespoons brown sugar
 - pinch black pepper
-- 2 t toasted sesame oil
-- 3 T hot pepper paste
+- 2 teaspoons toasted sesame oil
+- 3 tablespoons hot pepper paste
 
 ## Directions
 

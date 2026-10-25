@@ -4,16 +4,16 @@ This recipe is adapted from the [French Cooking Academy](https://www.thefrenchco
 
 ## Ingredients
 
-- 1 T olive oil
+- 1 tablespoon olive oil
 - 50 g (1.76 oz) butter
 - 2 onions
 - 2 carrots
 - 1 leek
 - 1 15.5 oz can white (Navy) beans
-- 3 T chopped canned tomatoes (or 2 chopped tomatoes if ripe and in season)
+- 3 tablespoons chopped canned tomatoes (or 2 chopped tomatoes if ripe and in season)
 - 1 L (32 oz) beef broth
-- 3 T heavy cream or crème fraîche
-- 2 T chopped parsley (or chives)
+- 3 tablespoons heavy cream or crème fraîche
+- 2 tablespoons chopped parsley (or chives)
 - Thyme, to taste
 - Salt and pepper, to taste
 - Toasted bread to serve

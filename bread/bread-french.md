@@ -2,19 +2,19 @@
 
 ## Ingredients
 
-- 1 T yeast
-- 2 C warm water
-- 1 T sugar
-- 2 t salt
-- 1 T vegetable oil
-- 5–5½ C flour
+- 1 tablespoon (≈9 g) yeast
+- 2 cups (≈455 g) warm water
+- 1 tablespoon (≈12 g) sugar
+- 2 teaspoons (≈12 g) salt
+- 1 tablespoon (≈12 g) vegetable oil
+- 5–5½ cups (≈600–660 g) flour
 - Cornmeal
 
 ## Instructions
 
 01. Dissolve yeast and a pinch of sugar in warm water. Allow yeast to activate (about 10 minutes).
-02. Add salt, oil, and 3 C flour; beat for 2 minutes.
-03. Stir in 2 C flour to make a stiff dough.
+02. Add salt, oil, and 3 cups flour; beat for 2 minutes.
+03. Stir in 2 cups flour to make a stiff dough.
 04. Knead until smooth and elastic, about 10 minutes.
 05. Place in oiled bowl, turn dough to coat all sides, cover, and let rise until doubled in size.
 06. Punch down and divide in half.

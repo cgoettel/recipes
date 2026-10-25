@@ -21,19 +21,19 @@ A reverse-engineering of the grilled artichoke at Houston's / Hillstone — the 
 - ½ cup (1 stick) butter
 - 4 cloves garlic, smashed
 - 1 strip lemon zest + juice of ½ lemon
-- ¾ tsp salt
+- ¾ teaspoon salt
 - Several grinds black pepper
 
 **Remoulade**
 
 - ¾ cup mayonnaise
-- 1 Tbsp Creole or whole-grain mustard
-- 1 tsp Dijon
+- 1 tablespoon Creole or whole-grain mustard
+- 1 teaspoon Dijon
 - Juice of ½ lemon
 - 1 clove garlic, minced or grated
-- 1 Tbsp minced cornichon or capers
+- 1 tablespoon minced cornichon or capers
 - 1 green onion, finely sliced
-- 1 Tbsp chopped parsley
+- 1 tablespoon chopped parsley
 - Pinch cayenne
 - Salt to taste
 

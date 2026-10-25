@@ -2,13 +2,13 @@
 
 ## Ingredients
 
-- ½ C butter
-- ¾ C brown sugar
-- ¼ t salt
-- 1 t baking soda
+- ½ cup (≈115 g) butter
+- ¾ cup (≈160 g) brown sugar
+- ¼ teaspoon (≈1.5 g) salt
+- 1 teaspoon baking soda
 - 2 eggs
 - 6 bananas, mashed
-- 2 C flour
+- 2 cups (≈240 g) flour
 - (optional) chocolate chips
 - (optional) walnuts
 

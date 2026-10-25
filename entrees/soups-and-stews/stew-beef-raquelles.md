@@ -14,7 +14,7 @@ Raquelle's slow-cooker adaptation of a Ligurian veal stew, rebuilt with stew bee
 - 1½ cups chicken broth (or white veal stock)
 - 1½ pounds red potatoes, peeled and quartered
 - 1¼ pounds small zucchini, scrubbed and cut into ¼-inch slices
-- 1 Tbsp minced fresh basil, or 1 tsp dried
+- 1 tablespoon minced fresh basil, or 1 teaspoon dried
 - Salt and pepper to taste
 - Additional minced fresh basil or parsley for garnish (optional)
 

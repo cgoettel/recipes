@@ -4,8 +4,8 @@ From Uncle Bryan
 
 ## Ingredients
 
-- 1:1 vinegar and sugar, about ¼C
-- 1t celery seed
+- 1:1 vinegar and sugar, about ¼ cup
+- 1 teaspoon celery seed
 - Miracle whip
 
 ## Instructions

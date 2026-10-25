@@ -12,7 +12,7 @@ Serves 4–6.
 
 - 1–1½ lb chicken giblets and necks (gizzards, hearts, necks; leave out the liver, which turns bitter and cloudy)
 - 1–1½ lb chicken feet, wings, or backs (feet are the collagen powerhouse; use at least some)
-- 1 Tbsp neutral oil
+- 1 tablespoon neutral oil
 - 1 onion, halved, skin on
 - 2" piece ginger, sliced
 - 4–6 garlic cloves, smashed
@@ -21,31 +21,31 @@ Serves 4–6.
 
 ### Spice blend
 
-- 2 Tbsp coriander seed
-- 1 Tbsp cumin seed
-- 1 tsp fennel seed
-- ½ tsp fenugreek seed
+- 2 tablespoons coriander seed
+- 1 tablespoon cumin seed
+- 1 teaspoon fennel seed
+- ½ teaspoon fenugreek seed
 - Seeds from 4–5 green cardamom pods
-- 1 tsp black peppercorns
-- 1–2 dried red chilies, or ½–1 tsp cayenne
-- 1 Tbsp ground turmeric
-- ¼ tsp freshly grated nutmeg
+- 1 teaspoon black peppercorns
+- 1–2 dried red chilies, or ½–1 teaspoon cayenne
+- 1 tablespoon ground turmeric
+- ¼ teaspoon freshly grated nutmeg
 - 1 bay leaf
-- Optional: 1 tsp dried orange peel (chenpi), ground
+- Optional: 1 teaspoon dried orange peel (chenpi), ground
 
 ### Curry
 
 - 2–3 large yellow onions, thinly sliced
-- 2 Tbsp chicken fat skimmed from the stock, or neutral oil
+- 2 tablespoons chicken fat skimmed from the stock, or neutral oil
 - 1 carrot, grated (melts into the sauce for body)
 - 3–4 garlic cloves, grated
 - 1" piece ginger, grated
-- 1 Tbsp tomato paste
-- 6 Tbsp butter
+- 1 tablespoon tomato paste
+- 6 tablespoons butter
 - ½ cup flour
 - 1–1½ L giblet stock
-- 1–2 Tbsp soy sauce
-- 1 Tbsp Worcestershire sauce
+- 1–2 tablespoons soy sauce
+- 1 tablespoon Worcestershire sauce
 - Salt to taste
 
 ### To serve
@@ -73,7 +73,7 @@ Serves 4–6.
 
 1. Caramelize the onions: cook them in the chicken fat over medium to medium-low heat for 45–60 minutes, stirring more often as they darken, until deep mahogany and jammy. Add the grated carrot for the last 15 minutes. Deglaze with a splash of stock whenever the bottom starts to catch. Don't rush this. These onions supply the sweetness that bricks get from sugar.
 2. Add the garlic, ginger, and tomato paste. Cook 2–3 minutes, until the paste darkens.
-3. Make the roux in a separate small pan: melt the butter, whisk in the flour, and cook over medium-low heat, stirring constantly, until it smells nutty and turns peanut-butter brown (10–15 minutes). Take it off the heat and stir in 3–4 Tbsp of the spice blend. The heat of the roux blooms the spices without scorching them.
+3. Make the roux in a separate small pan: melt the butter, whisk in the flour, and cook over medium-low heat, stirring constantly, until it smells nutty and turns peanut-butter brown (10–15 minutes). Take it off the heat and stir in 3–4 tablespoons of the spice blend. The heat of the roux blooms the spices without scorching them.
 4. Add 1 L of the stock to the onion pot and bring to a simmer.
 5. Blend completely smooth with an immersion blender (or in batches in a countertop blender). Doing this before the roux goes in gets the onions finer than blending a thickened sauce.
 6. Whisk in the roux a ladle at a time until smooth.
@@ -84,5 +84,5 @@ Serves 4–6.
 ## Notes
 
 - **The jelly test.** Collagen from the feet and wings is what makes the curry set when cold. If it doesn't set, use more feet next time or reduce the stock further. Reheat gently and loosen with a splash of water.
-- **Shortcut spices.** S&B curry powder (the red can) can stand in for the homemade blend. It's still far better than bricks, and it includes cinnamon and clove. To freshen it, toast and grind 1 Tbsp coriander seed and 1–2 tsp cumin seed and stir them in with the S&B.
+- **Shortcut spices.** S&B curry powder (the red can) can stand in for the homemade blend. It's still far better than bricks, and it includes cinnamon and clove. To freshen it, toast and grind 1 tablespoon coriander seed and 1–2 teaspoons cumin seed and stir them in with the S&B.
 - **Related.** The [Kaga bōcha curry](curry-rice-kaga-bocha.md) uses the same roux method with roasted tea in the liquid. This stock is the best base for it too.

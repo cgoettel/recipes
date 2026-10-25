@@ -4,7 +4,7 @@
 
 - Mashed potatoes
 - 1 egg
-- 1t sugar, heaping
+- 1 teaspoon sugar, heaping
 - Pinch of salt
 - Flour, enough to stiffen
 - Cottage cheese

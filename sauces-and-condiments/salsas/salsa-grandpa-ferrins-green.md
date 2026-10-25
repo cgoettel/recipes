@@ -7,11 +7,11 @@ Lineage: Bryan Weight → Meredith → Grandma Ferrin → the current salsa mast
 - 1 (#10) can tomatillos, crushed
 - 5–6 jalapeño chiles (2 with seeds)
 - 2 bunches cilantro
-- 4 t minced garlic
-- ⅓ T salt
+- 4 teaspoons minced garlic
+- ⅓ tablespoon salt
 - 3 large sweet onions
 - 20–24 oz Wholly Guacamole
-- 2 C sugar
+- 2 cups sugar
 
 ## Instructions
 

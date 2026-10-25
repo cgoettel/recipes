@@ -6,24 +6,24 @@ Serves 1–2 across multiple meals at this scale.
 
 ## Aromatics & Whole Spices
 
-- 1 tbsp coconut oil
+- 1 tablespoon coconut oil
 - 1 small cinnamon stick (or ½ a regular one)
 - 2 green cardamom pods, bruised
 - 2 cloves
 - 1 bay leaf
 - 1 small onion (or ½ large), thinly sliced
-- 1½ tsp grated ginger
+- 1½ teaspoons grated ginger
 - 2–3 garlic cloves, minced
 - 1 green chile, slit
 - 6–8 fresh curry leaves
 
 ## Ground Spices
 
-- ½ tsp turmeric
-- 1½ tsp coriander powder
-- ½ tsp Kashmiri chile
-- ½ tsp coarsely cracked black pepper
-- ¼ tsp garam masala (at the end)
+- ½ teaspoon turmeric
+- 1½ teaspoons coriander powder
+- ½ teaspoon Kashmiri chile
+- ½ teaspoon coarsely cracked black pepper
+- ¼ teaspoon garam masala (at the end)
 
 ## Body
 
@@ -64,10 +64,10 @@ Off heat: garam masala, lime, cilantro. Rest 5 minutes before serving.
 
 For 1.5–2 lb bone-in skinless chicken thighs (5–6 thighs), serves 3–4:
 
-- 2 tbsp coconut oil
+- 2 tablespoons coconut oil
 - 1 cinnamon stick, 4 cardamom pods, 4 cloves, 1 bay leaf
 - 1 large onion
-- 1 tbsp ginger, 5 garlic cloves, 1–2 green chiles, 10–12 curry leaves
+- 1 tablespoon ginger, 5 garlic cloves, 1–2 green chiles, 10–12 curry leaves
 - Double the ground spices
 - 1 large tomato (or ½ cup crushed)
 - 1 full can (14 oz) coconut milk + ½ can water

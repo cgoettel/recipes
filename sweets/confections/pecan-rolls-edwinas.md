@@ -4,13 +4,13 @@ From [Aunt Edwina](https://www.familysearch.org/tree/person/details/KWZQ-VN9) (U
 
 ## Ingredients
 
-- 6 c. sugar
-- 1 qt. Karo Syrup (white)
-- 1½ c. canned milk
-- 1 t. salt
-- ⅓ c. butter
-- 1 t. vanilla
-- 2 lb. pecans
+- 6 cups sugar
+- 1 quart Karo Syrup (white)
+- 1½ cups canned milk
+- 1 teaspoon salt
+- ⅓ cup butter
+- 1 teaspoon vanilla
+- 2 lb pecans
 
 ## Directions
 

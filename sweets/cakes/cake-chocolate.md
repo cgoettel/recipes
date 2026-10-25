@@ -4,9 +4,9 @@
 
 - 1 chocolate cake mix
 - 1 chocolate instant pudding mix
-- 1 C sour cream
-- ½ C oil
-- ½ C water
+- 1 cup sour cream
+- ½ cup oil
+- ½ cup water
 - 4 eggs
 - Chocolate chips
 

@@ -4,11 +4,11 @@ Makes 2 baguettes. Faster counterpart to the [Paul Hollywood version](bread-bagu
 
 ## Ingredients
 
-- 1½ C warm water
-- 1½ T yeast
-- 2 t sugar
-- 3¼ C flour
-- 2 t salt
+- 1½ cups (≈340 g) warm water
+- 1½ tablespoons (≈14 g) yeast
+- 2 teaspoons (≈8 g) sugar
+- 3¼ cups (≈390 g) flour
+- 2 teaspoons (≈12 g) salt
 - Melted butter, for brushing
 
 ## Instructions

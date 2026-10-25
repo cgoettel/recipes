@@ -4,18 +4,18 @@ The original recipe, from King Arthur flour, did not include steel cut oats, had
 
 ## Ingredients
 
-- 1 C butter
-- 1 C brown sugar
-- ½ C sugar
+- 1 cup butter
+- 1 cup brown sugar
+- ½ cup sugar
 - 1 egg
 - 1 egg yolk
-- 1 T vanilla
-- ¾ t salt
-- 1 t baking soda
-- 1 t baking powder
-- 2 C flour
-- 1½ C oats
-- ⅛ C steel cut oats
+- 1 tablespoon vanilla
+- ¾ teaspoon salt
+- 1 teaspoon baking soda
+- 1 teaspoon baking powder
+- 2 cups flour
+- 1½ cups oats
+- ⅛ cup steel cut oats
 
 ## Instructions
 
@@ -24,6 +24,6 @@ The original recipe, from King Arthur flour, did not include steel cut oats, had
 - Beat in egg, egg yolk, and vanilla.
 - Mix in salt, baking soda, and baking powder.
 - Mix in flour.
-- Add oats. The original recipe called for 1 C oats, but it can easily take 1½ C oats. Maybe more. I don't measure.
+- Add oats. The original recipe called for 1 cup oats, but it can easily take 1½ cups oats. Maybe more. I don't measure.
 - Drop onto greased cookie sheet.
 - Bake 12-15 minutes (it's usually around 14; you want the cookies still soft)

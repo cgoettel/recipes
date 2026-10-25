@@ -6,18 +6,18 @@
 
 ## Ingredients
 
-- 1/2 lb. chick peas
-- 2 tbsp. vegetable oil
-- 1/2 cup chopped onion
-- 1 tsp. minced garlic
+- ½ lb chick peas
+- 2 tablespoons vegetable oil
+- ½ cup chopped onion
+- 1 teaspoon minced garlic
 - 1" fresh ginger root, crushed
-- 1 tsp. garam massala
-- 1 tsp. ground cumin seeds
-- 1 tsp. chilli powder
-- 1 1/2 lbs. boneless lamb, cubed
-- 1/2 cup chopped tomatoes
+- 1 teaspoon garam massala
+- 1 teaspoon ground cumin seeds
+- 1 teaspoon chilli powder
+- 1½ lb boneless lamb, cubed
+- ½ cup chopped tomatoes
 - 2 cups water
-- 1/4 cup lemon juice
+- ¼ cup lemon juice
 - salt to taste
 
 ## Method

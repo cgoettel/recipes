@@ -4,10 +4,10 @@ From [My Dominican Food](http://www.mydominicanfood.com/cooking-white-rice.php).
 
 ## Ingredients
 
-- 3 C long-grain rice
-- 4½ C water
-- 1 T salt
-- 1 T olive or vegetable oil
+- 3 cups long-grain rice
+- 4½ cups water
+- 1 tablespoon salt
+- 1 tablespoon olive or vegetable oil
 
 ## Instructions
 

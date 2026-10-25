@@ -6,16 +6,16 @@
 
 ## Ingredients
 
-- 1/2 lb. split peas
-- 1/2 tsp. saffron
-- 2 tsp. salt
+- ½ lb split peas
+- ½ teaspoon saffron
+- 2 teaspoons (≈12 g) salt
 - 3 cloves garlic
-- 1 tbsp. vegetable oil
-- 2-3 tsp. ground cumin (geera)
-- 1 lb. or 4 cups flour
-- 3 tsp. baking powder
-- 1 1/2 cups water to mix (approx.)
-- 1/4 cup oil or melted margarine or combination of both for coating
+- 1 tablespoon (≈12 g) vegetable oil
+- 2-3 teaspoons ground cumin (geera)
+- 1 lb or 4 cups flour
+- 3 teaspoons baking powder
+- 1½ cups (≈340 g) water to mix (approx.)
+- ¼ cup (≈50 g) oil or melted margarine or combination of both for coating
 
 ## Method
 
@@ -29,7 +29,7 @@
 08. Carefully roll out filled balls very thinly, using enough flour on surface to prevent sticking.
 09. Heat and grease griddle or tawah and place a rolled roti on it.
 10. Cook for 1 minute; turn over roti and brush with oil or melted margarine.
-11. Cook for 1/2 minute and turn over and brush with oil.
+11. Cook for ½ minute and turn over and brush with oil.
 12. Cook remaining filled dough in this way.
 
 Serve with curried meat or vegetables.

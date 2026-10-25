@@ -5,14 +5,14 @@ A bright, crisp refrigerator dill pickle in the Grillo's school. Cold-pack, neve
 ## Ingredients
 
 - 1 lb Kirby or pickling cucumbers (about 4–6 small), as fresh as possible
-- 1½ C filtered water
-- 1½ C distilled white vinegar (5% acidity)
-- 2 T kosher salt
-- 1 t sugar (optional — rounds the sharpness, doesn't read as sweet)
+- 1½ cups filtered water
+- 1½ cups distilled white vinegar (5% acidity)
+- 2 tablespoons kosher salt
+- 1 teaspoon sugar (optional — rounds the sharpness, doesn't read as sweet)
 - 4–6 cloves garlic, peeled and lightly smashed
 - 2–3 fresh dill heads (or 4–5 fresh dill fronds)
 - 1–2 toasted American oak cubes (medium toast, ~½"), OR 2–3 fresh grape leaves, OR 2–3 fresh oak leaves, OR 1–2 black tea bags (tannin source — see Notes)
-- Optional spice add-ins: 1 t whole black peppercorns, 1 t whole coriander seeds, 1 t whole mustard seeds, 1 bay leaf
+- Optional spice add-ins: 1 teaspoon whole black peppercorns, 1 teaspoon whole coriander seeds, 1 teaspoon whole mustard seeds, 1 bay leaf
 
 ## Instructions
 

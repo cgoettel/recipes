@@ -5,11 +5,11 @@
 ## Ingredients
 
 - 2 eggs
-- ¾ C sugar
-- ½ C oil
-- ¼ C orange juice or water
-- 3 C flour
-- 2 t baking powder
+- ¾ cup sugar
+- ½ cup oil
+- ¼ cup orange juice or water
+- 3 cups flour
+- 2 teaspoons baking powder
 - Additional sugar for dipping
 
 ## Instructions
@@ -22,4 +22,4 @@
 
 Variation:
 
-- Add ¼ C poppy seeds with dry ingredients. Roll out dough thinly, then cut in triangles using a fluted pastry wheel or pizza cutter. Dip in sugar and bake as directed. Perfect for Purim!
+- Add ¼ cup poppy seeds with dry ingredients. Roll out dough thinly, then cut in triangles using a fluted pastry wheel or pizza cutter. Dip in sugar and bake as directed. Perfect for Purim!

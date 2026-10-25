@@ -4,13 +4,13 @@ From [Whitney Bond](https://whitneybond.com/poppy-seed-dressing/).
 
 ## Ingredients
 
-- ½ C honey (or granulated sugar)
-- 1 t salt
-- 2 t dry mustard (or 2 T Dijon)
-- ½ C white wine vinegar (or apple cider vinegar)
-- 1 C canola oil (or vegetable oil, or light olive oil)
-- 1 T poppy seeds
-- ¼ C minced shallots (or red onion, or 2 t onion powder)
+- ½ cup honey (or granulated sugar)
+- 1 teaspoon salt
+- 2 teaspoons dry mustard (or 2 tablespoons Dijon)
+- ½ cup white wine vinegar (or apple cider vinegar)
+- 1 cup canola oil (or vegetable oil, or light olive oil)
+- 1 tablespoon poppy seeds
+- ¼ cup minced shallots (or red onion, or 2 teaspoons onion powder)
 
 ## Instructions
 

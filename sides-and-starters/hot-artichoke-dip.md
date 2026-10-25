@@ -2,12 +2,12 @@
 
 ## Ingredients
 
-- 1 C Parmesan cheese, grated
-- ½ C mayonnaise
-- ½ C sour cream
+- 1 cup Parmesan cheese, grated
+- ½ cup mayonnaise
+- ½ cup sour cream
 - 1 can artichoke hearts in water, drained, chopped
-- 1 t garlic
-- 1½ t dill weed
+- 1 teaspoon garlic
+- 1½ teaspoons dill weed
 
 ## Instructions
 

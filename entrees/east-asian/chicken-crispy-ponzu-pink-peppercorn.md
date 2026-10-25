@@ -9,23 +9,23 @@ Serves 3–4.
 ### Chicken
 
 - 1½–2 lb boneless, skin-on chicken thighs
-- 1 Tbsp soy sauce
-- 1 Tbsp sake (or water)
-- 1 tsp grated ginger
+- 1 tablespoon soy sauce
+- 1 tablespoon sake (or water)
+- 1 teaspoon grated ginger
 - 1 garlic clove, grated
-- ½ tsp salt
+- ½ teaspoon salt
 - ¾–1 cup potato starch (katakuriko); cornstarch works but is less crisp
 - Neutral oil for frying
 
 ### Sauce
 
-- 3 Tbsp soy sauce
-- 1½–2 Tbsp yuzu juice (bottled is fine), or swap the soy and yuzu for 4–5 Tbsp ponzu
-- 1–1½ Tbsp mirin
-- 1 tsp grated ginger
+- 3 tablespoons soy sauce
+- 1½–2 tablespoons yuzu juice (bottled is fine), or swap the soy and yuzu for 4–5 tablespoons ponzu
+- 1–1½ tablespoons mirin
+- 1 teaspoon grated ginger
 - 1 small garlic clove, grated
 - 3–4 green onions, thinly sliced, white and green parts
-- 1–1½ tsp pink peppercorns, lightly crushed
+- 1–1½ teaspoons pink peppercorns, lightly crushed
 
 ## Instructions
 

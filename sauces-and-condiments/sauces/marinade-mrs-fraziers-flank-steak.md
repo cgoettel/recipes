@@ -2,15 +2,15 @@
 
 From Mrs. Frazier, whose original recipe card carried the instruction "(do not give out this recipe)." Written for flank steak, but it is arguably even better on chicken — thighs or a spatchcocked bird especially, where the sugar in the teriyaki has skin to caramelize against.
 
-Makes enough for 2–3 lbs of meat.
+Makes enough for 2–3 lb of meat.
 
 ## Ingredients
 
-- ½ C Kikkoman teriyaki barbecue sauce
-- ½ C soy sauce
-- ½ C lemon juice
+- ½ cup Kikkoman teriyaki barbecue sauce
+- ½ cup soy sauce
+- ½ cup lemon juice
 - 3–5 shakes Worcestershire sauce
-- ¼ C vegetable oil
+- ¼ cup vegetable oil
 
 For the meat, before it goes in:
 

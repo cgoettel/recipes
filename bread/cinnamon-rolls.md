@@ -2,28 +2,28 @@
 
 ## Ingredients
 
-- 1.5 T yeast
-- 1 C lukewarm water
-- 1 t sugar
-- 8 C flour
-- 1 C sugar
-- 6 T lard
-- 2 C water
+- 1.5 tablespoons (≈14 g) yeast
+- 1 cup (≈225 g) lukewarm water
+- 1 teaspoon (≈4 g) sugar
+- 8 cups (≈960 g) flour
+- 1 cup (≈200 g) sugar
+- 6 tablespoons lard
+- 2 cups (≈455 g) water
 - 2 eggs, beaten
-- 1 T salt
+- 1 tablespoon (≈18 g) salt
 
 ### Filling
 
-- ½ C softened butter
-- 1½ C brown sugar
-- 2 T cinnamon
+- ½ cup (≈115 g) softened butter
+- 1½ cups (≈320 g) brown sugar
+- 2 tablespoons cinnamon
 
 ### Frosting
 
-- 4 T butter
-- 2 C powdered sugar
-- 4 T milk
-- 1 t vanilla extract
+- 4 tablespoons (≈55 g) butter
+- 2 cups (≈225 g) powdered sugar
+- 4 tablespoons (≈55 g) milk
+- 1 teaspoon vanilla extract
 
 ## Instructions
 

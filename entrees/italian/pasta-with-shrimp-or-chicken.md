@@ -2,15 +2,15 @@
 
 ## Ingredients
 
-- 2 T salt
+- 2 tablespoons salt
 - 10 oz noodles, linguine or fettuccine preferred
-- 6 T olive oil
+- 6 tablespoons olive oil
 - 4+ cloves garlic
 - 2 Anaheim chilies, chopped
-- 2 C chicken broth
-- 2 T butter
+- 2 cups chicken broth
+- 2 tablespoons butter
 - Meat, optional. Shrimp or chicken preferred
-- 2 C arugula, sliced in ribbons
+- 2 cups arugula, sliced in ribbons
 
 ## Directions
 

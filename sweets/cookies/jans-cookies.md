@@ -4,24 +4,24 @@ From Aunt Jan
 
 ## Ingredients
 
-- 1C margarine, soft
-- 1C brown sugar
-- 1½C sugar
-- 1T milk
-- 1½t vanilla
+- 1 cup margarine, soft
+- 1 cup brown sugar
+- 1½ cups sugar
+- 1 tablespoon milk
+- 1½ teaspoons vanilla
 - 2 eggs
-- 1½C flour
-- 1¼t baking soda
-- 1t salt
-- ½t mace
-- 1½t cinnamon
-- ¼t nutmeg
-- ⅛t powdered cloves
-- 1C corn flakes
-- 3C oats
+- 1½ cups flour
+- 1¼ teaspoons baking soda
+- 1 teaspoon salt
+- ½ teaspoon mace
+- 1½ teaspoons cinnamon
+- ¼ teaspoon nutmeg
+- ⅛ teaspoon powdered cloves
+- 1 cup corn flakes
+- 3 cups oats
 - 4oz coconut
-- 1pkg chocolate chips
-- 1C nuts
+- 1 package chocolate chips
+- 1 cup nuts
 
 ## Instructions
 

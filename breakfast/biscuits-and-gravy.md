@@ -7,18 +7,18 @@ Gravy by Colby; biscuits adapted from Paula Deen. See also [biscuits](../bread/b
 ### Gravy
 
 - 1 lb Jimmy Dean regular sausage
-- ¼ C flour
-- 1–2 C milk
+- ¼ cup flour
+- 1–2 cups milk
 - Salt and pepper, to taste
 
 ### Biscuits
 
-- 2 C all-purpose flour
-- 1 t sugar
-- 1 T baking powder
-- 1 t salt
-- 8 T butter, cubed
-- ¾ C milk (more or less as needed)
+- 2 cups all-purpose flour
+- 1 teaspoon sugar
+- 1 tablespoon baking powder
+- 1 teaspoon salt
+- 8 tablespoons butter, cubed
+- ¾ cup milk (more or less as needed)
 
 ## Instructions
 

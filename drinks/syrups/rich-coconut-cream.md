@@ -5,7 +5,7 @@ A sweetened coconut cream for Piña Coladas and other tiki drinks — full-fat c
 ## Ingredients
 
 - 1 ¾ cups sugar
-- 13.5 oz (400 ml) unsweetened full-fat coconut milk
+- 13.5 oz (400 mL) unsweetened full-fat coconut milk
 - Pinch of salt
 
 ## Instructions

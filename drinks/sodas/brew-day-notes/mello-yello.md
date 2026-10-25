@@ -10,7 +10,7 @@ This table summarizes the amounts used for each brew, including the final yields
 
 ## 2022-07-04
 
-- The original recipe said to do all of this in 3 gal water. I don't have a brewing system, just standard kitchen pots. It's going to be a lot easier to do this as a syrup and then mix with water later (like the grapefruit soda recipe).
+- The original recipe said to do all of this in 3 gallons water. I don't have a brewing system, just standard kitchen pots. It's going to be a lot easier to do this as a syrup and then mix with water later (like the grapefruit soda recipe).
 - I converted the recipe to metric because that's what I'm used to using. As soon as I did, I realized that the quantities that we're working with here are exactly the same as the grapefruit recipe when doubled. Excellent. This bodes well.
 - I'm using navel oranges, lemons, and limes (not key limes).
 - I measured each of the dry ingredients (besides the cinnamon sticks) and noted them in the table. I figure we'll measure with a tablespoon the first few times through and then convert to grams when we're happy with the results. It'll be a better control.

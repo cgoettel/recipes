@@ -5,14 +5,14 @@ From Grant
 ## Ingredients
 
 - 2–3 lb chuck roast, shredded
-- 2 lbs ground beef
+- 2 lb ground beef
 - 1 yellow onion, chopped
 - Salt and pepper, to taste
-- 1–2 T flour
+- 1–2 tablespoons flour
 - 16 oz beef broth
 - 16 oz tomato sauce
 - 1 can green chiles (short or tall, depends how you like it; I prefer more)
-- 7–9 T chili powder, to taste (see Notes)
+- 7–9 tablespoons chili powder, to taste (see Notes)
 
 ## Directions
 
@@ -26,4 +26,4 @@ From Grant
 
 ## Notes
 
-- I measured out the chili powder the most recent time and ended on 8 T. It's really going to depend on how you season the chuck roast and how large the roast is. Everything else is pretty evenly measured and repeatable. The chuck roast is your real variable.
+- I measured out the chili powder the most recent time and ended on 8 tablespoons It's really going to depend on how you season the chuck roast and how large the roast is. Everything else is pretty evenly measured and repeatable. The chuck roast is your real variable.

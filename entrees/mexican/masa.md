@@ -2,11 +2,11 @@
 
 ## Ingredients
 
-- 2 C corn flour
-- 2 C broth
-- 1 t baking powder
-- ½ t salt
-- ⅔ C lard or shortening
+- 2 cups corn flour
+- 2 cups broth
+- 1 teaspoon baking powder
+- ½ teaspoon salt
+- ⅔ cup lard or shortening
 
 ## Directions
 

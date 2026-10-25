@@ -4,30 +4,30 @@ From [Dominican Flavor](http://dominicanflavor.com/soupsstews/dominican-style-ch
 
 ## Ingredients
 
-- 3–4 lbs chicken, skinless and bone-in (~8–10 pieces — thighs and drumsticks preferred)
-- 2 t ground oregano
-- 2–3 t salt
-- ½ t ground black pepper
+- 3–4 lb chicken, skinless and bone-in (~8–10 pieces — thighs and drumsticks preferred)
+- 2 teaspoons ground oregano
+- 2–3 teaspoons salt
+- ½ teaspoon ground black pepper
 - 5 cloves garlic
 - 3–4 habanero chiles (ají gustoso)
 - 2 limes
-- 2 T [achiote oil](http://dominicanflavor.com/miscellaneous/achiote-oilaceite-de-bija.html) (or 1 t ground achiote)
+- 2 tablespoons [achiote oil](http://dominicanflavor.com/miscellaneous/achiote-oilaceite-de-bija.html) (or 1 teaspoon ground achiote)
 - 3 celery stalks
 - 4 carrots
 - 4 large potatoes
 - 1 lb cassava (yucca)
-- 1 C fresh cilantro
-- 2 C angel hair noodles (fideos)
-- 4 C chicken stock (optional)
+- 1 cup fresh cilantro
+- 2 cups angel hair noodles (fideos)
+- 4 cups chicken stock (optional)
 - Water
-- ½ C vinegar (or extra lime juice), for washing the chicken
-- 2 T vegetable or olive oil, for cooking
+- ½ cup vinegar (or extra lime juice), for washing the chicken
+- 2 tablespoons vegetable or olive oil, for cooking
 
 ## Instructions
 
 01. Rinse the chicken, then soak in water with the vinegar (or lime) for a few minutes. Rinse and drain.
 02. Season the chicken: salt, black pepper, oregano, mashed or chopped garlic, achiote oil. Seed and finely chop the habaneros and add them. Add the juice of 2 limes. Mix well. Marinate at least 1 hour — overnight is better.
-03. In a large pot, heat 2 T oil over high heat. Add the chicken pieces one by one (set the marinade liquid aside), tongs help avoid splatter. Cook ~10 minutes.
+03. In a large pot, heat 2 tablespoons oil over high heat. Add the chicken pieces one by one (set the marinade liquid aside), tongs help avoid splatter. Cook ~10 minutes.
 04. While the chicken cooks, fill a separate pot with water (~3 quarts) and bring to a boil — you'll add it later.
 05. Flip the chicken and half-cover the pot. Let it cook in its juices, stirring occasionally so it doesn't stick.
 06. Cut the celery and peeled carrots into bite-sized pieces. Set aside.

@@ -3,11 +3,11 @@
 ## Ingredients
 
 - 12 oz cream cheese, softened
-- ¼ C mayonnaise
-- 1 t dill weed
-- ¼ t pepper
+- ¼ cup mayonnaise
+- 1 teaspoon dill weed
+- ¼ teaspoon pepper
 - 1 bunch green onions
-- ¼ C+ bacon pieces (optional)
+- ¼+ cup bacon pieces (optional)
 - Chopped pecans
 
 Yields 3 four inch cheeseballs.

@@ -4,10 +4,10 @@
 
 ### Ingredients
 
-- ½ C brown sugar
-- 3 T flour
-- ½ C pecans, chopped
-- 2 T butter, melted
+- ½ cup brown sugar
+- 3 tablespoons flour
+- ½ cup pecans, chopped
+- 2 tablespoons butter, melted
 
 ### Directions
 
@@ -17,10 +17,10 @@
 
 ### Ingredients
 
-- 3 C sweet potatoes
-- 1 C sugar
-- ½ t salt
-- 1 t vanilla
+- 3 cups sweet potatoes
+- 1 cup sugar
+- ½ teaspoon salt
+- 1 teaspoon vanilla
 - 2 eggs
 - 1 cube butter
 

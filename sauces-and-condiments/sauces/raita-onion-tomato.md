@@ -5,14 +5,14 @@ A cooling yogurt condiment, essentially pico de gallo folded into spiced yogurt.
 ## Ingredients
 
 - 1 cup plain whole-milk yogurt
-- 2–3 tbsp water or milk, to loosen
+- 2–3 tablespoons water or milk, to loosen
 - ¼ cup onion, finely diced
 - ¼ cup tomato, deseeded and finely diced
 - 1 green chili, minced (optional)
-- 2 tbsp cilantro, chopped
-- ½ tsp roasted cumin, ground (see step 1)
-- ¼ tsp black salt (kala namak), or ½ tsp chaat masala
-- ¼ tsp black pepper
+- 2 tablespoons cilantro, chopped
+- ½ teaspoon roasted cumin, ground (see step 1)
+- ¼ teaspoon black salt (kala namak), or ½ teaspoon chaat masala
+- ¼ teaspoon black pepper
 - Pinch cayenne or Kashmiri chili, for color
 - Salt, to taste
 - Pinch sugar, optional, to balance

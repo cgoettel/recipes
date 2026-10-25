@@ -2,17 +2,17 @@
 
 ## Ingredients
 
-- 1 gal whole milk
+- 1 gallon whole milk
 - 6 eggs
-- ½ C sugar
-- 1 t vanilla
-- ½ gal vanilla bean ice cream
+- ½ cup sugar
+- 1 teaspoon vanilla
+- ½ gallon vanilla bean ice cream
 - nutmeg
 
 ## Instructions
 
-- Put eggs, sugar, vanilla, and 1 C milk into blender. Blend.
-- Scoop ice cream (smaller chunks are better) into a large container (enough to comfortably hold 1½ gal).
+- Put eggs, sugar, vanilla, and 1 cup milk into blender. Blend.
+- Scoop ice cream (smaller chunks are better) into a large container (enough to comfortably hold 1½ gallons).
 - Pour egg mixture into container. Rinse out with milk (to get the leftovers) and pour that and remainder of gallon of milk into large container.
 - Top with nutmeg. Fresh nutmeg is better.
 

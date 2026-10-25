@@ -5,31 +5,31 @@ From [My Dominican Food](http://www.mydominicanfood.com/stewed-chicken.php). Par
 ## Ingredients
 
 - 6 chicken thighs, cut into medium pieces (or mix with drumsticks and breasts)
-- ½ C white vinegar (for washing)
-- 1¼ t salt
-- ¼ t ground oregano
-- ¼ t ground complete seasoning (Badia, or any salt-free brand)
+- ½ cup white vinegar (for washing)
+- 1¼ teaspoons salt
+- ¼ teaspoon ground oregano
+- ¼ teaspoon ground complete seasoning (Badia, or any salt-free brand)
 - Ground pepper to taste
-- 1 C chopped green bell pepper
-- 1 C chopped red bell pepper
+- 1 cup chopped green bell pepper
+- 1 cup chopped red bell pepper
 - 2 large garlic cloves (or 4 small), crushed or minced
-- 1 C minced white onions
-- ½ C chopped cilantro
+- 1 cup minced white onions
+- ½ cup chopped cilantro
 - 5 stuffed olives, sliced (optional)
-- 3 C water (divided)
-- 2 T tomato sauce (Ragu meat-flavored works well)
-- 2 T vegetable or olive oil
-- ½ C tomato sauce
+- 3 cups water (divided)
+- 2 tablespoons tomato sauce (Ragu meat-flavored works well)
+- 2 tablespoons vegetable or olive oil
+- ½ cup tomato sauce
 
 ## Instructions
 
-1. Wash the chicken in a bowl with water and the ½ C white vinegar. Cut into medium pieces and season with salt, oregano, complete seasoning, and ground pepper. Mix well.
-2. From the chopped green bell pepper, take ¼ C and add it to the chicken. Measure ⅓ C and set aside in a small bowl. Repeat with the red bell pepper and onions. Refrigerate the reserved ⅓-cup portions — they get added at the end.
-3. Continue marinating the chicken with half the garlic, half the olives, and ¼ C cilantro. Add 1 C water and 2 T tomato sauce. Mix well and marinate 20–25 minutes.
+1. Wash the chicken in a bowl with water and the ½ cup white vinegar. Cut into medium pieces and season with salt, oregano, complete seasoning, and ground pepper. Mix well.
+2. From the chopped green bell pepper, take ¼ cup and add it to the chicken. Measure ⅓ cup and set aside in a small bowl. Repeat with the red bell pepper and onions. Refrigerate the reserved ⅓-cup portions — they get added at the end.
+3. Continue marinating the chicken with half the garlic, half the olives, and ¼ cup cilantro. Add 1 cup water and 2 tablespoons tomato sauce. Mix well and marinate 20–25 minutes.
 4. Preheat a large nonstick saucepan over medium-high heat. Add the oil and sauté the remaining vegetables 2–3 minutes, stirring constantly.
-5. Add the ½ C tomato sauce and mix. Cook 1 minute, then add the chicken pieces one by one — set the marinade liquid aside.
-6. Mix well. If dry, stir in 2–3 T of the reserved marinade liquid.
-7. Cook half-covered, stirring frequently. Add the remaining 2 C water to the marinade liquid. Whenever the water in the saucepan reduces, pour in 1–2 large spoons of marinade and stir. Check often to keep the chicken from drying out and burning.
+5. Add the ½ cup tomato sauce and mix. Cook 1 minute, then add the chicken pieces one by one — set the marinade liquid aside.
+6. Mix well. If dry, stir in 2–3 tablespoons of the reserved marinade liquid.
+7. Cook half-covered, stirring frequently. Add the remaining 2 cups water to the marinade liquid. Whenever the water in the saucepan reduces, pour in 1–2 large spoons of marinade and stir. Check often to keep the chicken from drying out and burning.
 8. After ~45 minutes, when the chicken is dry again, add the reserved refrigerated vegetables and the rest of the marinade liquid. Stir and cook 4–5 minutes more.
 9. Leave a bit of liquid so it's not too thick at serving time.
 

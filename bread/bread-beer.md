@@ -2,12 +2,12 @@
 
 ## Ingredients
 
-- 3 C floud
-- 3 t baking powder (omit if using self-rising flour)
-- 1 t salt (omit if using self-rising flour)
-- ¼ C sugar
+- 3 cups floud
+- 3 teaspoons (≈7.5 g) baking powder (omit if using self-rising flour)
+- 1 teaspoon (≈2.5 g) salt (omit if using self-rising flour)
+- ¼ cup (≈50 g) sugar
 - 1 12oz can beer
-- ¼ C butter, melted
+- ¼ cup (≈55 g) butter, melted
 
 ## Instructions
 

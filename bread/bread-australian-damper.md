@@ -2,11 +2,11 @@
 
 ## Ingredients
 
-- 4 C flour
-- 1 t salt
-- ⅛ C baking powder
-- ⅛ C sugar
-- 1 ¼ C milk
+- 4 cups (≈480 g) flour
+- 1 teaspoon (≈6 g) salt
+- ⅛ cup baking powder
+- ⅛ cup (≈25 g) sugar
+- 1 ¼ cups milk
 
 ## Instructions
 

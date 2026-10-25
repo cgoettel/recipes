@@ -2,10 +2,10 @@
 
 ## Ingredients
 
-- ⅓ C lime juice
-- ½ t salt
-- 1¼ t ground cumin
-- ⅓ C olive oil
+- ⅓ cup lime juice
+- ½ teaspoon salt
+- 1¼ teaspoons ground cumin
+- ⅓ cup olive oil
 
 ## Instructions
 

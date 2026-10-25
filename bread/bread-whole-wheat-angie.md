@@ -4,16 +4,16 @@ From Angie. Makes 6 loaves (half quantities in parens for 3 loaves).
 
 ## Ingredients
 
-- ⅔ C vegetable oil (⅓ C)
-- ⅔ C honey (⅓ C)
-- 1–2 T liquid lecithin (optional)
-- 6 C hot tap water (3 C)
-- 3 T instant yeast (2 T)
-- 16–18 C ground whole wheat flour (8–9 C)
-- ½ C potato flakes (¼ C)
-- 2 T vital wheat gluten (1 T)
-- 2 T dough enhancer (1 T)
-- 2 T salt (1 T)
+- ⅔ cup (≈130 g) vegetable oil (⅓ cup)
+- ⅔ cup (≈225 g) honey (⅓ cup)
+- 1–2 tablespoons liquid lecithin (optional)
+- 6 cups (≈1360 g) hot tap water (3 cups)
+- 3 tablespoons (≈27 g) instant yeast (2 tablespoons)
+- 16–18 cups (≈1810–2035 g) ground whole wheat flour (8–9 cups)
+- ½ cup potato flakes (¼ cup)
+- 2 tablespoons vital wheat gluten (1 tablespoon)
+- 2 tablespoons dough enhancer (1 tablespoon)
+- 2 tablespoons (≈36 g) salt (1 tablespoon)
 - Butter spray
 
 ## Instructions
@@ -28,6 +28,6 @@ From Angie. Makes 6 loaves (half quantities in parens for 3 loaves).
 
 ## Variants
 
-- **Apple cranberry** — Hand-knead in 2 T sugar + 1 T brown sugar + 1 T cinnamon (mixed) plus ½ C diced apples and ¼ C dried cranberries.
-- **Sunflower** — Hand-knead in 2 T sunflower seeds and ½ T flaxseed. Garnish the top of the loaf with 1 T pumpkin seeds.
-- **Cheese** — Hand-knead in 3 T ranch dressing mix and 1 C sharp cheddar.
+- **Apple cranberry** — Hand-knead in 2 tablespoons sugar + 1 tablespoon brown sugar + 1 tablespoon cinnamon (mixed) plus ½ cup diced apples and ¼ cup dried cranberries.
+- **Sunflower** — Hand-knead in 2 tablespoons sunflower seeds and ½ tablespoon flaxseed. Garnish the top of the loaf with 1 tablespoon pumpkin seeds.
+- **Cheese** — Hand-knead in 3 tablespoons ranch dressing mix and 1 cup sharp cheddar.

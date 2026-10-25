@@ -8,9 +8,9 @@ Serves 2–3.
 
 - 1 cup basmati rice (aged Indian — India Gate, Tilda, Daawat, Lal Qilla)
 - 1¼ cups water (after soaking; see Method)
-- 1 tsp ghee
-- 1 tsp cumin seeds
-- ½ tsp salt
+- 1 teaspoon ghee
+- 1 teaspoon cumin seeds
+- ½ teaspoon salt
 - 1 bay leaf (optional)
 
 ## Method

@@ -2,13 +2,13 @@
 
 ## Ingredients
 
-- 1¼ C flour
-- 1 T baking powder
-- 1 T sugar
-- 1 t salt
+- 1¼ cups flour
+- 1 tablespoon baking powder
+- 1 tablespoon sugar
+- 1 teaspoon salt
 - 1 egg
-- 1 C milk
-- 2 T oil
+- 1 cup milk
+- 2 tablespoons oil
 
 Yields 8 four inch pancakes.
 

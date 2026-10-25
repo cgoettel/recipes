@@ -3,8 +3,8 @@
 ## Ingredients
 
 - 5–6 Granny Smith apples
-- 2–3 T flour
-- ¾ C sugar
+- 2–3 tablespoons flour
+- ¾ cup sugar
 - cinnamon
 - nutmeg
 - salt

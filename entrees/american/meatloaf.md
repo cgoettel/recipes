@@ -5,10 +5,10 @@
 - 1lb ground beef
 - 1 large yellow onion, diced
 - 1 egg
-- ½ C sour cream
-- 1 C oatmeal
+- ½ cup sour cream
+- 1 cup oatmeal
 - Salt and pepper
-- ½ C ketchup
+- ½ cup ketchup
 
 ## Directions
 

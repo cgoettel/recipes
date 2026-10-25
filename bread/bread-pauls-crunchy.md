@@ -2,9 +2,9 @@
 
 ## Ingredients
 
-- 1½ t yeast
-- 8 C flour
-- 4 t salt
+- 1½ teaspoons (≈4.5 g) yeast
+- 8 cups (≈960 g) flour
+- 4 teaspoons (≈24 g) salt
 - 720 g water
 
 ## Instructions

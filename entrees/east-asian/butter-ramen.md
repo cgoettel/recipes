@@ -5,9 +5,9 @@ I got this recipe off of Instagram and have adapted it to my tastes and methods.
 ## Ingredients
 
 - 1 pack ramen (Ichiban is my preferred brand; any flavor you like; I prefer tonkatsu)
-- 1 T butter
+- 1 tablespoon butter
 - Diced veggies
-- ½ C milk (I prefer coconut milk, but cow milk works just fine)
+- ½ cup milk (I prefer coconut milk, but cow milk works just fine)
 - Cracked pepper to taste
 
 ## Instructions

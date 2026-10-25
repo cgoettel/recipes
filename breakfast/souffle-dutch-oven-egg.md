@@ -5,7 +5,7 @@
 - Charcoal, about 26 briquettes
 - 1 lb sausage
 - 12 eggs
-- 1 C milk
+- 1 cup milk
 - Cheese, grated (we use cheddar or a Mexican cheese blend)
 - 6–8 slices bread, ripped into bite size pieces
 - Salt and pepper to taste.

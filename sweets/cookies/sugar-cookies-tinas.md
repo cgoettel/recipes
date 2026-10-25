@@ -2,13 +2,13 @@
 
 ## Ingredients
 
-- 1 c. butter
-- 1 1/2 c. powdered sugar
+- 1 cup butter
+- 1½ cups powdered sugar
 - 1 egg
-- 1 tsp. soda
-- 1 tsp. cream of tartar
-- 1 tsp. vanilla
-- 2 1/2 c. flour
+- 1 teaspoon soda
+- 1 teaspoon cream of tartar
+- 1 teaspoon vanilla
+- 2½ cups flour
 
 ## Instructions
 

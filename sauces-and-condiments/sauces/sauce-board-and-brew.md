@@ -4,15 +4,15 @@ The sandwich-shop sauce from Board & Brew. Keeps 3–4 weeks refrigerated.
 
 ## Ingredients
 
-- 1 C canola oil
-- ½ C white sugar
-- ½ C red wine vinegar
+- 1 cup canola oil
+- ½ cup white sugar
+- ½ cup red wine vinegar
 - 1 small red onion, peeled and cut into chunks
-- 1 T water
-- 2 t lemon juice
-- 2 t paprika
-- 2 t mustard powder
-- ½ t kosher salt
+- 1 tablespoon water
+- 2 teaspoons lemon juice
+- 2 teaspoons paprika
+- 2 teaspoons mustard powder
+- ½ teaspoon kosher salt
 
 ## Instructions
 

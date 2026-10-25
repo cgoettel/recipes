@@ -5,12 +5,12 @@ From [Bob Hunn](https://www.familysearch.org/tree/person/details/LJQ6-CGT)
 ## Ingredients
 
 - 2 21oz cans of pork and beans (we're doctoring them up)
-- ½C brown sugar
-- ½C ketchup
-- 1t dry mustard
+- ½ cup brown sugar
+- ½ cup ketchup
+- 1 teaspoon dry mustard
 - 4–6 slices bacon, slightly browned
 - 1 medium onion, diced
-- 2T dark molasses
+- 2 tablespoons dark molasses
 
 ## Instructions
 

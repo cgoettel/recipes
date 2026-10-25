@@ -8,19 +8,19 @@ Serves 3–4 with rice.
 
 - 1 cup red lentils (masoor dal dhuli), rinsed until the water runs mostly clear
 - 4 cups water
-- 1 tsp turmeric
-- ½ tsp salt (more to taste at the end)
+- 1 teaspoon turmeric
+- ½ teaspoon salt (more to taste at the end)
 
 ## Tadka
 
-- 2 tbsp ghee
-- 1 tsp cumin seeds
-- 1 tsp brown mustard seeds (optional but good)
+- 2 tablespoons ghee
+- 1 teaspoon cumin seeds
+- 1 teaspoon brown mustard seeds (optional but good)
 - 2 dried red chiles, broken in half
 - pinch of hing (asafoetida)
 - 8–10 fresh curry leaves (if available)
 - 3 garlic cloves, thinly sliced
-- ½ tsp Kashmiri chile or paprika
+- ½ teaspoon Kashmiri chile or paprika
 
 ## Finish
 
@@ -39,7 +39,7 @@ Pour the entire hot tadka over the dal. Stir half of it in, leave the rest swirl
 
 - The tadka is the entire flavor system. Don't skip it, and don't make it ahead — it should hit the dal hot.
 - Hing (asafoetida) is in small jars at any Indian grocery. Lasts forever. Adds a subtle savory/oniony note that's hard to replicate. Optional but worth having around.
-- For a richer version: while the lentils simmer, cook a finely diced onion in ghee until golden, add 1 tbsp grated ginger and a chopped tomato, cook until jammy, then stir into the dal before the tadka.
+- For a richer version: while the lentils simmer, cook a finely diced onion in ghee until golden, add 1 tablespoon grated ginger and a chopped tomato, cook until jammy, then stir into the dal before the tadka.
 - Eats like congee — soupy, comforting, standalone meal with rice. Day 2 is even better.
 - For a heartier dal that holds its shape and eats like a full meal, see [whole masoor dal](masoor-dal-whole.md).
 

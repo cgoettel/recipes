@@ -4,18 +4,18 @@ Recipe adapted from Deann Ekstrom's oatmeal, walnut, and raisin cookies recipe.
 
 ## Ingredients
 
-- 1 C butter
-- 1 C brown sugar
-- 1 C white sugar
+- 1 cup butter
+- 1 cup brown sugar
+- 1 cup white sugar
 - 3 eggs
-- 1 t vanilla
-- 2 ½ C flour
-- 1 t salt
-- 1 t cinnamon
-- 2 t baking soda
-- 2 C oats
-- 1 C coarsely chopped walnuts
-- 1 C chocolate chips
+- 1 teaspoon vanilla
+- 2 ½ cups flour
+- 1 teaspoon salt
+- 1 teaspoon cinnamon
+- 2 teaspoons baking soda
+- 2 cups oats
+- 1 cup coarsely chopped walnuts
+- 1 cup chocolate chips
 
 ## Instructions
 

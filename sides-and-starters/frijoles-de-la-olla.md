@@ -7,7 +7,7 @@ Serves several meals for one, or 2–3 as a side.
 ## Ingredients
 
 - 250 g dried runner beans (or pinto), soaked overnight
-- 1–2 tbsp olive oil
+- 1–2 tablespoons olive oil
 - ½ white onion, sliced
 - 2–3 garlic cloves, minced
 - water to cover

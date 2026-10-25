@@ -1,6 +1,6 @@
 # Salsa — Aji Amarillo (Fermented)
 
-A lacto-fermented hot sauce built around Peruvian aji amarillo chiles. Fruity, floral, almost passion-fruit aromatic — distinctly different from anything in the supermarket hot sauce aisle. Pairs naturally with grilled chicken, ceviche, roasted potatoes, and anywhere a Peruvian dish wants a finishing kick. Yields about 24 oz. Active time ~30 minutes; fermentation runs 2–4 weeks.
+A lacto-fermented hot sauce built around Peruvian aji amarillo chiles. Fruity, floral, almost passion-fruit aromatic — distinctly different from anything in the supermarket hot sauce aisle. Pairs naturally with grilled chicken, ceviche, roasted potatoes, and anywhere a Peruvian dish wants a finishing kick. Yields about 24 oz Active time ~30 minutes; fermentation runs 2–4 weeks.
 
 The fermentation process is identical to [Salsa — Fresno (Fermented)](sauce-fresno-fermented.md). See that recipe's Notes for equipment, salt math, the chlorinated-water warning, and kahm-yeast-vs-mold guidance.
 
@@ -12,7 +12,7 @@ The fermentation process is identical to [Salsa — Fresno (Fermented)](sauce-fr
 - 6 cloves garlic, peeled
 - ~25 g kosher salt (~2.5% of total vegetable weight)
 - Filtered (non-chlorinated) water, as needed
-- Optional finish: 2 T fresh lime juice and 1 T olive oil, stirred in after blending
+- Optional finish: 2 tablespoons fresh lime juice and 1 tablespoon olive oil, stirred in after blending
 
 ## Instructions
 
@@ -40,5 +40,5 @@ The fermentation process is identical to [Salsa — Fresno (Fermented)](sauce-fr
 **Variations.**
 
 - **Rocoto instead of aji amarillo.** Rocoto is a related Andean chile — hotter (50,000–100,000 SHU), more vegetal, with distinctive black seeds. Same fermentation approach; even harder to source than aji amarillo. Worth it if you find them.
-- **Add huacatay** (Peruvian black mint) if you can source it: 1 T fresh leaves at the start. Adds the herbal-anise note characteristic of Peruvian green sauces.
+- **Add huacatay** (Peruvian black mint) if you can source it: 1 tablespoon fresh leaves at the start. Adds the herbal-anise note characteristic of Peruvian green sauces.
 - **Half aji amarillo + half aji limo.** Aji limo is smaller, slightly hotter, with a citrus-forward profile. The combination is more aromatic.

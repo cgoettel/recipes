@@ -4,18 +4,18 @@ I have adapted this recipe from https://www.yourcupofcake.com/better-than-costco
 
 ## Ingredients
 
-- 3 C flour
-- 1 C sugar
-- 2 T poppy seeds
-- 1 T baking powder
-- ½ t baking soda
-- ½ t salt
-- 1 ½ C sour cream or plain yogurt
-- ¼ C milk
-- 1 t vanilla extract
-- 2 t almond extract
+- 3 cups (≈360 g) flour
+- 1 cup (≈200 g) sugar
+- 2 tablespoons poppy seeds
+- 1 tablespoon baking powder
+- ½ teaspoon baking soda
+- ½ teaspoon (≈3 g) salt
+- 1 ½ cups sour cream or plain yogurt
+- ¼ cup (≈55 g) milk
+- 1 teaspoon vanilla extract
+- 2 teaspoons almond extract
 - 2 eggs
-- ½ C butter, melted and cooled slightly
+- ½ cup (≈115 g) butter, melted and cooled slightly
 
 Yields 12–14 muffins.
 

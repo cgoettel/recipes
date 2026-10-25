@@ -6,27 +6,27 @@ This recipe is from [Glen and Friend's cooking](https://www.youtube.com/watch?v=
 
 ### Cake
 
-- 1 C Dr. Pepper/Coke/Pepsi/root beer
-- 1 C white sugar
-- ½ C brown sugar
+- 1 cup Dr. Pepper/Coke/Pepsi/root beer
+- 1 cup white sugar
+- ½ cup brown sugar
 - 4 oz (113.4 g) chocolate
-- ½ C butter
-- 2 C flour
-- 2 t baking soda
-- 1 t baking powder
-- 1 t salt
-- 1 C buttermilk
+- ½ cup butter
+- 2 cups flour
+- 2 teaspoons baking soda
+- 1 teaspoon baking powder
+- 1 teaspoon salt
+- 1 cup buttermilk
 - 2 eggs
-- 1 t vanilla
+- 1 teaspoon vanilla
 
 ### Icing
 
 - 4 oz (113.4 g) chocolate
-- 1 C butter
+- 1 cup butter
 - Pinch salt
-- ¼ C Dr. Pepper/Coke/Pepsi/root beer
-- 1 t vanilla
-- 4 C powdered sugar - approximate
+- ¼ cup Dr. Pepper/Coke/Pepsi/root beer
+- 1 teaspoon vanilla
+- 4 cups powdered sugar - approximate
 
 ## Instructions
 

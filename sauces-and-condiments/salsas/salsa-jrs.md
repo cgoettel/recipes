@@ -6,9 +6,9 @@
 - 1 can diced jalapeños
 - 1 habanero blended with 3 oz water
 - 1-2 serranos
-- 1/2 large white onion
-- 1/4–1/2 bundle cilantro
+- ½ large white onion
+- ¼–½ bundle cilantro
 - 3 oz water
-- 1/2 t salt
-- 1/4 t garlic powder
-- 1/4 t oregano
+- ½ teaspoon salt
+- ¼ teaspoon garlic powder
+- ¼ teaspoon oregano

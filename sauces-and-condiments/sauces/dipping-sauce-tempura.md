@@ -2,10 +2,10 @@
 
 ## Ingredients
 
-- 100 mL water with 1 t fish sauce, or 100 mL dashi broth
-- 1 T soy sauce (recommend [this](https://www.amazon.com/dp/B08BKKV4TV) sauce)
-- 1 T mirin
-- 1 t sugar
+- 100 mL water with 1 teaspoon fish sauce, or 100 mL dashi broth
+- 1 tablespoon soy sauce (recommend [this](https://www.amazon.com/dp/B08BKKV4TV) sauce)
+- 1 tablespoon mirin
+- 1 teaspoon sugar
 
 # Directions
 

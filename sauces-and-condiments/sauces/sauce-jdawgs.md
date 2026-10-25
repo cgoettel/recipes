@@ -4,12 +4,12 @@ The sauce that built the J Dawg's hot dog empire.
 
 ## Ingredients
 
-- ¾ C ketchup
-- ¾ C BBQ sauce
-- ¼ C honey
-- 1 t soy sauce
-- 1 t apple cider vinegar
-- ½ t onion powder
+- ¾ cup ketchup
+- ¾ cup BBQ sauce
+- ¼ cup honey
+- 1 teaspoon soy sauce
+- 1 teaspoon apple cider vinegar
+- ½ teaspoon onion powder
 
 ## Instructions
 

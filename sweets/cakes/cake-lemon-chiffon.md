@@ -4,17 +4,17 @@ Lemon chiffon cake with zesty peach buttercream. 10" round springform. Distinct 
 
 ## Ingredients
 
-- 2¼ C plain flour
-- 1½ t baking powder
-- 1½ C sugar (divided — reserve ¼ C for the whites)
-- ¼ t salt
-- ½ C vegetable oil
+- 2¼ cups plain flour
+- 1½ teaspoons baking powder
+- 1½ cups sugar (divided — reserve ¼ cup for the whites)
+- ¼ teaspoon salt
+- ½ cup vegetable oil
 - 6 large egg yolks
-- ½ C water
-- ¼ C lemon juice
-- 1½ t lemon zest
+- ½ cup water
+- ¼ cup lemon juice
+- 1½ teaspoons lemon zest
 - 10 large egg whites
-- ¼ t cream of tartar
+- ¼ teaspoon cream of tartar
 
 ### Peach buttercream
 
@@ -29,9 +29,9 @@ Lemon chiffon cake with zesty peach buttercream. 10" round springform. Distinct 
 ### Cake
 
 1. Preheat oven to 180°C (350°F). Line the bottom and sides of a 10" round springform with baking paper — don't grease.
-2. Sift flour and baking powder into a large bowl. Mix in 1¼ C of sugar (reserve the other ¼ C) and the salt.
+2. Sift flour and baking powder into a large bowl. Mix in 1¼ cups of sugar (reserve the other ¼ cup) and the salt.
 3. In a small bowl, whisk together oil, egg yolks, water, lemon juice, and lemon zest. Make a well in the flour mixture, pour in the wet, and whisk until smooth.
-4. In a stand mixer with the whisk attachment, whip the egg whites to soft peaks. Add the cream of tartar, then slowly add the reserved ¼ C sugar. Continue whipping to stiff peaks.
+4. In a stand mixer with the whisk attachment, whip the egg whites to soft peaks. Add the cream of tartar, then slowly add the reserved ¼ cup sugar. Continue whipping to stiff peaks.
 5. Fold a third of the whites into the batter to lighten it, then fold in the remaining whites.
 6. Pour into the prepared pan and bake 45–55 minutes (may need an extra 10 — this is a tall cake).
 7. Cool on a wire rack in the pan. Run a knife around the inside edge to loosen — don't skip this, or the cake will contract from the sides and wrinkle as it cools.

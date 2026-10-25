@@ -4,13 +4,13 @@ From [CDKitchen](http://www.cdkitchen.com/recipes/recs/731/Lime-Vinaigrette-Dres
 
 ## Ingredients
 
-- 1 C extra virgin olive oil
-- ½ C fresh lime juice
+- 1 cup extra virgin olive oil
+- ½ cup fresh lime juice
 - 2 cloves garlic, crushed
-- 2 t salt
-- 2 t Dijon mustard
-- ½ t white pepper
-- 3 T white wine vinegar
+- 2 teaspoons salt
+- 2 teaspoons Dijon mustard
+- ½ teaspoon white pepper
+- 3 tablespoons white wine vinegar
 
 ## Instructions
 

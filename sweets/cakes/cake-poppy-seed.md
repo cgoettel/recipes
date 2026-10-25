@@ -5,11 +5,11 @@ From [Aunt Kay](https://www.familysearch.org/tree/person/details/K26F-HCV)
 ## Ingredients
 
 - Yellow cake mix
-- 1pkg lemon instant pudding
+- 1 package lemon instant pudding
 - 4 eggs
-- ¼C poppy seeds
-- ¾C oil
-- 1C water
+- ¼ cup poppy seeds
+- ¾ cup oil
+- 1 cup water
 
 ## Instructions
 

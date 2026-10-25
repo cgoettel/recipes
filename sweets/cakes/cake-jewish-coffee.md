@@ -2,17 +2,17 @@
 
 ## Ingredients
 
-- ½ C butter
-- 1 C sugar
+- ½ cup butter
+- 1 cup sugar
 - 2 eggs
-- 2 C flour
-- 1 t baking soda
-- 1 t baking powder
-- 1 C sour cream
-- 1 t vanilla
-- ½ C powdered sugar
-- 2 t cinnamon
-- 2 T butter
+- 2 cups flour
+- 1 teaspoon baking soda
+- 1 teaspoon baking powder
+- 1 cup sour cream
+- 1 teaspoon vanilla
+- ½ cup powdered sugar
+- 2 teaspoons cinnamon
+- 2 tablespoons butter
 
 ## Instructions
 

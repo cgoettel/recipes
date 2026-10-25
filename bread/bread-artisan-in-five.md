@@ -4,10 +4,10 @@ From [Artisan Bread in Five Minutes a Day](https://artisanbreadinfive.com/). The
 
 ## Ingredients
 
-- 3 C (1½ lbs) lukewarm water (cold water works but takes longer; never hot — you'll kill the yeast)
-- 1 T granulated yeast
-- 1–1½ T Morton kosher salt (adjust to taste)
-- 6½ C (2 lbs) all-purpose flour
+- 3 cups (≈680 g) (1½ lb) lukewarm water (cold water works but takes longer; never hot — you'll kill the yeast)
+- 1 tablespoon (≈9 g) granulated yeast
+- 1–1½ tablespoons (≈15–22 g) Morton kosher salt (adjust to taste)
+- 6½ cups (≈780 g) (2 lb) all-purpose flour
 
 ## Instructions
 

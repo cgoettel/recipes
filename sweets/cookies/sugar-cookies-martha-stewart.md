@@ -2,13 +2,13 @@
 
 ## Ingredients
 
-- 4 C sifted all-purpose flour
-- ½ t salt
-- 1 t baking powder
+- 4 cups sifted all-purpose flour
+- ½ teaspoon salt
+- 1 teaspoon baking powder
 - 2 sticks butter, softened
-- 2 C sugar
+- 2 cups sugar
 - 2 eggs
-- 2 t vanilla
+- 2 teaspoons vanilla
 
 ## Instructions
 

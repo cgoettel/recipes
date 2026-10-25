@@ -6,16 +6,16 @@
 
 ## Ingredients
 
-- 2 cups flour
-- 1 tsp. sugar
-- 1/2 tsp. baking powder
-- 1/2 tsp. salt
-- 1/4 cup milk (approx.)
-- 1 carton natural yogurt (8 oz.)
-- 1 oz. or 1 tbsp. yeast
-- 1 oz. or 2 tbsp. butter or margarine, softened
+- 2 cups (≈240 g) flour
+- 1 teaspoon (≈4 g) sugar
+- ½ teaspoon baking powder
+- ½ teaspoon (≈3 g) salt
+- ¼ cup (≈55 g) milk (approx.)
+- 1 carton natural yogurt (8 oz)
+- 1 oz or 1 tablespoon yeast
+- 1 oz or 2 tablespoons butter or margarine, softened
 - 1 egg yolk
-- 1 tbsp. poppy seeds
+- 1 tablespoon poppy seeds
 
 ## Method
 

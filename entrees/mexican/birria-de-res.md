@@ -9,15 +9,15 @@ This recipe is from [La Capital](https://www.youtube.com/watch?v=g2F5RO6vNSs).
 - 1 white onion, quartered
 - 10 cloves garlic
 - 9 g whole allspice
-- 8 g whole black peppercorn (looks like 1–2 T each)
-- 1 t cumin, heaping
-- 1½ t dried thyme
-- 1½ t dried oregano
+- 8 g whole black peppercorn (looks like 1–2 tablespoons each)
+- 1 teaspoon cumin, heaping
+- 1½ teaspoons dried thyme
+- 1½ teaspoons dried oregano
 - Little less than half of a stick of dried cinnamon (the big kind you find at a Mexican market) (I used 4")
 - 3 bay leaves
 - 5 chile ancho, devein and remove seeds
 - 8 chile guajillo, devein and remove seeds (see Notes)
-- 2 T white vinegar
+- 2 tablespoons white vinegar
 - 1 L water
 
 ### Braising liquid
@@ -34,7 +34,7 @@ This recipe is from [La Capital](https://www.youtube.com/watch?v=g2F5RO6vNSs).
 
 ## Instructions
 
-01. In a large (8+ qt) heavy-bottom pot, add oil, tomatoes, onion, and garlic.
+01. In a large (8+ quarts) heavy-bottom pot, add oil, tomatoes, onion, and garlic.
 02. Sweat for 10–15 minutes. There should be a decent layer of moisture at the bottom.
 03. Add the allspice, black peppercorn, cumin, thyme, oregano, cinnamon, bay leaves, and chiles.
 04. Add the white vinegar and water and bring to a boil.
@@ -45,7 +45,7 @@ This recipe is from [La Capital](https://www.youtube.com/watch?v=g2F5RO6vNSs).
 09. Shred the meat and chop it so you don't have any long strands of meat.
 10. Filter the consomé (broth) through a fine mesh sieve.
 11. Next, you need to separate the fat and set it aside. Either chill overnight in the fridge and remove the fat, or use a fat separator.
-12. Taste the broth and season to taste. When I make this, the broth is _very rich_ and oversalted, so I end up watering it down. This is because I only have an 8 qt pot and it's filled to the brim when cooking.
+12. Taste the broth and season to taste. When I make this, the broth is _very rich_ and oversalted, so I end up watering it down. This is because I only have an 8-quart pot and it's filled to the brim when cooking.
 13. Add meat and broth to a bowl and garnish with cilantro, diced white onions, and radish, to taste.
 14. Serve with corn tortillas. Alternatively, you can add ramen noodles to the dish to make birria ramen.
 

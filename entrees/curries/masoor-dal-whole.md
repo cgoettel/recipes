@@ -8,21 +8,21 @@ Serves 3–4 with rice or roti.
 
 - 1 cup whole masoor (sabut masoor), rinsed
 - 4 cups water
-- 1 tsp turmeric
+- 1 teaspoon turmeric
 - salt
 
 ## Masala
 
-- 2 tbsp ghee (or neutral oil + a knob of butter at the end)
-- 1 tsp cumin seeds
+- 2 tablespoons ghee (or neutral oil + a knob of butter at the end)
+- 1 teaspoon cumin seeds
 - 1 large onion, finely diced
-- 1 tbsp ginger, grated
+- 1 tablespoon ginger, grated
 - 4–5 garlic cloves, minced
 - 1 green chile (serrano works), slit
 - 2 medium tomatoes, finely chopped
-- 1 tsp coriander powder
-- ¼ tsp cayenne or Kashmiri chile, to taste
-- ½ tsp garam masala (at the end)
+- 1 teaspoon coriander powder
+- ¼ teaspoon cayenne or Kashmiri chile, to taste
+- ½ teaspoon garam masala (at the end)
 
 ## Finish
 

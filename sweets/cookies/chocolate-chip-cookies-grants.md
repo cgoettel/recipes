@@ -4,16 +4,16 @@ From Grant (see also [Grant's burros](../../entrees/mexican/burros-grants.md)). 
 
 ## Ingredients
 
-- ⅔ C shortening
-- ⅔ C butter
+- ⅔ cup shortening
+- ⅔ cup butter
 - 2 eggs
-- 2 t vanilla (Grant uses 3)
-- 1 t baking soda
-- ½ t baking powder
-- 1 C white sugar
-- 1 C brown sugar
-- 1 t salt
-- 3–3½ C flour
+- 2 teaspoons vanilla (Grant uses 3)
+- 1 teaspoon baking soda
+- ½ teaspoon baking powder
+- 1 cup white sugar
+- 1 cup brown sugar
+- 1 teaspoon salt
+- 3–3½ cups flour
 - 3 handfuls of semi-sweet chocolate chips
 
 ## Instructions

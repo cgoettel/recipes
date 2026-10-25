@@ -4,9 +4,9 @@ From [Grandma Goettel](https://www.familysearch.org/tree/person/details/KWCR-R7H
 
 ## Ingredients
 
-- 1C white Karo syrup
-- 4C sugar
-- 2C water
+- 1 cup white Karo syrup
+- 4 cups sugar
+- 2 cups water
 - 2 egg whites, beaten to stiff peaks
 - (optional) nuts, coconut, candied fruit, or flavorings
 

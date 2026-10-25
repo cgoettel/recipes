@@ -2,11 +2,11 @@
 
 ## Ingredients
 
-- 2 C sugar
-- 4 C water
+- 2 cups sugar
+- 4 cups water
 - 1 large can pineapple juice
-- 1 C orange juice
-- 1 C lemon juice
+- 1 cup orange juice
+- 1 cup lemon juice
 - 5 pieces banana, mashed
 - 2 L strawberry soda
 - 2 L 7-Up

@@ -4,13 +4,13 @@ A Maille-style whole grain. Plump intact seeds bound by a wine-vinegar paste, me
 
 ## Ingredients
 
-- ½ C brown mustard seeds
-- ⅓ C yellow mustard seeds
-- ½ C dry white wine (Sauvignon Blanc, dry Riesling, Pinot Grigio, or dry unoaked Chardonnay)
-- ⅓ C white wine vinegar
-- ⅓ C water
-- 1 t kosher salt
-- 2 t honey
+- ½ cup brown mustard seeds
+- ⅓ cup yellow mustard seeds
+- ½ cup dry white wine (Sauvignon Blanc, dry Riesling, Pinot Grigio, or dry unoaked Chardonnay)
+- ⅓ cup white wine vinegar
+- ⅓ cup water
+- 1 teaspoon kosher salt
+- 2 teaspoons honey
 
 ## Instructions
 
@@ -27,8 +27,8 @@ Mustard is acidic and picks up off-flavors from metal — use glass jars and pla
 
 - **Seed ratio.** Base is ~3:2 brown to yellow. More brown (2:1, 3:1, or all brown) gives a hotter, more assertive mustard. More yellow (1:1, 1:2) gives something milder and tangier. Maille looks closer to 1:1 by eye.
 - **Liquid composition.** Base is roughly 3:2:2 wine:vinegar:water. More wine softens and adds vinous character (closer to a Burgundy bistro style). More vinegar sharpens the acid bite. Total volume matters less than coverage — keep seeds well-covered at the start.
-- **Sweetener.** 2 t honey is barely-there roundness. Skip entirely for something more aggressive; push to 1 T for noticeably honey-mustard. Brown sugar swaps in for a more molasses-leaning profile.
-- **Add-ins.** Stir in before aging so they integrate: 1 t cracked black peppercorns, a few crushed garlic cloves, fresh tarragon, 1 T grated fresh horseradish (big upgrade), juniper berries, a pinch of allspice.
+- **Sweetener.** 2 teaspoons honey is barely-there roundness. Skip entirely for something more aggressive; push to 1 tablespoon for noticeably honey-mustard. Brown sugar swaps in for a more molasses-leaning profile.
+- **Add-ins.** Stir in before aging so they integrate: 1 teaspoon cracked black peppercorns, a few crushed garlic cloves, fresh tarragon, 1 tablespoon grated fresh horseradish (big upgrade), juniper berries, a pinch of allspice.
 - **Texture.** For more whole seeds and less paste (Maille-like), soak the full 48 hours — softer seeds break less aggressively — and pulse fewer times. For more spreadable, pulse more, or pull out half the mixture before pulsing and stir it back in after.
 
 ### Beer swap (1:1 for wine)
@@ -39,7 +39,7 @@ Beer is ~5% ABV vs wine's ~12%, but close enough to substitute directly. The cat
 
 Spirits at 40%+ ABV are too aggressive to substitute 1:1 — harsh ethanol notes don't mellow because the mustard never gets heated. Two ways to handle:
 
-- **Accent:** 1–3 T of spirit in place of an equal amount of wine.
+- **Accent:** 1–3 tablespoons of spirit in place of an equal amount of wine.
 - **Dilution:** 1 part spirit to 3–4 parts water as the "wine" replacement.
 
 Directions worth trying:
@@ -55,16 +55,16 @@ Gin gets its own section below — the botanical profile is already mustard-adja
 
 What survives aging is juniper, coriander, angelica, orris — the same chunky botanicals that make it through any pickling brine. What dies is delicate florals, citrus oils, and soft herbal infusions. Pick gins for their surviving lineup, not their glass profile.
 
-- **Tanqueray, Beefeater** — default. Juniper-forward London Dry, predictable. 2–3 T as an accent in place of an equal amount of wine, plus 1 t whole juniper berries and a strip of lemon peel in the soak.
+- **Tanqueray, Beefeater** — default. Juniper-forward London Dry, predictable. 2–3 tablespoons as an accent in place of an equal amount of wine, plus 1 teaspoon whole juniper berries and a strip of lemon peel in the soak.
 - **Plymouth** — reads softer than Tanqueray in the glass, but the softness is "less assertive juniper," not "different botanicals entirely." Still has juniper, coriander, angelica, orris, plus cardamom — survives better than expected. Gentler finished mustard, still recognizably gin.
-- **St. George Terroir** — Douglas fir, bay laurel, coastal sage. The pine-y notes do survive (terpene-rich, same chemical family as juniper), so this is predictable. Pushes the mustard into a "Pacific Northwest forest floor" direction — excellent on wild game, venison, holiday ham; not a sandwich mustard. Don't do a 1:1 swap; use 2–3 T as an accent with a few crushed juniper berries to bridge the conifer character. Sneaky variant: Terroir plus dry vermouth as the base liquid, since vermouth's herbal/wormwood notes reinforce rather than compete.
+- **St. George Terroir** — Douglas fir, bay laurel, coastal sage. The pine-y notes do survive (terpene-rich, same chemical family as juniper), so this is predictable. Pushes the mustard into a "Pacific Northwest forest floor" direction — excellent on wild game, venison, holiday ham; not a sandwich mustard. Don't do a 1:1 swap; use 2–3 tablespoons as an accent with a few crushed juniper berries to bridge the conifer character. Sneaky variant: Terroir plus dry vermouth as the base liquid, since vermouth's herbal/wormwood notes reinforce rather than compete.
 - **Sipsmith VJOP** (57.7%, doubly concentrated juniper) — maximum juniper-bomb survival, if that's the goal.
 - **Bols Genever / Anchor Genevieve** — malt-based, a totally different direction. The maltiness survives beautifully and adds bready, whiskey-adjacent depth.
 - **Skip:** Botanist, Hendrick's, and other contemporary herbal/floral gins. The delicate top notes you're paying for don't survive aging — you'd end up with expensive vodka mustard.
 
 ### Amari (finishing accent only)
 
-Stir 1–2 T in after pulsing, before aging. Easy to overdo — too much makes a confused candy.
+Stir 1–2 tablespoons in after pulsing, before aging. Easy to overdo — too much makes a confused candy.
 
 - **Cynar** — artichoke-vegetal bitterness, gorgeous on roast pork or sandwiches. Standout candidate.
 - **Averna** — caramel and citrus, dessert-leaning.
@@ -79,7 +79,7 @@ Stir 1–2 T in after pulsing, before aging. Easy to overdo — too much makes a
 
 ### Starting experiments
 
-Two worth running back-to-back: straight **English bitter** (1:1 swap for the wine) and a **bourbon** version (3 T bourbon, drop water to 2 T, swap honey for maple). They'll teach the most about how the flavor base interacts with aging.
+Two worth running back-to-back: straight **English bitter** (1:1 swap for the wine) and a **bourbon** version (3 tablespoons bourbon, drop water to 2 tablespoons, swap honey for maple). They'll teach the most about how the flavor base interacts with aging.
 
 ## Mustard, more broadly
 

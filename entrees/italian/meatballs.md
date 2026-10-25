@@ -5,17 +5,17 @@ This recipe is inspired by [Matty Matheson's meatball recipe](https://www.vice.c
 ## Ingredients
 
 - 2 pounds meat (beef, pork, veal, or combo of two or all three)
-- 2 T crushed red pepper flakes
-- 3 T dried oregano
-- 2 T fennel seeds (optional)
-- 1 T celery seeds
-- 2 C panko
+- 2 tablespoons crushed red pepper flakes
+- 3 tablespoons dried oregano
+- 2 tablespoons fennel seeds (optional)
+- 1 tablespoon celery seeds
+- 2 cups panko
 - ½ bunch Italian parsley, chopped (optional)
-- 1 C ricotta cheese
-- 1 C freshly grated parmigiano reggiano
+- 1 cup ricotta cheese
+- 1 cup freshly grated parmigiano reggiano
 - 3 large eggs
-- ½ C whole milk
-- 2½ T kosher salt
+- ½ cup whole milk
+- 2½ tablespoons kosher salt
 - fresh-cracked pepper, to taste
 
 Yields 24 2½" meatballs

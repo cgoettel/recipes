@@ -4,21 +4,21 @@
 
 ### Cookies
 
-- ½C butter (shortening can be used for hard cookies)
-- 1C sugar
-- ½t salt
-- 2t baking soda
+- ½ cup butter (shortening can be used for hard cookies)
+- 1 cup sugar
+- ½ teaspoon salt
+- 2 teaspoons baking soda
 - 1 egg
-- ⅓C molasses
-- 2⅓C flour
-- 1–2t ground ginger
-- ½t ground cloves
-- 1t cinnamon
+- ⅓ cup molasses
+- 2⅓ cups flour
+- 1–2 teaspoons ground ginger
+- ½ teaspoon ground cloves
+- 1 teaspoon cinnamon
 
 ### Coating
 
-- ¼C sugar
-- 1t ground cinnamon
+- ¼ cup sugar
+- 1 teaspoon ground cinnamon
 
 ## Directions
 

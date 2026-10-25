@@ -8,7 +8,7 @@
 - A small container of cherry tomatoes, halved
 - A handful of mushrooms washed and quartered
 - Grated cheese
-- 2–3 C cooked rice
+- 2–3 cups cooked rice
 - Salt and pepper, to taste
 - Italian seasoning
 

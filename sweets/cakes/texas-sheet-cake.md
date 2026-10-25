@@ -4,15 +4,15 @@ From [Grandma Goettel](https://www.familysearch.org/tree/person/details/KWCR-R7H
 
 ## Ingredients
 
-- 2C sugar
-- 2C flour
-- ½t salt
-- 1C butter
-- 1C water
-- 4T cocoa powder
-- ½C sour cream (or ½C canned milk and ½t white vinegar)
+- 2 cups sugar
+- 2 cups flour
+- ½ teaspoon salt
+- 1 cup butter
+- 1 cup water
+- 4 tablespoons cocoa powder
+- ½ cup sour cream (or ½ cup canned milk and ½ teaspoon white vinegar)
 - 2 eggs
-- 1t baking soda
+- 1 teaspoon baking soda
 - Chocolate frosting
 
 ## Instructions

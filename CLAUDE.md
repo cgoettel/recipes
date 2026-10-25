@@ -120,9 +120,25 @@ sweets/
 
 ## Recipe formatting quirks
 
-- **Units: spell them out in new and edited recipes** — `cup`, `tablespoon`, `teaspoon`, not `C` / `T` / `t`. The single-letter shorthand dominates older recipes (and `T` versus `t` is easy to misread); leave it alone in recipes you aren't otherwise touching.
-- Fractions and dashes are Unicode (`½`, `–`, `¼`) in new writing. Older recipes used HTML entities (`&frac12;`, `&ndash;`), which the `mdformat` hook converts on commit. It does **not** convert slash fractions, so about 25 older files still have `1/2`-style fractions; convert them when you edit those files.
+- **Units.** Every recipe uses these spellings (swept in #4); the site's parser reads them, and `site_test` fails CI if a recipe stops parsing.
+
+  | Unit                      | Write it as                                                                      |
+  | ------------------------- | -------------------------------------------------------------------------------- |
+  | Cup, tablespoon, teaspoon | `cup`/`cups`, `tablespoon(s)`, `teaspoon(s)`: never `C`, `T`, `t`, `tbsp`, `tsp` |
+  | Ounce, pound              | `oz`, `lb` (no period, no `lbs`)                                                 |
+  | Gallon, quart, pint       | `gallon(s)`, `quart(s)`, `pint(s)`                                               |
+  | Package                   | `package(s)`                                                                     |
+  | Metric                    | `g`, `kg`, `mL`, `L`                                                             |
+  | A size, not an amount     | hyphenated: `2-quart pot`, `1-inch piece`                                        |
+
+  Plural above one (`1 cup`, `1½ cups`, `½ cup`); a range takes its top (`1–2 cups`).
+
+- **Gram estimates on bread.** Bread recipes carry estimated weights in parentheses after volume amounts, marked `≈`: `2 cups (≈240 g) flour`. They come from King Arthur's weight chart (flour 120 g a cup, whole wheat 113, water and milk 227, sugar 198, table salt 6 g a teaspoon, yeast 3 g a teaspoon) and feed the baker's-percentage view. Replace an estimate with a real weighing whenever you have one, and drop the `≈`.
+
+- Fractions and dashes are Unicode (`½`, `–`, `¼`), never `1/2` or HTML entities, with no space between a whole number and its fraction (`1½`).
+
 - Cross-recipe links use relative paths. Examples:
+
   - Same folder: `[birria de res](birria-de-res.md)`
   - Sibling folder: `[meatballs](../italian/meatballs.md)`
   - Different top-level: `[red sauce](../../sauces-and-condiments/sauces/sauce-red.md)`

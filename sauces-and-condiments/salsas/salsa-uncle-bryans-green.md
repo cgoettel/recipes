@@ -6,7 +6,7 @@
 - 3 jalapeños
 - 1-2 cloves garlic
 - 1 onion
-- 1 t salt
+- 1 teaspoon salt
 - Guacamole (optional)
 - Sugar (optional)
 

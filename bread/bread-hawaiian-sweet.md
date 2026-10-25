@@ -2,16 +2,16 @@
 
 ## Ingredients
 
-- 1/2 cup pineapple juice
-- 1/2 cup milk
+- ½ cup pineapple juice
+- ½ cup (≈115 g) milk
 - 1 egg
-- 1/4 cup softened butter
-- 1 tsp vanilla extract
-- 1/2 tsp salt
-- 1/3 cup sugar
-- 1/2 cup instant potato flakes
-- 3 cup bread flour
-- 1 1/2 tsp yeast
+- ¼ cup (≈55 g) softened butter
+- 1 teaspoon vanilla extract
+- ½ teaspoon (≈3 g) salt
+- ⅓ cup (≈65 g) sugar
+- ½ cup instant potato flakes
+- 3 cups (≈360 g) bread flour
+- 1½ teaspoons (≈4.5 g) yeast
 
 ## Method (Bread Machine)
 

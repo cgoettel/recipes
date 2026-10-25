@@ -2,13 +2,13 @@
 
 ## Ingredients
 
-- 2 C flour
-- 3 t baking powder
-- ½ t salt
-- 1 T shortening
-- ½ C luke-warm water
-- 2 t cinnamon
-- ½ C sugar
+- 2 cups flour
+- 3 teaspoons baking powder
+- ½ teaspoon salt
+- 1 tablespoon shortening
+- ½ cup luke-warm water
+- 2 teaspoons cinnamon
+- ½ cup sugar
 
 ## Instructions
 

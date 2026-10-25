@@ -5,7 +5,7 @@ From Grandma Leavitt
 ## Ingredients
 
 - 6–8 potatoes
-- 1 C mayonnaise
+- 1 cup mayonnaise
 - Pickle juice (sweet, not dill)
 - Mustard (French's)
 - Salt

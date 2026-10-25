@@ -3,11 +3,11 @@
 ## Ingredients
 
 - 4 eggs, well beaten 'til foamy
-- 1 cup oil
-- 1 cup sugar
-- 3 tsp lemon juice
-- ½ c. nuts
-- 3 cups flour (no more)
+- 1 cup (≈200 g) oil
+- 1 cup (≈200 g) sugar
+- 3 teaspoons lemon juice
+- ½ cup nuts
+- 3 cups (≈360 g) flour (no more)
 
 ## Directions
 

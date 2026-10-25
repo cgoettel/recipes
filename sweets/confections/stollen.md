@@ -22,8 +22,8 @@ From [Patrick Ryan](https://www.youtube.com/watch?v=YFEa1QMaBoo&t=317s). 4 hours
 - 100 g natural glacé cherries
 - 200 g mixed peel
 - 60 g toasted flaked almonds
-- 4 T rum
-- 1 t cinnamon
+- 4 tablespoons rum
+- 1 teaspoon cinnamon
 
 ### Frangipane
 
@@ -32,7 +32,7 @@ From [Patrick Ryan](https://www.youtube.com/watch?v=YFEa1QMaBoo&t=317s). 4 hours
 - 200 g unsalted butter
 - 2 large eggs
 - 50 g flour
-- 2 T rum
+- 2 tablespoons rum
 
 ### Glaze
 

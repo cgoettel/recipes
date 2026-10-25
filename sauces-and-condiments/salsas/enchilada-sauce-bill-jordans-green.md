@@ -4,7 +4,7 @@ This is a green sauce for enchiladas.
 
 - 4 cups chicken stock
 - 2 jalapenos and 2 serranos, stemmed
-- 1/2 of an onion
+- ½ of an onion
 - 3 large cloves of garlic
 - 4 tomatillos
 - salt to taste.

@@ -4,15 +4,15 @@ From Grandma Grover
 
 ## Ingredients
 
-- ¾C whole wheat
-- 1C milk
+- ¾ cup whole wheat
+- 1 cup milk
 - 2 eggs
-- 4T oil
-- 2T sugar
-- ¼t salt
-- 2t baking powder
-- 1t baking soda
-- about ¼C white flour
+- 4 tablespoons oil
+- 2 tablespoons sugar
+- ¼ teaspoon salt
+- 2 teaspoons baking powder
+- 1 teaspoon baking soda
+- about ¼ cup white flour
 
 ## Instructions
 

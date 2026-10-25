@@ -8,19 +8,19 @@ Serves 4–6.
 
 ## Ingredients
 
-- 25–30 g Kaga bōcha (about ¾–1 cup loose; any good hōjicha works), plus 1–2 tsp more, ground to powder
+- 25–30 g Kaga bōcha (about ¾–1 cup loose; any good hōjicha works), plus 1–2 teaspoons more, ground to powder
 - 1–1½ L chicken stock, ideally the [Kyohana-style giblet stock](curry-rice-kyohana-style.md)
 - 2–3 large yellow onions, thinly sliced
-- 2 Tbsp neutral oil
+- 2 tablespoons neutral oil
 - 1½ lb chicken thighs or pork shoulder, in large bite-size pieces
 - 3–4 garlic cloves, grated
 - 1" piece ginger, grated
-- 1 Tbsp tomato paste
-- 6 Tbsp butter
+- 1 tablespoon tomato paste
+- 6 tablespoons butter
 - ½ cup flour
-- 3–4 Tbsp curry powder (S&B, or the homemade blend from the [Kyohana-style curry](curry-rice-kyohana-style.md))
-- 1–2 Tbsp soy sauce
-- 1 Tbsp Worcestershire sauce
+- 3–4 tablespoons curry powder (S&B, or the homemade blend from the [Kyohana-style curry](curry-rice-kyohana-style.md))
+- 1–2 tablespoons soy sauce
+- 1 tablespoon Worcestershire sauce
 - Salt to taste
 - Optional: 1–2 carrots and 1–2 Yukon Gold potatoes, in large chunks
 

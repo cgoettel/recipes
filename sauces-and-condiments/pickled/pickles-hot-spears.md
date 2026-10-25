@@ -7,16 +7,16 @@ The dill recipe carries the technique details (cucumber sourcing, blossom-end tr
 ## Ingredients
 
 - 1 lb Kirby/pickling cucumbers
-- 1½ C filtered water
-- 1½ C distilled white vinegar (5%)
-- 2 T kosher salt
-- 1 t sugar (optional)
+- 1½ cups filtered water
+- 1½ cups distilled white vinegar (5%)
+- 2 tablespoons kosher salt
+- 1 teaspoon sugar (optional)
 - 4–6 cloves garlic, peeled and lightly smashed
 - 2–3 fresh dill heads (or 4–5 dill fronds)
 - 1–2 black tea bags, OR 2–3 grape/oak leaves
 - 3–4 fresh jalapeños, sliced into rounds (seeds in for full heat; scrape for milder)
-- 1 t red pepper flakes
-- Optional: 1 t whole black peppercorns, 1 t whole coriander seeds
+- 1 teaspoon red pepper flakes
+- Optional: 1 teaspoon whole black peppercorns, 1 teaspoon whole coriander seeds
 
 ## Instructions
 

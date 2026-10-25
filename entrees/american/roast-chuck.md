@@ -4,10 +4,10 @@
 
 - 2–3 lb chuck roast
 - 1 yellow onion, quartered
-- ¼ C soy sauce
+- ¼ cup soy sauce
 - chili powder
 - pepper
-- 1–1½ C water
+- 1–1½ cups water
 
 ## Directions
 

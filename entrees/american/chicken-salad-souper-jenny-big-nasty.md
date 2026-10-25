@@ -18,27 +18,27 @@ Makes enough chicken salad for 6–8 croissant sandwiches.
 - 2 lb bone-in, skin-on chicken breasts (about 2 large)
 - 1 yellow onion, halved
 - 4 cloves garlic, smashed
-- 1 T whole black peppercorns
+- 1 tablespoon whole black peppercorns
 - 2 bay leaves
-- 1 T kosher salt
+- 1 tablespoon kosher salt
 - Water to cover (~2 quarts)
 
 ### Salad
 
-- ~4 C pulled poached chicken (from above)
-- 1 C red seedless grapes, halved (quartered if large)
-- ¾ C pecan pieces, toasted
-- ½ C dried cranberries
+- ~4 cups pulled poached chicken (from above)
+- 1 cup red seedless grapes, halved (quartered if large)
+- ¾ cup pecan pieces, toasted
+- ½ cup dried cranberries
 
 ### Dressing
 
-- ¾ C mayonnaise (Duke's)
-- ¼ C sour cream
-- 1 T honey
-- 1 T Dijon mustard
-- 1 T fresh lemon juice
-- ½ t kosher salt
-- ¼ t white pepper
+- ¾ cup mayonnaise (Duke's)
+- ¼ cup sour cream
+- 1 tablespoon honey
+- 1 tablespoon Dijon mustard
+- 1 tablespoon fresh lemon juice
+- ½ teaspoon kosher salt
+- ¼ teaspoon white pepper
 
 ### To serve
 
@@ -82,4 +82,4 @@ Makes enough chicken salad for 6–8 croissant sandwiches.
 - **Croissant sourcing.** A good all-butter croissant matters here. Bakery croissants from a real bakery; supermarket croissants from the bread aisle are usually too sweet and too soft. If you can't get a good one, soft white sandwich bread is a better fallback than a bad croissant.
 - **Apple variant.** Some versions of this style of chicken salad include a small-diced Granny Smith apple (~¾ cup) for tart crunch. It's a defensible addition — apple, grape, cranberry, pecan, and arugula all play together — but it pushes the salad further toward the sweet side. Add only if the dressing is already on the tangier end (less honey, more lemon) to keep the balance.
 - **Sliced almonds instead of pecans.** Some knockoffs use toasted sliced almonds (~½ cup) in place of pecans. Almonds give a cleaner, drier crunch and stay distinct against the creamy dressing; pecans are richer and have a sweet undertone that doubles down on the grape-cranberry direction. If the version you're chasing tastes brighter and less buttery, swap to almonds. Toast them the same way — dry pan, medium heat, until just blonde and fragrant.
-- **Parmesan for savory backbone.** A real-deal lever for dialing the sweet/savory balance: 2–3 T of finely grated Parmigiano-Reggiano (microplane fine so it dissolves into the dressing, not chunks) folded in with the chicken. It adds salty umami that pushes back against the grapes and cranberries and gives the salad a depth that mayo alone can't. If you add Parmesan, cut the salt in the dressing by half and taste before adding more — the cheese is doing that work now.
+- **Parmesan for savory backbone.** A real-deal lever for dialing the sweet/savory balance: 2–3 tablespoons of finely grated Parmigiano-Reggiano (microplane fine so it dissolves into the dressing, not chunks) folded in with the chicken. It adds salty umami that pushes back against the grapes and cranberries and gives the salad a depth that mayo alone can't. If you add Parmesan, cut the salt in the dressing by half and taste before adding more — the cheese is doing that work now.

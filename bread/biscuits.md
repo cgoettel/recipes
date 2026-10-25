@@ -2,11 +2,11 @@
 
 ## Ingredients
 
-- 2 C flour
-- 1 T baking powder
-- 1 t salt
-- ¼ C shortening or lard
-- ¾ C milk
+- 2 cups (≈240 g) flour
+- 1 tablespoon baking powder
+- 1 teaspoon (≈6 g) salt
+- ¼ cup shortening or lard
+- ¾ cup (≈170 g) milk
 
 Yields a dozen biscuits.
 

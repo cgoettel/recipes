@@ -6,16 +6,16 @@ From [Grandma Goettel](https://www.familysearch.org/tree/person/details/KWCR-R7H
 
 ### Crust
 
-- 2 C graham cracker crumbs
-- ½C butter
-- ½C sugar
+- 2 cups graham cracker crumbs
+- ½ cup butter
+- ½ cup sugar
 
 ### Filling
 
 - 2 8oz packages cream cheese
 - 2 eggs
-- 1C sugar
-- 1t vanilla
+- 1 cup sugar
+- 1 teaspoon vanilla
 
 ### Topping
 

@@ -7,8 +7,8 @@
 - 4 yellow jalapeño peppers
 - 1 bunch cilantro
 - 2 bunched green onions
-- 1 T granulated garlic
-- 1 T salt
+- 1 tablespoon granulated garlic
+- 1 tablespoon salt
 
 ## Directions
 

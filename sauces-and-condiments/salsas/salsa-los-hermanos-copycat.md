@@ -7,7 +7,7 @@
 - 1 Anaheim
 - ⅓ bunch of cilantro
 - 3 or 4 green onions
-- 1T salt
+- 1 tablespoon salt
 - 2 cloves garlic
 
 ## Directions

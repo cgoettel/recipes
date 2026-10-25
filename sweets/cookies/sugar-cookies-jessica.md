@@ -2,14 +2,14 @@
 
 ## Ingredients
 
-- 2 ¾ C flour
-- 1 t baking soda
-- ½ t baking powder
-- 1 C softened butter
-- 1 ½ C white sugar
+- 2 ¾ cups flour
+- 1 teaspoon baking soda
+- ½ teaspoon baking powder
+- 1 cup softened butter
+- 1 ½ cups white sugar
 - 1 egg
-- 1 t vanilla extract
-- 3–4 t buttermilk
+- 1 teaspoon vanilla extract
+- 3–4 teaspoons buttermilk
 
 ## Instructions
 

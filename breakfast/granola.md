@@ -2,15 +2,15 @@
 
 ## Ingredients
 
-- 3 C old fashioned oats
-- 1 C slivered or sliced almonds
-- 1 C coconut
-- 3 T flour
-- 1 t cinnamon
-- ⅛ t salt
-- ½ C maple syrup
-- ⅓ C coconut oil
-- 1 t almond extract
+- 3 cups old fashioned oats
+- 1 cup slivered or sliced almonds
+- 1 cup coconut
+- 3 tablespoons flour
+- 1 teaspoon cinnamon
+- ⅛ teaspoon salt
+- ½ cup maple syrup
+- ⅓ cup coconut oil
+- 1 teaspoon almond extract
 
 ## Instructions
 

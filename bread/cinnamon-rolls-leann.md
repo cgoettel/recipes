@@ -4,12 +4,12 @@ From LeAnn. Distinct from the [other cinnamon rolls](cinnamon-rolls.md) — this
 
 ## Ingredients
 
-- 3 C hot water (as hot as the tap will run)
-- 1 T salt
-- ½ C oil
-- 1 C sugar
+- 3 cups (≈680 g) hot water (as hot as the tap will run)
+- 1 tablespoon (≈18 g) salt
+- ½ cup (≈100 g) oil
+- 1 cup (≈200 g) sugar
 - 2 eggs, beaten
-- 10 C flour
+- 10 cups (≈1200 g) flour
 - 1 packet instant yeast
 
 ### Filling

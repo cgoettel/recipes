@@ -4,15 +4,15 @@ From LeAnn.
 
 ## Ingredients
 
-- 1 C (2 cubes) butter, softened — not in the microwave
-- 1 C white sugar
-- 1 C brown sugar, packed
+- 1 cup (2 cubes) butter, softened — not in the microwave
+- 1 cup white sugar
+- 1 cup brown sugar, packed
 - 2 eggs
-- 1 t vanilla
-- 3+ C flour
-- 1 t baking soda
-- ½ t salt
-- 1½ C chocolate chips
+- 1 teaspoon vanilla
+- 3+ cups flour
+- 1 teaspoon baking soda
+- ½ teaspoon salt
+- 1½ cups chocolate chips
 
 ## Instructions
 

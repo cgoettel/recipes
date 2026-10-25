@@ -2,13 +2,13 @@
 
 ## Ingredients
 
-- 4 C flour
-- 2 t baking powder
-- 1 t salt
+- 4 cups flour
+- 2 teaspoons baking powder
+- 1 teaspoon salt
 - 1 ½ sticks butter
-- 1 ½ C sugar
+- 1 ½ cups sugar
 - 2 eggs
-- 1 ½ t vanilla
+- 1 ½ teaspoons vanilla
 
 ## Instructions
 

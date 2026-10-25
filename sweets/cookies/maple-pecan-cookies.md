@@ -4,16 +4,16 @@
 
 ## Ingredients
 
-- 2 C flour
-- ½ t salt
-- 1 t baking powder
-- ¼ t ground nutmeg
-- 1 C butter
-- 1 C sugar
-- 1 t vanilla
-- 1½ t almond extract
-- ½ C chopped pecans, toasted
-- ½ C pure maple syrup
+- 2 cups flour
+- ½ teaspoon salt
+- 1 teaspoon baking powder
+- ¼ teaspoon ground nutmeg
+- 1 cup butter
+- 1 cup sugar
+- 1 teaspoon vanilla
+- 1½ teaspoons almond extract
+- ½ cup chopped pecans, toasted
+- ½ cup pure maple syrup
 
 ## Instructions
 

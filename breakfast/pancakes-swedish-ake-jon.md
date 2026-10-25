@@ -3,7 +3,7 @@
 ## Ingredients
 
 - 3 cups flour (or 2 cups flour and 1 cup whole wheat flour)
-- 0.5 tsp salt (1/2 tsp)
+- 0.5 teaspoon salt (½ teaspoon)
 - 6 cups milk (1.42 liters)
 - 3 pcs eggs
 - 1 tablespoon butter for greasing the roasting pan

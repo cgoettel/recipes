@@ -2,9 +2,9 @@
 
 ## Ingredients
 
-- 4 C flour
-- 1½ C water
-- 2 T olive oil
+- 4 cups (≈480 g) flour
+- 1½ cups (≈340 g) water
+- 2 tablespoons (≈25 g) olive oil
 
 ## Instructions
 

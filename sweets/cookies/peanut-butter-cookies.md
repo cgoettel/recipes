@@ -4,17 +4,17 @@ Recipe courtesy Emily Atwood.
 
 ## Ingredients
 
-- ½ C butter, softened
-- 1 C peanut butter
-- ¾ C white sugar
-- ½ C firmly packed brown sugar
+- ½ cup butter, softened
+- 1 cup peanut butter
+- ¾ cup white sugar
+- ½ cup firmly packed brown sugar
 - 1 egg
-- 1 T milk
-- 1 t vanilla extract
-- ¾ t baking soda
-- ½ t baking powder
-- ¼ t salt
-- 1¼ C flour
+- 1 tablespoon milk
+- 1 teaspoon vanilla extract
+- ¾ teaspoon baking soda
+- ½ teaspoon baking powder
+- ¼ teaspoon salt
+- 1¼ cups flour
 
 ## Instructions
 

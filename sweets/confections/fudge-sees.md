@@ -5,12 +5,12 @@ From Aunt Diane
 ## Ingredients
 
 - ¼lb butter
-- 4½C sugar
+- 4½ cups sugar
 - 1 15oz can evaporated milk
-- 3 pkg (12oz) chocolate chips
+- 3 packages (12oz) chocolate chips
 - 1 8oz jar marshmallow creme
-- 2t vanilla
-- 2C chopped nuts
+- 2 teaspoons vanilla
+- 2 cups chopped nuts
 
 ## Instructions
 

@@ -12,7 +12,7 @@
 ## Ingredients
 
 - 2 scoops of vanilla ice cream
-- 1 cup (120 ml) whole milk, cold
+- 1 cup (120 mL) whole milk, cold
 
 ## Instructions
 
@@ -23,7 +23,7 @@
 ## Variation
 
 This recipe can be used with all flavours of ice cream: coffee, chocolate, caramel.
-For fruit milkshakes, strawberry for example, add 1/2 cup (50 g) of fruit and blend with the milk and ice cream.
+For fruit milkshakes, strawberry for example, add ½ cup (50 g) of fruit and blend with the milk and ice cream.
 
 ## Chef's Tip
 

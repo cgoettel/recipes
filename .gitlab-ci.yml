@@ -14,6 +14,12 @@ stages:
   - build
   - verify
 
+# Every job runs on recipes' own in-cluster runner (smart-home
+# kubernetes/recipes-runner, Kubernetes executor on deskf02).
+default:
+  tags:
+    - self-hosted
+
 # Guard the README table of contents: every recipe linked, no dead links.
 check_toc:
   stage: check
@@ -49,10 +55,6 @@ check_secrets:
 # --- The site (site/) --------------------------------------------------------
 # Tests run on every pipeline, because they parse every recipe: a recipe edit
 # that breaks the parser fails here, before it ships.
-#
-# These run on GitLab's shared runners. The fleet apps use an in-cluster runner;
-# this repo can move to one by tagging the jobs `self-hosted` once a project
-# runner is registered for it.
 site_test:
   stage: check
   image: python:3.15-slim
@@ -71,47 +73,52 @@ site_test:
     - mypy src tests
     - pytest -q
 
-# Docker-in-Docker with buildx, on the shared runners. The layer cache lives in
-# the registry, so a recipe-only change rebuilds only the last layers.
-.docker_build:
-  image: docker:28
-  services:
-    - docker:28-dind
+# Rootless BuildKit, as in the fleet apps: no privileged pod, no Docker daemon.
+# The layer cache lives in the registry, so a recipe-only change rebuilds only
+# the last layers.
+.buildkit_build:
+  stage: build
+  image:
+    name: moby/buildkit:v0.34.0-rootless
+    # The default entrypoint starts a long-running daemon; blank it so the job
+    # runs buildctl-daemonless.sh, which starts and stops one per build.
+    entrypoint: [""]
   variables:
-    DOCKER_TLS_CERTDIR: "/certs"
-    CACHE_REF: ${CI_REGISTRY_IMAGE}/buildcache:main
+    BUILDKITD_FLAGS: --oci-worker-no-process-sandbox
+    BUILDKIT_CACHE_ARGS: >-
+      --import-cache type=registry,ref=${CI_REGISTRY_IMAGE}/buildcache:main
+      --export-cache type=registry,ref=${CI_REGISTRY_IMAGE}/buildcache:main,mode=max
   before_script:
-    - echo "$CI_REGISTRY_PASSWORD" | docker login -u "$CI_REGISTRY_USER" --password-stdin "$CI_REGISTRY"
-    # buildx can't build a builder from the dind TLS env vars directly.
-    - docker context create dind
-    - docker buildx create --use --driver docker-container dind
+    - mkdir -p ~/.docker
+    - >
+      printf '{"auths":{"%s":{"auth":"%s"}}}'
+      "${CI_REGISTRY}"
+      "$(printf '%s:%s' "${CI_REGISTRY_USER}" "${CI_REGISTRY_PASSWORD}" | base64 | tr -d '\n')"
+      > ~/.docker/config.json
 
 # Every push to main builds and pushes an immutable, sortable tag
-# (main-<pipeline iid>-<sha>). Flux image automation picks the highest iid and
-# commits it to smart-home, so a recipe edit or a code change ships on its own.
+# (main-<pipeline iid>-<sha>). Flux image automation deploys the newest one to
+# recipes-dev; prod waits for the promote job below.
 site_build:
-  extends: .docker_build
-  stage: build
+  extends: .buildkit_build
   needs: [site_test, check_toc]
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $CI_PIPELINE_SOURCE != "merge_request_event"
   script:
     - VERSION=$(grep -m1 '^## v' site/CHANGELOG.md | sed -E 's/^## v([0-9]+\.[0-9]+\.[0-9]+).*/\1/')
     - '[ -n "$VERSION" ] || { echo "no version header in site/CHANGELOG.md"; exit 1; }'
-    - docker buildx build
-      -f site/Dockerfile
-      --cache-from type=registry,ref=${CACHE_REF}
-      --cache-to type=registry,ref=${CACHE_REF},mode=max
-      --build-arg ASSET_VERSION=${CI_COMMIT_SHORT_SHA}
-      --build-arg APP_VERSION=${VERSION}
-      -t ${CI_REGISTRY_IMAGE}/api:main-${CI_PIPELINE_IID}-${CI_COMMIT_SHORT_SHA}
-      -t ${CI_REGISTRY_IMAGE}/api:${CI_COMMIT_SHORT_SHA}
-      --push .
+    - buildctl-daemonless.sh build
+      --frontend dockerfile.v0
+      --local context="${CI_PROJECT_DIR}"
+      --local dockerfile="${CI_PROJECT_DIR}/site"
+      ${BUILDKIT_CACHE_ARGS}
+      --opt build-arg:ASSET_VERSION=${CI_COMMIT_SHORT_SHA}
+      --opt build-arg:APP_VERSION=${VERSION}
+      --output type=image,\"name=${CI_REGISTRY_IMAGE}/api:main-${CI_PIPELINE_IID}-${CI_COMMIT_SHORT_SHA},${CI_REGISTRY_IMAGE}/api:${CI_COMMIT_SHORT_SHA}\",push=true
 
 # On an MR that touches the build itself, prove the image still builds (no push).
 site_build_mr:
-  extends: .docker_build
-  stage: build
+  extends: .buildkit_build
   needs: []
   rules:
     - if: $CI_PIPELINE_SOURCE == "merge_request_event"
@@ -124,15 +131,18 @@ site_build_mr:
         - .dockerignore
         - .gitlab-ci.yml
   script:
-    - docker buildx build -f site/Dockerfile --cache-from type=registry,ref=${CACHE_REF} .
+    - buildctl-daemonless.sh build
+      --frontend dockerfile.v0
+      --local context="${CI_PROJECT_DIR}"
+      --local dockerfile="${CI_PROJECT_DIR}/site"
+      ${BUILDKIT_CACHE_ARGS}
+      --opt build-arg:ASSET_VERSION=${CI_COMMIT_SHORT_SHA}
 
-# A green pipeline means serving, not just built: wait until the public /health
-# reports this commit. Flux image automation scans the registry every minute,
-# commits the tag, and the rollout runs migrations in an init container first.
-verify_live:
+# Poll HEALTH_URL until it reports this commit, or a newer build that contains
+# it (Flux deploys only the newest tag, so a later commit can win the race).
+.wait_for_build:
   stage: verify
   image: alpine:latest
-  needs: [site_build]
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $CI_PIPELINE_SOURCE != "merge_request_event"
   timeout: 20m
@@ -140,24 +150,57 @@ verify_live:
     GIT_DEPTH: 0
   script:
     - apk add --no-cache curl jq git >/dev/null
-    # Flux deploys only the newest tag, so if a later commit beat this one to
-    # production, that later build includes this commit and counts as success.
+    # Retry from the very first request: kube-router refuses a brand-new pod's
+    # connections for about a second.
     - |
       for i in $(seq 1 90); do
-        build=$(curl -fsS https://recipes.skalchemy.com/health | jq -r .build || true)
-        echo "attempt $i: live build ${build:-none}, want ${CI_COMMIT_SHORT_SHA} or newer"
+        build=$(curl -fsS "$HEALTH_URL" | jq -r .build || true)
+        echo "attempt $i: build ${build:-none}, want ${CI_COMMIT_SHORT_SHA} or newer"
         [ "$build" = "$CI_COMMIT_SHORT_SHA" ] && exit 0
         if [ -n "$build" ] && [ "$build" != "dev" ]; then
           git fetch -q origin "$CI_DEFAULT_BRANCH" || true
           if git merge-base --is-ancestor "$CI_COMMIT_SHA" "$build" 2>/dev/null; then
-            echo "a newer build that includes this commit is live"
+            echo "a newer build that includes this commit is serving"
             exit 0
           fi
         fi
         sleep 10
       done
-      echo "recipes.skalchemy.com never reported ${CI_COMMIT_SHORT_SHA}"
+      echo "$HEALTH_URL never reported ${CI_COMMIT_SHORT_SHA}"
       exit 1
+
+# Dev is the pre-prod gate: the build has to come up there, migrations
+# included, before prod gets it. Only this project's runner pods can reach it
+# (smart-home kubernetes/components/ci-verify-dev).
+verify_dev:
+  extends: .wait_for_build
+  needs: [site_build]
+  variables:
+    HEALTH_URL: http://recipes-dev-app.recipes-dev.svc.cluster.local:8000/health
+
+# Tag the verified image prod-<iid>-<sha>. The prod ImagePolicy in smart-home
+# follows prod- tags, so this tag is the deploy. It's a registry operation: CI
+# never touches the cluster.
+promote:
+  stage: verify
+  image: alpine:latest
+  needs: [verify_dev]
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $CI_PIPELINE_SOURCE != "merge_request_event"
+  variables:
+    CRANE_VERSION: v0.20.3
+  script:
+    - wget -qO- "https://github.com/google/go-containerregistry/releases/download/${CRANE_VERSION}/go-containerregistry_Linux_x86_64.tar.gz" | tar -xz -C /usr/local/bin crane
+    - crane auth login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" "$CI_REGISTRY"
+    - crane tag "${CI_REGISTRY_IMAGE}/api:main-${CI_PIPELINE_IID}-${CI_COMMIT_SHORT_SHA}" "prod-${CI_PIPELINE_IID}-${CI_COMMIT_SHORT_SHA}"
+
+# A green pipeline means serving in prod, not just built: wait until the public
+# /health reports this commit.
+verify_live:
+  extends: .wait_for_build
+  needs: [promote]
+  variables:
+    HEALTH_URL: https://recipes.skalchemy.com/health
 
 # Mirror main to github.com/cgoettel/recipes on every push to main.
 # GITHUB_DEPLOY_KEY is a File-type CI variable holding the SSH private key

@@ -128,6 +128,7 @@ sweets/
   | Ounce, pound              | `oz`, `lb` (no period, no `lbs`)                                                 |
   | Gallon, quart, pint       | `gallon(s)`, `quart(s)`, `pint(s)`                                               |
   | Package                   | `package(s)`                                                                     |
+  | Butter (US)               | `¾ stick (6 tablespoons)`, `2 sticks (1 cup)`: under ¼ stick, tablespoons only   |
   | Metric                    | `g`, `kg`, `mL`, `L`                                                             |
   | A size, not an amount     | hyphenated: `2-quart pot`, `1-inch piece`                                        |
 

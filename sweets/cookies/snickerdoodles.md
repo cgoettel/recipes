@@ -2,7 +2,7 @@
 
 ## Ingredients
 
-- 1 stick butter, softened
+- 1 stick (8 tablespoons) butter, softened
 - 1 cup sugar
 - ¼ teaspoon baking soda
 - ¼ teaspoon cream of tartar

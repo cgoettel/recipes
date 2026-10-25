@@ -5,7 +5,7 @@
 - 4 cups sifted all-purpose flour
 - ½ teaspoon salt
 - 1 teaspoon baking powder
-- 2 sticks butter, softened
+- 2 sticks (1 cup) butter, softened
 - 2 cups sugar
 - 2 eggs
 - 2 teaspoons vanilla

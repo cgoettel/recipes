@@ -4,7 +4,7 @@ The original recipe, from King Arthur flour, did not include steel cut oats, had
 
 ## Ingredients
 
-- 1 cup butter
+- 2 sticks (1 cup) butter
 - 1 cup brown sugar
 - ½ cup sugar
 - 1 egg

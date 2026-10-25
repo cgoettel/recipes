@@ -6,7 +6,7 @@ This recipe is from [SBS](https://www.sbs.com.au/food/article/2022/07/15/hawaiia
 
 - 3 cups glutinous rice flour
 - 2 cups sugar
-- 1 stick butter, melted
+- 1 stick (8 tablespoons) butter, melted
 - 3 eggs
 - 2 cups coconut milk
 - 2 teaspoons baking powder

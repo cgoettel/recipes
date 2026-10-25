@@ -8,7 +8,7 @@
 - ½ teaspoon salt
 - 1 teaspoon baking powder
 - ¼ teaspoon ground nutmeg
-- 1 cup butter
+- 2 sticks (1 cup) butter
 - 1 cup sugar
 - 1 teaspoon vanilla
 - 1½ teaspoons almond extract

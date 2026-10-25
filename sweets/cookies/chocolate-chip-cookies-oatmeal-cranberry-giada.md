@@ -9,7 +9,7 @@ From [Giada De Laurentiis](https://www.foodnetwork.com/recipes/giada-de-laurenti
 - ½ teaspoon baking powder
 - ½ teaspoon baking soda
 - ½ teaspoon fine sea salt
-- 1 stick unsalted butter, room temperature
+- 1 stick (8 tablespoons) unsalted butter, room temperature
 - ½ cup light brown sugar
 - ½ cup sugar
 - 1 large egg, room temperature

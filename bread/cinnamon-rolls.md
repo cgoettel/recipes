@@ -14,13 +14,13 @@
 
 ### Filling
 
-- ½ cup (≈115 g) softened butter
+- 1 stick (8 tablespoons, ≈115 g) softened butter
 - 1½ cups (≈320 g) brown sugar
 - 2 tablespoons cinnamon
 
 ### Frosting
 
-- 4 tablespoons (≈55 g) butter
+- ½ stick (4 tablespoons, ≈55 g) butter
 - 2 cups (≈225 g) powdered sugar
 - 4 tablespoons (≈55 g) milk
 - 1 teaspoon vanilla extract

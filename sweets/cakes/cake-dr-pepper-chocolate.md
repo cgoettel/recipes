@@ -10,7 +10,7 @@ This recipe is from [Glen and Friend's cooking](https://www.youtube.com/watch?v=
 - 1 cup white sugar
 - ½ cup brown sugar
 - 4 oz (113.4 g) chocolate
-- ½ cup butter
+- 1 stick (8 tablespoons) butter
 - 2 cups flour
 - 2 teaspoons baking soda
 - 1 teaspoon baking powder
@@ -22,7 +22,7 @@ This recipe is from [Glen and Friend's cooking](https://www.youtube.com/watch?v=
 ### Icing
 
 - 4 oz (113.4 g) chocolate
-- 1 cup butter
+- 2 sticks (1 cup) butter
 - Pinch salt
 - ¼ cup Dr. Pepper/Coke/Pepsi/root beer
 - 1 teaspoon vanilla

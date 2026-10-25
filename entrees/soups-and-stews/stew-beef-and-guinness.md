@@ -5,7 +5,7 @@ This is adapted from a recipe on TikTok from @lelo_lemons.
 ## Ingredients
 
 - 650–700 g steak pieces (stewing meat)
-- 2 tablespoons butter
+- ¼ stick (2 tablespoons) butter
 - 1 large white onion, thinly sliced
 - 2 leeks, thinly sliced
 - 4 carrots, peeled and chunky sliced

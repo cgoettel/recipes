@@ -4,7 +4,7 @@ From Aunt Diane
 
 ## Ingredients
 
-- ¼lb butter
+- 1 stick (8 tablespoons) butter
 - 4½ cups sugar
 - 1 15oz can evaporated milk
 - 3 packages (12oz) chocolate chips

@@ -16,7 +16,7 @@ Serves 4–6.
 - 3–4 garlic cloves, grated
 - 1" piece ginger, grated
 - 1 tablespoon tomato paste
-- 6 tablespoons butter
+- ¾ stick (6 tablespoons) butter
 - ½ cup flour
 - 3–4 tablespoons curry powder (S&B, or the homemade blend from the [Kyohana-style curry](curry-rice-kyohana-style.md))
 - 1–2 tablespoons soy sauce

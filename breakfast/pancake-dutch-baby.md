@@ -7,7 +7,7 @@
 - ½ cup milk
 - 1 tablespoon sugar
 - Pinch of nutmeg (optional)
-- 4 tablespoons butter
+- ½ stick (4 tablespoons) butter
 - Syrup (for serving)
 
 ## Instructions

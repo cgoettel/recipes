@@ -5,7 +5,7 @@
 - 3 cups frozen corn
 - ½ cup whole milk
 - 4 oz cream cheese
-- ¼ cup butter
+- ½ stick (4 tablespoons) butter
 - 1½ teaspoons sugar
 - ½ teaspoon pepper
 - ½ teaspoon salt

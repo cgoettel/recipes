@@ -41,7 +41,7 @@ Serves 4–6.
 - 3–4 garlic cloves, grated
 - 1" piece ginger, grated
 - 1 tablespoon tomato paste
-- 6 tablespoons butter
+- ¾ stick (6 tablespoons) butter
 - ½ cup flour
 - 1–1½ L giblet stock
 - 1–2 tablespoons soy sauce

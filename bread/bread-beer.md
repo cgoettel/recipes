@@ -7,7 +7,7 @@
 - 1 teaspoon (≈2.5 g) salt (omit if using self-rising flour)
 - ¼ cup (≈50 g) sugar
 - 1 12oz can beer
-- ¼ cup (≈55 g) butter, melted
+- ½ stick (4 tablespoons, ≈55 g) butter, melted
 
 ## Instructions
 

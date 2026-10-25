@@ -2,6 +2,10 @@
 
 The site's running version is the newest header here; CI bakes it into the image.
 
+## v0.6.0 (2026-10-25)
+
+- Butter reads in sticks, with tablespoons alongside: "¾ stick (6 tablespoons) butter". Scaling keeps both in step, shows cups from two sticks up, and drops to tablespoons when the amount isn't a quarter stick. Cinnamon sticks are still just counted.
+
 ## v0.5.0 (2026-10-25)
 
 - Tapping a step marks your place: it finishes every step before it and reopens every step after it. Recipes with separate parts (dough and filling, cake and icing) track each part on its own.

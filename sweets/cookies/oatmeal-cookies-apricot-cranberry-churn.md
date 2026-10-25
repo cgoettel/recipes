@@ -4,7 +4,7 @@ Reverse-engineered from the cookie at Churn (Camelback & Central, Phoenix). The 
 
 ## Ingredients
 
-- 1 cup butter
+- 2 sticks (1 cup) butter
 - 1¼ cups dark brown sugar, packed
 - ¼ cup sugar
 - 1 tablespoon molasses

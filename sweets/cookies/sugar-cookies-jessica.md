@@ -5,7 +5,7 @@
 - 2 ¾ cups flour
 - 1 teaspoon baking soda
 - ½ teaspoon baking powder
-- 1 cup softened butter
+- 2 sticks (1 cup) softened butter
 - 1 ½ cups white sugar
 - 1 egg
 - 1 teaspoon vanilla extract

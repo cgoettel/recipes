@@ -1,3 +1,9 @@
+---
+family: Lasagna
+variant: Mom's
+serves: 15–18
+---
+
 # Mom's lasagna
 
 ## Ingredients
@@ -10,7 +16,7 @@
 - 2 16oz jars spaghetti sauce (bland, but not straight tomato sauce)
 - Mozzarella cheese
 
-## Directions
+## Instructions
 
 - Preheat oven to 350°F.
 - Brown beef and sausage. Don't overcook.
@@ -25,5 +31,3 @@
 - Cover with aluminum foil and bake at 350&deg.F for 1 hour.
 - Remove aluminum foil and bake for another 5-10min until sauce bubbles.
 - Let rest for 5-10min and serve.
-
-Makes 15-18 servings.

@@ -1,4 +1,9 @@
-# Swedish Pancakes (Åke Jon)
+---
+family: Pancakes
+variant: Swedish (Åke Jon)
+---
+
+# Swedish pancakes (Åke Jon)
 
 ## Ingredients
 

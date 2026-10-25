@@ -1,4 +1,8 @@
-# Grilled Artichokes
+---
+tags: [grill, instant-pot]
+---
+
+# Grilled artichokes
 
 A reverse-engineering of the grilled artichoke at Houston's / Hillstone — the benchmark version. Three techniques stacked: **steam** the artichokes tender, **char** them on the grill while mopping repeatedly with garlic-lemon butter, and serve with a cold **remoulade** for dipping. This is written as a method to tune, not a fixed recipe — the ranges are starting points.
 
@@ -37,7 +41,7 @@ A reverse-engineering of the grilled artichoke at Houston's / Hillstone — the 
 - Pinch cayenne
 - Salt to taste
 
-## Method
+## Instructions
 
 ### Remoulade (make first, it wants to rest)
 

@@ -1,4 +1,9 @@
-# Almond Bread
+---
+family: Bread
+variant: Almond
+---
+
+# Almond bread
 
 ## Ingredients
 
@@ -9,7 +14,7 @@
 - ½ cup nuts
 - 3 cups (≈360 g) flour (no more)
 
-## Directions
+## Instructions
 
 - Pour in flat cookie tin.
 - Bake in 350° for 20 min.

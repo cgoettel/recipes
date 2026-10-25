@@ -1,4 +1,9 @@
-# Dutch Baby (German Pancakes)
+---
+family: Pancakes
+variant: Dutch baby (German pancakes)
+---
+
+# Dutch baby (German pancakes)
 
 ## Ingredients
 

@@ -1,4 +1,11 @@
-# Chicken Salad — Souper Jenny's Big Nasty (Knockoff)
+---
+family: Chicken salad
+variant: Souper Jenny's Big Nasty (knockoff)
+makes: enough for 6–8 croissant sandwiches
+tags: [make-ahead]
+---
+
+# Souper Jenny's Big Nasty chicken salad (knockoff)
 
 A knockoff of the "Big Nasty" chicken salad served at [Souper Jenny](https://souperjennyatl.com/) in Buckhead, Atlanta. The signatures of the original: shaggy, hand-pulled chicken (not minced), halved red grapes, toasted pecans, dried cranberries, a mayo-based dressing with a quiet sweet edge from honey, and a generous bed of peppery arugula on the sandwich itself.
 
@@ -8,8 +15,6 @@ The four things that make this version of chicken salad work, and that most knoc
 2. **Pull, don't chop.** A food processor turns this into spread. The point is bite-sized shreds with irregular edges that catch dressing.
 3. **No celery.** The crunch comes from toasted pecans. Celery makes it taste like a deli sandwich; pecans keep it on the croissant side of the spectrum.
 4. **Arugula is not garnish, and it's not in the salad either — it goes on the sandwich.** A real bed of leaves, not one token leaf. The peppery bite is what pulls this back from sweet; without it, the grapes and cranberries take over. Keeping it on the croissant rather than in the bowl preserves both the leaves (no wilting in the dressing) and the salad (which keeps fine for days). Skip the arugula and you have a fine chicken salad. Include it and you have this sandwich.
-
-Makes enough chicken salad for 6–8 croissant sandwiches.
 
 ## Ingredients
 

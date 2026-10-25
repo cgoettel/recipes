@@ -1,4 +1,9 @@
-# Melissa's Pizza Dough
+---
+family: Pizza dough
+variant: Melissa's
+---
+
+# Melissa's pizza dough
 
 ## Ingredients
 

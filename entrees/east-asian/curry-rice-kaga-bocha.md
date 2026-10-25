@@ -1,10 +1,14 @@
-# Curry Rice (Kaga Bōcha)
+---
+family: Curry rice
+variant: Kaga bōcha
+serves: 4–6
+---
+
+# Kaga bōcha curry rice
 
 A Japanese curry made with Kaga bōcha (加賀棒茶), the roasted stem tea from Kanazawa. Bōcha is a kind of hōjicha made from the stalks instead of the leaves. It's toasty and nutty, with almost no bitterness. In a curry it does the same job as long-browned onions and dark roux: it adds a toasted bass note that makes the sauce taste deeper without tasting like tea.
 
 The tea goes in twice: brewed strong into the cooking liquid, and ground into the roux. Serve it the Kanazawa way, which means thick and dark on a steel plate, with shredded cabbage on the side and usually a katsu on top.
-
-Serves 4–6.
 
 ## Ingredients
 

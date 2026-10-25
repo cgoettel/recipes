@@ -8,6 +8,6 @@
 - ½ teaspoon salt
 - ⅔ cup lard or shortening
 
-## Directions
+## Instructions
 
 - Mix everything together.

@@ -1,3 +1,8 @@
+---
+family: Burros
+variant: Grant's
+---
+
 # Grant's burros
 
 From Grant
@@ -14,7 +19,7 @@ From Grant
 - 1 can green chiles (short or tall, depends how you like it; I prefer more)
 - 7–9 tablespoons chili powder, to taste (see Notes)
 
-## Directions
+## Instructions
 
 - Slow cook [chuck roast](../american/roast-chuck.md). Shred. Set aside.
 - Separately, cook ground beef and onion. Season to taste with salt and pepper.

@@ -1,3 +1,9 @@
+---
+family: Salad
+variant: Potato
+tags: [vegetarian]
+---
+
 # Potato salad
 
 From Grandma Leavitt

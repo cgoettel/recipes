@@ -1,6 +1,13 @@
-# Bill Jordan Green Sauce
+---
+family: Enchilada sauce
+variant: Bill Jordan's green
+---
+
+# Bill Jordan's green enchilada sauce
 
 This is a green sauce for enchiladas.
+
+## Ingredients
 
 - 4 cups chicken stock
 - 2 jalapenos and 2 serranos, stemmed

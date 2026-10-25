@@ -1,6 +1,13 @@
-# Bread — Sourdough (White)
+---
+family: Bread
+variant: Sourdough (white)
+makes: 2 loaves
+tags: [make-ahead]
+---
 
-Makes 2 loaves. Halve all amounts for a single loaf.
+# White sourdough bread
+
+Halve all amounts for a single loaf.
 
 ## Ingredients
 

@@ -1,4 +1,9 @@
-# Pasta sauce — Marie Peters
+---
+family: Pasta sauce
+variant: Marie Peters's
+---
+
+# Marie Peters's pasta sauce
 
 Sunday-gravy-style sauce with stewing beef, pepperoni, and hard-boiled eggs simmered in. Goes with rotini.
 

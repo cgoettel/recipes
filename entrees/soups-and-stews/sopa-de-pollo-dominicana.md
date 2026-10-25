@@ -1,4 +1,8 @@
-# Sopa de Pollo Dominicana
+---
+tags: [make-ahead]
+---
+
+# Sopa de pollo dominicana
 
 From [Dominican Flavor](http://dominicanflavor.com/soupsstews/dominican-style-chicken-soupsopa-de-pollo-dominicana.html). Serves 5–6 in hearty portions.
 

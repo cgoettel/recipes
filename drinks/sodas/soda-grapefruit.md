@@ -1,3 +1,8 @@
+---
+family: Soda
+variant: Grapefruit
+---
+
 # Grapefruit soda
 
 This recipe comes from [Glen and Friends Cooking](https://www.youtube.com/watch?v=xJc_q1ZNv48). I've doubled it so it's closer to the amount used to make a keg.

@@ -1,3 +1,8 @@
+---
+family: Pancakes
+variant: Potato cakes
+---
+
 # Potato cakes
 
 ## Ingredients

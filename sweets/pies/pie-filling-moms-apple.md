@@ -1,3 +1,9 @@
+---
+family: Pie filling
+variant: Mom's apple
+tags: [thanksgiving]
+---
+
 # Mom's apple pie filling
 
 ## Ingredients

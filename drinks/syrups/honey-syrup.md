@@ -1,4 +1,4 @@
-# Honey Syrup
+# Honey syrup
 
 Honey cut with water so it pours and mixes cold without seizing. Equal parts by volume; go a touch thicker (2:1 honey:water) if you want it to read more strongly.
 

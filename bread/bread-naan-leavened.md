@@ -1,8 +1,10 @@
-# Naan-Leavened Bread
+---
+family: Bread
+variant: Naan (leavened)
+serves: 8
+---
 
-## Serves
-
-8
+# Leavened naan
 
 ## Ingredients
 
@@ -17,7 +19,7 @@
 - 1 egg yolk
 - 1 tablespoon poppy seeds
 
-## Method
+## Instructions
 
 01. Combine flour, sugar, baking powder and salt.
 02. Warm milk and yogurt; add yeast, butter and egg yolk and stir well.

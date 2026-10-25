@@ -1,3 +1,8 @@
+---
+makes: 3 four-inch cheeseballs
+tags: [game-day]
+---
+
 # Cheeseball
 
 ## Ingredients
@@ -9,8 +14,6 @@
 - 1 bunch green onions
 - ¼+ cup bacon pieces (optional)
 - Chopped pecans
-
-Yields 3 four inch cheeseballs.
 
 ## Instructions
 

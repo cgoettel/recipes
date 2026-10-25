@@ -108,7 +108,11 @@
       var shown = 0;
       entries.forEach(function (li) {
         var text = li.getAttribute("data-text") || "";
-        var hit = words.every(function (w) { return text.indexOf(w) !== -1; });
+        var tags = (li.getAttribute("data-tags") || "").split(" ");
+        // "#tea" matches the tag exactly; any other word matches anywhere.
+        var hit = words.every(function (w) {
+          return w.charAt(0) === "#" ? tags.indexOf(w.slice(1)) !== -1 : text.indexOf(w) !== -1;
+        });
         li.hidden = !hit;
         if (hit) shown++;
       });
@@ -123,6 +127,13 @@
       });
       if (empty) empty.hidden = shown !== 0;
     });
+    // A tag chip links to /?tag=<tag>: start the index showing just that tag.
+    var params = new URLSearchParams(location.search);
+    var start = params.get("tag") ? "#" + params.get("tag") : params.get("q");
+    if (start) {
+      search.value = start;
+      search.dispatchEvent(new Event("input"));
+    }
   }
 
   // Shopping list: which recipes you're making lives in this browser only.

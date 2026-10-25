@@ -304,6 +304,13 @@ def create_app(settings: Settings | None = None) -> FastAPI:
                 "by_dough": dough_factor is not None,
                 "ingredient_groups": ing_groups,
                 "step_groups": step_groups,
+                "yield_text": (
+                    f"Serves {ing.scale_yield(recipe.serves, factor, servings=True)}"
+                    if recipe.serves
+                    else f"Makes {ing.scale_yield(recipe.makes, factor)}"
+                    if recipe.makes
+                    else None
+                ),
                 "intro_html": Markup(catalog.render_markdown(recipe.intro, base)),
                 "sections": [
                     (s.heading, Markup(catalog.render_markdown(s.body, base)))

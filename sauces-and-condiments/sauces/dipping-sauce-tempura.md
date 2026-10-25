@@ -1,3 +1,8 @@
+---
+family: Dipping sauce
+variant: Tempura
+---
+
 # Tempura dipping sauce
 
 ## Ingredients

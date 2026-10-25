@@ -1,3 +1,7 @@
+---
+tags: [hot-dog-contest, ferment]
+---
+
 # Sauerkraut
 
 A bright, crisp, lightly-fermented sauerkraut in the Claussen school — built to be the kraut you reach for both fresh (on a Reuben, on a dog) and in cooking (brat braises, choucroute). Targets shorter ferment, higher salt, thicker cuts, and cold storage to land in fresh-and-crunchy territory rather than deeply funky. Yields about 1 quart.

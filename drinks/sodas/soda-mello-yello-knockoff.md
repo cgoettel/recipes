@@ -1,4 +1,10 @@
-# Mello Yellow clone
+---
+family: Soda
+variant: Mello Yello (knockoff)
+makes: 3.375 gallons
+---
+
+# Mello Yello (knockoff)
 
 This recipe comes from Bucholz on the [Homebrew Talk](https://www.homebrewtalk.com/threads/mellow-yellow-clone.356357/) forum. He notes that if you want this to be more similar to Mountain Dew, substitute additional lemon and lime juice in place of the orange juice.
 
@@ -15,7 +21,7 @@ This recipe comes from Bucholz on the [Homebrew Talk](https://www.homebrewtalk.c
 - 2 tablespoons whole coriander seed
 - 1360 g cane sugar
 
-Yields 3.375 gallons. TODO adjust to 5 gallons
+TODO adjust to 5 gallons
 
 ## Instructions
 

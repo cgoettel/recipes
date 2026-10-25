@@ -1,4 +1,9 @@
-# Spicy BBQ chicken
+---
+family: Chicken
+variant: Korean BBQ
+---
+
+# Spicy Korean BBQ chicken
 
 **Source:** http://www.maangchi.com/recipe/dwaejibulgogi
 
@@ -20,7 +25,7 @@
 - 2 teaspoons toasted sesame oil
 - 3 tablespoons hot pepper paste
 
-## Directions
+## Instructions
 
 - Blend everything together, nothing fancy.
 - Coat meat in mixture, marinate for 3-4 hours.

@@ -1,3 +1,8 @@
+---
+makes: 1 pie crust
+tags: [thanksgiving]
+---
+
 # Pie crust
 
 ## Ingredients
@@ -14,5 +19,3 @@
 - Add salt.
 - Mix while slowly adding cold water. You will use less than the ¼ cup, just keep adding until the consistency is dough, but not soggy.
 - Chill for one hour before rolling out.
-
-Makes 1 pie crust.

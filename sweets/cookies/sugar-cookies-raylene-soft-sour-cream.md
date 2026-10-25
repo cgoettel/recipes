@@ -1,4 +1,10 @@
-# Soft Sour Cream Sugar Cookies (Raylene)
+---
+family: Sugar cookies
+variant: Raylene's soft sour cream
+tags: [make-ahead]
+---
+
+# Raylene's soft sour cream sugar cookies
 
 ## Ingredients
 

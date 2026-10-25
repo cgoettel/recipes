@@ -1,3 +1,7 @@
+---
+tags: [slow-cooker, vegetarian]
+---
+
 # Creamed corn
 
 ## Ingredients
@@ -10,6 +14,6 @@
 - ½ teaspoon pepper
 - ½ teaspoon salt
 
-## Directions
+## Instructions
 
 - Throw everything into a crock pot. Stir until the cream cheese has melted in thoroughly.

@@ -1,4 +1,10 @@
-# Hawaiian Sweet Bread
+---
+family: Bread
+variant: Hawaiian sweet
+tags: [instant-pot]
+---
+
+# Hawaiian sweet bread
 
 ## Ingredients
 
@@ -13,7 +19,7 @@
 - 3 cups (≈360 g) bread flour
 - 1½ teaspoons (≈4.5 g) yeast
 
-## Method (Bread Machine)
+## Instructions (bread machine)
 
 - Sweet Cycle
 - 2 lb loaf

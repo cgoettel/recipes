@@ -1,3 +1,8 @@
+---
+family: Mochi blondies
+variant: Hawaiian butter
+---
+
 # Hawaiian butter mochi (mochi blondies)
 
 This recipe is from [SBS](https://www.sbs.com.au/food/article/2022/07/15/hawaiian-butter-mochi-truly-underrated-dessert).

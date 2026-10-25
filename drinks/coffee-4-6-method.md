@@ -1,3 +1,9 @@
+---
+family: Coffee
+variant: 4:6 method
+tags: [coffee]
+---
+
 # 4:6 method
 
 From [Tetsu Kasuya](https://www.youtube.com/watch?v=wmCW8xSWGZY), 2016 World Brewers Cup champion. A single, deliberate cup that shines with clean, bright, washed coffees.

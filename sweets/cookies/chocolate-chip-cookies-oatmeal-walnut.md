@@ -1,4 +1,9 @@
-# Oatmeal, walnut, chocolate chip cookies
+---
+family: Chocolate chip cookies
+variant: Oatmeal walnut
+---
+
+# Oatmeal walnut chocolate chip cookies
 
 Recipe adapted from Deann Ekstrom's oatmeal, walnut, and raisin cookies recipe.
 

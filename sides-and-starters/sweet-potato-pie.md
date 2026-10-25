@@ -1,34 +1,38 @@
+---
+tags: [vegetarian, thanksgiving]
+---
+
 # Sweet potato pie
 
-## Crust
+## Ingredients
 
-### Ingredients
+### Crust
 
 - ½ cup brown sugar
 - 3 tablespoons flour
 - ½ cup pecans, chopped
 - ¼ stick (2 tablespoons) butter, melted
 
-### Directions
-
-- Combine everything.
-
-## Sweet potato base
-
-### Ingredients
+### Sweet potato base
 
 - 3 cups sweet potatoes
 - 1 cup sugar
 - ½ teaspoon salt
 - 1 teaspoon vanilla
 - 2 eggs
-- 1 cube butter
+- 1 stick (8 tablespoons) butter
 
-### Directions
+## Instructions
 
-- Cook potatoes until soft
-- Preheat oven to 350°F.
-- Add other ingredients.
-- Pour into oven-safe dish and top with crust.
-- Bake at 350°F for 30 minutes.
-- Let rest for 10 minutes.
+### Crust
+
+1. Combine everything.
+
+### Sweet potato base
+
+1. Cook potatoes until soft
+2. Preheat oven to 350°F.
+3. Add other ingredients.
+4. Pour into oven-safe dish and top with crust.
+5. Bake at 350°F for 30 minutes.
+6. Let rest for 10 minutes.

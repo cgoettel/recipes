@@ -1,3 +1,8 @@
+---
+family: Chocolate chip cookies
+variant: Guittard
+---
+
 # Guittard chocolate chip cookies
 
 ## Ingredients
@@ -13,7 +18,7 @@
 - 2 cups chocolate chips
 - 1 cup chopped nuts
 
-## Directions
+## Instructions
 
 - Preheat oven to 350°F.
 - Combine flour, baking soda, and salt. Set aside.

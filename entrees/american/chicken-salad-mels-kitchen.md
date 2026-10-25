@@ -1,4 +1,9 @@
-# Chicken Salad — Mel's Kitchen
+---
+family: Chicken salad
+variant: Mel's Kitchen
+---
+
+# Mel's Kitchen chicken salad
 
 From [Mel's Kitchen Cafe](https://www.melskitchencafe.com/).
 

@@ -25,7 +25,7 @@ Adapted from [Matty Matheson's recipe](https://www.vice.com/en/article/nede8q/si
 - fresh cilantro (optional)
 - cooked rice, to serve
 
-## Directions
+## Instructions
 
 - Place the olive oil, garlic, chilies, onion, and ginger in a blender and puree until smooth.
 - Heat ghee in a large dutch oven over medium-high. Add the onion puree and cook until the mixture darkens slightly and softens, about 15 minutes. Stir constantly because it will pop all over the place.

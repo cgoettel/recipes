@@ -1,4 +1,12 @@
-# Bill Jordan Green Salsa
+---
+family: Salsa
+variant: Bill Jordan's green
+tags: [vegan]
+---
+
+# Bill Jordan's green salsa
+
+## Ingredients
 
 - 4 tomatillos
 - 1.5-2 jalapenos (1 for medium) Can also use 3-4 serranos (2 for medium), stemmed.

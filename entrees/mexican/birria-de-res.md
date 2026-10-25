@@ -1,3 +1,7 @@
+---
+tags: [make-ahead]
+---
+
 # Birria de res
 
 This recipe is from [La Capital](https://www.youtube.com/watch?v=g2F5RO6vNSs).

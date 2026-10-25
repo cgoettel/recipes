@@ -1,8 +1,12 @@
-# Dipping Sauce — Gyoza
+---
+family: Dipping sauce
+variant: Gyoza
+makes: enough for about 20 gyoza
+---
+
+# Gyoza dipping sauce
 
 A bright gyoza dipping sauce, rebuilt from a meal at Kyohana in Kyoto, where it came with soft steamed gyoza. The brightness tastes like yuzu, but it's actually a small splash of apple cider vinegar. That's the key detail. Good frozen gyoza plus this sauce gets most of the way to the restaurant plate.
-
-Makes enough for about 20 gyoza.
 
 ## Ingredients
 

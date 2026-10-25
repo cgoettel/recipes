@@ -1,4 +1,9 @@
-# Dr. Pepper chocolate cake
+---
+family: Cake
+variant: Dr Pepper chocolate
+---
+
+# Dr Pepper chocolate cake
 
 This recipe is from [Glen and Friend's cooking](https://www.youtube.com/watch?v=KvVKRHlr1ig).
 

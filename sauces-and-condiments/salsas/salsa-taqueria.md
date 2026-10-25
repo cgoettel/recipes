@@ -1,4 +1,10 @@
-# Salsa taqueria
+---
+family: Salsa
+variant: Taqueria
+tags: [vegan]
+---
+
+# Taqueria salsa
 
 ## Ingredients
 
@@ -7,7 +13,7 @@
 - two dried chile california
 - half cup+ dried, roasted chile arbol (can buy roasted or roast yourself)
 
-## Directions
+## Instructions
 
 - roast tomatillos. roast, flip, roast. Once roasted, add two chile california to the bottom of the pan (lots of water is going to come off this), turn off heat, cover, let cool. About ten minutes.
 - blend/food processor chile arbol and garlic. you want a fine powder. The color comes from the chile california.

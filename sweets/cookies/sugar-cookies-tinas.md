@@ -1,4 +1,9 @@
-# Sugar Cookies (Tina)
+---
+family: Sugar cookies
+variant: Tina's
+---
+
+# Tina's sugar cookies
 
 ## Ingredients
 

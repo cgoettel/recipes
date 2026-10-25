@@ -1,3 +1,8 @@
+---
+family: Bread
+variant: Swiss
+---
+
 # Swiss bread
 
 ## Ingredients

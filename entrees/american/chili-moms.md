@@ -1,4 +1,10 @@
-# Chili — Mom's
+---
+family: Chili
+variant: Mom's
+tags: [game-day]
+---
+
+# Mom's chili
 
 From LeAnn. The longer it simmers, the better it gets. Sausage, green chiles, garlic, and diced tomatoes are all good additions — flavor it to your liking.
 

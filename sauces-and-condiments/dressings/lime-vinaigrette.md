@@ -1,3 +1,7 @@
+---
+tags: [no-cook, vegan]
+---
+
 # Lime vinaigrette
 
 From [CDKitchen](http://www.cdkitchen.com/recipes/recs/731/Lime-Vinaigrette-Dressing115018.shtml).

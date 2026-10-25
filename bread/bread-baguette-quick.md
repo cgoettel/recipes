@@ -1,6 +1,12 @@
-# Bread — Baguette (Quick)
+---
+family: Bread
+variant: Baguette (quick)
+makes: 2 baguettes
+---
 
-Makes 2 baguettes. Faster counterpart to the [Paul Hollywood version](bread-baguette-paul-hollywood.md).
+# Quick baguettes
+
+Faster counterpart to the [Paul Hollywood version](bread-baguette-paul-hollywood.md).
 
 ## Ingredients
 

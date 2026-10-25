@@ -1,3 +1,9 @@
+---
+family: Salsa
+variant: Uncle Bryan's green
+tags: [vegan]
+---
+
 # Uncle Bryan's green salsa
 
 ## Ingredients
@@ -10,7 +16,7 @@
 - Guacamole (optional)
 - Sugar (optional)
 
-## Directions
+## Instructions
 
 - Place the tomatillos and jalapeños in a pan and cover with water. Bring to a boil, then simmer for 20 minutes or until the tomatillos have turned brown and softened.
 - Remove from stove and drain the liquid reserving all the goodies in the water.

@@ -1,8 +1,10 @@
-# Chicken Curry with Dumplings
+---
+family: Chicken curry
+variant: With dumplings
+serves: 6–8
+---
 
-## Serves
-
-6-8
+# Chicken curry with dumplings
 
 ## Ingredients
 
@@ -22,7 +24,7 @@
 - ½ cup water (approx.)
 - 2 tablespoons chopped coriander leaves
 
-## Method
+## Instructions
 
 1. Joint the chicken and rinse well.
 2. Slice the onion finely and fry in a little oil until golden brown.
@@ -35,6 +37,6 @@
 
 Garnish with coriander leaves.
 
-## Cooking Tip
+## Cooking tip
 
 Remove bay leaves before eating, as it could be dangerous to eat.

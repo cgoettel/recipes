@@ -1,3 +1,7 @@
+---
+tags: [no-cook, vegetarian]
+---
+
 # Honey French dressing
 
 From [Aunt Kay](https://www.familysearch.org/tree/person/details/K26F-HCV)

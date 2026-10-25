@@ -1,3 +1,8 @@
+---
+family: Cake
+variant: Lemon
+---
+
 # Lemon cake
 
 ## Ingredients

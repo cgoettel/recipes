@@ -1,3 +1,8 @@
+---
+family: Sugar cookies
+variant: Martha Stewart's
+---
+
 # Martha Stewart's sugar cookies
 
 ## Ingredients

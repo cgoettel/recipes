@@ -127,3 +127,19 @@ def test_cinnamon_sticks_stay_counts() -> None:
     assert i.unit is None
     j = ing.parse("3 sticks cinnamon")
     assert j.unit is None and ing.display(j).amount == "3 sticks"
+
+
+def test_scale_yield() -> None:
+    serves = {"servings": True}
+    assert ing.scale_yield("6–8", Fraction(2), **serves) == "12–16"
+    assert ing.scale_yield("3–4 with rice", Fraction(1, 2), **serves) == "2 with rice"
+    # A hyphen still scales both ends.
+    assert ing.scale_yield("4-6", Fraction(2), **serves) == "8–12"
+    assert ing.scale_yield("enough for about 20 gyoza", Fraction(3)) == "enough for about 60 gyoza"
+    assert ing.scale_yield("1 pie crust", Fraction(2)) == "1 pie crust × 2"
+    assert ing.scale_yield("2 loaves", Fraction(1, 2)) == "2 loaves × ½"
+    half = Fraction(1, 2)
+    assert ing.scale_yield("3 four-inch cheeseballs", half) == "3 four-inch cheeseballs × ½"
+    assert ing.scale_yield("12–14 muffins", Fraction(1, 2)) == "6–7 muffins"
+    assert ing.scale_yield("3.375 gallons", Fraction(2)) == "6.75 gallons"
+    assert ing.scale_yield("8", Fraction(1)) == "8"

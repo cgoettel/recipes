@@ -1,3 +1,9 @@
+---
+family: Bread
+variant: Beer
+tags: [quick-bread]
+---
+
 # Beer bread
 
 ## Ingredients

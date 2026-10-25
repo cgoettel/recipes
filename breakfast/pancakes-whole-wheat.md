@@ -1,3 +1,8 @@
+---
+family: Pancakes
+variant: Whole wheat
+---
+
 # Whole wheat pancakes
 
 From Grandma Grover

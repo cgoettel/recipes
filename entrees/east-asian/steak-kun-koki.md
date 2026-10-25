@@ -1,3 +1,9 @@
+---
+family: Steak
+variant: Kun Koki
+tags: [grill]
+---
+
 # Kun Koki steak
 
 ## Ingredients
@@ -12,7 +18,7 @@
 - ¼ teaspoon ground ginger
 - 2 tablespoons brown sugar
 
-## Directions
+## Instructions
 
 - Remove tendons.
 - Score meat.

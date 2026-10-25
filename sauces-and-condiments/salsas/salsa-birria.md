@@ -1,4 +1,12 @@
-# Salsa birria
+---
+family: Salsa
+variant: Birria
+tags: [vegan]
+---
+
+# Birria salsa
+
+## Ingredients
 
 - 8–10 chile de arbol
 - 2 chile pasilla

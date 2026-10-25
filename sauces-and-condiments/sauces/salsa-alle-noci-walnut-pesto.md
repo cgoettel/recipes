@@ -1,4 +1,8 @@
-# Salsa alle noci
+---
+tags: [no-cook, vegetarian]
+---
+
+# Salsa alle noci (walnut pesto)
 
 ## Ingredients
 
@@ -12,7 +16,7 @@
 - 40 g bread
 - Salt to taste
 
-## Directions
+## Instructions
 
 - Soak the walnuts in boiling water for 5 minutes, then drain.
 - Soak bread in milk. Once the bread has soaked up all the milk it can hold, separate the bread and remaining milk.

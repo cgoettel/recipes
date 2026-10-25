@@ -1,14 +1,20 @@
-# Lamb Chops with Chermoula
+---
+family: Lamb chops
+variant: With chermoula
+serves: 6
+tags: [grill]
+---
+
+# Lamb chops with chermoula
 
 Chermoula is a Moroccan herb and spice sauce that works well as a marinade.
 
-Makes 6 servings
 Prep 15 mins, plus marinating
 Cook 15 mins
 
 ## Ingredients
 
-### For the Chermoula
+### For the chermoula
 
 - 1 red onion, finely chopped
 - ⅔ cup olive oil
@@ -21,13 +27,13 @@ Cook 15 mins
 - ¼ teaspoon smoked sweet paprika
 - salt and freshly ground black pepper
 
-### For the Lamb
+### For the lamb
 
 - 12 lamb rib chops
 - 4 ripe plum tomatoes, chopped
 - 1 tablespoon balsamic vinegar
 
-## Directions
+## Instructions
 
 1. **To make the chermoula**, combine the red onion, ½ cup of the oil, 3 tablespoons each of the mint and cilantro, the lemon zest and juice, the garlic, cumin, coriander, and paprika in a bowl. Season with salt and pepper. Add the lamb chops and mix well to coat in the chermoula. Let stand 30 minutes.
 2. **Mix the tomatoes**, vinegar, remaining 2 tablespoons oil, and 1 tablespoon each mint and cilantro in a bowl and season with salt and pepper.

@@ -10,16 +10,19 @@ def _shown(rows: list[Row]) -> list[tuple[str | None, list[str]]]:
 
 def test_section_prefix_drops_and_families_group() -> None:
     entries = [
-        Entry("b/a", "Bread — Almond"),
-        Entry("b/d", "Pancake — Dutch Baby (German Pancakes)"),
-        Entry("b/c", "Pancakes — Classic"),
-        Entry("b/w", "Pancakes — Whole Wheat"),
+        Entry("b/a", "Almond bread", "Bread", "Almond"),
+        Entry("b/d", "Dutch baby (German pancakes)", "Pancake", "Dutch baby (German pancakes)"),
+        Entry("b/c", "Classic pancakes", "Pancakes", "Classic"),
+        Entry("b/w", "Whole wheat pancakes", "Pancakes", "Whole wheat"),
+        Entry("b/m", "Almond poppy seed muffins", "Muffins", "Almond poppy seed"),
         Entry("b/g", "Granola"),
     ]
+    # Sorted by what shows: a lone family member shows (and sorts by) its title.
     assert _shown(index_rows(entries, "Bread", None)) == [
         (None, ["Almond"]),
-        ("Pancakes", ["Dutch Baby (German Pancakes)", "Classic", "Whole Wheat"]),
+        (None, ["Almond poppy seed muffins"]),
         (None, ["Granola"]),
+        ("Pancakes", ["Classic", "Dutch baby (German pancakes)", "Whole wheat"]),
     ]
 
 

@@ -1,3 +1,8 @@
+---
+family: Pork and beans
+variant: Dr. Hunn's
+---
+
 # Dr. Hunn's pork and beans
 
 From [Bob Hunn](https://www.familysearch.org/tree/person/details/LJQ6-CGT)

@@ -8,7 +8,7 @@ This recipe is measured to work in Utah (4500' elevation and \<50% humidity). It
 - ½ pint milk
 - Flour
 
-## Directions
+## Instructions
 
 - Preheat oven to (very hot).
 - Grease pans with lard and heat for 2 minutes.

@@ -1,4 +1,10 @@
-# Oatmeal Cookies — Apricot Cranberry (Churn Knockoff)
+---
+family: Oatmeal cookies
+variant: Apricot cranberry (Churn knockoff)
+tags: [make-ahead]
+---
+
+# Apricot cranberry oatmeal cookies (Churn knockoff)
 
 Reverse-engineered from the cookie at Churn (Camelback & Central, Phoenix). The likely lineage is the Dahlia Bakery apricot-cranberry oatmeal cookie — cinnamon, ginger, and cloves — adapted here toward soft, dark, and spice-forward: lower oven temperature, all dark brown sugar plus molasses, and the fruit cut back so the oats and warming spices carry the cookie.
 

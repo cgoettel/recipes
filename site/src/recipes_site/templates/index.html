@@ -22,7 +22,7 @@
       {% if row.label %}<li class="family" data-family><span class="family-label">{{ row.label }}</span>
         <ul class="recipe-list family-list">{% endif %}
       {% for entry, shown in row.items %}
-      <li data-entry data-text="{{ (entry.title ~ ' ' ~ recipes[entry.slug].title ~ ' ' ~ (recipes[entry.slug].subtitle or '')) | lower }}">
+      <li data-entry data-tags="{{ recipes[entry.slug].tags | join(' ') }}" data-text="{{ (entry.title ~ ' ' ~ (entry.family or '') ~ ' ' ~ (recipes[entry.slug].tags | join(' '))) | lower }}">
         <a href="/{{ entry.slug }}">{{ shown }}</a>
       </li>
       {% endfor %}

@@ -1,8 +1,10 @@
-# Curried Duck
+---
+family: Duck
+variant: Curried
+serves: 8
+---
 
-## Serves
-
-8
+# Curried duck
 
 ## Ingredients
 
@@ -20,7 +22,7 @@
 - 2 tablespoons vegetable oil
 - 3 cups hot water
 
-## Method
+## Instructions
 
 1. Mince chive, thyme, garlic, onion, chadon beni and hot pepper.
 2. Blend minced seasoning with duck together with salt, black pepper and rum.

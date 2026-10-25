@@ -1,4 +1,9 @@
-# Chocolate Chip Cookies — Grant's
+---
+family: Chocolate chip cookies
+variant: Grant's
+---
+
+# Grant's chocolate chip cookies
 
 From Grant (see also [Grant's burros](../../entrees/mexican/burros-grants.md)). Grant vibe-cooks — this was reconstructed by watching him and writing it down.
 

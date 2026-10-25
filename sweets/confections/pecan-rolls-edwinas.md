@@ -1,4 +1,9 @@
-# Edwina's Pecan Rolls
+---
+family: Pecan rolls
+variant: Edwina's
+---
+
+# Edwina's pecan rolls
 
 From [Aunt Edwina](https://www.familysearch.org/tree/person/details/KWZQ-VN9) (Uncle Verl's wife)
 
@@ -12,7 +17,7 @@ From [Aunt Edwina](https://www.familysearch.org/tree/person/details/KWZQ-VN9) (U
 - 1 teaspoon vanilla
 - 2 lb pecans
 
-## Directions
+## Instructions
 
 - Cook to hard firm ball.
 - Cook and beat.

@@ -1,8 +1,10 @@
-# Shrimp Dalkani
+---
+family: Shrimp
+variant: Dalkani
+serves: 4
+---
 
-## Serves
-
-4
+# Shrimp dalkani
 
 ## Ingredients
 
@@ -17,7 +19,7 @@
 - ½ teaspoon pepper
 - ½ cup water (approx.)
 
-## Method
+## Instructions
 
 1. Clean shrimp and season with green seasoning, steam for 5 minutes.
 2. Combine ground split peas, flour, baking powder, salt, geera, garlic and pepper with water to make a batter.

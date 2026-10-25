@@ -1,8 +1,12 @@
-# Chicken — Crispy, with Ponzu and Pink Peppercorn
+---
+family: Chicken
+variant: Crispy, with ponzu and pink peppercorn
+serves: 3–4
+---
+
+# Crispy chicken with ponzu and pink peppercorn
 
 Rebuilt from a meal at Kyohana in Kyoto. It's in the family of yurinchi, the Japanese-Chinese dish of fried chicken under a sharp soy and green-onion sauce, but here the acid comes from yuzu, and crushed pink peppercorns add a floral, resinous lift. The chicken is double-fried in potato starch so the crust survives the sauce.
-
-Serves 3–4.
 
 ## Ingredients
 

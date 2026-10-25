@@ -1,3 +1,9 @@
+---
+family: Horseradish
+variant: Creamy
+tags: [no-cook, vegetarian]
+---
+
 # Creamy horseradish
 
 ## Ingredients
@@ -8,6 +14,6 @@
 - 1 lemon, juiced
 - Salt and pepper, to taste
 
-## Directions
+## Instructions
 
 - Blend everything until smooth.

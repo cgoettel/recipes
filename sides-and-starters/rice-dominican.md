@@ -1,4 +1,10 @@
-# Rice — Dominican (Arroz Blanco)
+---
+family: Rice
+variant: Dominican (arroz blanco)
+tags: [vegan]
+---
+
+# Dominican rice (arroz blanco)
 
 From [My Dominican Food](http://www.mydominicanfood.com/cooking-white-rice.php). One-third of the "Dominican flag" with [pollo guisado](../entrees/caribbean/pollo-guisado.md) and stewed red beans. The crispy bottom — *concón* — is the prize.
 

@@ -1,4 +1,4 @@
-# Lavender Honey Syrup
+# Lavender honey syrup
 
 Honey syrup infused with culinary lavender — does double duty in a drink:
 sweetens *and* carries the floral body that lavender bitters (aroma only) can't.

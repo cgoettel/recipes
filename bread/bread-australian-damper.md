@@ -1,3 +1,9 @@
+---
+family: Bread
+variant: Australian damper
+tags: [quick-bread]
+---
+
 # Australian damper bread
 
 ## Ingredients

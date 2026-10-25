@@ -1,4 +1,10 @@
-# Sauce — J Dawg's Special
+---
+family: Sauce
+variant: J Dawg's special
+tags: [vegetarian, hot-dog-contest]
+---
+
+# J Dawg's special sauce
 
 The sauce that built the J Dawg's hot dog empire.
 

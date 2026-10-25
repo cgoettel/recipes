@@ -1,3 +1,7 @@
+---
+tags: [vegetarian, game-day]
+---
+
 # Hot artichoke dip
 
 ## Ingredients

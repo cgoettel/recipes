@@ -1,4 +1,9 @@
-# Pasta with shrimp
+---
+family: Pasta
+variant: With shrimp or chicken
+---
+
+# Pasta with shrimp or chicken
 
 ## Ingredients
 
@@ -12,7 +17,7 @@
 - Meat, optional. Shrimp or chicken preferred
 - 2 cups arugula, sliced in ribbons
 
-## Directions
+## Instructions
 
 - Cook pasta according to directions on box.
 - While pasta is cooking, heat oil in a 12 inch pan over medium heat. Sauté the garlic until light brown, about 1 minute. Add the chilies, and continue cooking about 30 seconds longer. Add the broth and butter, and boil over high heat for 3 minutes.

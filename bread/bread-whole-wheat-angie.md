@@ -1,4 +1,9 @@
-# Bread — Whole Wheat (Angie)
+---
+family: Bread
+variant: Whole wheat (Angie's)
+---
+
+# Angie's whole wheat bread
 
 From Angie. Makes 6 loaves (half quantities in parens for 3 loaves).
 

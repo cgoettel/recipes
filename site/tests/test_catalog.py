@@ -17,8 +17,9 @@ def test_every_readme_link_loads() -> None:
 
 def test_dutch_baby_parses() -> None:
     recipe = _catalog().recipes["breakfast/pancake-dutch-baby"]
-    assert recipe.title == "Dutch Baby"
-    assert recipe.subtitle == "German Pancakes"
+    assert recipe.title == "Dutch baby"
+    assert recipe.subtitle == "German pancakes"
+    assert recipe.family == "Pancakes"
     assert recipe.tag == "breakfast"
     assert len(recipe.ingredient_groups[0].items) == 7
     assert len(recipe.step_groups[0].items) == 5
@@ -39,3 +40,24 @@ def test_links_point_at_site_pages() -> None:
 def test_split_title() -> None:
     recipe = catalog.parse_recipe("x/y", "# Plain Title\n")
     assert (recipe.title, recipe.subtitle) == ("Plain Title", None)
+
+
+def test_every_recipe_file_is_well_formed() -> None:
+    from pathlib import Path
+
+    assert catalog.check(Path(__file__).resolve().parents[2]) == []
+
+
+def test_check_catches_silent_mistakes(tmp_path) -> None:  # type: ignore[no-untyped-def]
+    (tmp_path / "bread").mkdir()
+    (tmp_path / "bread" / "a.md").write_text("---\nfamily: Bread\ntags: grill\n---\n\n# A\n")
+    (tmp_path / "bread" / "b.md").write_text(
+        "---\nfamily: Bread\nvariant: No\ntags: [grilled]\n---\n\n# B\n"
+    )
+    (tmp_path / "stray.md").write_text("# Stray\n")
+    problems = "\n".join(catalog.check(tmp_path))
+    assert "bread/a.md: `family` and `variant` go together" in problems
+    assert "bread/a.md: `tags` should be a list" in problems
+    assert "bread/b.md: `variant` should be text" in problems
+    assert "tag `grilled` isn't in catalog.TAGS" in problems
+    assert "stray.md: recipes live one or two folders deep" in problems

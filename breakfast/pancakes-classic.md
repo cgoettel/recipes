@@ -1,4 +1,10 @@
-# Pancakes
+---
+family: Pancakes
+variant: Classic
+makes: 8 four-inch pancakes
+---
+
+# Classic pancakes
 
 ## Ingredients
 
@@ -9,8 +15,6 @@
 - 1 egg
 - 1 cup milk
 - 2 tablespoons oil
-
-Yields 8 four inch pancakes.
 
 ## Instructions
 

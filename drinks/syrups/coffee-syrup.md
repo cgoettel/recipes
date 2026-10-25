@@ -1,4 +1,4 @@
-# Coffee Syrup
+# Coffee syrup
 
 A coffee concentrate sweetened and bodied with rich demerara — built for the
 Sleepwalker (Paul Ramirez, We Got Company, Brooklyn). The demerara rounds the

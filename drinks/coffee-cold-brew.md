@@ -1,4 +1,10 @@
-# Coffee — Cold Brew
+---
+family: Coffee
+variant: Cold brew
+tags: [coffee]
+---
+
+# Cold brew coffee
 
 ## Ratio
 

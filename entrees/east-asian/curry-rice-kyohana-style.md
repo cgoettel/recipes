@@ -1,10 +1,15 @@
-# Curry Rice (Kyohana-Style)
+---
+family: Curry rice
+variant: Kyohana-style
+serves: 4–6
+tags: [make-ahead]
+---
+
+# Kyohana-style curry rice
 
 Rebuilt from a meal at Kyohana, a restaurant in Kyoto, and from watching how it was made. No boxed roux bricks and no meat in the sauce: it's a smooth, glossy curry served over rice with a tonkatsu laid alongside. Its body comes from a deeply browned giblet stock, rich enough in collagen that leftovers set to a firm jelly in the fridge. If yours does that, you got it right.
 
 Because there's nothing in the sauce to hide behind, the method has three stages, and each one adds depth: browning the giblets for fond, simmering a gelatin-heavy stock, and building a fresh roux with spices you toast yourself. Start the stock a day ahead. Curry is better on day two anyway.
-
-Serves 4–6.
 
 ## Ingredients
 

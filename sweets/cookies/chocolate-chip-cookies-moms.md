@@ -1,4 +1,9 @@
-# Chocolate Chip Cookies — Mom's
+---
+family: Chocolate chip cookies
+variant: Mom's
+---
+
+# Mom's chocolate chip cookies
 
 From LeAnn.
 

@@ -1,3 +1,7 @@
+---
+tags: [christmas]
+---
+
 # Grandma Weight's egg nog
 
 ## Ingredients

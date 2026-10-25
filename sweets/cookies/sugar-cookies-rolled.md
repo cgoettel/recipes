@@ -1,4 +1,10 @@
-# Rolled Sugar Cookies
+---
+family: Sugar cookies
+variant: Rolled
+tags: [christmas]
+---
+
+# Rolled sugar cookies
 
 ## Ingredients
 

@@ -1,4 +1,10 @@
-# Sauce — Board & Brew Special
+---
+family: Sauce
+variant: Board & Brew special
+tags: [vegan]
+---
+
+# Board & Brew special sauce
 
 The sandwich-shop sauce from Board & Brew. Keeps 3–4 weeks refrigerated.
 

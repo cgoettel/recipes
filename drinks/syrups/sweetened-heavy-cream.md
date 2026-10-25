@@ -1,4 +1,4 @@
-# Sweetened Heavy Cream
+# Sweetened heavy cream
 
 A lightly sweetened, barely-whipped cream cap — the float for the Tipsy Jitters
 (Alice Howard). The Angostura gives it a baking-spice lift so it doesn't read

@@ -1,3 +1,8 @@
+---
+family: Bread
+variant: French
+---
+
 # French bread
 
 ## Ingredients

@@ -1,4 +1,9 @@
-# Cake — Lemon Chiffon
+---
+family: Cake
+variant: Lemon chiffon
+---
+
+# Lemon chiffon cake
 
 Lemon chiffon cake with zesty peach buttercream. 10" round springform. Distinct from the simpler [box-mix lemon cake](cake-lemon.md).
 

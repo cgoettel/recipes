@@ -1,3 +1,8 @@
+---
+family: Bread
+variant: Russian hot
+---
+
 # Russian hot bread
 
 ## Ingredients

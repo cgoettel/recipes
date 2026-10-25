@@ -161,14 +161,16 @@ Open items only; shipped work lives in the git history.
 
 **Site (v1)** — recipes.skalchemy.com, time-boxed; close the milestone when v1 is live.
 
-- **[#5 "Build recipes.skalchemy.com"](https://gitlab.com/colby.goettel/recipes/-/work_items/5)** (`Present`, `priority::weeks`) — fleet app over this repo: git stays the source of truth for recipe text, Postgres holds pantry, checklist, and tested status, and "what can I make" reuses the cocktails ingredient abstraction. Mock first.
+- **[#5 "Build recipes.skalchemy.com"](https://gitlab.com/colby.goettel/recipes/-/work_items/5)** (`Agent-ready`, `priority::weeks`) — v1 of the public site under `site/`: Markdown indexed at build time, recipe list, scaling, and cook mode, on the continuous-deploy pattern. Design decisions are in the issue's comments.
+- **[#12 "Plan several recipes and get one merged shopping list"](https://gitlab.com/colby.goettel/recipes/-/work_items/12)** (`Agent-ready`, `priority::weeks`) — merged, grouped by store section, staples collapsed, "bought" kept separate from cook mode's "added", works offline.
+- **[#13 "Bread view with baker's percentages and a theory page"](https://gitlab.com/colby.goettel/recipes/-/work_items/13)** (`Agent-ready`, `priority::weeks`) — flour is 100%, scale by dough weight, every ratio explained; needs the grams pass in #4.
+- **[#14 "Private cook log and tested status"](https://gitlab.com/colby.goettel/recipes/-/work_items/14)** (`Agent-ready`, `priority::weeks`) — "made it" from cook mode, behind Cloudflare Access; doubles as the tested marker.
 - **[#6 "Add front matter and normalize recipe structure for the site"](https://gitlab.com/colby.goettel/recipes/-/work_items/6)** (`Present`, `priority::months`) — YAML front matter (`status`, `serves`, `tags`) and one heading per section; blocked by #5's data model, lands after #4.
 - **[#7 "Generate the README table of contents from front matter"](https://gitlab.com/colby.goettel/recipes/-/work_items/7)** (`Present`, `priority::months`) — the intro stays hand-written; the list becomes generated, alphabetical, and consistently cased.
 
 **Maintenance** and **Creations**:
 
 - **[#4 "Audit and sweep recipe units to the spelled-out house style"](https://gitlab.com/colby.goettel/recipes/-/work_items/4)** (`Agent-ready`, `priority::weeks`, milestone Maintenance) — audit every unit and fraction form in use, set a canonical spelling for each, then mechanically convert older recipes (`C`/`T`/`t` to `cup`/`tablespoon`/`teaspoon`, `1/2` to `½`) with a hand-reviewed diff.
-- **[#8 "Check Markdown formatting and secrets in CI"](https://gitlab.com/colby.goettel/recipes/-/work_items/8)** (`Agent-ready`, `priority::weeks`, milestone Maintenance) — run the pinned `mdformat` and gitleaks in CI so commits made off the owner's Mac are checked too.
 - **[#9 "Give hot sauces their own folder"](https://gitlab.com/colby.goettel/recipes/-/work_items/9)** (`Present`, `priority::someday`, milestone Maintenance) — move the `sauce-*` hot sauces out of `salsas/`, if "hot sauce" is the right word for them.
 - **[#10 "Move the Drive-import procedure into a project skill"](https://gitlab.com/colby.goettel/recipes/-/work_items/10)** (`Agent-ready`, `priority::someday`, milestone Maintenance) — keep `CLAUDE.md` about the repo; load the import steps only when importing.
 - **[#11 "Rename Swedish pancakes v2 after what makes it different"](https://gitlab.com/colby.goettel/recipes/-/work_items/11)** (`Present`, `priority::someday`, milestone Maintenance).

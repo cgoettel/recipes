@@ -11,7 +11,7 @@ Cook 15 mins
 ### For the Chermoula
 
 - 1 red onion, finely chopped
-- ½ cup plus 2 tablespoons olive oil
+- ⅔ cup olive oil
 - ¼ cup chopped mint
 - ¼ cup chopped cilantro
 - grated zest and juice of 1 lemon

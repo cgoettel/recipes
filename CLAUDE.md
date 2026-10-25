@@ -24,6 +24,8 @@ Persistent preferences that should shape suggestions, edits, and new recipes acr
 
 **Philosophy.** Recipes are for remembering ingredients and proportions; technique and method are what actually matter. When writing or editing, lean toward describing *how* and *why* something is done, not just the sequence — method-level guidance is worth the line. The cook works by feel ("two spoonfuls," "half a jar," "quarter can"); recipes should give ranges rather than tweezer-precise grams unless chemistry demands it (bread, candy).
 
+**One measure per ingredient.** Never write compound measures like "2 cups plus 1 teaspoon flour" or "⅔ stick (5⅔ tablespoons)". Round to the nearest amount a cook would actually measure (a whole tablespoon, a quarter stick, a common cup fraction). The only exception is when chemistry genuinely needs the precision, and then give grams instead.
+
 **Alcohol.** Used purely for flavor, never for effect. When choosing wine, beer, or spirits, pick for what they contribute to the dish — flavor depth, acid, fat-cutting, aromatic survivability through aging or heat — never "what's open" or "use up the cheap stuff."
 
 **Good-enough store-bought.** Frozen gyoza and dumplings are bought, not made. When a restaurant dish centers on them, write the sauce and serving method as the recipe (see `sauces-and-condiments/sauces/dipping-sauce-gyoza.md`), not a from-scratch dumpling. Ask before assuming the same for other components.

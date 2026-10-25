@@ -2,7 +2,7 @@
 
 ## Ingredients
 
-- ⅔ stick (5⅔ tablespoons) unsalted butter, softened
+- 5 tablespoons unsalted butter, softened
 - 3 tablespoons canola or peanut oil
 - ⅔ cup packed light brown sugar
 - 2 large eggs

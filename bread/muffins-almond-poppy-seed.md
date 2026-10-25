@@ -15,7 +15,7 @@ I have adapted this recipe from https://www.yourcupofcake.com/better-than-costco
 - 1 teaspoon vanilla extract
 - 2 teaspoons almond extract
 - 2 eggs
-- ½ cup (≈115 g) butter, melted and cooled slightly
+- 1 stick (8 tablespoons, ≈115 g) butter, melted and cooled slightly
 
 Yields 12–14 muffins.
 

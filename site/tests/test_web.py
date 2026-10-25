@@ -35,7 +35,7 @@ def test_recipe_page(client: TestClient) -> None:
 
 def test_recipe_scales(client: TestClient) -> None:
     r = client.get("/breakfast/pancake-dutch-baby?scale=2")
-    assert "½ cup" in r.text  # 4 tablespoons butter, doubled
+    assert "1 stick (8 tablespoons)" in r.text  # ½ stick butter, doubled
     assert "Times don’t scale" in r.text
 
 

@@ -4,7 +4,7 @@
 
 ### Cookies
 
-- ½ cup butter (shortening can be used for hard cookies)
+- 1 stick (8 tablespoons) butter (shortening can be used for hard cookies)
 - 1 cup sugar
 - ½ teaspoon salt
 - 2 teaspoons baking soda

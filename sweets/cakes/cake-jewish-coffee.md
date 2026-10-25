@@ -2,7 +2,7 @@
 
 ## Ingredients
 
-- ½ cup butter
+- 1 stick (8 tablespoons) butter
 - 1 cup sugar
 - 2 eggs
 - 2 cups flour
@@ -12,7 +12,7 @@
 - 1 teaspoon vanilla
 - ½ cup powdered sugar
 - 2 teaspoons cinnamon
-- 2 tablespoons butter
+- ¼ stick (2 tablespoons) butter
 
 ## Instructions
 

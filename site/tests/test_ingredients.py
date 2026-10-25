@@ -104,3 +104,26 @@ def test_scale_param() -> None:
     assert ing.parse_scale("1/2") == Fraction(1, 2)
     assert ing.parse_scale("9") == 1
     assert ing.parse_scale(None) == 1
+
+
+def test_butter_sticks_carry_tablespoons_and_scale() -> None:
+    i = ing.parse("¾ stick (6 tablespoons, ≈85 g) salted butter, softened")
+    assert i.unit == "stick"
+    assert i.item == "salted butter, softened"
+    assert ing.display(i).amount == "¾ stick (6 tablespoons, ≈85 g)"
+    assert ing.display(i, Fraction(2)).amount == "1½ sticks (12 tablespoons, ≈170 g)"
+    # Half of ¾ stick isn't a quarter stick, so it reads in tablespoons.
+    assert ing.display(i, Fraction(1, 2)).amount == "3 tablespoons (≈42 g)"
+
+
+def test_two_sticks_show_a_cup() -> None:
+    i = ing.parse("2 sticks (1 cup) butter")
+    assert ing.display(ing.parse("2 sticks butter")).amount == "2 sticks (1 cup)"
+    assert i.unit == "stick"
+
+
+def test_cinnamon_sticks_stay_counts() -> None:
+    i = ing.parse("2 cinnamon sticks")
+    assert i.unit is None
+    j = ing.parse("3 sticks cinnamon")
+    assert j.unit is None and ing.display(j).amount == "3 sticks"

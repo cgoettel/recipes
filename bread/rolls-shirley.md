@@ -8,7 +8,7 @@ Makes 24 dinner rolls.
 - 2 tablespoons (≈18 g) instant dry yeast
 - ¼ cup (≈50 g) sugar
 - 2 teaspoons (≈12 g) salt
-- 6 tablespoons (≈85 g) salted butter, softened
+- ¾ stick (6 tablespoons, ≈85 g) salted butter, softened
 - 2 large eggs
 - 6 cups (≈720 g) all-purpose flour
 - 1 tablespoon (≈14 g) melted butter

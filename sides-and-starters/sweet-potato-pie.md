@@ -7,7 +7,7 @@
 - ½ cup brown sugar
 - 3 tablespoons flour
 - ½ cup pecans, chopped
-- 2 tablespoons butter, melted
+- ¼ stick (2 tablespoons) butter, melted
 
 ### Directions
 

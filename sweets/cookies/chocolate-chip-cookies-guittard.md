@@ -5,7 +5,7 @@
 - 2 ¼ cups flour
 - 1 teaspoon baking soda
 - 1 teaspoon salt
-- 1 cup butter, softened
+- 2 sticks (1 cup) butter, softened
 - ¾ sugar
 - ¾ brown sugar, packed
 - 2 large eggs

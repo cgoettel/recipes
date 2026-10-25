@@ -46,6 +46,15 @@ _GRAMS_RE = re.compile(
     r"^\((?P<est>≈)?\s*(?P<lo>\d+(?:\.\d+)?)(?:\s*–\s*(?P<hi>\d+(?:\.\d+)?))?\s*g\)\s*"
 )
 
+# "(6 tablespoons)", "(1 cup)" or "(6 tablespoons, ≈85 g)" after a butter stick
+# amount.
+# It's regenerated from the scaled stick amount, so the parser drops it.
+_STICK_NOTE_RE = re.compile(
+    r"^\((?P<tb>[^,)]*?)\s*(?:tablespoons?|cups?)"
+    r"(?:,\s*(?P<est>≈)?\s*(?P<g>\d+(?:\.\d+)?)\s*g)?\)\s*"
+)
+_BUTTER_RE = re.compile(r"^(?:(?:salted|unsalted|cold|softened|melted|cubed),?\s+)*butter\b", re.I)
+
 # Canonical unit -> (singular, plural, kind). Kind drives rounding and conversion.
 _CANONICAL = {
     "cup": ("cup", "cups", "volume"),
@@ -55,6 +64,8 @@ _CANONICAL = {
     "kg": ("kg", "kg", "metric"),
     "ml": ("mL", "mL", "metric"),
     "l": ("L", "L", "metric"),
+    # Butter only: one US stick is 8 tablespoons (½ cup, about 113 g).
+    "stick": ("stick", "sticks", "butter"),
 }
 
 # Written token -> canonical unit, or None to keep the token as written (it still
@@ -230,6 +241,13 @@ def parse(line: str) -> Ingredient:
             return Ingredient(raw=raw, item=raw)
     grams_low = grams_high = None
     grams_estimated = False
+    stick_note = _STICK_NOTE_RE.match(rest) if forms == ("stick", "sticks") else None
+    after_note = rest[stick_note.end() :] if stick_note else rest
+    if forms == ("stick", "sticks") and _BUTTER_RE.match(after_note):
+        unit, forms, rest = "stick", None, after_note
+        if stick_note and stick_note.group("g"):
+            grams_estimated = bool(stick_note.group("est"))
+            grams_low = Fraction(stick_note.group("g"))
     note = _GRAMS_RE.match(rest)
     if note:
         grams_estimated = bool(note.group("est"))
@@ -308,6 +326,28 @@ def _convert(value: Fraction, unit: str) -> tuple[Fraction, str]:
     return value, unit
 
 
+def _butter_amount(sticks: Fraction, ing: Ingredient, scale: Fraction) -> str:
+    """Sticks with tablespoons alongside; under a quarter stick, just tablespoons."""
+    grams = ""
+    if ing.grams_low is not None:
+        mark = "≈" if ing.grams_estimated else ""
+        grams = f"{mark}{format_number(ing.grams_low * scale, metric=True)} g"
+    # Two sticks and up read as cups; under that, tablespoons.
+    if sticks >= 2:
+        spoons, spoon_unit = sticks / 2, "cup"
+    else:
+        spoons, spoon_unit = sticks * 8, "tablespoon"
+        if spoons < 1:
+            spoons, spoon_unit = _convert(spoons, "tablespoon")
+    spoon_words = _CANONICAL[spoon_unit][1 if spoons > 1 else 0]
+    spoon_text = f"{format_number(spoons)} {spoon_words}"
+    if sticks >= Fraction(1, 4) and _is_nice(sticks, Fraction(1, 4)):
+        stick_words = "sticks" if sticks > 1 else "stick"
+        inner = ", ".join(x for x in (spoon_text, grams) if x)
+        return f"{format_number(sticks)} {stick_words} ({inner})"
+    return f"{spoon_text} ({grams})" if grams else spoon_text
+
+
 @dataclass(frozen=True)
 class Display:
     amount: str  # "1½ cups", "3–4 cloves", "" for unscaled lines
@@ -322,6 +362,9 @@ def display(ing: Ingredient, scale: Fraction = Fraction(1)) -> Display:
     low = ing.low * scale
     high = ing.high * scale if ing.high is not None else None
     unit = ing.unit
+    if unit == "stick" and high is None:
+        prefix = "~" if ing.approx else ""
+        return Display(amount=prefix + _butter_amount(low, ing, scale), item=ing.item, scaled=True)
     if unit in ("cup", "tablespoon", "teaspoon") and high is None and scale != 1:
         low, unit = _convert(low, unit)
     metric = unit is not None and _CANONICAL[unit][2] == "metric"

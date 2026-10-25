@@ -7,7 +7,7 @@ From [Grandma Goettel](https://www.familysearch.org/tree/person/details/KWCR-R7H
 - 2 cups sugar
 - 2 cups flour
 - ½ teaspoon salt
-- 1 cup butter
+- 2 sticks (1 cup) butter
 - 1 cup water
 - 4 tablespoons cocoa powder
 - ½ cup sour cream (or ½ cup canned milk and ½ teaspoon white vinegar)

@@ -2,7 +2,7 @@
 
 ## Ingredients
 
-- ½ cup (≈115 g) butter
+- 1 stick (8 tablespoons, ≈115 g) butter
 - ¾ cup (≈160 g) brown sugar
 - ¼ teaspoon (≈1.5 g) salt
 - 1 teaspoon baking soda

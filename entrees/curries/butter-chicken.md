@@ -21,7 +21,7 @@ Adapted from [Matty Matheson's recipe](https://www.vice.com/en/article/nede8q/si
 - 3½ cups tomato puree
 - 4 boneless and skinless chicken breasts, cut into half inch chunks (about 1 kilogram)
 - 2 cups heavy cream
-- 8 tablespoons butter
+- 1 stick (8 tablespoons) butter
 - fresh cilantro (optional)
 - cooked rice, to serve
 

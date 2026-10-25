@@ -2,7 +2,7 @@
 
 ## Ingredients
 
-- 1 cup butter
+- 2 sticks (1 cup) butter
 - 1½ cups powdered sugar
 - 1 egg
 - 1 teaspoon soda

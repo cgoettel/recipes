@@ -5,7 +5,7 @@
 - ½ cup pineapple juice
 - ½ cup (≈115 g) milk
 - 1 egg
-- ¼ cup (≈55 g) softened butter
+- ½ stick (4 tablespoons, ≈55 g) softened butter
 - 1 teaspoon vanilla extract
 - ½ teaspoon (≈3 g) salt
 - ⅓ cup (≈65 g) sugar

@@ -4,7 +4,7 @@ Recipe courtesy Emily Atwood.
 
 ## Ingredients
 
-- ½ cup butter, softened
+- 1 stick (8 tablespoons) butter, softened
 - 1 cup peanut butter
 - ¾ cup white sugar
 - ½ cup firmly packed brown sugar

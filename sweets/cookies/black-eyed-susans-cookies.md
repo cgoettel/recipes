@@ -4,7 +4,7 @@ From [Grandma Goettel](https://www.familysearch.org/tree/person/details/KWCR-R7H
 
 ## Ingredients
 
-- 1 cup butter
+- 2 sticks (1 cup) butter
 - 3 tablespoons sugar
 - 1 teaspoon vanilla
 - 2 cups flour

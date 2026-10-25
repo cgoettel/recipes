@@ -3,7 +3,7 @@
 ## Ingredients
 
 - 1 tablespoon olive oil
-- 4 tablespoons butter
+- ½ stick (4 tablespoons) butter
 - 1 medium onion
 - 1–2 stalks celery
 - 2 large carrots

@@ -4,7 +4,7 @@ Recipe adapted from Deann Ekstrom's oatmeal, walnut, and raisin cookies recipe.
 
 ## Ingredients
 
-- 1 cup butter
+- 2 sticks (1 cup) butter
 - 1 cup brown sugar
 - 1 cup white sugar
 - 3 eggs

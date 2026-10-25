@@ -4,7 +4,7 @@
 
 - 1 batch of (red sauce)[../sauces/red-sauce.md]
 - béchamel:
-  - 2 tablespoons butter
+  - ¼ stick (2 tablespoons) butter
   - 2 tablespoons flour
   - 2 cups whole milk
   - salt, to taste

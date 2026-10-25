@@ -8,7 +8,7 @@
 - 4+ cloves garlic
 - 2 Anaheim chilies, chopped
 - 2 cups chicken broth
-- 2 tablespoons butter
+- ¼ stick (2 tablespoons) butter
 - Meat, optional. Shrimp or chicken preferred
 - 2 cups arugula, sliced in ribbons
 

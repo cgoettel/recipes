@@ -4,7 +4,7 @@
 
 - 1 cup sifted flour
 - ¾ cup sugar
-- ½ cup butter, softened
+- 1 stick (8 tablespoons) butter, softened
 
 ## Instructions
 

@@ -18,7 +18,7 @@ A reverse-engineering of the grilled artichoke at Houston's / Hillstone — the 
 
 **Garlic-lemon butter mop**
 
-- ½ cup (1 stick) butter
+- 1 stick (8 tablespoons) butter
 - 4 cloves garlic, smashed
 - 1 strip lemon zest + juice of ½ lemon
 - ¾ teaspoon salt

@@ -6,7 +6,7 @@
 - ¼ cup (≈50 g) sugar
 - 1 cup (≈225 g) warm water
 - 1 egg
-- 6 tablespoons (≈85 g) butter
+- ¾ stick (6 tablespoons, ≈85 g) butter
 - 1 tablespoon (≈18 g) salt
 - 3 cups (≈360 g) flour
 

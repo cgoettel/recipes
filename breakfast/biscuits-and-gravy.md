@@ -17,7 +17,7 @@ Gravy by Colby; biscuits adapted from Paula Deen. See also [biscuits](../bread/b
 - 1 teaspoon sugar
 - 1 tablespoon baking powder
 - 1 teaspoon salt
-- 8 tablespoons butter, cubed
+- 1 stick (8 tablespoons) butter, cubed
 - ¾ cup milk (more or less as needed)
 
 ## Instructions

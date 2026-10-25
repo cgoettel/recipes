@@ -5,7 +5,7 @@
 - 4 cups flour
 - 2 teaspoons baking powder
 - 1 teaspoon salt
-- 1 ½ sticks butter
+- 1½ sticks (12 tablespoons) butter
 - 1 ½ cups sugar
 - 2 eggs
 - 1 ½ teaspoons vanilla

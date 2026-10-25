@@ -2,7 +2,7 @@
 
 ## Ingredients
 
-- ½ cup butter - softened
+- 1 stick (8 tablespoons) butter - softened
 - 1 cup sugar
 - 1 egg
 - ¼ cup milk

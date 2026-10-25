@@ -7,7 +7,7 @@ From [Grandma Goettel](https://www.familysearch.org/tree/person/details/KWCR-R7H
 ### Crust
 
 - 2 cups graham cracker crumbs
-- ½ cup butter
+- 1 stick (8 tablespoons) butter
 - ½ cup sugar
 
 ### Filling

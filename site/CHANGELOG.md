@@ -2,6 +2,11 @@
 
 The site's running version is the newest header here; CI bakes it into the image.
 
+## v0.7.2 (2026-10-25)
+
+- The menu opens over the page instead of pushing it down.
+- The person dropdown drops its "Dark mode" label and shrinks to fit the switch and the cook log link.
+
 ## v0.7.1 (2026-10-25)
 
 - The person button opens a dropdown over the page, like the settings gear in the other fleet apps: a dark-mode switch (🌻 / 🌘) and the cook log link.

@@ -2,6 +2,10 @@
 
 The site's running version is the newest header here; CI bakes it into the image.
 
+## v0.4.0 (2026-10-25)
+
+- The owner's private cook log: "Made it" (with an optional note) at the end of any recipe, "made N times, last on…" or "untested" on each recipe, and a `/me` page with the log, the untested recipes, and the most viewed and most scaled. All of it sits behind Cloudflare Access and never shows to visitors.
+
 ## v0.3.0 (2026-10-25)
 
 - Shopping list: "Add to shopping list" on any recipe (at its current scale), then `/list` merges every recipe you're making into one list grouped by store section, with staples collapsed at the bottom. Checking items off there is separate from cook mode. Your list lives only in your browser.

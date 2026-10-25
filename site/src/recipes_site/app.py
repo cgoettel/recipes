@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import datetime as dt
 import re
 from dataclasses import dataclass, field
 from fractions import Fraction
@@ -11,13 +12,13 @@ from typing import TYPE_CHECKING, Annotated
 
 import structlog
 from fastapi import BackgroundTasks, FastAPI, HTTPException, Query, Request
-from fastapi.responses import HTMLResponse, Response
+from fastapi.responses import HTMLResponse, RedirectResponse, Response
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from markupsafe import Markup
 from prometheus_client import CONTENT_TYPE_LATEST, generate_latest
 
-from recipes_site import __version__, bakers, catalog, counts, shopping
+from recipes_site import __version__, bakers, catalog, cooklog, counts, shopping
 from recipes_site import ingredients as ing
 from recipes_site.cf_access import CloudflareAccessMiddleware
 from recipes_site.config import Settings, get_settings
@@ -204,6 +205,56 @@ def create_app(settings: Settings | None = None) -> FastAPI:
             media_type="text/javascript",
             headers={"Cache-Control": "no-cache", "Service-Worker-Allowed": "/"},
         )
+
+    # --- The owner's private pages (gated by cf_access + the edge Access app) ---
+
+    def _same_origin(request: Request) -> bool:
+        """CSRF guard for the private POSTs: the browser's Origin must be this site."""
+        origin = request.headers.get("origin") or ""
+        own = f"{request.url.scheme}://{request.url.netloc}"
+        return origin in {own, settings.public_origin}
+
+    @app.get("/me", response_class=HTMLResponse)
+    def me(request: Request) -> Response:
+        cat = get_catalog()
+        made = cooklog.made_slugs()
+        return templates.TemplateResponse(
+            request,
+            "me.html",
+            {
+                "recent": cooklog.recent(),
+                "recipes": cat.recipes,
+                "untested": sorted(
+                    (r for s, r in cat.recipes.items() if s not in made and r.structured),
+                    key=lambda r: r.title,
+                ),
+                "top_viewed": counts.top("view"),
+                "top_scaled": counts.top("scale"),
+            },
+        )
+
+    @app.get("/me/status")
+    def me_status(slug: str) -> dict[str, object]:
+        st = cooklog.status(slug)
+        return {"count": st.count, "last": st.last.isoformat() if st.last else None}
+
+    @app.post("/me/log")
+    async def me_log(request: Request) -> Response:
+        if not _same_origin(request):
+            raise HTTPException(status_code=403)
+        form = await request.form()
+        slug = str(form.get("slug", "")).strip("/")
+        if slug not in get_catalog().recipes:
+            raise HTTPException(status_code=404)
+        made_on = None
+        raw_date = str(form.get("made_on", ""))
+        if raw_date:
+            try:
+                made_on = dt.date.fromisoformat(raw_date)
+            except ValueError:
+                made_on = None
+        cooklog.add(slug, str(form.get("note", "")), made_on)
+        return RedirectResponse(f"/{slug}?logged=1", status_code=303)
 
     @app.get("/learn/bakers-percentages", response_class=HTMLResponse)
     def learn_bakers(request: Request) -> Response:

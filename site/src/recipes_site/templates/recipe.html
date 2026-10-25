@@ -107,6 +107,20 @@
   <div class="prose">{{ body_html }}</div>
   {% endif %}
 
+  {# Owner-only: filled in by app.js from /me/status, which is behind Cloudflare
+     Access. For everyone else that request fails and this stays hidden. #}
+  <section class="owner" data-owner data-slug="{{ recipe.slug }}" hidden>
+    <p class="owner-status"><span class="chip chip-violet">private</span> <span data-owner-status></span></p>
+    <form method="post" action="/me/log" class="owner-form">
+      <input type="hidden" name="slug" value="{{ recipe.slug }}">
+      <label for="made-on" class="sr-only">Made on</label>
+      <input id="made-on" type="date" name="made_on" data-today>
+      <label for="note" class="sr-only">Note</label>
+      <input id="note" type="text" name="note" maxlength="500" placeholder="Note (optional): too salty, cut to 1 teaspoon">
+      <button type="submit" class="pill is-on">Made it</button>
+    </form>
+  </section>
+
   <p class="muted small source-link"><a href="https://gitlab.com/colby.goettel/recipes/-/blob/main/{{ recipe.slug }}.md">View or edit the Markdown</a></p>
 </article>
 {% endblock %}

@@ -1,5 +1,7 @@
 # Recipes
 
+If you'd rather not read Markdown in the kitchen, the same recipes are at [recipes.skalchemy.com](https://recipes.skalchemy.com). You can scale them, check off steps as you go, and turn a few of them into one shopping list.
+
 I have tried to be explicit in these recipes, but sometimes I've been doing something the same way for so long that I forget that it's even worth mentioning. Or, some things (to me) are a given so I omit them from the recipe. Here are some guidelines in case you get lost:
 
 - When cutting vegetables, mince is super fine (\<¼"), dice is fine (like ¼–½"), and chopped is large (>½")

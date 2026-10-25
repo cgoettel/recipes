@@ -104,19 +104,14 @@
   .wm-4 { color: var(--color-violet); } .wm-5 { color: var(--color-sky); } .wm-6 { color: var(--color-peach); } .wm-7 { color: var(--color-plum); }
   [data-theme="dark"] .wm-2 { color: #3d8fd6; }
   .header-stripes { flex: 1; display: flex; flex-direction: column; gap: 4px; align-items: flex-end; min-width: 0; }
-  .header-stripes i { display: block; height: 5px; background: var(--color-navy); }
-  .header-stripes i:nth-child(1) { width: 70%; }
-  .header-stripes i:nth-child(2) { width: 90%; height: 9px; background: var(--color-sky); }
-  .header-stripes i:nth-child(3) { width: 45%; background: var(--color-plum); }
+  /* Colors and widths come from stripes.py, fresh on every page. */
+  .header-stripes i { display: block; height: 5px; }
+  .header-stripes i.thick { height: 9px; }
   .theme-toggle { flex: none; width: 44px; height: 44px; border-radius: 22px; border: 2px solid var(--color-line); background: transparent; display: inline-flex; align-items: center; justify-content: center; }
 
   .site-footer { max-width: 44rem; width: 100%; margin: 0 auto; padding: 1.5rem 1rem 2rem; box-sizing: border-box; color: var(--color-muted); font-size: 0.85rem; }
   .stripes { display: flex; margin-bottom: 0.75rem; }
   .stripes i { display: block; height: 8px; }
-  .stripes i:nth-child(1) { width: 20%; background: var(--color-yellow); }
-  .stripes i:nth-child(2) { width: 14%; background: var(--color-peach); }
-  .stripes i:nth-child(3) { width: 10%; background: var(--color-coral); }
-  .stripes i:nth-child(4) { width: 30%; background: var(--color-sky); }
 
   /* Type */
   .recipe-title { font-family: var(--font-title); font-weight: 800; font-size: clamp(2.1rem, 8vw, 3rem); line-height: 1.02; letter-spacing: -0.035em; margin: 0; }
@@ -152,6 +147,9 @@
   .recipe-list li { border-bottom: 1px solid var(--color-line); }
   .recipe-list a { display: block; padding: 0.65rem 0.25rem; min-height: 44px; box-sizing: border-box; color: var(--color-text); text-decoration: none; }
   .recipe-list a:hover { color: var(--color-accent); }
+  .recipe-list li.family { border-bottom: 0; }
+  .family-label { display: block; padding: 0.85rem 0.25rem 0.1rem; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-muted); }
+  .family-list { margin: 0; padding-left: 1rem; }
   .empty { margin-top: 2rem; color: var(--color-muted); }
   .house-notes { margin-top: 2.5rem; background: var(--color-surface); border-radius: 12px; padding: 0.75rem 1rem; }
   .house-notes summary { font-family: var(--font-section); font-weight: 700; cursor: pointer; min-height: 32px; }

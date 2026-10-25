@@ -76,11 +76,12 @@
       {% for group in step_groups %}{% for row in group.rows %}<i data-seg="{{ row.id }}"></i>{% endfor %}{% endfor %}
     </div>
     {% for group in step_groups %}
+    {% set part = loop.index %}
     {% if group.heading %}<h3 class="subheading">{{ group.heading }}</h3>{% endif %}
     <ol class="steps">
       {% for row in group.rows %}
       <li>
-        <button type="button" class="step" data-check="{{ row.id }}" data-step aria-pressed="false">
+        <button type="button" class="step" data-check="{{ row.id }}" data-step data-part="{{ part }}" aria-pressed="false">
           <span class="num" aria-hidden="true">{{ row.number }}</span>
           <span class="step-text">{{ row.html }}</span>
         </button>

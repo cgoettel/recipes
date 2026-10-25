@@ -2,6 +2,11 @@
 
 The site's running version is the newest header here; CI bakes it into the image.
 
+## v0.4.1 (2026-10-25)
+
+- The stripes beside the wordmark link home, like the wordmark.
+- Dropped the "lives as Markdown" footer note and the "View or edit the Markdown" link.
+
 ## v0.4.0 (2026-10-25)
 
 - The owner's private cook log: "Made it" (with an optional note) at the end of any recipe, "made N times, last on…" or "untested" on each recipe, and a `/me` page with the log, the untested recipes, and the most viewed and most scaled. All of it sits behind Cloudflare Access and never shows to visitors.

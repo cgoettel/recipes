@@ -2,6 +2,10 @@
 
 The site's running version is the newest header here; CI bakes it into the image.
 
+## v0.7.1 (2026-10-25)
+
+- The person button opens a dropdown over the page, like the settings gear in the other fleet apps: a dark-mode switch (🌻 / 🌘) and the cook log link.
+
 ## v0.7.0 (2026-10-25)
 
 - A new header: a cart for the shopping list, a menu (all recipes, the shopping list, baker's percentages, and the categories), and a person button for day or night and the cook log.

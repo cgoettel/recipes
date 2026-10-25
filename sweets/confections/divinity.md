@@ -1,4 +1,5 @@
 ---
+makes: about 60 pieces
 tags: [christmas]
 ---
 

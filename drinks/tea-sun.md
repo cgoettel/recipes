@@ -1,6 +1,7 @@
 ---
 family: Tea
 variant: Sun
+makes: 2 L
 tags: [tea]
 ---
 

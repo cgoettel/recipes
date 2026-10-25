@@ -1,6 +1,7 @@
 ---
 family: Coffee
 variant: Japanese iced
+makes: about 500 mL
 tags: [coffee]
 ---
 

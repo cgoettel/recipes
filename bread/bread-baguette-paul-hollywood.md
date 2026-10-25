@@ -1,6 +1,7 @@
 ---
 family: Bread
 variant: Baguette (Paul Hollywood)
+makes: 4 baguettes
 ---
 
 # Paul Hollywood's baguettes

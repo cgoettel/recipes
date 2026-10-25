@@ -1,3 +1,7 @@
+---
+serves: 4
+---
+
 # Soupe dauphinoise
 
 This recipe is adapted from the [French Cooking Academy](https://www.thefrenchcookingacademy.com/recipes/dauphinoise-soup). I adjusted the amounts just a little and added a couple ingredients.

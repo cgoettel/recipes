@@ -1,6 +1,7 @@
 ---
 family: Bread
 variant: Russian hot
+makes: 1 loaf
 ---
 
 # Russian hot bread

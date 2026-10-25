@@ -1,6 +1,7 @@
 ---
 family: Bread
 variant: Banana
+makes: one 9x5 loaf
 tags: [quick-bread]
 ---
 

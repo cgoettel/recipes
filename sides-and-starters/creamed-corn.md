@@ -1,4 +1,5 @@
 ---
+serves: 4–6
 tags: [slow-cooker, vegetarian]
 ---
 

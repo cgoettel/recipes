@@ -1,6 +1,7 @@
 ---
 family: Pickles
 variant: Hot spears
+makes: 1 quart
 tags: [hot-dog-contest, ferment]
 ---
 

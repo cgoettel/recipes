@@ -1,6 +1,7 @@
 ---
 family: Pickles
 variant: Dill
+makes: 1 quart
 tags: [vegetarian, hot-dog-contest, ferment]
 ---
 

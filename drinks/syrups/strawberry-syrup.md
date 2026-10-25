@@ -1,3 +1,7 @@
+---
+makes: about 1¼ cups
+---
+
 # Strawberry syrup
 
 A no-cook strawberry syrup — macerating equal weights of fruit and sugar draws a clean, bright syrup without dulling the flavor on the stove. Caster sugar dissolves faster into the cold maceration.

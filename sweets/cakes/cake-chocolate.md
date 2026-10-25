@@ -1,6 +1,7 @@
 ---
 family: Cake
 variant: Chocolate
+makes: one bundt cake
 ---
 
 # Ann Myer's chocolate cake

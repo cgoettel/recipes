@@ -1,6 +1,7 @@
 ---
 family: Crema
 variant: Lime cilantro
+makes: about 1¼ cups
 tags: [no-cook, vegetarian]
 ---
 

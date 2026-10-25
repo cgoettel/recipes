@@ -1,4 +1,5 @@
 ---
+serves: 5–6
 tags: [make-ahead]
 ---
 

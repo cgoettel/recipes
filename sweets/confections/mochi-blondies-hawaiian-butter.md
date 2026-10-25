@@ -1,6 +1,7 @@
 ---
 family: Mochi blondies
 variant: Hawaiian butter
+makes: one 9x13 pan
 ---
 
 # Hawaiian butter mochi (mochi blondies)

@@ -1,6 +1,7 @@
 ---
 family: Bread
 variant: Beer
+makes: 1 loaf
 tags: [quick-bread]
 ---
 

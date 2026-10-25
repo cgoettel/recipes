@@ -1,6 +1,7 @@
 ---
 family: Sugar cookies
 variant: Rolled
+makes: about 24 cookies
 tags: [christmas]
 ---
 

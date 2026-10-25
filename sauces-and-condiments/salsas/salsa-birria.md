@@ -1,6 +1,7 @@
 ---
 family: Salsa
 variant: Birria
+makes: about 3 cups
 tags: [vegan]
 ---
 

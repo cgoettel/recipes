@@ -1,6 +1,7 @@
 ---
 family: Soup
 variant: Broccoli and cheese
+serves: 6–8
 ---
 
 # Broccoli and cheese soup

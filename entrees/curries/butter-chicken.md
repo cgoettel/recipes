@@ -1,3 +1,7 @@
+---
+serves: 6–8
+---
+
 # Butter chicken
 
 Adapted from [Matty Matheson's recipe](https://www.vice.com/en/article/nede8q/simple-butter-chicken-recipe).

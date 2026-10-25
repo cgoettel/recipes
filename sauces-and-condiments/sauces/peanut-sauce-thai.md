@@ -1,6 +1,7 @@
 ---
 family: Peanut sauce
 variant: Thai
+makes: about 4 cups
 tags: [vegetarian]
 ---
 

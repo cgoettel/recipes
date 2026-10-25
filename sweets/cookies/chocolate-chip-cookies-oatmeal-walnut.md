@@ -1,6 +1,7 @@
 ---
 family: Chocolate chip cookies
 variant: Oatmeal walnut
+makes: about 60 cookies
 ---
 
 # Oatmeal walnut chocolate chip cookies

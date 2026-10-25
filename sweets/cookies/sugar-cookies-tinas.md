@@ -1,6 +1,7 @@
 ---
 family: Sugar cookies
 variant: Tina's
+makes: about 36 cookies
 ---
 
 # Tina's sugar cookies

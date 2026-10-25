@@ -1,6 +1,7 @@
 ---
 family: Bread
 variant: Australian damper
+makes: one 8x8 pan
 tags: [quick-bread]
 ---
 

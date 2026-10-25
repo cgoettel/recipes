@@ -1,6 +1,7 @@
 ---
 family: Bread
 variant: French
+makes: 2 loaves
 ---
 
 # French bread

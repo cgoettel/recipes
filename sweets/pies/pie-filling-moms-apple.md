@@ -1,6 +1,7 @@
 ---
 family: Pie filling
 variant: Mom's apple
+makes: filling for one 9-inch pie
 tags: [thanksgiving]
 ---
 

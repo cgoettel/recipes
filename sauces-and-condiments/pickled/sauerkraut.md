@@ -1,4 +1,5 @@
 ---
+makes: about 1 quart
 tags: [hot-dog-contest, ferment]
 ---
 

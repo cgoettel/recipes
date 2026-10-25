@@ -1,6 +1,7 @@
 ---
 family: Pancakes
 variant: Swedish (Åke Jon), version 2
+serves: 2–4
 ---
 
 # Swedish pancakes (Åke Jon), version 2

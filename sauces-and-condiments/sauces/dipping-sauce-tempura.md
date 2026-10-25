@@ -1,6 +1,7 @@
 ---
 family: Dipping sauce
 variant: Tempura
+makes: about 130 mL
 ---
 
 # Tempura dipping sauce

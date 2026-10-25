@@ -1,6 +1,7 @@
 ---
 family: Lasagna
 variant: Classic
+makes: one 9x13 pan
 ---
 
 # Classic lasagna

@@ -2,6 +2,11 @@
 
 The site's running version is the newest header here; CI bakes it into the image.
 
+## v0.8.1 (2026-10-25)
+
+- Nearly every recipe now says how much it serves or makes: 155 more, estimated from their quantities and pans.
+- Scaling a yield only touches the amount it leads with, so "one 9x13 pan" reads "one 9x13 pan × 2", not "one 18x13 pan". Measured yields scale like ingredients ("about ¾ cups" at ½×).
+
 ## v0.8.0 (2026-10-25)
 
 - The site reads recipes straight from their folders and front matter, not from the README. The README's recipe list is now generated from the same data, by CI.

@@ -1,6 +1,7 @@
 ---
 family: Salsa
 variant: Los Hermanos (copycat)
+makes: about 6 cups
 tags: [vegan]
 ---
 

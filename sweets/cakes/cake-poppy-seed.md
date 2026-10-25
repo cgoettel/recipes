@@ -1,6 +1,7 @@
 ---
 family: Cake
 variant: Poppy seed
+makes: one bundt cake
 ---
 
 # Poppy seed cake

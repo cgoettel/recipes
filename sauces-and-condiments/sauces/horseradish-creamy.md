@@ -1,6 +1,7 @@
 ---
 family: Horseradish
 variant: Creamy
+makes: about 2½ cups
 tags: [no-cook, vegetarian]
 ---
 

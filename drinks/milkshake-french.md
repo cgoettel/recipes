@@ -1,6 +1,7 @@
 ---
 family: Milkshake
 variant: French
+makes: 1 milkshake
 ---
 
 # French milkshake

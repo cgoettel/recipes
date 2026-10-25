@@ -1,3 +1,7 @@
+---
+serves: 3–4
+---
+
 # Arlene Kovash's morning waffles
 
 ## Ingredients

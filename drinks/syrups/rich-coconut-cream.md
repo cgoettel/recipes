@@ -1,3 +1,7 @@
+---
+makes: about 2½ cups
+---
+
 # Rich coconut cream
 
 A sweetened coconut cream for Piña Coladas and other tiki drinks — full-fat coconut milk cut with sugar and a pinch of salt. A fresher, less cloying make-your-own alternative to canned cream of coconut.

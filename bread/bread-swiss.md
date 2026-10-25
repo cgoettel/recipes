@@ -1,6 +1,7 @@
 ---
 family: Bread
 variant: Swiss
+makes: 1 braided loaf
 ---
 
 # Swiss bread

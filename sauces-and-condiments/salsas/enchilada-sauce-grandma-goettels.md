@@ -1,6 +1,7 @@
 ---
 family: Enchilada sauce
 variant: Grandma Goettel's
+serves: 6–8
 ---
 
 # Grandma Goettel's enchiladas

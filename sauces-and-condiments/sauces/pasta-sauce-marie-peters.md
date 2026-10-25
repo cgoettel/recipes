@@ -1,6 +1,7 @@
 ---
 family: Pasta sauce
 variant: Marie Peters's
+serves: 6–8
 ---
 
 # Marie Peters's pasta sauce

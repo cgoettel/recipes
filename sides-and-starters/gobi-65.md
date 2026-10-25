@@ -1,4 +1,5 @@
 ---
+serves: 3–4
 tags: [vegetarian]
 ---
 

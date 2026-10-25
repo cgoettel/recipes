@@ -1,6 +1,7 @@
 ---
 family: Bread
 variant: Hawaiian sweet
+makes: one 2-lb loaf
 tags: [instant-pot]
 ---
 

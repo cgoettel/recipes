@@ -1,6 +1,7 @@
 ---
 family: Bread
 variant: Artisan in five
+makes: 4 loaves
 ---
 
 # Artisan bread in five (master recipe)

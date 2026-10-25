@@ -1,3 +1,7 @@
+---
+makes: about 2 cups
+---
+
 # Cinnamon syrup
 
 A steeped cinnamon syrup for tiki and autumnal drinks. Dissolving the sugar gently (no boil) keeps it clear, and the long off-heat steep is what pulls real cinnamon depth rather than a thin top-note.

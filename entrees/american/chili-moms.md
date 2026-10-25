@@ -1,6 +1,7 @@
 ---
 family: Chili
 variant: Mom's
+serves: 6–8
 tags: [game-day]
 ---
 

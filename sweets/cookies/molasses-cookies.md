@@ -1,3 +1,7 @@
+---
+makes: about 36 cookies
+---
+
 # Molasses cookies
 
 ## Ingredients

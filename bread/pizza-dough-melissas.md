@@ -1,6 +1,7 @@
 ---
 family: Pizza dough
 variant: Melissa's
+makes: 2 pizzas
 ---
 
 # Melissa's pizza dough

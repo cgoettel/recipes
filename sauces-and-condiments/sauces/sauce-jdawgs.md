@@ -1,6 +1,7 @@
 ---
 family: Sauce
 variant: J Dawg's special
+makes: about 1¾ cups
 tags: [vegetarian, hot-dog-contest]
 ---
 

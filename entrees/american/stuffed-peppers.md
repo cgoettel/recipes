@@ -1,3 +1,7 @@
+---
+serves: 3–4
+---
+
 # Stuffed peppers
 
 ## Ingredients

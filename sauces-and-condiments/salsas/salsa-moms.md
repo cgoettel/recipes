@@ -1,6 +1,7 @@
 ---
 family: Salsa
 variant: Mom's
+makes: about 10 cups
 tags: [vegan]
 ---
 

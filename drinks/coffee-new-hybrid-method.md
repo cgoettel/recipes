@@ -1,6 +1,7 @@
 ---
 family: Coffee
 variant: New hybrid method
+makes: about 250 mL
 tags: [coffee]
 ---
 

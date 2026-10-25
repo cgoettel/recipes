@@ -1,6 +1,7 @@
 ---
 family: Bread
 variant: Honey wheat (LeAnn's)
+makes: 3 loaves
 ---
 
 # LeAnn's honey wheat bread

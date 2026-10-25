@@ -1,6 +1,7 @@
 ---
 family: Pasta
 variant: With shrimp or chicken
+serves: 3–4
 ---
 
 # Pasta with shrimp or chicken

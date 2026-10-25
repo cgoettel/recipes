@@ -1,6 +1,7 @@
 ---
 family: Pork and beans
 variant: Dr. Hunn's
+serves: 6–8
 ---
 
 # Dr. Hunn's pork and beans

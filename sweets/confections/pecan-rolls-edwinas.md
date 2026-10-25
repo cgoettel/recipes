@@ -1,6 +1,7 @@
 ---
 family: Pecan rolls
 variant: Edwina's
+makes: about 5 lb
 ---
 
 # Edwina's pecan rolls

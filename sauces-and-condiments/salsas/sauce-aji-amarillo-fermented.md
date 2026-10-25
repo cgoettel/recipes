@@ -1,6 +1,7 @@
 ---
 family: Salsa
 variant: Aji amarillo (fermented)
+makes: about 24 oz
 tags: [ferment]
 ---
 

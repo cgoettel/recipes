@@ -1,3 +1,7 @@
+---
+makes: about 60 cookies
+---
+
 # Jan's cookies
 
 From Aunt Jan

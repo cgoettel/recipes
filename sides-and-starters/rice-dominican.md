@@ -1,6 +1,7 @@
 ---
 family: Rice
 variant: Dominican (arroz blanco)
+serves: 8–10
 tags: [vegan]
 ---
 

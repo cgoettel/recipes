@@ -1,6 +1,7 @@
 ---
 family: Salsa
 variant: J.R.'s
+makes: about 4 cups
 tags: [vegan]
 ---
 

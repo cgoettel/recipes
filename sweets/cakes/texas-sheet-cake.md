@@ -1,3 +1,7 @@
+---
+makes: one sheet cake
+---
+
 # Texas sheet cake
 
 From [Grandma Goettel](https://www.familysearch.org/tree/person/details/KWCR-R7H)

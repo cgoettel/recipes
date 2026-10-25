@@ -1,6 +1,7 @@
 ---
 family: Marinade
 variant: El Pollo Loco
+makes: enough for 4 lb chicken
 tags: [grill, make-ahead]
 ---
 

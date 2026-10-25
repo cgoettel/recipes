@@ -143,3 +143,9 @@ def test_scale_yield() -> None:
     assert ing.scale_yield("12–14 muffins", Fraction(1, 2)) == "6–7 muffins"
     assert ing.scale_yield("3.375 gallons", Fraction(2)) == "6.75 gallons"
     assert ing.scale_yield("8", Fraction(1)) == "8"
+    # Only a leading amount scales; a pan size is part of the noun.
+    assert ing.scale_yield("one 9x13 pan", Fraction(2)) == "one 9x13 pan × 2"
+    assert ing.scale_yield("filling for one 9-inch pie", half) == "filling for one 9-inch pie × ½"
+    assert ing.scale_yield("about 30 cookies", Fraction(2)) == "about 60 cookies"
+    assert ing.scale_yield("about 1½ cups", half) == "about ¾ cups"
+    assert ing.scale_yield("enough for 4 lb chicken", Fraction(2)) == "enough for 8 lb chicken"

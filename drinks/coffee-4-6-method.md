@@ -1,6 +1,7 @@
 ---
 family: Coffee
 variant: 4:6 method
+makes: about 250 mL
 tags: [coffee]
 ---
 

@@ -1,6 +1,7 @@
 ---
 family: Bread
 variant: Whole wheat (Angie's)
+makes: 6 loaves
 ---
 
 # Angie's whole wheat bread

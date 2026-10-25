@@ -1,3 +1,7 @@
+---
+makes: about 470 g
+---
+
 # Coffee syrup
 
 A coffee concentrate sweetened and bodied with rich demerara — built for the

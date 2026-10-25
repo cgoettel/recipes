@@ -1,6 +1,7 @@
 ---
 family: Sauce
 variant: Board & Brew special
+makes: about 2½ cups
 tags: [vegan]
 ---
 

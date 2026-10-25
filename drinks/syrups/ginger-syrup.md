@@ -1,3 +1,7 @@
+---
+makes: about 2 cups
+---
+
 # Ginger syrup
 
 A steeped fresh-ginger syrup. The short simmer extracts ginger quickly; the long cold steep afterward builds heat and depth without cooking the brightness out. Slicing thin (rather than juicing) keeps it clear and lets you control intensity by steep time.

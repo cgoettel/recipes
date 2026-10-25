@@ -1,6 +1,7 @@
 ---
 family: Stew
 variant: Beef and Guinness
+serves: 4
 ---
 
 # Beef and Guinness stew

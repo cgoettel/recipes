@@ -167,7 +167,6 @@ Open items only; shipped work lives in the git history.
 
 **Maintenance** and **Creations**:
 
-- **[#2 "Staff-engineer handover: knowledge transfer and "what would you do differently?""](https://gitlab.com/colby.goettel/recipes/-/work_items/2)** (`Present`, `priority::weeks`, milestone Maintenance) — a one-session exercise in which an agent plays a staff engineer inheriting the repo. It interviews the owner to transfer knowledge (folding the answers into the docs), then proposes what it would do differently, for discussion before anything is filed.
 - **[#4 "Audit and sweep recipe units to the spelled-out house style"](https://gitlab.com/colby.goettel/recipes/-/work_items/4)** (`Agent-ready`, `priority::weeks`, milestone Maintenance) — audit every unit and fraction form in use, set a canonical spelling for each, then mechanically convert older recipes (`C`/`T`/`t` to `cup`/`tablespoon`/`teaspoon`, `1/2` to `½`) with a hand-reviewed diff.
 - **[#8 "Check Markdown formatting and secrets in CI"](https://gitlab.com/colby.goettel/recipes/-/work_items/8)** (`Agent-ready`, `priority::weeks`, milestone Maintenance) — run the pinned `mdformat` and gitleaks in CI so commits made off the owner's Mac are checked too.
 - **[#9 "Give hot sauces their own folder"](https://gitlab.com/colby.goettel/recipes/-/work_items/9)** (`Present`, `priority::someday`, milestone Maintenance) — move the `sauce-*` hot sauces out of `salsas/`, if "hot sauce" is the right word for them.

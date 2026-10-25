@@ -1,6 +1,7 @@
 ---
 family: Chili
 variant: Ron's (knockoff)
+makes: about 5 cups
 tags: [game-day]
 ---
 

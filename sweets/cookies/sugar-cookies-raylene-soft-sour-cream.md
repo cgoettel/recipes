@@ -1,6 +1,7 @@
 ---
 family: Sugar cookies
 variant: Raylene's soft sour cream
+makes: about 36 cookies
 tags: [make-ahead]
 ---
 

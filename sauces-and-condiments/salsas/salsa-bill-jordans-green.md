@@ -1,6 +1,7 @@
 ---
 family: Salsa
 variant: Bill Jordan's green
+makes: about 1 cup
 tags: [vegan]
 ---
 

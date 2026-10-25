@@ -1,6 +1,7 @@
 ---
 family: Pancakes
 variant: Bacon cornmeal
+serves: 3–4
 ---
 
 # Bacon and cornmeal pancakes

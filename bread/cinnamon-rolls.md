@@ -1,3 +1,7 @@
+---
+makes: about 24 rolls
+---
+
 # Cinnamon rolls
 
 ## Ingredients

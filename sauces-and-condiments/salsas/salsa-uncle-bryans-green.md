@@ -1,6 +1,7 @@
 ---
 family: Salsa
 variant: Uncle Bryan's green
+makes: about 5 cups
 tags: [vegan]
 ---
 

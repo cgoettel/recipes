@@ -1,6 +1,7 @@
 ---
 family: Coffee
 variant: Cold brew
+makes: about 750 mL
 tags: [coffee]
 ---
 

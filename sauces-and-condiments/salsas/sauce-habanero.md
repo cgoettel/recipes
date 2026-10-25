@@ -1,6 +1,7 @@
 ---
 family: Salsa
 variant: Habanero
+makes: about 1½ cups
 tags: [vegan]
 ---
 

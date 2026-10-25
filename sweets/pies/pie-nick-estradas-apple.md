@@ -1,6 +1,7 @@
 ---
 family: Pie
 variant: Nick Estrada's apple
+makes: one 9-inch pie
 tags: [thanksgiving]
 ---
 

@@ -1,4 +1,5 @@
 ---
+makes: 8 panna cottas
 tags: [make-ahead]
 ---
 

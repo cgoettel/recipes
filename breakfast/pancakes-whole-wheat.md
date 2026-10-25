@@ -1,6 +1,7 @@
 ---
 family: Pancakes
 variant: Whole wheat
+serves: 2–3
 ---
 
 # Whole wheat pancakes

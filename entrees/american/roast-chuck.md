@@ -1,6 +1,7 @@
 ---
 family: Roast
 variant: Chuck
+serves: 4–6
 tags: [slow-cooker]
 ---
 

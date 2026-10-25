@@ -1,6 +1,7 @@
 ---
 family: Chocolate chip cookies
 variant: Grant's
+makes: about 48 cookies
 ---
 
 # Grant's chocolate chip cookies

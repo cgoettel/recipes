@@ -1,3 +1,7 @@
+---
+makes: about 30 cookies
+---
+
 # Soft and chewy peanut butter cookies
 
 Recipe courtesy Emily Atwood.

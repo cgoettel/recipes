@@ -1,3 +1,7 @@
+---
+makes: about 1 cup
+---
+
 # Apple cider syrup
 
 Reduced apple juice — no added sugar, the syrup is all concentrated fruit. The cinnamon stick rides along during the reduction and the pinch of salt at the end keeps it from reading flat-sweet.

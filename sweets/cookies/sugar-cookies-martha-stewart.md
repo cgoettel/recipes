@@ -1,6 +1,7 @@
 ---
 family: Sugar cookies
 variant: Martha Stewart's
+makes: about 48 cookies
 ---
 
 # Martha Stewart's sugar cookies

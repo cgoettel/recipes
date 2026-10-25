@@ -1,6 +1,7 @@
 ---
 family: Mustard
 variant: Whole grain
+makes: about 1½ cups
 tags: [hot-dog-contest]
 ---
 

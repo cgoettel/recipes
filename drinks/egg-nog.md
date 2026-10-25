@@ -1,4 +1,5 @@
 ---
+makes: about 1½ gallons
 tags: [christmas]
 ---
 

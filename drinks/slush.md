@@ -1,4 +1,5 @@
 ---
+makes: about 20 cups
 tags: [no-cook]
 ---
 

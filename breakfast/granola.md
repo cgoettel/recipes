@@ -1,3 +1,7 @@
+---
+makes: about 6 cups
+---
+
 # Granola
 
 ## Ingredients

@@ -1,6 +1,7 @@
 ---
 family: Sugar cookies
 variant: Haman's hats (poppy seed)
+makes: about 48 cookies
 ---
 
 # Poppy seed sugar cookies (Haman's hats)

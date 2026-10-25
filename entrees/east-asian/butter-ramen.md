@@ -1,3 +1,7 @@
+---
+serves: 1
+---
+
 # Butter ramen
 
 I got this recipe off of Instagram and have adapted it to my tastes and methods.

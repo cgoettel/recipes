@@ -1,6 +1,7 @@
 ---
 family: Salsa
 variant: Beverly's gringo
+makes: about 1 gallon
 tags: [no-cook, vegan]
 ---
 

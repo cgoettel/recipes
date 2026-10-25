@@ -1,6 +1,7 @@
 ---
 family: Steak
 variant: Kun Koki
+serves: 4
 tags: [grill]
 ---
 

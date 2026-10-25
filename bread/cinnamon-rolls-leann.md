@@ -1,6 +1,7 @@
 ---
 family: Cinnamon rolls
 variant: LeAnn's
+makes: 24 rolls
 tags: [make-ahead]
 ---
 

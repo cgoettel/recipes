@@ -1,6 +1,7 @@
 ---
 family: Cake
 variant: Lemon chiffon
+makes: one 10-inch cake
 ---
 
 # Lemon chiffon cake

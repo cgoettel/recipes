@@ -1,6 +1,7 @@
 ---
 family: Rice
 variant: Moro de guandules con coco
+serves: 10–12
 tags: [vegetarian]
 ---
 

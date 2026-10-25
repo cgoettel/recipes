@@ -1,6 +1,7 @@
 ---
 family: Fudge
 variant: Kay's
+makes: about 1½ lb
 tags: [christmas]
 ---
 

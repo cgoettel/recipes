@@ -1,3 +1,7 @@
+---
+makes: about 36 cookies
+---
+
 # Maple pecan cookies
 
 **Source:** http://www.inspiredbycharm.com/2013/09/butter-pecan-maple-crisps.html

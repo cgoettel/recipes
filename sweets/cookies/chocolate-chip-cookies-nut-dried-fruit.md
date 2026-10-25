@@ -1,6 +1,7 @@
 ---
 family: Chocolate chip cookies
 variant: Nut and dried fruit
+makes: about 24 cookies
 ---
 
 # Chocolate chip, nut, and dried fruit cookies

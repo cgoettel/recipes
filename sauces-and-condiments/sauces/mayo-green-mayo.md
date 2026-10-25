@@ -1,6 +1,7 @@
 ---
 family: Mayo
 variant: Green
+makes: about 3 cups
 tags: [no-cook, vegetarian]
 ---
 

@@ -1,6 +1,7 @@
 ---
 family: Stew
 variant: Raquelle's beef
+serves: 4–6
 tags: [slow-cooker]
 ---
 

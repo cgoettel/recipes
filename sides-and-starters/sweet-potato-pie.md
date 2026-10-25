@@ -1,4 +1,5 @@
 ---
+serves: 8–10
 tags: [vegetarian, thanksgiving]
 ---
 

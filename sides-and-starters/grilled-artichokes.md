@@ -1,4 +1,5 @@
 ---
+serves: 2–4
 tags: [grill, instant-pot]
 ---
 

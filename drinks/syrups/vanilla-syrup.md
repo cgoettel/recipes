@@ -1,3 +1,7 @@
+---
+makes: about 1½ cups
+---
+
 # Vanilla syrup
 
 A simple 1:1 syrup infused with a whole vanilla bean. Pull the bean once it's cool so the infusion doesn't turn bitter, and save the spent pod for vanilla sugar.

@@ -1,6 +1,7 @@
 ---
 family: Salsa
 variant: Fresno (fermented)
+makes: about 24 oz
 tags: [vegan, ferment]
 ---
 

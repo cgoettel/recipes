@@ -1,3 +1,7 @@
+---
+makes: about 2 cups
+---
+
 # Crumb topping
 
 ## Ingredients

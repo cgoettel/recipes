@@ -1,6 +1,7 @@
 ---
 family: Chocolate chip cookies
 variant: Mom's
+makes: about 48 cookies
 ---
 
 # Mom's chocolate chip cookies

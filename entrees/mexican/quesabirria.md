@@ -1,4 +1,5 @@
 ---
+serves: 6–8
 tags: [game-day]
 ---
 

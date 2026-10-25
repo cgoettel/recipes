@@ -1,6 +1,7 @@
 ---
 family: Burros
 variant: Grant's
+makes: about 16 burros
 ---
 
 # Grant's burros

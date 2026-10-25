@@ -1,6 +1,7 @@
 ---
 family: Oatmeal cookies
 variant: Apricot cranberry (Churn knockoff)
+makes: about 30 cookies
 tags: [make-ahead]
 ---
 

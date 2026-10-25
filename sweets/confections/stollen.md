@@ -1,4 +1,5 @@
 ---
+makes: 6 small stollen
 tags: [christmas]
 ---
 

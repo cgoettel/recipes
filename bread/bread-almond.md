@@ -1,6 +1,7 @@
 ---
 family: Bread
 variant: Almond
+makes: about 36 slices
 ---
 
 # Almond bread

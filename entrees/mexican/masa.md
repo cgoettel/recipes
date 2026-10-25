@@ -1,3 +1,7 @@
+---
+makes: about 4 cups
+---
+
 # Masa
 
 ## Ingredients

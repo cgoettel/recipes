@@ -1,6 +1,7 @@
 ---
 family: Tea
 variant: Iced
+makes: 2 L
 tags: [make-ahead, tea]
 ---
 

@@ -1,3 +1,7 @@
+---
+makes: about 30 cookies
+---
+
 # Snickerdoodles
 
 ## Ingredients

@@ -1,6 +1,7 @@
 ---
 family: Fudge
 variant: See's
+makes: one 9x13 pan
 tags: [christmas]
 ---
 

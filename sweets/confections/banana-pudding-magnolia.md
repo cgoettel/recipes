@@ -1,6 +1,7 @@
 ---
 family: Banana pudding
 variant: Magnolia Bakery
+serves: 12–16
 ---
 
 # Magnolia Bakery banana pudding

@@ -1,6 +1,7 @@
 ---
 family: Bread
 variant: Paul's crunchy
+makes: 2 loaves
 ---
 
 # Paul's crunchy bread

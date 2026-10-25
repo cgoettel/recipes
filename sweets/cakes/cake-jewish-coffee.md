@@ -1,6 +1,7 @@
 ---
 family: Cake
 variant: Jewish coffee
+makes: one 9x13 pan
 ---
 
 # Jewish coffee cake

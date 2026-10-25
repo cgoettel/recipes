@@ -1,3 +1,7 @@
+---
+makes: one 9x13 pan
+---
+
 # Chocolate mousse cake
 
 From [Grandma Goettel](https://www.familysearch.org/tree/person/details/KWCR-R7H)

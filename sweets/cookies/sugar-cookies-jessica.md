@@ -1,6 +1,7 @@
 ---
 family: Sugar cookies
 variant: Jessica's easy
+makes: about 36 cookies
 ---
 
 # Jessica's easy sugar cookies

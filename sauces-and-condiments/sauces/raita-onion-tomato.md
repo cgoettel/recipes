@@ -1,6 +1,7 @@
 ---
 family: Raita
 variant: Onion-tomato
+makes: about 1½ cups
 tags: [no-cook, vegetarian]
 ---
 

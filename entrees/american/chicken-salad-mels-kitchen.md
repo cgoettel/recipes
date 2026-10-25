@@ -1,6 +1,7 @@
 ---
 family: Chicken salad
 variant: Mel's Kitchen
+serves: 6–8
 ---
 
 # Mel's Kitchen chicken salad

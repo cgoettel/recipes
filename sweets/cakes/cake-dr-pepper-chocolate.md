@@ -1,6 +1,7 @@
 ---
 family: Cake
 variant: Dr Pepper chocolate
+makes: one 2-layer 9-inch cake
 ---
 
 # Dr Pepper chocolate cake

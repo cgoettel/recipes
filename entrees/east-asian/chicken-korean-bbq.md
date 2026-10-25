@@ -1,6 +1,7 @@
 ---
 family: Chicken
 variant: Korean BBQ
+serves: 2–3
 ---
 
 # Spicy Korean BBQ chicken

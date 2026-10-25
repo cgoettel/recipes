@@ -1,6 +1,7 @@
 ---
 family: Bread
 variant: Unleavened (Passover)
+makes: 16 flatbreads
 ---
 
 # Unleavened bread for Passover

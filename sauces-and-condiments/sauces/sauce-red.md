@@ -1,6 +1,7 @@
 ---
 family: Sauce
 variant: Red
+makes: about 5 cups
 ---
 
 # Red sauce

@@ -1,4 +1,5 @@
 ---
+makes: about 1⅓ cups
 tags: [no-cook, vegetarian]
 ---
 

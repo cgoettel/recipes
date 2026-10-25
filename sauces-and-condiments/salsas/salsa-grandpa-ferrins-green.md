@@ -1,6 +1,7 @@
 ---
 family: Salsa
 variant: Grandpa Ferrin's green
+makes: 6 quarts
 tags: [vegan]
 ---
 

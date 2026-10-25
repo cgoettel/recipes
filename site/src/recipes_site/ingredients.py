@@ -405,7 +405,15 @@ def parse_scale(value: str | None) -> Fraction:
     return Fraction(1)
 
 
-_YIELD_RE = re.compile(rf"(?P<low>{_NUM})(?:\s*(?:–|-|to)\s*(?P<high>{_NUM}))?")
+# The amount a serves/makes line leads with, after an optional "about" or
+# "enough for". A number later in the line ("one 9x13 pan") isn't the amount.
+_YIELD_RE = re.compile(
+    rf"^(?:(?:about|roughly|enough for(?: about)?)\s+|~\s*)?"
+    rf"(?P<low>{_NUM})(?:\s*(?:–|-|to)\s*(?P<high>{_NUM}))?"
+)
+_MEASURE_RE = re.compile(
+    r"\s*(cups?|quarts?|gallons?|pints?|tablespoons?|teaspoons?|oz|lb|g|kg|mL|L)\b"
+)
 
 
 def _decimal(value: Fraction) -> str:
@@ -413,18 +421,20 @@ def _decimal(value: Fraction) -> str:
 
 
 def scale_yield(text: str, scale: Fraction = Fraction(1), *, servings: bool = False) -> str:
-    """Scale the first amount in a serves/makes line: "6–8" at 2× reads "12–16".
+    """Scale the amount a serves/makes line leads with: "6–8" at 2× reads "12–16".
 
-    Servings round to whole people. A count of things ("2 loaves") only scales
-    when it lands on whole numbers above one; otherwise, rather than "1 loaves"
-    or "1½ cheeseballs", the line keeps its amount and adds "× ½". A decimal
-    ("3.375 gallons") scales exactly.
+    Servings round to whole people. A measured amount ("about 1½ cups") scales
+    like an ingredient. A count of things ("2 loaves") only scales when it lands
+    on whole numbers above one; otherwise, rather than "1 loaves" or "1½
+    cheeseballs", the line keeps its amount and adds "× ½", as does a line that
+    doesn't lead with a number ("one 9x13 pan"). A decimal ("3.375 gallons")
+    scales exactly.
     """
     if scale == 1:
         return text
-    m = _YIELD_RE.search(text)
+    m = _YIELD_RE.match(text)
     if not m:
-        return text
+        return text if servings else f"{text} × {format_number(scale)}"
     try:
         low = _parse_number(m.group("low"))
         high = _parse_number(m.group("high")) if m.group("high") else None
@@ -436,8 +446,10 @@ def scale_yield(text: str, scale: Fraction = Fraction(1), *, servings: bool = Fa
     elif servings:
         people = list(dict.fromkeys(max(1, round(v)) for v in values))  # "2–2" reads "2"
         scaled = "–".join(str(p) for p in people)
+    elif _MEASURE_RE.match(text, m.end()):
+        scaled = "–".join(format_number(v) for v in values)
     elif all(v.denominator == 1 and v > 1 for v in values) and low > 1:
         scaled = "–".join(str(int(v)) for v in values)
     else:
         return f"{text} × {format_number(scale)}"
-    return text[: m.start()] + scaled + text[m.end() :]
+    return text[: m.start("low")] + scaled + text[m.end() :]

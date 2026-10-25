@@ -1,6 +1,7 @@
 ---
 family: Soda
 variant: Cream
+makes: about 2.25 L syrup
 ---
 
 # Cream soda

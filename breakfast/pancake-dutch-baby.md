@@ -1,6 +1,7 @@
 ---
 family: Pancakes
 variant: Dutch baby (German pancakes)
+serves: 2–3
 ---
 
 # Dutch baby (German pancakes)

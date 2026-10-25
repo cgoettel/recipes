@@ -1,6 +1,7 @@
 ---
 family: Chocolate chip cookies
 variant: Giada's oatmeal cranberry
+makes: 12 cookies
 ---
 
 # Giada's oatmeal cranberry chocolate chip cookies

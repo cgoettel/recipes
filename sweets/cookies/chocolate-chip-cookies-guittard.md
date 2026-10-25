@@ -1,6 +1,7 @@
 ---
 family: Chocolate chip cookies
 variant: Guittard
+makes: about 60 cookies
 ---
 
 # Guittard chocolate chip cookies

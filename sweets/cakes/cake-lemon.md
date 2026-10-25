@@ -1,6 +1,7 @@
 ---
 family: Cake
 variant: Lemon
+makes: one bundt cake
 ---
 
 # Lemon cake

@@ -1,6 +1,7 @@
 ---
 family: Sauce
 variant: Orange
+makes: about 1¼ cups
 ---
 
 # Orange sauce

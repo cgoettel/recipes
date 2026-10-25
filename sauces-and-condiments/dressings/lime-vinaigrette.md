@@ -1,4 +1,5 @@
 ---
+makes: about 1¾ cups
 tags: [no-cook, vegan]
 ---
 

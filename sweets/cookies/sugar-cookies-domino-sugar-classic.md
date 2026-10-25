@@ -1,6 +1,7 @@
 ---
 family: Sugar cookies
 variant: Domino Sugar's classic
+makes: about 48 cookies
 ---
 
 # Domino Sugar's classic sugar cookies

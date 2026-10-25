@@ -1,3 +1,7 @@
+---
+makes: about 30 cookies
+---
+
 # Oatmeal cookies
 
 The original recipe, from King Arthur flour, did not include steel cut oats, had fewer overall oats, and included chocolate chips. I prefer this recipe without the chocolate chips and I like the texture that the steel cut oats bring.

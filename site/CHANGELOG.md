@@ -2,6 +2,12 @@
 
 The site's running version is the newest header here; CI bakes it into the image.
 
+## v0.5.0 (2026-10-25)
+
+- Tapping a step marks your place: it finishes every step before it and reopens every step after it. Recipes with separate parts (dough and filling, cake and icing) track each part on its own.
+- The header and footer stripes change on every page, with no color repeated on a page.
+- The index groups recipe families: "Pancakes" shows once over Classic, Whole Wheat and the rest, and a section no longer repeats its own name ("Bread — Almond" under Bread is just "Almond").
+
 ## v0.4.1 (2026-10-25)
 
 - The stripes beside the wordmark link home, like the wordmark.

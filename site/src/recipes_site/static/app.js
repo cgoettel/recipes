@@ -37,6 +37,9 @@
         li.hidden = !hit;
         if (hit) shown++;
       });
+      document.querySelectorAll("[data-family]").forEach(function (fam) {
+        fam.hidden = !fam.querySelector("[data-entry]:not([hidden])");
+      });
       document.querySelectorAll("[data-subcategory]").forEach(function (sub) {
         sub.hidden = !sub.querySelector("[data-entry]:not([hidden])");
       });
@@ -174,14 +177,22 @@
       b.setAttribute("aria-pressed", on ? "true" : "false");
       b.classList.remove("is-current");
     });
+    // Each part (Dough, Filling, ...) has its own current step: its first open one.
+    var currents = {};
     var current = null;
-    for (var i = 0; i < steps.length; i++) {
-      if (!done[steps[i].getAttribute("data-check")]) { current = steps[i]; break; }
-    }
-    if (current) current.classList.add("is-current");
+    steps.forEach(function (s) {
+      var p = s.getAttribute("data-part");
+      if (!done[s.getAttribute("data-check")] && !currents[p]) {
+        currents[p] = s;
+        s.classList.add("is-current");
+        if (!current) current = s;
+      }
+    });
+    var currentIds = {};
+    Object.keys(currents).forEach(function (p) { currentIds[currents[p].getAttribute("data-check")] = true; });
     recipe.querySelectorAll("[data-seg]").forEach(function (seg) {
       var id = seg.getAttribute("data-seg");
-      seg.className = done[id] ? "is-done" : (current && current.getAttribute("data-check") === id ? "is-current" : "");
+      seg.className = done[id] ? "is-done" : (currentIds[id] ? "is-current" : "");
     });
     if (ingCount) {
       var got = ings.filter(function (b) { return done[b.getAttribute("data-check")]; }).length;
@@ -196,7 +207,18 @@
     b.addEventListener("click", function (ev) {
       if (ev.target.closest("a")) return; // links inside a line still work
       var id = b.getAttribute("data-check");
-      if (done[id]) delete done[id]; else done[id] = true;
+      if (b.hasAttribute("data-step")) {
+        // A step marks where you are in its part: tapping an open step finishes
+        // it and everything before it; tapping a finished one reopens it. Either
+        // way, everything after it in that part opens again, so a mis-tap undoes
+        // in one tap. Other parts are left alone.
+        var part = steps.filter(function (s) { return s.getAttribute("data-part") === b.getAttribute("data-part"); });
+        var upTo = part.indexOf(b) + (done[id] ? 0 : 1);
+        part.forEach(function (s, i) {
+          if (i < upTo) done[s.getAttribute("data-check")] = true;
+          else delete done[s.getAttribute("data-check")];
+        });
+      } else if (done[id]) delete done[id]; else done[id] = true;
       store(key, done);
       render();
     });

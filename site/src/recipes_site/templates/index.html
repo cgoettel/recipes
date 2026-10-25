@@ -18,10 +18,15 @@
   <div data-subcategory>
     {% if sub.title %}<h3 class="subheading">{{ sub.title }}</h3>{% endif %}
     <ul class="recipe-list">
-      {% for entry in sub.entries %}
+      {% for row in sub.rows %}
+      {% if row.label %}<li class="family" data-family><span class="family-label">{{ row.label }}</span>
+        <ul class="recipe-list family-list">{% endif %}
+      {% for entry, shown in row.items %}
       <li data-entry data-text="{{ (entry.title ~ ' ' ~ recipes[entry.slug].title ~ ' ' ~ (recipes[entry.slug].subtitle or '')) | lower }}">
-        <a href="/{{ entry.slug }}">{{ entry.title }}</a>
+        <a href="/{{ entry.slug }}">{{ shown }}</a>
       </li>
+      {% endfor %}
+      {% if row.label %}</ul></li>{% endif %}
       {% endfor %}
     </ul>
   </div>

@@ -136,6 +136,56 @@ class Category:
 class Subcategory:
     title: str | None
     entries: list[Entry]
+    rows: list[Row] = field(default_factory=list)
+
+
+@dataclass
+class Row:
+    """One line of the index: a recipe, or a labeled family of recipes.
+
+    README titles read "Family — Variant" ("Pancakes — Classic"). On the index,
+    a family with two or more recipes shows its name once as a label over the
+    variants, a family named after its own section ("Bread — Almond" under
+    Bread) drops the repeated word, and a one-off keeps its whole title.
+    """
+
+    label: str | None  # family name, for a group
+    items: list[tuple[Entry, str]]  # (entry, what to show)
+
+
+def _family(title: str) -> tuple[str, str] | None:
+    head, sep, rest = title.partition(" — ")
+    return (head.strip(), rest.strip()) if sep and rest.strip() else None
+
+
+def _key(name: str) -> str:
+    # "Pancake" and "Pancakes" are one family.
+    return name.lower().removesuffix("s")
+
+
+def index_rows(entries: list[Entry], *section_titles: str | None) -> list[Row]:
+    sections = {_key(t) for t in section_titles if t}
+    families: dict[str, list[str]] = {}
+    for e in entries:
+        fam = _family(e.title)
+        if fam:
+            families.setdefault(_key(fam[0]), []).append(fam[0])
+    rows: list[Row] = []
+    grouped: dict[str, Row] = {}
+    for e in entries:
+        fam = _family(e.title)
+        if fam and _key(fam[0]) in sections:
+            rows.append(Row(label=None, items=[(e, fam[1])]))
+        elif fam and len(families[_key(fam[0])]) > 1:
+            key = _key(fam[0])
+            if key not in grouped:
+                names = families[key]
+                grouped[key] = Row(label=max(set(names), key=names.count), items=[])
+                rows.append(grouped[key])
+            grouped[key].items.append((e, fam[1]))
+        else:
+            rows.append(Row(label=None, items=[(e, e.title)]))
+    return rows
 
 
 @dataclass
@@ -296,6 +346,8 @@ def load(content_dir: Path) -> Catalog:
         categories[-1].subcategories[-1].entries.append(Entry(slug=slug, title=m.group("title")))
     for cat in categories:
         cat.subcategories = [s for s in cat.subcategories if s.entries]
+        for sub in cat.subcategories:
+            sub.rows = index_rows(sub.entries, cat.title, sub.title)
         if cat.subcategories:
             first = cat.subcategories[0].entries[0].slug
             cat.color = CATEGORY_COLORS.get(first.split("/", 1)[0], "sky")

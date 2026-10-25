@@ -18,7 +18,7 @@ from fastapi.templating import Jinja2Templates
 from markupsafe import Markup
 from prometheus_client import CONTENT_TYPE_LATEST, generate_latest
 
-from recipes_site import __version__, bakers, catalog, cooklog, counts, shopping
+from recipes_site import __version__, bakers, catalog, cooklog, counts, shopping, stripes
 from recipes_site import ingredients as ing
 from recipes_site.cf_access import CloudflareAccessMiddleware
 from recipes_site.config import Settings, get_settings
@@ -134,6 +134,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     templates.env.globals["asset_version"] = settings.asset_version
     templates.env.globals["app_version"] = __version__
     templates.env.globals["scales"] = ing.SCALES
+    templates.env.globals["stripes"] = stripes.draw
     templates.env.filters["pct"] = lambda v: f"{float(v):.1f}".rstrip("0").rstrip(".")
     templates.env.filters["grams"] = lambda v: ing.format_number(v, metric=True)
     app.state.templates = templates

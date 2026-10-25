@@ -29,6 +29,10 @@
       {%- for ch in "recipes" -%}<span class="wm-{{ loop.index }}" aria-hidden="true">{{ ch }}</span>{%- endfor -%}
     </a>
     <div class="header-stripes" aria-hidden="true"><i></i><i></i><i></i></div>
+    <a class="theme-toggle list-link" href="/list" data-list-link aria-label="Shopping list">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6h11M9 12h11M9 18h11"/><path d="M4 6l1 1 2-2M4 12l1 1 2-2M4 18l1 1 2-2"/></svg>
+      <span class="list-count" data-list-count hidden></span>
+    </a>
     <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch light or dark">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
     </button>

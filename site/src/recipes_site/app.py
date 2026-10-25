@@ -7,17 +7,17 @@ from dataclasses import dataclass, field
 from fractions import Fraction
 from importlib import resources
 from pathlib import Path
-from typing import TYPE_CHECKING
+from typing import TYPE_CHECKING, Annotated
 
 import structlog
-from fastapi import BackgroundTasks, FastAPI, HTTPException, Request
+from fastapi import BackgroundTasks, FastAPI, HTTPException, Query, Request
 from fastapi.responses import HTMLResponse, Response
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from markupsafe import Markup
 from prometheus_client import CONTENT_TYPE_LATEST, generate_latest
 
-from recipes_site import __version__, bakers, catalog, counts
+from recipes_site import __version__, bakers, catalog, counts, shopping
 from recipes_site import ingredients as ing
 from recipes_site.cf_access import CloudflareAccessMiddleware
 from recipes_site.config import Settings, get_settings
@@ -166,6 +166,43 @@ def create_app(settings: Settings | None = None) -> FastAPI:
                 "recipes": cat.recipes,
                 "house_notes": Markup(catalog.render_markdown(cat.house_notes, "")),
             },
+        )
+
+    @app.get("/list", response_class=HTMLResponse)
+    def shopping_list(request: Request, r: Annotated[list[str] | None, Query()] = None) -> Response:
+        cat = get_catalog()
+        plan = [
+            (cat.recipes[slug], scale)
+            for slug, scale in shopping.parse_plan(r or [])
+            if slug in cat.recipes
+        ]
+        labels = {value: label for label, value in ing.SCALES}
+        return templates.TemplateResponse(
+            request,
+            "list.html",
+            {
+                "plan": [(rec, scale, labels.get(scale, "")) for rec, scale in plan],
+                "sections": shopping.build(plan),
+                "section_colors": {
+                    "Produce": "yellow",
+                    "Dairy and eggs": "sky",
+                    "Meat and fish": "crimson",
+                    "Bakery": "peach",
+                    "Frozen": "pale",
+                    "Pantry": "violet",
+                },
+            },
+        )
+
+    @app.get("/sw.js")
+    def service_worker() -> Response:
+        # Served from the root so its scope covers every page.
+        body = (_pkg_dir("static") / "sw.js").read_text(encoding="utf-8")
+        body = body.replace("__VERSION__", settings.asset_version)
+        return Response(
+            body,
+            media_type="text/javascript",
+            headers={"Cache-Control": "no-cache", "Service-Worker-Allowed": "/"},
         )
 
     @app.get("/learn/bakers-percentages", response_class=HTMLResponse)

@@ -37,10 +37,25 @@
       <svg class="when-closed" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
       <svg class="when-open" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
     </button>
-    <button type="button" class="icon-btn person" data-panel-toggle="person" data-person aria-controls="panel-person" aria-expanded="false" aria-label="You: day or night, and your cook log">
-      <svg class="person-outline" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.2-4 4.2-6 8-6s6.8 2 8 6"/></svg>
-      <span class="person-emoji" aria-hidden="true" hidden>👩🏻‍🦳</span>
-    </button>
+    {# The person button opens a small popover, the fleet's settings-gear
+       pattern (cocktails#249): the dark-mode pill, then the cook log. #}
+    <div class="person-wrap">
+      <button type="button" class="icon-btn person" id="person" data-person aria-haspopup="true" aria-expanded="false" aria-controls="person-pop" aria-label="You: dark mode and your cook log">
+        <svg class="person-outline" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.2-4 4.2-6 8-6s6.8 2 8 6"/></svg>
+        <span class="person-emoji" aria-hidden="true" hidden>👩🏻‍🦳</span>
+      </button>
+      <div id="person-pop" class="person-pop" role="menu">
+        <div class="pop-row">
+          <span class="pop-label">Dark mode</span>
+          <button type="button" id="theme-pill" class="theme-pill" role="switch" aria-checked="false" aria-label="Toggle light or dark">
+            <span class="theme-pill-knob" aria-hidden="true"></span>
+          </button>
+        </div>
+        <div class="pop-row pop-row-link">
+          <a href="/me" class="pop-link" role="menuitem" data-person-link>Sign in to your cook log</a>
+        </div>
+      </div>
+    </div>
   </header>
   <div class="panel" id="panel-menu" data-panel="menu" hidden>
     <ul class="menu-links">
@@ -52,12 +67,6 @@
     <nav class="jump" aria-label="Categories">
       {% for cat in nav_categories() %}<a href="/#{{ cat.slug }}" class="chip chip-{{ cat.color }}">{{ cat.title | lower }}</a>{% endfor %}
     </nav>
-  </div>
-  <div class="panel panel-person" id="panel-person" data-panel="person" hidden>
-    <div class="seg" role="group" aria-label="Day or night">
-      <button type="button" data-set-theme="light">🌻 Day</button><button type="button" data-set-theme="dark">🌘 Night</button>
-    </div>
-    <a class="panel-link" href="/me" data-person-link>Sign in to your cook log</a>
   </div>
   <main class="page">
     {% block content %}{% endblock %}

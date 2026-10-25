@@ -115,18 +115,34 @@
   .person.is-owner { border-color: var(--color-yellow); }
   .person-emoji { font-size: 1.4rem; line-height: 1; }
 
-  /* Header panels: the menu and the person panel drop in under the header. */
+  /* The menu drops in under the header. */
   .panel { max-width: 44rem; width: 100%; margin: 0 auto; box-sizing: border-box; padding: 0 1rem 0.9rem; display: flex; flex-direction: column; gap: 0.6rem; border-bottom: 2px solid var(--color-line); }
   .panel[hidden] { display: none; }
-  .panel-person { align-items: flex-end; }
   .menu-links { list-style: none; margin: 0; padding: 0; }
   .menu-links a { display: flex; justify-content: space-between; align-items: center; gap: 1rem; min-height: 44px; border-bottom: 1px solid var(--color-line); color: var(--color-text); text-decoration: none; font-weight: 700; font-size: 1.05rem; }
   .panel-cap { margin: 0.3rem 0 0; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-muted); }
   .panel .jump { margin: 0; }
-  .seg { display: inline-flex; border: 2px solid var(--color-line); border-radius: 22px; overflow: hidden; }
-  .seg button { font: inherit; font-weight: 700; font-size: 0.95rem; min-height: 44px; padding: 0 1rem; border: 0; background: transparent; color: var(--color-text); cursor: pointer; }
-  .seg button.is-on { background: var(--color-accent); color: var(--color-on-accent); }
-  .panel-link { display: inline-flex; align-items: center; min-height: 44px; font-weight: 700; }
+
+  /* The person popover: the fleet's settings-gear dropdown (cocktails#249),
+     overlaid under the button rather than pushing the page down. visibility
+     (not just opacity) takes it out of the tab order while closed. */
+  .person-wrap { position: relative; display: inline-flex; flex: none; }
+  .person-pop { position: absolute; top: calc(100% + 0.4rem); right: 0; z-index: 20; min-width: 13rem; padding: 0.85rem 1rem; border: 2px solid var(--color-line); border-radius: 12px; background: var(--color-surface); box-shadow: 0 6px 24px rgb(11 16 32 / 0.18); text-align: left; opacity: 0; transform: translateY(-4px); pointer-events: none; visibility: hidden; transition: opacity 120ms ease, transform 120ms ease, visibility 0s linear 120ms; }
+  .person-pop.is-open { opacity: 1; transform: translateY(0); pointer-events: auto; visibility: visible; transition: opacity 120ms ease, transform 120ms ease, visibility 0s; }
+  .pop-row { display: flex; align-items: center; justify-content: space-between; gap: 1.25rem; }
+  .pop-label { font-weight: 700; color: var(--color-muted); }
+  .pop-row-link { margin-top: 0.6rem; padding-top: 0.6rem; border-top: 1px solid var(--color-line); }
+  .pop-link { flex: 1; margin: 0 -1rem; padding: 0.5rem 1rem; min-height: 44px; box-sizing: border-box; display: flex; align-items: center; font-weight: 700; color: var(--color-accent); text-decoration: none; }
+  .pop-link:hover { background: var(--color-bg); }
+
+  /* Dark-mode pill: 🌻 parked left in light, 🌘 slid right in dark. */
+  .theme-pill { position: relative; width: 3.9rem; height: 2.1rem; flex-shrink: 0; padding: 0; border-radius: 999px; border: 2px solid var(--color-line); background: var(--color-bg); cursor: pointer; transition: background 150ms ease, border-color 150ms ease; }
+  .theme-pill-knob { position: absolute; top: 50%; left: 0.18rem; width: 1.6rem; height: 1.6rem; border-radius: 999px; background: var(--color-yellow); transform: translateY(-50%); box-shadow: 0 1px 3px rgb(0 0 0 / 0.18); transition: left 160ms ease, background 150ms ease; display: flex; align-items: center; justify-content: center; font-size: 0.95rem; line-height: 1; }
+  .theme-pill-knob::after { content: "🌻"; }
+  .theme-pill.is-dark { border-color: var(--color-sky); }
+  .theme-pill.is-dark .theme-pill-knob { left: calc(100% - 1.78rem); background: var(--color-sky); }
+  .theme-pill.is-dark .theme-pill-knob::after { content: "🌘"; }
+  @media (prefers-reduced-motion: reduce) { .person-pop, .person-pop.is-open, .theme-pill, .theme-pill-knob { transition: none; } }
 
   .site-footer { max-width: 44rem; width: 100%; margin: 0 auto; padding: 1.5rem 1rem 2rem; box-sizing: border-box; color: var(--color-muted); font-size: 0.85rem; }
   .stripes { display: flex; margin-bottom: 0.75rem; }

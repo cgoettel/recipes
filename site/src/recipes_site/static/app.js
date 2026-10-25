@@ -13,8 +13,7 @@
     }
   }
 
-  // Header panels: the menu and the person panel. One open at a time; a tap
-  // outside or Escape closes it.
+  // The menu panel drops in under the header; a tap outside or Escape closes it.
   var toggles = Array.prototype.slice.call(document.querySelectorAll("[data-panel-toggle]"));
   function closePanels(except) {
     toggles.forEach(function (t) {
@@ -36,32 +35,49 @@
       t.setAttribute("aria-expanded", open ? "true" : "false");
     });
   });
-  document.addEventListener("click", function (ev) {
-    if (!ev.target.closest("[data-panel]")) closePanels(null);
-  });
-  document.addEventListener("keydown", function (ev) {
-    if (ev.key === "Escape") closePanels(null);
-  });
-
-  // Day or night, from the person panel.
-  var themeButtons = Array.prototype.slice.call(document.querySelectorAll("[data-set-theme]"));
-  function paintTheme() {
-    var now = document.documentElement.dataset.theme;
-    themeButtons.forEach(function (b) {
-      var on = b.getAttribute("data-set-theme") === now;
-      b.classList.toggle("is-on", on);
-      b.setAttribute("aria-pressed", on ? "true" : "false");
+  // The person popover (the fleet's settings-gear pattern, cocktails#249).
+  var personBtn = document.getElementById("person");
+  var pop = document.getElementById("person-pop");
+  function setPop(open) {
+    if (!pop) return;
+    pop.classList.toggle("is-open", open);
+    personBtn.setAttribute("aria-expanded", String(open));
+  }
+  if (personBtn && pop) {
+    personBtn.addEventListener("click", function (ev) {
+      ev.stopPropagation();
+      closePanels(null);
+      setPop(!pop.classList.contains("is-open"));
     });
   }
-  themeButtons.forEach(function (b) {
-    b.addEventListener("click", function () {
-      var next = b.getAttribute("data-set-theme");
+  // Opening the menu closes the popover.
+  toggles.forEach(function (t) { t.addEventListener("click", function () { setPop(false); }); });
+
+  document.addEventListener("click", function (ev) {
+    if (!ev.target.closest("[data-panel]")) closePanels(null);
+    if (pop && !pop.contains(ev.target)) setPop(false);
+  });
+  document.addEventListener("keydown", function (ev) {
+    if (ev.key === "Escape") { closePanels(null); setPop(false); }
+  });
+
+  // Dark mode pill: 🌻 parked left in light, 🌘 slid right in dark.
+  var pill = document.getElementById("theme-pill");
+  function syncPill() {
+    if (!pill) return;
+    var dark = document.documentElement.dataset.theme === "dark";
+    pill.classList.toggle("is-dark", dark);
+    pill.setAttribute("aria-checked", dark ? "true" : "false");
+  }
+  if (pill) {
+    pill.addEventListener("click", function () {
+      var next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
       document.documentElement.dataset.theme = next;
       try { localStorage.setItem("theme", next); } catch (e) {}
-      paintTheme();
+      syncPill();
     });
-  });
-  paintTheme();
+  }
+  syncPill();
 
   // Signed in? /me/* sits behind Cloudflare Access, so for anyone without a
   // current login the request is redirected off-site and fetch fails. Success
@@ -75,7 +91,7 @@
         person.classList.add("is-owner");
         person.querySelector(".person-outline").setAttribute("hidden", "");
         person.querySelector(".person-emoji").hidden = false;
-        person.setAttribute("aria-label", "You're signed in: day or night, and your cook log");
+        person.setAttribute("aria-label", "You're signed in: dark mode and your cook log");
         var link = document.querySelector("[data-person-link]");
         if (link) link.textContent = "Cook log";
       })

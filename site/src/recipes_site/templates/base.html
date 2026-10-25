@@ -46,8 +46,7 @@
       </button>
       <div id="person-pop" class="person-pop" role="menu">
         <div class="pop-row">
-          <span class="pop-label">Dark mode</span>
-          <button type="button" id="theme-pill" class="theme-pill" role="switch" aria-checked="false" aria-label="Toggle light or dark">
+          <button type="button" id="theme-pill" class="theme-pill" role="switch" aria-checked="false" aria-label="Dark mode">
             <span class="theme-pill-knob" aria-hidden="true"></span>
           </button>
         </div>
@@ -56,8 +55,8 @@
         </div>
       </div>
     </div>
-  </header>
-  <div class="panel" id="panel-menu" data-panel="menu" hidden>
+    {# The menu overlays the page, dropped from the header's bottom edge. #}
+    <div class="panel" id="panel-menu" data-panel="menu" hidden>
     <ul class="menu-links">
       <li><a href="/">All recipes</a></li>
       <li><a href="/list">Shopping list</a></li>
@@ -67,7 +66,8 @@
     <nav class="jump" aria-label="Categories">
       {% for cat in nav_categories() %}<a href="/#{{ cat.slug }}" class="chip chip-{{ cat.color }}">{{ cat.title | lower }}</a>{% endfor %}
     </nav>
-  </div>
+    </div>
+  </header>
   <main class="page">
     {% block content %}{% endblock %}
   </main>

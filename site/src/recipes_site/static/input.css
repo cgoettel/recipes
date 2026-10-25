@@ -97,7 +97,7 @@
   .small { font-size: 0.85rem; }
 
   /* Header: the wordmark plus mural stripes */
-  .site-header { max-width: 44rem; width: 100%; margin: 0 auto; box-sizing: border-box; padding: 1rem 1rem 0.75rem; display: flex; align-items: center; gap: 0.6rem; }
+  .site-header { position: relative; max-width: 44rem; width: 100%; margin: 0 auto; box-sizing: border-box; padding: 1rem 1rem 0.75rem; display: flex; align-items: center; gap: 0.6rem; }
   .wordmark { font-family: var(--font-brand); font-size: 2.1rem; line-height: 1; text-decoration: none; white-space: nowrap; letter-spacing: -0.01em; }
   .wordmark span { text-shadow: 3px 3px 0 var(--color-shade); }
   .wm-1 { color: var(--color-crimson); } .wm-2 { color: var(--color-cobalt); } .wm-3 { color: var(--color-yellow); }
@@ -115,8 +115,8 @@
   .person.is-owner { border-color: var(--color-yellow); }
   .person-emoji { font-size: 1.4rem; line-height: 1; }
 
-  /* The menu drops in under the header. */
-  .panel { max-width: 44rem; width: 100%; margin: 0 auto; box-sizing: border-box; padding: 0 1rem 0.9rem; display: flex; flex-direction: column; gap: 0.6rem; border-bottom: 2px solid var(--color-line); }
+  /* The menu overlays the page from the header's bottom edge. */
+  .panel { position: absolute; top: 100%; left: 1rem; right: 1rem; z-index: 20; box-sizing: border-box; padding: 0.6rem 1rem 1rem; display: flex; flex-direction: column; gap: 0.6rem; border: 2px solid var(--color-line); border-radius: 12px; background: var(--color-surface); box-shadow: 0 6px 24px rgb(11 16 32 / 0.18); }
   .panel[hidden] { display: none; }
   .menu-links { list-style: none; margin: 0; padding: 0; }
   .menu-links a { display: flex; justify-content: space-between; align-items: center; gap: 1rem; min-height: 44px; border-bottom: 1px solid var(--color-line); color: var(--color-text); text-decoration: none; font-weight: 700; font-size: 1.05rem; }
@@ -127,12 +127,11 @@
      overlaid under the button rather than pushing the page down. visibility
      (not just opacity) takes it out of the tab order while closed. */
   .person-wrap { position: relative; display: inline-flex; flex: none; }
-  .person-pop { position: absolute; top: calc(100% + 0.4rem); right: 0; z-index: 20; min-width: 13rem; padding: 0.85rem 1rem; border: 2px solid var(--color-line); border-radius: 12px; background: var(--color-surface); box-shadow: 0 6px 24px rgb(11 16 32 / 0.18); text-align: left; opacity: 0; transform: translateY(-4px); pointer-events: none; visibility: hidden; transition: opacity 120ms ease, transform 120ms ease, visibility 0s linear 120ms; }
+  .person-pop { position: absolute; top: calc(100% + 0.4rem); right: 0; z-index: 20; width: max-content; padding: 0.6rem 0.75rem; border: 2px solid var(--color-line); border-radius: 12px; background: var(--color-surface); box-shadow: 0 6px 24px rgb(11 16 32 / 0.18); text-align: left; opacity: 0; transform: translateY(-4px); pointer-events: none; visibility: hidden; transition: opacity 120ms ease, transform 120ms ease, visibility 0s linear 120ms; }
   .person-pop.is-open { opacity: 1; transform: translateY(0); pointer-events: auto; visibility: visible; transition: opacity 120ms ease, transform 120ms ease, visibility 0s; }
-  .pop-row { display: flex; align-items: center; justify-content: space-between; gap: 1.25rem; }
-  .pop-label { font-weight: 700; color: var(--color-muted); }
+  .pop-row { display: flex; align-items: center; justify-content: center; }
   .pop-row-link { margin-top: 0.6rem; padding-top: 0.6rem; border-top: 1px solid var(--color-line); }
-  .pop-link { flex: 1; margin: 0 -1rem; padding: 0.5rem 1rem; min-height: 44px; box-sizing: border-box; display: flex; align-items: center; font-weight: 700; color: var(--color-accent); text-decoration: none; }
+  .pop-link { flex: 1; margin: 0 -0.75rem; padding: 0.5rem 0.75rem; white-space: nowrap; min-height: 44px; box-sizing: border-box; display: flex; align-items: center; font-weight: 700; color: var(--color-accent); text-decoration: none; }
   .pop-link:hover { background: var(--color-bg); }
 
   /* Dark-mode pill: 🌻 parked left in light, 🌘 slid right in dark. */

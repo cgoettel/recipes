@@ -28,7 +28,7 @@
     <a class="wordmark" href="/" aria-label="recipes, home">
       {%- for ch in "recipes" -%}<span class="wm-{{ loop.index }}" aria-hidden="true">{{ ch }}</span>{%- endfor -%}
     </a>
-    <div class="header-stripes" aria-hidden="true"><i></i><i></i><i></i></div>
+    <a class="header-stripes" href="/" tabindex="-1" aria-hidden="true"><i></i><i></i><i></i></a>
     <a class="theme-toggle list-link" href="/list" data-list-link aria-label="Shopping list">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6h11M9 12h11M9 18h11"/><path d="M4 6l1 1 2-2M4 12l1 1 2-2M4 18l1 1 2-2"/></svg>
       <span class="list-count" data-list-count hidden></span>
@@ -42,7 +42,7 @@
   </main>
   <footer class="site-footer">
     <div class="stripes" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
-    <p>Every recipe here lives as Markdown in <a href="https://gitlab.com/colby.goettel/recipes">the recipes repo</a>. v{{ app_version }}</p>
+    <p>v{{ app_version }}</p>
   </footer>
   <script src="{{ url_for('static', path='/app.js') }}?v={{ asset_version }}" defer></script>
 </body>

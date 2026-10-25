@@ -225,7 +225,6 @@
   .bar-coral { background: var(--color-coral); }
   .reset-row { margin-top: 1rem; display: flex; justify-content: flex-end; gap: 0.5rem; flex-wrap: wrap; }
   .extra { margin-top: 2rem; }
-  .source-link { margin-top: 2rem; }
 
   /* Rendered Markdown */
   .prose p { margin: 0.6rem 0; }

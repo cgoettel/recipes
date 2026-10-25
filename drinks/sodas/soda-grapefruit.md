@@ -1,6 +1,7 @@
 ---
 family: Soda
 variant: Grapefruit
+makes: about 5 L syrup
 ---
 
 # Grapefruit soda
@@ -10,7 +11,7 @@ This recipe comes from [Glen and Friends Cooking](https://www.youtube.com/watch?
 ## Ingredients
 
 - 2 L water
-- 13600 g cane sugar
+- 1360 g cane sugar
 - 42 g citric acid
 - 8 pink or star ruby grapefruit
 

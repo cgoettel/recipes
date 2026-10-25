@@ -176,12 +176,9 @@ Bryce owns the shared Google Drive `Recipes/` folder; the owner also has top-lev
 
 Open items only; shipped work lives in the git history.
 
-**Site (v1)** — recipes.skalchemy.com, time-boxed; close the milestone when v1 is live.
+**Site (v1)** — recipes.skalchemy.com is live; what remains is the Markdown cleanup below. Time-boxed: close the milestone once these land.
 
-- **[#12 "Plan several recipes and get one merged shopping list"](https://gitlab.com/colby.goettel/recipes/-/work_items/12)** (`Agent-ready`, `priority::weeks`) — merged, grouped by store section, staples collapsed, "bought" kept separate from cook mode's "added", works offline.
-- **[#13 "Bread view with baker's percentages and a theory page"](https://gitlab.com/colby.goettel/recipes/-/work_items/13)** (`Agent-ready`, `priority::weeks`) — flour is 100%, scale by dough weight, every ratio explained; reads the ≈gram estimates on bread recipes.
-- **[#14 "Private cook log and tested status"](https://gitlab.com/colby.goettel/recipes/-/work_items/14)** (`Agent-ready`, `priority::weeks`) — "made it" from cook mode, behind Cloudflare Access; doubles as the tested marker.
-- **[#6 "Add front matter and normalize recipe structure for the site"](https://gitlab.com/colby.goettel/recipes/-/work_items/6)** (`Present`, `priority::months`) — YAML front matter (`status`, `serves`, `tags`) and one heading per section; blocked by #5's data model, lands after #4.
+- **[#6 "Add front matter and normalize recipe structure for the site"](https://gitlab.com/colby.goettel/recipes/-/work_items/6)** (`Present`, `priority::months`) — YAML front matter (`serves`, `tags`; tested status now comes from the cook log) and one heading per section. Unblocked now that the site and the units sweep have landed.
 - **[#7 "Generate the README table of contents from front matter"](https://gitlab.com/colby.goettel/recipes/-/work_items/7)** (`Present`, `priority::months`) — the intro stays hand-written; the list becomes generated, alphabetical, and consistently cased.
 
 **Maintenance** and **Creations**:

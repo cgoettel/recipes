@@ -1,5 +1,7 @@
 """Run the parser over the real recipes, so a new recipe that breaks it fails CI."""
 
+from pathlib import Path
+
 from recipes_site import catalog
 from recipes_site.config import get_settings
 
@@ -61,3 +63,12 @@ def test_check_catches_silent_mistakes(tmp_path) -> None:  # type: ignore[no-unt
     assert "bread/b.md: `variant` should be text" in problems
     assert "tag `grilled` isn't in catalog.TAGS" in problems
     assert "stray.md: recipes live one or two folders deep" in problems
+
+
+def test_check_flags_shorthand_units(tmp_path: Path) -> None:
+    (tmp_path / "breakfast").mkdir()
+    (tmp_path / "breakfast" / "oats.md").write_text(
+        "# Oats\n\n## Ingredients\n\n- 1 C oats\n- 2 cups water\n\n## Instructions\n\n1. Cook.\n",
+        encoding="utf-8",
+    )
+    assert catalog.check(tmp_path) == ["breakfast/oats.md: write `cup`, not `C`, in “1 C oats”"]

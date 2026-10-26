@@ -10,7 +10,7 @@ serves: 2–3
 
 ## Ingredients
 
-- 1 pound meat. Pork belly, sliced thinly into pieces ½ inch x 2 inches and &# x215B; inch thick
+- 1 lb meat. Pork belly, sliced thinly into pieces ½ inch x 2 inches and &# x215B; inch thick
   tip. Or feel free to use pork shoulder, pork loin, or chicken. I think chicken's the best.
 
 ### Marinade

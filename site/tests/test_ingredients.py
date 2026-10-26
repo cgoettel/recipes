@@ -149,3 +149,22 @@ def test_scale_yield() -> None:
     assert ing.scale_yield("about 30 cookies", Fraction(2)) == "about 60 cookies"
     assert ing.scale_yield("about 1½ cups", half) == "about ¾ cups"
     assert ing.scale_yield("enough for 4 lb chicken", Fraction(2)) == "enough for 8 lb chicken"
+
+
+@pytest.mark.parametrize(
+    ("line", "expected"),
+    [
+        ("2 C flour", ("C", "cup")),
+        ("1 tsp. salt", ("tsp.", "teaspoon")),
+        ("2 pounds chicken", ("pounds", "lb")),
+        ("0,3 liter flour", ("liter", "L")),
+        ("250 ml milk", ("ml", "mL")),
+        ("2 cups flour", None),
+        ("1 lb beef", None),
+        ("250 mL milk", None),
+        ("2 T-bone steaks", None),
+        ("Salt to taste", None),
+    ],
+)
+def test_unit_spelling(line: str, expected: tuple[str, str] | None) -> None:
+    assert ing.unit_spelling(line) == expected

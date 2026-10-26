@@ -17,7 +17,7 @@ tags: [slow-cooker, game-day]
 
 ## Ingredients
 
-- 2 pounds skinless, boneless chicken breast halves, cubed
+- 2 lb skinless, boneless chicken breast halves, cubed
 - 1 (14.5 ounce) can chicken broth
 - 5 (14 ounce) cans navy beans, rinsed and drained
 - 2 (14 ounce) cans white corn, drained

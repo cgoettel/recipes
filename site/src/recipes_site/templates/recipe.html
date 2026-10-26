@@ -114,11 +114,13 @@
   <div class="prose">{{ body_html }}</div>
   {% endif %}
 
-  {# Owner-only: filled in by app.js from /me/status, which is behind Cloudflare
-     Access. For everyone else that request fails and this stays hidden. #}
-  <section class="owner" data-owner data-slug="{{ recipe.slug }}" hidden>
+  {# Owner-only. app.js fires `owner` here once /me/whoami says you're signed
+     in, and htmx loads the status line from /me/status, which is behind
+     Cloudflare Access. Visitors never send either request past whoami. #}
+  <section class="owner" data-owner data-slug="{{ recipe.slug }}" hidden
+           hx-get="/me/status?slug={{ recipe.slug | urlencode }}" hx-trigger="owner" hx-target="[data-owner-status]">
     <p class="owner-status"><span class="chip chip-violet">private</span> <span data-owner-status></span></p>
-    <form method="post" action="/me/log" class="owner-form">
+    <form class="owner-form" hx-post="/me/log" hx-target="[data-owner-status]" data-owner-form>
       <input type="hidden" name="slug" value="{{ recipe.slug }}">
       <label for="made-on" class="sr-only">Made on</label>
       <input id="made-on" type="date" name="made_on" data-today>

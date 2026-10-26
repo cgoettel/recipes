@@ -21,7 +21,7 @@ Postgres holds only the owner's cook log (`/me`, behind Cloudflare Access) and d
 ```sh
 cd site
 uv sync --extra dev
-npm ci && npm run build      # compiles static/output.css
+npm ci && npm run build      # compiles static/output.css, copies static/htmx.min.js
 RECIPES_AUTH_DISABLED=1 uv run uvicorn recipes_site.app:app --reload
 uv run pytest
 ```

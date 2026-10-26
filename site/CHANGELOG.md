@@ -2,6 +2,12 @@
 
 The site's running version is the newest header here; CI bakes it into the image.
 
+## v0.9.3 (2026-10-26)
+
+- The site follows the fleet's front-end conventions (#22). The cook-log form runs on htmx (self-hosted from npm), logging a cook in place without a page reload, and its private POSTs use the fleet's double-submit CSRF token instead of an Origin check. The CSRF cookie is only set on `/me` pages, so visitors still get no cookies.
+- Visitors no longer send the cook-log status request: it waits until the sign-in check says you're the owner.
+- The service worker is gone (offline isn't needed); the next page load unregisters it and clears its caches.
+
 ## v0.9.2 (2026-10-26)
 
 - Request logging and route metrics, the fleet's way (#22): every request gets an id (`X-Request-ID`) and one `request.completed` log line with its route, status, latency and database time, and `/metrics` carries `http_requests_total`, `http_request_duration_seconds` and an in-flight gauge, labelled by route template so every recipe page shares one series. Probes and scrapes are left out of both.

@@ -79,24 +79,55 @@
   }
   syncPill();
 
+  // htmx requests echo the double-submit CSRF cookie, which /me/* responses set.
+  document.addEventListener("htmx:configRequest", function (ev) {
+    var match = document.cookie.match(/(?:^|;\s*)recipes_csrf=([^;]+)/);
+    if (match) ev.detail.headers["X-CSRF-Token"] = decodeURIComponent(match[1]);
+  });
+
   // Signed in? /me/* sits behind Cloudflare Access, so for anyone without a
-  // current login the request is redirected off-site and fetch fails. Success
-  // swaps the outline for the owner's emoji.
+  // current login the request is redirected off-site and fails. Success swaps
+  // the outline for the owner's emoji, then (on a recipe page) asks for the
+  // cook-log line, so visitors never send that second request.
   var person = document.querySelector("[data-person]");
-  if (person) {
-    fetch("/me/whoami", { credentials: "same-origin", redirect: "error", headers: { Accept: "application/json" } })
-      .then(function (res) { return res.ok ? res.json() : Promise.reject(); })
-      .then(function (who) {
-        if (!who.owner) return;
-        person.classList.add("is-owner");
-        person.querySelector(".person-outline").setAttribute("hidden", "");
-        person.querySelector(".person-emoji").hidden = false;
-        person.setAttribute("aria-label", "You're signed in: dark mode and your cook log");
-        var link = document.querySelector("[data-person-link]");
-        if (link) link.textContent = "Cook log";
-      })
-      .catch(function () {});
+  var owner = document.querySelector("[data-owner]");
+  function signedIn() {
+    person.classList.add("is-owner");
+    person.querySelector(".person-outline").setAttribute("hidden", "");
+    person.querySelector(".person-emoji").hidden = false;
+    person.setAttribute("aria-label", "You're signed in: dark mode and your cook log");
+    var link = document.querySelector("[data-person-link]");
+    if (link) link.textContent = "Cook log";
+    if (owner && window.htmx) htmx.trigger(owner, "owner");
   }
+  if (person && window.htmx) {
+    // After htmx has read its config and wired up the page.
+    document.addEventListener("DOMContentLoaded", function () {
+      htmx.ajax("GET", "/me/whoami", { source: person, swap: "none" }).catch(function () {});
+    });
+  }
+  document.addEventListener("htmx:afterRequest", function (ev) {
+    var elt = ev.detail.elt;
+    if (!ev.detail.successful) {
+      // htmx doesn't swap an error, so say so rather than leave it looking logged.
+      if (elt && elt.hasAttribute && elt.hasAttribute("data-owner-form")) {
+        owner.querySelector("[data-owner-status]").textContent = "Not logged: try again";
+      }
+      return;
+    }
+    if (person && elt === person) {
+      try {
+        if (JSON.parse(ev.detail.xhr.responseText).owner) signedIn();
+      } catch (e) {}
+    } else if (owner && elt === owner) {
+      var d = new Date();
+      var local = new Date(d.getTime() - d.getTimezoneOffset() * 60000).toISOString().slice(0, 10);
+      owner.querySelector("[data-today]").value = local;
+      owner.hidden = false;
+    } else if (elt && elt.hasAttribute && elt.hasAttribute("data-owner-form")) {
+      elt.querySelector("[name=note]").value = "";
+    }
+  });
 
   // Search on the index
   var search = document.querySelector("[data-search]");
@@ -216,33 +247,17 @@
     });
   }
 
-  // The owner's cook log. /me/* is behind Cloudflare Access: for anyone else the
-  // request is redirected to a login page on another origin, fetch fails, and
-  // the widget stays hidden.
-  var owner = document.querySelector("[data-owner]");
-  if (owner) {
-    fetch("/me/status?slug=" + encodeURIComponent(owner.getAttribute("data-slug")), {
-      credentials: "same-origin",
-      redirect: "error",
-      headers: { Accept: "application/json" },
-    })
-      .then(function (res) { return res.ok ? res.json() : Promise.reject(); })
-      .then(function (st) {
-        var text = st.count === 0
-          ? "Untested: never logged"
-          : "Made " + st.count + (st.count === 1 ? " time" : " times") + ", last on " + st.last;
-        owner.querySelector("[data-owner-status]").textContent = text;
-        var d = new Date();
-        var local = new Date(d.getTime() - d.getTimezoneOffset() * 60000).toISOString().slice(0, 10);
-        owner.querySelector("[data-today]").value = local;
-        owner.hidden = false;
-      })
-      .catch(function () {});
-  }
-
-  // Offline: once a page has loaded, it keeps working without signal.
+  // The service worker is gone (offline isn't needed). Drop it, and its caches,
+  // from browsers that installed it.
   if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("/sw.js").catch(function () {});
+    navigator.serviceWorker.getRegistrations().then(function (regs) {
+      regs.forEach(function (r) { r.unregister(); });
+    }).catch(function () {});
+  }
+  if ("caches" in window) {
+    caches.keys().then(function (keys) {
+      keys.filter(function (k) { return k.indexOf("recipes-") === 0; }).forEach(function (k) { caches.delete(k); });
+    }).catch(function () {});
   }
 
   // Cook mode

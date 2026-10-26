@@ -1,0 +1,1 @@
+{% if status.count == 0 %}Untested: never logged{% else %}Made {{ status.count }} time{{ "s" if status.count != 1 }}, last on {{ status.last.isoformat() }}{% endif %}

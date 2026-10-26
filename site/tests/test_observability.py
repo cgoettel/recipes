@@ -46,3 +46,9 @@ def test_every_response_carries_a_request_id(client: TestClient) -> None:
     assert len(client.get("/").headers["x-request-id"]) == 32
     echoed = client.get("/", headers={"X-Request-ID": "abc123"})
     assert echoed.headers["x-request-id"] == "abc123"
+
+
+def test_static_files_share_one_label(client: TestClient) -> None:
+    before = _count("/static", "200")
+    client.get("/static/favicon.svg")
+    assert _count("/static", "200") == before + 1

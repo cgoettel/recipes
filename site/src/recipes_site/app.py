@@ -23,6 +23,7 @@ from recipes_site import __version__, bakers, catalog, cooklog, counts, shopping
 from recipes_site import ingredients as ing
 from recipes_site.cf_access import CloudflareAccessMiddleware
 from recipes_site.config import Settings, get_settings
+from recipes_site.csrf import CSRFMiddleware
 from recipes_site.logging import configure_logging
 from recipes_site.observability import RequestLogMiddleware
 
@@ -237,24 +238,13 @@ def create_app(settings: Settings | None = None) -> FastAPI:
             },
         )
 
-    @app.get("/sw.js")
-    def service_worker() -> Response:
-        # Served from the root so its scope covers every page.
-        body = (_pkg_dir("static") / "sw.js").read_text(encoding="utf-8")
-        body = body.replace("__VERSION__", settings.asset_version)
-        return Response(
-            body,
-            media_type="text/javascript",
-            headers={"Cache-Control": "no-cache", "Service-Worker-Allowed": "/"},
-        )
-
     # --- The owner's private pages (gated by cf_access + the edge Access app) ---
 
-    def _same_origin(request: Request) -> bool:
-        """CSRF guard for the private POSTs: the browser's Origin must be this site."""
-        origin = request.headers.get("origin") or ""
-        own = f"{request.url.scheme}://{request.url.netloc}"
-        return origin in {own, settings.public_origin}
+    def _owner_status(request: Request, slug: str) -> Response:
+        """The cook-log line on a recipe page, an htmx fragment for /me/status and /me/log."""
+        cat = get_catalog()
+        st = cooklog.status(cat.slugs_for(cat.current(slug) or slug))
+        return templates.TemplateResponse(request, "_owner_status.html", {"status": st})
 
     @app.get("/me", response_class=HTMLResponse)
     def me(request: Request) -> Response:
@@ -286,15 +276,12 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         return {"owner": True}
 
     @app.get("/me/status")
-    def me_status(slug: str) -> dict[str, object]:
-        cat = get_catalog()
-        st = cooklog.status(cat.slugs_for(cat.current(slug) or slug))
-        return {"count": st.count, "last": st.last.isoformat() if st.last else None}
+    def me_status(request: Request, slug: str) -> Response:
+        return _owner_status(request, slug)
 
     @app.post("/me/log")
     async def me_log(request: Request) -> Response:
-        if not _same_origin(request):
-            raise HTTPException(status_code=403)
+        # CSRFMiddleware has already checked the token.
         form = await request.form()
         slug = get_catalog().current(str(form.get("slug", "")).strip("/"))
         if slug is None:
@@ -307,7 +294,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
             except ValueError:
                 made_on = None
         cooklog.add(slug, str(form.get("note", "")), made_on)
-        return RedirectResponse(f"/{slug}?logged=1", status_code=303)
+        return _owner_status(request, slug)
 
     @app.get("/learn/bakers-percentages", response_class=HTMLResponse)
     def learn_bakers(request: Request) -> Response:
@@ -386,6 +373,8 @@ def create_app(settings: Settings | None = None) -> FastAPI:
             return templates.TemplateResponse(request, "unavailable.html", {}, status_code=503)
         return JSONResponse({"detail": "the cook log is unavailable"}, status_code=503)
 
+    # Last added runs first: Access turns strangers away before the CSRF check.
+    app.add_middleware(CSRFMiddleware)
     app.add_middleware(CloudflareAccessMiddleware, settings=settings)
     # Added last, so it runs outermost and times everything, the Access check included.
     app.add_middleware(RequestLogMiddleware)

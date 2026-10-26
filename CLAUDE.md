@@ -205,7 +205,6 @@ Open items only; shipped work lives in the git history.
 **Site** (from the #15 handover, in priority order):
 
 - **[#20 ""I have…" ingredient search"](https://gitlab.com/colby.goettel/recipes/-/work_items/20)** (`Present`, `priority::months`) — what else uses the leftover leek; mock first.
-- **[#22 "Bring the site in line with unified-design"](https://gitlab.com/colby.goettel/recipes/-/work_items/22)** (`Agent-ready`, `priority::months`) — fleet CSRF, htmx, request logging, no service worker, and the public-site pattern written into the skill.
 - **[#23 "Keep the shopping-list staples in a Markdown file"](https://gitlab.com/colby.goettel/recipes/-/work_items/23)**, **[#24 "Count recipes added to shopping lists"](https://gitlab.com/colby.goettel/recipes/-/work_items/24)** (`Agent-ready`) and **[#25 "Tap-to-start timers on recipe steps"](https://gitlab.com/colby.goettel/recipes/-/work_items/25)** (`Present`, mock first), all `priority::someday`.
 - Cluster side, in smart-home: [#291 "Uptime probe and Discord alert channel for recipes"](https://gitlab.com/colby.goettel/smart-home/-/work_items/291), [#292 "Restore and database password rotation runbook for recipes (and the fleet)"](https://gitlab.com/colby.goettel/smart-home/-/work_items/292), [#293 "Alert on stalled Flux image automation and offline GitLab runners"](https://gitlab.com/colby.goettel/smart-home/-/work_items/293).
 

@@ -226,7 +226,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
             "list.html",
             {
                 "plan": [(rec, scale, labels.get(scale, "")) for rec, scale in plan],
-                "sections": shopping.build(plan),
+                "sections": shopping.build(plan, cat.staples),
                 "section_colors": {
                     "Produce": "yellow",
                     "Dairy and eggs": "sky",

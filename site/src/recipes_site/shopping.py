@@ -50,34 +50,6 @@ _DROP = {
 # Never on a list.
 _SKIP = {"water", "warm water", "cold water", "hot water", "ice", "ice water", "boiling water"}
 
-STAPLES = {
-    "salt",
-    "kosher salt",
-    "table salt",
-    "sea salt",
-    "pepper",
-    "black pepper",
-    "salt and pepper",
-    "flour",
-    "all-purpose flour",
-    "sugar",
-    "white sugar",
-    "granulated sugar",
-    "brown sugar",
-    "oil",
-    "vegetable oil",
-    "olive oil",
-    "neutral oil",
-    "canola oil",
-    "butter",
-    "salted butter",
-    "baking soda",
-    "baking powder",
-    "vanilla",
-    "vanilla extract",
-    "cornstarch",
-}
-
 # Whole words only, so "eggplant" isn't an egg and "graham" isn't ham. The last
 # word of a key is already singular (normalize()).
 SECTIONS: list[tuple[str, str]] = [
@@ -132,8 +104,10 @@ def normalize(item: str) -> str:
 _SHELF_FORMS = {"can", "jar", "bottle", "package", "envelope"}
 
 
-def section_for(key: str, forms: set[str | None] | None = None) -> str:
-    if key in STAPLES:
+def section_for(
+    key: str, forms: set[str | None] | None = None, staples: frozenset[str] = frozenset()
+) -> str:
+    if key in staples:
         return "Staples"
     # Canned or jarred tomatoes are a pantry buy, not produce.
     if (forms and forms & _SHELF_FORMS) or _PANTRY_FIRST.search(key):
@@ -176,7 +150,11 @@ class Section:
     entries: list[Entry]
 
 
-def build(recipes: list[tuple[catalog.Recipe, Fraction]]) -> list[Section]:
+def build(
+    recipes: list[tuple[catalog.Recipe, Fraction]], staples: frozenset[str] = frozenset()
+) -> list[Section]:
+    """The list for a plan. `staples` is the catalog's (staples.md): they go last."""
+    staple_keys = frozenset(normalize(s) for s in staples)
     entries: OrderedDict[str, Entry] = OrderedDict()
     for recipe, scale in recipes:
         for group in recipe.ingredient_groups:
@@ -203,7 +181,7 @@ def build(recipes: list[tuple[catalog.Recipe, Fraction]]) -> list[Section]:
     )
     for entry in entries.values():
         forms = {form for _, form in entry.amounts}
-        by_section[section_for(entry.key, forms)].append(entry)
+        by_section[section_for(entry.key, forms, staple_keys)].append(entry)
     return [
         Section(name, sorted(items, key=lambda e: e.key))
         for name, items in by_section.items()

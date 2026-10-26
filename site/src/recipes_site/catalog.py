@@ -36,6 +36,9 @@ FOLDER_NAMES = {"entrees": "Entrées", "east-asian": "East Asian"}
 # Markdown that isn't a recipe: every README, the repo's meta docs, the soda
 # brew-day notes (logs), and the site app.
 _NOT_RECIPES = {"README.md", "CLAUDE.md", "contributing.md"}
+# Root-level Markdown the site reads for something else.
+STAPLES_FILE = "staples.md"
+_NOT_RECIPE_FILES = {STAPLES_FILE}
 _NOT_RECIPE_DIRS = ("site/", ".claude/", ".git/", "drinks/sodas/brew-day-notes/", "node_modules/")
 
 # Top-level folders → category stripe color token (see input.css).
@@ -216,6 +219,7 @@ class Catalog:
     recipes: dict[str, Recipe]
     house_notes: str  # the README intro, raw Markdown
     aliases: dict[str, str] = field(default_factory=dict)  # old slug -> current slug
+    staples: frozenset[str] = frozenset()  # staples.md's bullets, lowercased
 
     def current(self, slug: str) -> str | None:
         """The live slug for a slug that may have moved, or None if it's unknown."""
@@ -416,9 +420,20 @@ def is_recipe_path(rel: str) -> bool:
     return (
         rel.endswith(".md")
         and name not in _NOT_RECIPES
+        and rel not in _NOT_RECIPE_FILES
         and not rel.startswith(_NOT_RECIPE_DIRS)
         and "/." not in "/" + rel
     )
+
+
+def parse_staples(text: str) -> frozenset[str]:
+    """Every bullet in staples.md, lowercased. Headings and prose are for people."""
+    items = set()
+    for line in text.splitlines():
+        m = _LIST_ITEM_RE.match(line)
+        if m and m.group("text").strip():
+            items.add(m.group("text").strip().lower())
+    return frozenset(items)
 
 
 def house_notes(readme: str) -> str:
@@ -474,7 +489,19 @@ def load(content_dir: Path) -> Catalog:
         for old in recipe.aliases
         if old not in recipes  # check() reports a collision; the live recipe wins
     }
-    return Catalog(categories=categories, recipes=recipes, house_notes=notes, aliases=aliases)
+    staples_path = content_dir / STAPLES_FILE
+    staples = (
+        parse_staples(staples_path.read_text(encoding="utf-8"))
+        if staples_path.is_file()
+        else frozenset()
+    )
+    return Catalog(
+        categories=categories,
+        recipes=recipes,
+        house_notes=notes,
+        aliases=aliases,
+        staples=staples,
+    )
 
 
 def check(content_dir: Path) -> list[str]:

@@ -191,6 +191,12 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 - [Poppy seed dressing](sauces-and-condiments/dressings/poppy-seed-dressing.md)
 - [Quinoa salad dressing](sauces-and-condiments/dressings/quinoa-salad-dressing.md)
 
+### Hot sauces
+
+- [Aji amarillo (fermented)](sauces-and-condiments/hot-sauces/sauce-aji-amarillo-fermented.md)
+- [Fresno (fermented)](sauces-and-condiments/hot-sauces/sauce-fresno-fermented.md)
+- [Habanero](sauces-and-condiments/hot-sauces/sauce-habanero.md)
+
 ### Pickled
 
 - Pickles
@@ -200,16 +206,10 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 
 ### Salsas
 
-- [Aji amarillo (fermented)](sauces-and-condiments/salsas/sauce-aji-amarillo-fermented.md)
 - [Beverly's gringo](sauces-and-condiments/salsas/salsa-beverlys-gringo.md)
 - [Bill Jordan's green](sauces-and-condiments/salsas/salsa-bill-jordans-green.md)
 - [Birria](sauces-and-condiments/salsas/salsa-birria.md)
-- Enchilada sauce
-  - [Bill Jordan's green](sauces-and-condiments/salsas/enchilada-sauce-bill-jordans-green.md)
-  - [Grandma Goettel's](sauces-and-condiments/salsas/enchilada-sauce-grandma-goettels.md)
-- [Fresno (fermented)](sauces-and-condiments/salsas/sauce-fresno-fermented.md)
 - [Grandpa Ferrin's green](sauces-and-condiments/salsas/salsa-grandpa-ferrins-green.md)
-- [Habanero](sauces-and-condiments/salsas/sauce-habanero.md)
 - [J.R.'s](sauces-and-condiments/salsas/salsa-jrs.md)
 - [Los Hermanos (copycat)](sauces-and-condiments/salsas/salsa-los-hermanos-copycat.md)
 - [Mom's](sauces-and-condiments/salsas/salsa-moms.md)
@@ -223,6 +223,9 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
 - Dipping sauce
   - [Gyoza](sauces-and-condiments/sauces/dipping-sauce-gyoza.md)
   - [Tempura](sauces-and-condiments/sauces/dipping-sauce-tempura.md)
+- Enchilada sauce
+  - [Bill Jordan's green](sauces-and-condiments/sauces/enchilada-sauce-bill-jordans-green.md)
+  - [Grandma Goettel's](sauces-and-condiments/sauces/enchilada-sauce-grandma-goettels.md)
 - [Green mayo](sauces-and-condiments/sauces/mayo-green-mayo.md)
 - [J Dawg's special](sauces-and-condiments/sauces/sauce-jdawgs.md)
 - [Lime cilantro crema](sauces-and-condiments/sauces/crema-lime-cilantro.md)

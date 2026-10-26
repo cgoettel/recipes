@@ -10,6 +10,7 @@ Postgres holds only the owner's cook log (`/me`, behind Cloudflare Access) and d
 
 - `src/recipes_site/catalog.py`: reads the recipe folders and each recipe's front matter into records (and the README intro, as the house notes).
 - `src/recipes_site/toc.py`: generates the README's recipe list from the same data; CI runs it.
+- `src/recipes_site/renames.py`: the CI guard that fails a moved or deleted recipe left without an `aliases` entry (or a line in `retired-recipes.txt`).
 - `src/recipes_site/ingredients.py`: parses ingredient lines into amount, unit and item; scales and formats them.
 - `src/recipes_site/app.py`: the routes. `/` is the list; `/<category>/<recipe>` is a recipe, mirroring the repo path.
 - `src/recipes_site/static/app.js`: search, cook-mode check-offs and shopping plans (stored in the visitor's browser only), and the screen wake lock.

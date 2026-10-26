@@ -108,6 +108,8 @@ tags: [make-ahead]
 
   Tag diets conservatively, counting hidden sources: stock, fish sauce, gelatin, Miracle Whip, and any recipe a recipe links to (the classic lasagna isn't vegetarian because its red sauce has sausage). Diet tags are only on savory recipes, where they help.
 
+- `aliases`: old paths a recipe used to live at, without `.md` (`aliases: [sauces-and-condiments/salsas/sauce-habanero]`). A recipe's path is its URL and the key for its cook-log history, so **renaming or moving a recipe means adding its old path here.** The site redirects the old URL and counts the old path's cook-log rows, views and saved shopping lists toward the new one. CI's renames guard (`site_test`, `recipes_site/renames.py`) fails any push that moves or deletes a recipe without one. To remove a recipe on purpose, alias it onto the recipe that replaces it, or list its old path in `site/retired-recipes.txt`.
+
 What isn't a recipe: every `README.md`, `CLAUDE.md`, `contributing.md`, `drinks/sodas/brew-day-notes/`, and everything under `site/` (`catalog.py`, `_NOT_RECIPES`). Any other new Markdown file in a category folder shows up as a recipe.
 
 ## Directory structure
@@ -215,7 +217,6 @@ Open items only; shipped work lives in the git history.
 **Site** (from the #15 handover, in priority order):
 
 - **[#18 "Site hardening pass"](https://gitlab.com/colby.goettel/recipes/-/work_items/18)** (`Agent-ready`, `priority::weeks`) — a crashing query value, a prod guard on sign-in off, the Access issuer check, database-down pages, CI image pins.
-- **[#19 "Rename and move recipes without breaking links or cook-log history"](https://gitlab.com/colby.goettel/recipes/-/work_items/19)** (`Agent-ready`, `priority::weeks`) — `aliases:` front matter, redirects, and a CI guard. #9 waits on it.
 - **[#20 ""I have…" ingredient search"](https://gitlab.com/colby.goettel/recipes/-/work_items/20)** (`Present`, `priority::months`) — what else uses the leftover leek; mock first.
 - **[#21 "Enforce the house unit spellings in CI"](https://gitlab.com/colby.goettel/recipes/-/work_items/21)** (`Agent-ready`, `priority::months`).
 - **[#22 "Bring the site in line with unified-design"](https://gitlab.com/colby.goettel/recipes/-/work_items/22)** (`Agent-ready`, `priority::months`) — fleet CSRF, htmx, request logging, no service worker, and the public-site pattern written into the skill.
@@ -225,6 +226,6 @@ Open items only; shipped work lives in the git history.
 **Maintenance** and **Creations**:
 
 - **[#16 "Rotate the README bot token before it expires"](https://gitlab.com/colby.goettel/recipes/-/work_items/16)** (`Agent-ready`, `priority::someday`, milestone Maintenance, due 2027-10-19) — the `readme-bot` token CI uses to commit the generated README list expires 2027-10-24.
-- **[#9 "Give hot sauces their own folder"](https://gitlab.com/colby.goettel/recipes/-/work_items/9)** (`Agent-ready`, `priority::someday`, milestone Maintenance) — move the three hot sauces to `hot-sauces/` and the two enchilada sauces to `sauces/`, after #19 so the moves keep their URLs.
+- **[#9 "Give hot sauces their own folder"](https://gitlab.com/colby.goettel/recipes/-/work_items/9)** (`Agent-ready`, `priority::someday`, milestone Maintenance) — move the three hot sauces to `hot-sauces/` and the two enchilada sauces to `sauces/`, with aliases so the moves keep their URLs.
 - **[#10 "Move the Drive-import procedure into a project skill"](https://gitlab.com/colby.goettel/recipes/-/work_items/10)** (`Agent-ready`, `priority::someday`, milestone Maintenance) — keep `CLAUDE.md` about the repo; load the import steps only when importing.
 - **[#3 "Cooking with tea: hōjicha and Kaga bōcha creations"](https://gitlab.com/colby.goettel/recipes/-/work_items/3)** (`Present`, `priority::months`, milestone Creations) — backlog of roasted-tea dishes beyond the bōcha curry and hōjicha panna cotta: lahpet (fermented tea-leaf salad), ochazuke, hōjicha salt, tea brine, tea smoking, sweets.

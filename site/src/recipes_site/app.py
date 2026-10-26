@@ -24,6 +24,7 @@ from recipes_site import ingredients as ing
 from recipes_site.cf_access import CloudflareAccessMiddleware
 from recipes_site.config import Settings, get_settings
 from recipes_site.logging import configure_logging
+from recipes_site.observability import RequestLogMiddleware
 
 if TYPE_CHECKING:
     from starlette.types import Scope
@@ -386,6 +387,8 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         return JSONResponse({"detail": "the cook log is unavailable"}, status_code=503)
 
     app.add_middleware(CloudflareAccessMiddleware, settings=settings)
+    # Added last, so it runs outermost and times everything, the Access check included.
+    app.add_middleware(RequestLogMiddleware)
     return app
 
 

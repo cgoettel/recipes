@@ -2,6 +2,10 @@
 
 The site's running version is the newest header here; CI bakes it into the image.
 
+## v0.9.4 (2026-10-26)
+
+- The shopping list's staples live in `staples.md` at the top of the repo (#23), edited like a recipe and read when the image is built, instead of a list in the code. Same items as before; matching now also ignores plurals.
+
 ## v0.9.3 (2026-10-26)
 
 - The site follows the fleet's front-end conventions (#22). The cook-log form runs on htmx (self-hosted from npm), logging a cook in place without a page reload, and its private POSTs use the fleet's double-submit CSRF token instead of an Origin check. The CSRF cookie is only set on `/me` pages, so visitors still get no cookies.

@@ -12,7 +12,7 @@ from typing import TYPE_CHECKING, Annotated
 
 import structlog
 from fastapi import BackgroundTasks, FastAPI, HTTPException, Query, Request
-from fastapi.responses import HTMLResponse, RedirectResponse, Response
+from fastapi.responses import HTMLResponse, JSONResponse, RedirectResponse, Response
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from markupsafe import Markup
@@ -146,8 +146,23 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     templates.env.globals["nav_categories"] = lambda: get_catalog().categories
 
     @app.get("/health")
-    def health() -> dict[str, str]:
-        return {"status": "ok", "version": __version__, "build": settings.asset_version}
+    def health() -> Response:
+        # The recipes are baked into the image, so a recipe the catalog can't
+        # read breaks every page. Failing here keeps that build from going
+        # Ready: the rollout stalls with the old pods serving, and verify_live
+        # never sees the new build. No `build` in the error body, so nothing
+        # can mistake it for the new build being live.
+        try:
+            get_catalog()
+        except Exception:
+            logger.exception("health.catalog_failed")
+            return JSONResponse(
+                {"status": "error", "detail": "the recipe catalog failed to load"},
+                status_code=503,
+            )
+        return JSONResponse(
+            {"status": "ok", "version": __version__, "build": settings.asset_version}
+        )
 
     @app.get("/metrics")
     def metrics(request: Request) -> Response:

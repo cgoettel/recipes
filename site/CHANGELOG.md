@@ -2,6 +2,10 @@
 
 The site's running version is the newest header here; CI bakes it into the image.
 
+## v0.8.2 (2026-10-25)
+
+- `/health` fails (503) when the recipe catalog can't load, so a build with an unreadable recipe never goes live: the old pods keep serving and the pipeline goes red instead of green (#17).
+
 ## v0.8.1 (2026-10-25)
 
 - Nearly every recipe now says how much it serves or makes: 155 more, estimated from their quantities and pans.

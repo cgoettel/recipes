@@ -1,7 +1,9 @@
+from pathlib import Path
+
 import pytest
 from fastapi.testclient import TestClient
 
-from recipes_site import counts
+from recipes_site import catalog, counts
 from recipes_site.app import create_app
 from recipes_site.config import Settings
 
@@ -17,6 +19,30 @@ def test_health_reports_build(client: TestClient) -> None:
     body = client.get("/health").json()
     assert body["status"] == "ok"
     assert body["build"] == "abc1234"
+
+
+@pytest.mark.parametrize(
+    ("name", "content"),
+    [
+        ("bad-yaml.md", b"---\nserves: [unclosed\n---\n\n# Bad yaml\n"),
+        ("bad-bytes.md", b"# Bad bytes\n\n\xff\xfe not utf-8\n"),
+    ],
+)
+def test_health_fails_when_the_catalog_cannot_load(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch, name: str, content: bytes
+) -> None:
+    monkeypatch.setattr(counts, "bump", lambda *_args, **_kw: None)
+    (tmp_path / "breakfast").mkdir()
+    (tmp_path / "breakfast" / name).write_bytes(content)
+    catalog.cached.cache_clear()
+    try:
+        app = create_app(Settings(content_dir=tmp_path, asset_version="abc1234"))
+        r = TestClient(app).get("/health")
+    finally:
+        catalog.cached.cache_clear()
+    assert r.status_code == 503
+    assert r.json()["status"] == "error"
+    assert "build" not in r.json()
 
 
 def test_index_lists_recipes(client: TestClient) -> None:

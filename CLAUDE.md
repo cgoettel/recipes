@@ -7,7 +7,7 @@ Personal recipe collection in markdown. Each recipe is its own file under a cate
 - **GitLab is the home.** [colby.goettel/recipes](https://gitlab.com/colby.goettel/recipes) is canonical. GitHub ([cgoettel/recipes](https://github.com/cgoettel/recipes)) is a read-only mirror that CI force-pushes on every push to `main`, so anything merged on GitHub is overwritten. Issues and contributions go to GitLab.
 - **Every change goes through a `git worktree`** — global rule, no exceptions (worktrees everywhere, every time). Branch off `origin/main` in a worktree, commit there, then merge to `main` and push; never edit or commit from the main checkout. **No MR is required** for recipe edits: commit, fast-forward `main`, and push. Changes under `site/` are the exception and go through an MR (see Operations). The worktree step is not optional.
 - Conventional commit prefixes: `feat:` for new recipes, `fix:` for corrections, `refactor:` for reorganization, `docs:` for README-only changes.
-- Issue housekeeping (milestones, labels) follows the fleet conventions in the `glab` skill. The `Maintenance` and `Creations` milestones are evergreen buckets; never close them.
+- Issue housekeeping (milestones, labels) follows the fleet conventions in the `glab` skill. The `Maintenance`, `Creations` and `Site` milestones are evergreen buckets; never close them.
 - **The repo is shared publicly, and that includes this file.** Recipe files and any markdown a cook would read should be written for a general audience — neutral voice, "you" or imperative form for instructions, no third-person asides about the owner. The README intro is the exception: it's the owner's own first-person voice, written and maintained by him, and it stays that way. Never put contact details (email addresses, phone numbers) for anyone in the repo, `CLAUDE.md` included. Personal context that shouldn't be public belongs in agent memory, not here.
 
 ## Operations
@@ -212,10 +212,20 @@ Bryce owns the shared Google Drive `Recipes/` folder; the owner also has top-lev
 
 Open items only; shipped work lives in the git history.
 
+**Site** (from the #15 handover, in priority order):
+
+- **[#17 "Make /health fail when the recipe catalog can't load"](https://gitlab.com/colby.goettel/recipes/-/work_items/17)** (`Agent-ready`, `priority::next`) — so a build with an unreadable recipe can't take over prod.
+- **[#18 "Site hardening pass"](https://gitlab.com/colby.goettel/recipes/-/work_items/18)** (`Agent-ready`, `priority::weeks`) — a crashing query value, a prod guard on sign-in off, the Access issuer check, database-down pages, CI image pins.
+- **[#19 "Rename and move recipes without breaking links or cook-log history"](https://gitlab.com/colby.goettel/recipes/-/work_items/19)** (`Agent-ready`, `priority::weeks`) — `aliases:` front matter, redirects, and a CI guard. #9 waits on it.
+- **[#20 ""I have…" ingredient search"](https://gitlab.com/colby.goettel/recipes/-/work_items/20)** (`Present`, `priority::months`) — what else uses the leftover leek; mock first.
+- **[#21 "Enforce the house unit spellings in CI"](https://gitlab.com/colby.goettel/recipes/-/work_items/21)** (`Agent-ready`, `priority::months`).
+- **[#22 "Bring the site in line with unified-design"](https://gitlab.com/colby.goettel/recipes/-/work_items/22)** (`Agent-ready`, `priority::months`) — fleet CSRF, htmx, request logging, no service worker, and the public-site pattern written into the skill.
+- **[#23 "Keep the shopping-list staples in a Markdown file"](https://gitlab.com/colby.goettel/recipes/-/work_items/23)**, **[#24 "Count recipes added to shopping lists"](https://gitlab.com/colby.goettel/recipes/-/work_items/24)** (`Agent-ready`) and **[#25 "Tap-to-start timers on recipe steps"](https://gitlab.com/colby.goettel/recipes/-/work_items/25)** (`Present`, mock first), all `priority::someday`.
+- Cluster side, in smart-home: [#291 "Uptime probe and Discord alert channel for recipes"](https://gitlab.com/colby.goettel/smart-home/-/work_items/291), [#292 "Restore and database password rotation runbook for recipes (and the fleet)"](https://gitlab.com/colby.goettel/smart-home/-/work_items/292), [#293 "Alert on stalled Flux image automation and offline GitLab runners"](https://gitlab.com/colby.goettel/smart-home/-/work_items/293).
+
 **Maintenance** and **Creations**:
 
-- **[#15 "Staff-engineer handover for the recipes site"](https://gitlab.com/colby.goettel/recipes/-/work_items/15)** (`Present`, `priority::months`, milestone Maintenance) — the #2 handover exercise run again on `site/`, now that Site (v1) has closed: a knowledge-transfer interview, then proposals discussed before anything is filed.
 - **[#16 "Rotate the README bot token before it expires"](https://gitlab.com/colby.goettel/recipes/-/work_items/16)** (`Agent-ready`, `priority::someday`, milestone Maintenance, due 2027-10-19) — the `readme-bot` token CI uses to commit the generated README list expires 2027-10-24.
-- **[#9 "Give hot sauces their own folder"](https://gitlab.com/colby.goettel/recipes/-/work_items/9)** (`Present`, `priority::someday`, milestone Maintenance) — move the `sauce-*` hot sauces out of `salsas/`, if "hot sauce" is the right word for them.
+- **[#9 "Give hot sauces their own folder"](https://gitlab.com/colby.goettel/recipes/-/work_items/9)** (`Agent-ready`, `priority::someday`, milestone Maintenance) — move the three hot sauces to `hot-sauces/` and the two enchilada sauces to `sauces/`, after #19 so the moves keep their URLs.
 - **[#10 "Move the Drive-import procedure into a project skill"](https://gitlab.com/colby.goettel/recipes/-/work_items/10)** (`Agent-ready`, `priority::someday`, milestone Maintenance) — keep `CLAUDE.md` about the repo; load the import steps only when importing.
 - **[#3 "Cooking with tea: hōjicha and Kaga bōcha creations"](https://gitlab.com/colby.goettel/recipes/-/work_items/3)** (`Present`, `priority::months`, milestone Creations) — backlog of roasted-tea dishes beyond the bōcha curry and hōjicha panna cotta: lahpet (fermented tea-leaf salad), ochazuke, hōjicha salt, tea brine, tea smoking, sweets.

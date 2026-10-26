@@ -17,6 +17,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from markupsafe import Markup
 from prometheus_client import CONTENT_TYPE_LATEST, generate_latest
+from sqlalchemy.exc import SQLAlchemyError
 
 from recipes_site import __version__, bakers, catalog, cooklog, counts, shopping, stripes
 from recipes_site import ingredients as ing
@@ -122,6 +123,13 @@ def build_rows(
 def create_app(settings: Settings | None = None) -> FastAPI:
     settings = settings or get_settings()
     configure_logging(settings.log_level)
+    if settings.auth_disabled and not settings.missing_auth_settings():
+        # A full Access config means prod; dev leaves the audience empty.
+        # Turning auth off there would open the cook log to anyone.
+        raise RuntimeError(
+            "RECIPES_AUTH_DISABLED is set alongside a complete Cloudflare Access "
+            "config; refusing to start with the private pages open"
+        )
     if settings.missing_auth_settings() and not settings.auth_disabled:
         logger.warning(
             "auth.private_pages_closed",
@@ -339,6 +347,14 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     @app.exception_handler(404)
     async def not_found(request: Request, _exc: Exception) -> Response:
         return templates.TemplateResponse(request, "404.html", {}, status_code=404)
+
+    @app.exception_handler(SQLAlchemyError)
+    async def database_down(request: Request, exc: Exception) -> Response:
+        # Only the cook log pages read the database; the recipes never do.
+        logger.warning("db.unavailable", path=request.url.path, error=str(exc))
+        if "text/html" in request.headers.get("accept", ""):
+            return templates.TemplateResponse(request, "unavailable.html", {}, status_code=503)
+        return JSONResponse({"detail": "the cook log is unavailable"}, status_code=503)
 
     app.add_middleware(CloudflareAccessMiddleware, settings=settings)
     return app

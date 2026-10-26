@@ -158,7 +158,8 @@ def dough_scale(target_grams: str | None, total: Fraction) -> Fraction | None:
         return None
     try:
         target = Fraction(int(float(target_grams)))
-    except ValueError:
+    except ValueError, OverflowError:
+        # "inf" and "1e999" parse as floats but have no integer value.
         return None
     if target <= 0 or total == 0:
         return None

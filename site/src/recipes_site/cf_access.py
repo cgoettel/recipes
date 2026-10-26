@@ -36,9 +36,15 @@ def _jwks_client(team_domain: str) -> jwt.PyJWKClient:
 
 def verify(token: str, team_domain: str, audience: str, allowed: set[str]) -> str:
     key = _jwks_client(team_domain).get_signing_key_from_jwt(token)
-    claims = jwt.decode(token, key.key, audience=audience, algorithms=["RS256"])
+    claims = jwt.decode(
+        token,
+        key.key,
+        audience=audience,
+        issuer=f"https://{team_domain}.cloudflareaccess.com",
+        algorithms=["RS256"],
+    )
     email = claims.get("email")
-    if not isinstance(email, str) or email not in allowed:
+    if not isinstance(email, str) or email.lower() not in allowed:
         raise ValueError("email not allowlisted")
     return email
 

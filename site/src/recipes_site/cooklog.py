@@ -31,7 +31,9 @@ class Made:
 def add(slug: str, note: str | None, made_on: dt.date | None = None) -> None:
     note = (note or "").strip()[:500] or None
     with session_scope() as session:
-        session.add(CookLog(slug=slug, note=note, made_on=made_on or dt.date.today()))
+        session.add(
+            CookLog(slug=slug, note=note, made_on=made_on or dt.datetime.now(dt.UTC).date())
+        )
 
 
 def status(slug: str) -> Status:

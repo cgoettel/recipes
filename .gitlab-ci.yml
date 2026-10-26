@@ -70,7 +70,7 @@ readme_toc:
 # checked too. Config: .pre-commit-config.yaml.
 check_format:
   stage: check
-  image: python:3.14-slim
+  image: python:3.15-slim
   before_script:
     - apt-get update -qq && apt-get install -y -qq git >/dev/null
     - pip install -q pre-commit==4.3.0
@@ -178,7 +178,7 @@ site_build_mr:
 # it (Flux deploys only the newest tag, so a later commit can win the race).
 .wait_for_build:
   stage: verify
-  image: alpine:latest
+  image: alpine:3.22
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $CI_PIPELINE_SOURCE != "merge_request_event"
   timeout: 20m
@@ -219,7 +219,7 @@ verify_dev:
 # never touches the cluster.
 promote:
   stage: verify
-  image: alpine:latest
+  image: alpine:3.22
   needs: [verify_dev]
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $CI_PIPELINE_SOURCE != "merge_request_event"

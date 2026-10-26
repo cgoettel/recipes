@@ -2,6 +2,10 @@
 
 The site's running version is the newest header here; CI bakes it into the image.
 
+## v0.8.3 (2026-10-25)
+
+- Hardening (#18): a dough target like `inf` no longer crashes a bread page; the cook log pages show a plain "not right now" page when the database is down instead of an error; the private-page check also verifies who issued the sign-in and ignores email case; the app refuses to start with sign-in turned off when it has prod's full Access config; cook-log dates default to UTC like the counts; CI images are pinned.
+
 ## v0.8.2 (2026-10-25)
 
 - `/health` fails (503) when the recipe catalog can't load, so a build with an unreadable recipe never goes live: the old pods keep serving and the pipeline goes red instead of green (#17).

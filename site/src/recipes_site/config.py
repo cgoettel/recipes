@@ -39,7 +39,8 @@ class Settings(BaseSettings):
     cf_access_audience: str | None = None
     cf_access_allowed_emails: str = ""
 
-    # Tests and local dev only. Never set in prod.
+    # Tests, local dev and recipes-dev only. create_app refuses it alongside a
+    # complete Cloudflare Access config, which only prod has.
     auth_disabled: bool = False
 
     def missing_auth_settings(self) -> list[str]:
@@ -54,7 +55,8 @@ class Settings(BaseSettings):
 
     @property
     def cf_access_allowed_emails_set(self) -> set[str]:
-        return {e.strip() for e in self.cf_access_allowed_emails.split(",") if e.strip()}
+        # Email addresses compare case-insensitively.
+        return {e.strip().lower() for e in self.cf_access_allowed_emails.split(",") if e.strip()}
 
 
 def get_settings() -> Settings:

@@ -1,4 +1,4 @@
-"""Count recipe views and scales, aggregate only.
+"""Count recipe views, scales and shopping-list adds, aggregate only.
 
 Counting is best effort: the site serves recipes from the image, so a database
 outage must never break a page. Failures are logged and dropped.
@@ -18,7 +18,7 @@ from recipes_site.models import RecipeDailyCount
 
 logger = structlog.get_logger()
 
-KINDS = ("view", "scale")
+KINDS = ("view", "scale", "list")  # "list": added to a shopping list
 
 
 def bump(slug: str, kind: str, today: dt.date | None = None) -> None:

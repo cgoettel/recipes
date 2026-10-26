@@ -238,6 +238,17 @@ def create_app(settings: Settings | None = None) -> FastAPI:
             },
         )
 
+    @app.post("/count/list", status_code=204)
+    async def count_list(request: Request, background: BackgroundTasks) -> Response:
+        # A recipe went onto someone's shopping list (sent as a beacon from
+        # app.js). Public, cookie-free and best effort, like the view counts;
+        # a public path, so the CSRF check doesn't apply.
+        form = await request.form()
+        slug = get_catalog().current(str(form.get("slug", "")).strip("/"))
+        if slug is not None:
+            background.add_task(counts.bump, slug, "list")
+        return Response(status_code=204)
+
     # --- The owner's private pages (gated by cf_access + the edge Access app) ---
 
     def _owner_status(request: Request, slug: str) -> Response:
@@ -266,6 +277,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
                 ),
                 "top_viewed": _fold(cat, counts.top("view", limit=1000)),
                 "top_scaled": _fold(cat, counts.top("scale", limit=1000)),
+                "top_listed": _fold(cat, counts.top("list", limit=1000)),
             },
         )
 

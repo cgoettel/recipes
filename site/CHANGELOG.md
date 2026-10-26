@@ -2,6 +2,10 @@
 
 The site's running version is the newest header here; CI bakes it into the image.
 
+## v0.9.5 (2026-10-26)
+
+- The site counts recipes added to a shopping list (#24), an anonymous total like views and scales, and `/me` lists the most added. A re-add at another scale doesn't count twice.
+
 ## v0.9.4 (2026-10-26)
 
 - The shopping list's staples live in `staples.md` at the top of the repo (#23), edited like a recipe and read when the image is built, instead of a list in the code. Same items as before; matching now also ignores plurals.

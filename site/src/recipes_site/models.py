@@ -14,7 +14,7 @@ class Base(DeclarativeBase):
 
 
 class RecipeDailyCount(Base):
-    """Aggregate, cookie-free counts per recipe per day (views, scales).
+    """Aggregate, cookie-free counts per recipe per day (views, scales, list adds).
 
     No visitor identifiers of any kind: one row per (slug, day, kind).
     """

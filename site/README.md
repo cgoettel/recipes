@@ -2,7 +2,9 @@
 
 The app behind [recipes.skalchemy.com](https://recipes.skalchemy.com): a public site over the Markdown recipes in this repo. FastAPI, Jinja, Tailwind v4, Postgres, on the smart-home k3s cluster like the other fleet apps.
 
-The recipes stay plain Markdown at the top of the repo, and the README there stays the table of contents. The site reads both when the image is built, so a pushed recipe edit reaches the site in a few minutes with no other step.
+The recipes stay plain Markdown at the top of the repo. The site reads the folders and each recipe's front matter when the image is built (and generates the README's recipe list from the same data), so a pushed recipe edit reaches the site in a few minutes with no other step.
+
+Postgres holds only the owner's cook log (`/me`, behind Cloudflare Access) and daily view and scale counts. Visitors' check-offs and shopping plans stay in their own browser. Deploys, rollback, backups and the edge setup are in the repo's [CLAUDE.md](../CLAUDE.md), under Operations.
 
 ## Layout
 
@@ -10,7 +12,7 @@ The recipes stay plain Markdown at the top of the repo, and the README there sta
 - `src/recipes_site/toc.py`: generates the README's recipe list from the same data; CI runs it.
 - `src/recipes_site/ingredients.py`: parses ingredient lines into amount, unit and item; scales and formats them.
 - `src/recipes_site/app.py`: the routes. `/` is the list; `/<category>/<recipe>` is a recipe, mirroring the repo path.
-- `src/recipes_site/static/app.js`: search, cook-mode check-offs (stored in the visitor's browser only), and the screen wake lock.
+- `src/recipes_site/static/app.js`: search, cook-mode check-offs and shopping plans (stored in the visitor's browser only), and the screen wake lock.
 - `migrations/`: Alembic. The api pod's init container runs `alembic upgrade head`; `env.py` takes an advisory lock so two replicas can't race.
 
 ## Local development

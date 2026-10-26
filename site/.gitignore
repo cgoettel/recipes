@@ -6,5 +6,7 @@ __pycache__/
 .ruff_cache/
 # Built by Tailwind (npm run build, or the Dockerfile).
 src/recipes_site/static/output.css
+# Copied from node_modules (npm run build, or the Dockerfile).
+src/recipes_site/static/htmx.min.js
 # Written at image build time.
 src/recipes_site/_version.py

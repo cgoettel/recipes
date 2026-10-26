@@ -1,13 +1,16 @@
 {
   "name": "recipes-site-web",
   "private": true,
-  "description": "Tailwind CSS build for the recipes site. Used by the Dockerfile at image-build time and locally for dev.",
+  "description": "Front-end assets for the recipes site: the Tailwind CSS build and htmx (self-hosted so Renovate tracks it). Used by the Dockerfile at image-build time and locally for dev.",
   "scripts": {
-    "build": "tailwindcss -i src/recipes_site/static/input.css -o src/recipes_site/static/output.css --minify",
+    "build": "tailwindcss -i src/recipes_site/static/input.css -o src/recipes_site/static/output.css --minify && cp node_modules/htmx.org/dist/htmx.min.js src/recipes_site/static/htmx.min.js",
     "watch": "tailwindcss -i src/recipes_site/static/input.css -o src/recipes_site/static/output.css --watch"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.3.0",
     "tailwindcss": "^4.3.0"
+  },
+  "dependencies": {
+    "htmx.org": "2.0.11"
   }
 }

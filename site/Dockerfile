@@ -1,7 +1,7 @@
 # Build context is the REPO ROOT (the site reads the recipes), so every COPY path
 # below is relative to it. See .dockerignore at the root.
 
-# --- Stage 1: compile Tailwind CSS -------------------------------------------
+# --- Stage 1: compile Tailwind CSS, and pick up htmx ---------------------------
 FROM node:26-alpine AS css
 WORKDIR /build
 COPY site/package.json site/package-lock.json ./
@@ -11,6 +11,8 @@ RUN npx --no-install tailwindcss \
     -i src/recipes_site/static/input.css \
     -o /tmp/output.css \
     --minify
+# htmx is self-hosted from npm, so Renovate tracks it through package.json.
+RUN cp node_modules/htmx.org/dist/htmx.min.js /tmp/htmx.min.js
 
 # --- Stage 2: Python app -----------------------------------------------------
 FROM python:3.15-slim
@@ -28,6 +30,7 @@ COPY site/migrations/ migrations/
 COPY site/alembic.ini ./
 RUN uv pip install --system --no-deps -e .
 COPY --from=css /tmp/output.css /app/src/recipes_site/static/output.css
+COPY --from=css /tmp/htmx.min.js /app/src/recipes_site/static/htmx.min.js
 
 ARG APP_VERSION=0.0.0+dev
 RUN printf '__version__ = "%s"\n' "${APP_VERSION}" > /app/src/recipes_site/_version.py

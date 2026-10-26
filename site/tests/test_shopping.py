@@ -92,4 +92,5 @@ def test_list_page(monkeypatch) -> None:  # type: ignore[no-untyped-def]
     assert r.status_code == 200
     assert "Dairy and eggs" in r.text
     assert "6" in r.text  # eggs, doubled
-    assert client.get("/sw.js").headers["service-worker-allowed"] == "/"
+    # The service worker is gone; app.js unregisters it where it was installed.
+    assert client.get("/sw.js").status_code == 404

@@ -90,9 +90,12 @@ def register_db_timing(engine: Engine) -> None:
 
 
 def matched_route(scope: Scope) -> str | None:
-    """The matched route template (`/{slug:path}`), or None for an unmatched request."""
+    """The matched route template (`/{slug:path}`), or None for an unmatched request.
+    The static mount sets no route, so its files share one `/static` label."""
     route = scope.get("route")
-    return getattr(route, "path", None) if route is not None else None
+    if route is not None:
+        return getattr(route, "path", None)
+    return "/static" if scope.get("path", "").startswith("/static/") else None
 
 
 def _inbound_request_id(scope: Scope) -> str | None:

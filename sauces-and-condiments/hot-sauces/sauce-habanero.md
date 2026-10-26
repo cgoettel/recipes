@@ -1,8 +1,9 @@
 ---
-family: Salsa
+family: Hot sauce
 variant: Habanero
 makes: about 1½ cups
 tags: [vegan]
+aliases: [sauces-and-condiments/salsas/sauce-habanero]
 ---
 
 # Habanero sauce

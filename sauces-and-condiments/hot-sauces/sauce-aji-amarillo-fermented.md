@@ -1,15 +1,16 @@
 ---
-family: Salsa
+family: Hot sauce
 variant: Aji amarillo (fermented)
 makes: about 24 oz
 tags: [ferment]
+aliases: [sauces-and-condiments/salsas/sauce-aji-amarillo-fermented]
 ---
 
-# Fermented aji amarillo salsa
+# Fermented aji amarillo hot sauce
 
 A lacto-fermented hot sauce built around Peruvian aji amarillo chiles. Fruity, floral, almost passion-fruit aromatic — distinctly different from anything in the supermarket hot sauce aisle. Pairs naturally with grilled chicken, ceviche, roasted potatoes, and anywhere a Peruvian dish wants a finishing kick. Yields about 24 oz Active time ~30 minutes; fermentation runs 2–4 weeks.
 
-The fermentation process is identical to [fermented Fresno salsa](sauce-fresno-fermented.md). See that recipe's Notes for equipment, salt math, the chlorinated-water warning, and kahm-yeast-vs-mold guidance.
+The fermentation process is identical to [fermented Fresno hot sauce](sauce-fresno-fermented.md). See that recipe's Notes for equipment, salt math, the chlorinated-water warning, and kahm-yeast-vs-mold guidance.
 
 ## Ingredients
 

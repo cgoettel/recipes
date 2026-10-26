@@ -2,6 +2,7 @@
 family: Enchilada sauce
 variant: Bill Jordan's green
 makes: about 5 cups
+aliases: [sauces-and-condiments/salsas/enchilada-sauce-bill-jordans-green]
 ---
 
 # Bill Jordan's green enchilada sauce

@@ -55,7 +55,7 @@ I have tried to be explicit in these recipes, but sometimes I've been doing some
   - [Dutch baby (German pancakes)](breakfast/pancake-dutch-baby.md)
   - [Potato cakes](breakfast/pancakes-potato-cakes.md)
   - [Swedish (Åke Jon)](breakfast/pancakes-swedish-ake-jon.md)
-  - [Swedish (Åke Jon), version 2](breakfast/pancakes-swedish-ake-jon-v2.md)
+  - [Swedish (Åke Jon), small batch](breakfast/pancakes-swedish-ake-jon-v2.md)
   - [Whole wheat](breakfast/pancakes-whole-wheat.md)
 
 ## Drinks

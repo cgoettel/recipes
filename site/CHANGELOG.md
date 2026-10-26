@@ -2,6 +2,11 @@
 
 The site's running version is the newest header here; CI bakes it into the image.
 
+## v0.9.0 (2026-10-25)
+
+- Recipes can move without breaking anything (#19). A moved recipe lists its old paths under `aliases:`; the old URL redirects, and its cook log, view counts and saved shopping lists follow it. CI fails a move or deletion that leaves no alias.
+- The old Dutch baby link (`breakfast/pancakes-german-dutch-baby`, merged away in #2) redirects again.
+
 ## v0.8.3 (2026-10-25)
 
 - Hardening (#18): a dough target like `inf` no longer crashes a bread page; the cook log pages show a plain "not right now" page when the database is down instead of an error; the private-page check also verifies who issued the sign-in and ignores email case; the app refuses to start with sign-in turned off when it has prod's full Access config; cook-log dates default to UTC like the counts; CI images are pinned.

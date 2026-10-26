@@ -110,6 +110,7 @@ class Recipe:
     serves: str | None = None
     makes: str | None = None
     tags: list[str] = field(default_factory=list)
+    aliases: list[str] = field(default_factory=list)  # old slugs that redirect here
 
     @property
     def full_title(self) -> str:
@@ -214,6 +215,18 @@ class Catalog:
     categories: list[Category]
     recipes: dict[str, Recipe]
     house_notes: str  # the README intro, raw Markdown
+    aliases: dict[str, str] = field(default_factory=dict)  # old slug -> current slug
+
+    def current(self, slug: str) -> str | None:
+        """The live slug for a slug that may have moved, or None if it's unknown."""
+        if slug in self.recipes:
+            return slug
+        return self.aliases.get(slug)
+
+    def slugs_for(self, slug: str) -> list[str]:
+        """A recipe's slug plus every old slug it was known by (for database rows)."""
+        recipe = self.recipes.get(slug)
+        return [slug, *(recipe.aliases if recipe else [])]
 
 
 def _list_items(body: str) -> list[Group]:
@@ -260,7 +273,7 @@ _FRONT_MATTER_RE = re.compile(r"\A---\n(.*?)\n?---\n", re.S)
 # The front matter fields and the tag vocabulary (documented in CLAUDE.md).
 # `check()` holds every recipe to them, so a typo fails CI instead of quietly
 # dropping a tag or a family.
-FRONT_MATTER_KEYS = {"family", "variant", "serves", "makes", "tags"}
+FRONT_MATTER_KEYS = {"family", "variant", "serves", "makes", "tags", "aliases"}
 TAGS = {
     # method
     "grill", "smoker", "slow-cooker", "instant-pot", "no-cook", "make-ahead",
@@ -289,6 +302,18 @@ def _text(value: object) -> str | None:
 
 def _tags(value: object) -> list[str]:
     return [str(t) for t in value] if isinstance(value, list) else []
+
+
+def alias_slug(value: str) -> str:
+    """An alias as written ("/salsas/sauce-habanero.md") to a slug ("salsas/sauce-habanero")."""
+    value = value.strip().strip("/")
+    return value[:-3] if value.endswith(".md") else value
+
+
+def parse_aliases(value: object) -> list[str]:
+    if not isinstance(value, list):
+        return []
+    return [alias_slug(a) for a in value if isinstance(a, str) and alias_slug(a)]
 
 
 def parse_recipe(slug: str, text: str) -> Recipe:
@@ -351,6 +376,7 @@ def parse_recipe(slug: str, text: str) -> Recipe:
         serves=_text(meta.get("serves")),
         makes=_text(meta.get("makes")),
         tags=_tags(meta.get("tags")),
+        aliases=parse_aliases(meta.get("aliases")),
     )
 
 
@@ -379,10 +405,20 @@ def recipe_paths(content_dir: Path) -> list[str]:
     paths = []
     for file in content_dir.rglob("*.md"):
         rel = file.relative_to(content_dir).as_posix()
-        if file.name in _NOT_RECIPES or rel.startswith(_NOT_RECIPE_DIRS) or "/." in "/" + rel:
-            continue
-        paths.append(rel)
+        if is_recipe_path(rel):
+            paths.append(rel)
     return sorted(paths)
+
+
+def is_recipe_path(rel: str) -> bool:
+    """Whether a repo-relative .md path is a recipe file (it may sit too deep; check() says so)."""
+    name = rel.rsplit("/", 1)[-1]
+    return (
+        rel.endswith(".md")
+        and name not in _NOT_RECIPES
+        and not rel.startswith(_NOT_RECIPE_DIRS)
+        and "/." not in "/" + rel
+    )
 
 
 def house_notes(readme: str) -> str:
@@ -432,13 +468,22 @@ def load(content_dir: Path) -> Catalog:
         )
     readme = content_dir / "README.md"
     notes = house_notes(readme.read_text(encoding="utf-8")) if readme.is_file() else ""
-    return Catalog(categories=categories, recipes=recipes, house_notes=notes)
+    aliases = {
+        old: slug
+        for slug, recipe in recipes.items()
+        for old in recipe.aliases
+        if old not in recipes  # check() reports a collision; the live recipe wins
+    }
+    return Catalog(categories=categories, recipes=recipes, house_notes=notes, aliases=aliases)
 
 
 def check(content_dir: Path) -> list[str]:
     """Problems that would otherwise drop a recipe or its metadata silently."""
     problems: list[str] = []
-    for rel in recipe_paths(content_dir):
+    paths = recipe_paths(content_dir)
+    slugs = {rel[:-3] for rel in paths}
+    claimed: dict[str, str] = {}  # alias -> the file that claims it
+    for rel in paths:
         depth = rel.count("/")
         if depth not in (1, 2):
             problems.append(f"{rel}: recipes live one or two folders deep, or the site skips them")
@@ -476,6 +521,27 @@ def check(content_dir: Path) -> list[str]:
                 for tag in tags:
                     if tag not in TAGS:
                         problems.append(f"{rel}: tag `{tag}` isn't in catalog.TAGS")
+        aliases = meta.get("aliases")
+        if aliases is not None:
+            if not isinstance(aliases, list) or not all(isinstance(a, str) for a in aliases):
+                problems.append(
+                    f"{rel}: `aliases` should be a list of old paths, like [salsas/sauce-habanero]"
+                )
+            else:
+                for alias in map(alias_slug, aliases):
+                    if alias.count("/") not in (1, 2):
+                        problems.append(
+                            f"{rel}: alias `{alias}` should be a full old path, like "
+                            "sauces-and-condiments/salsas/sauce-habanero"
+                        )
+                    elif alias in slugs:
+                        problems.append(f"{rel}: alias `{alias}` is a live recipe's path")
+                    elif alias in claimed:
+                        problems.append(
+                            f"{rel}: alias `{alias}` is also claimed by {claimed[alias]}"
+                        )
+                    else:
+                        claimed[alias] = rel
     return problems
 
 

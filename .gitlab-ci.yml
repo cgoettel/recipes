@@ -97,7 +97,10 @@ site_test:
   variables:
     PIP_DISABLE_PIP_VERSION_CHECK: "1"
     PIP_NO_CACHE_DIR: "1"
+    # Full history, so the renames guard can diff against the base commit.
+    GIT_DEPTH: 0
   before_script:
+    - apt-get update -qq && apt-get install -y -qq git >/dev/null
     - cd site
     - pip install -q uv
     - uv export --frozen --no-emit-project --extra dev --no-hashes -o /tmp/requirements-dev.txt
@@ -108,6 +111,9 @@ site_test:
     - ruff format --check .
     - mypy src tests
     - pytest -q
+    # A renamed, moved or deleted recipe must leave an alias (#19). Compare
+    # with the MR's base, or with what main pointed at before this push.
+    - python -m recipes_site.renames "${CI_MERGE_REQUEST_DIFF_BASE_SHA:-$CI_COMMIT_BEFORE_SHA}" ..
 
 # Rootless BuildKit, as in the fleet apps: no privileged pod, no Docker daemon.
 # The layer cache lives in the registry, so a recipe-only change rebuilds only

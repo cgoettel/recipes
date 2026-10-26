@@ -120,6 +120,17 @@ def build_rows(
     return ing_groups, step_groups
 
 
+def _fold(
+    cat: catalog.Catalog, rows: list[tuple[str, int]], limit: int = 10
+) -> list[tuple[str, int]]:
+    """Merge counts recorded under a recipe's old paths into its current one."""
+    totals: dict[str, int] = {}
+    for slug, n in rows:
+        key = cat.current(slug) or slug
+        totals[key] = totals.get(key, 0) + n
+    return sorted(totals.items(), key=lambda kv: -kv[1])[:limit]
+
+
 def create_app(settings: Settings | None = None) -> FastAPI:
     settings = settings or get_settings()
     configure_logging(settings.log_level)
@@ -198,11 +209,15 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     @app.get("/list", response_class=HTMLResponse)
     def shopping_list(request: Request, r: Annotated[list[str] | None, Query()] = None) -> Response:
         cat = get_catalog()
-        plan = [
-            (cat.recipes[slug], scale)
-            for slug, scale in shopping.parse_plan(r or [])
-            if slug in cat.recipes
-        ]
+        # Resolve moved recipes, so a saved plan or old link keeps its items.
+        # One entry per recipe, so a plan holding both a recipe's old and new
+        # path doesn't count it twice. Repeats keep the larger scale.
+        scales: dict[str, Fraction] = {}
+        for old, scale in shopping.parse_plan(r or []):
+            slug = cat.current(old)
+            if slug:
+                scales[slug] = max(scale, scales.get(slug, scale))
+        plan = [(cat.recipes[slug], scale) for slug, scale in scales.items()]
         labels = {value: label for label, value in ing.SCALES}
         return templates.TemplateResponse(
             request,
@@ -243,19 +258,23 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     @app.get("/me", response_class=HTMLResponse)
     def me(request: Request) -> Response:
         cat = get_catalog()
-        made = cooklog.made_slugs()
+        # Rows recorded under a recipe's old path count toward its current one.
+        made = {cat.current(s) or s for s in cooklog.made_slugs()}
+        recent = [
+            cooklog.Made(cat.current(m.slug) or m.slug, m.made_on, m.note) for m in cooklog.recent()
+        ]
         return templates.TemplateResponse(
             request,
             "me.html",
             {
-                "recent": cooklog.recent(),
+                "recent": recent,
                 "recipes": cat.recipes,
                 "untested": sorted(
                     (r for s, r in cat.recipes.items() if s not in made and r.structured),
                     key=lambda r: r.title,
                 ),
-                "top_viewed": counts.top("view"),
-                "top_scaled": counts.top("scale"),
+                "top_viewed": _fold(cat, counts.top("view", limit=1000)),
+                "top_scaled": _fold(cat, counts.top("scale", limit=1000)),
             },
         )
 
@@ -267,7 +286,8 @@ def create_app(settings: Settings | None = None) -> FastAPI:
 
     @app.get("/me/status")
     def me_status(slug: str) -> dict[str, object]:
-        st = cooklog.status(slug)
+        cat = get_catalog()
+        st = cooklog.status(cat.slugs_for(cat.current(slug) or slug))
         return {"count": st.count, "last": st.last.isoformat() if st.last else None}
 
     @app.post("/me/log")
@@ -275,8 +295,8 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         if not _same_origin(request):
             raise HTTPException(status_code=403)
         form = await request.form()
-        slug = str(form.get("slug", "")).strip("/")
-        if slug not in get_catalog().recipes:
+        slug = get_catalog().current(str(form.get("slug", "")).strip("/"))
+        if slug is None:
             raise HTTPException(status_code=404)
         made_on = None
         raw_date = str(form.get("made_on", ""))
@@ -305,6 +325,15 @@ def create_app(settings: Settings | None = None) -> FastAPI:
             slug = slug[:-3]
         cat = get_catalog()
         recipe = cat.recipes.get(slug)
+        if recipe is None and slug in cat.aliases:
+            # A moved recipe: send old links (and bookmarks) to where it lives now.
+            query = f"?{request.url.query}" if request.url.query else ""
+            # Permanent, but cached for a day only, in case a path is ever reused.
+            return RedirectResponse(
+                f"/{cat.aliases[slug]}{query}",
+                status_code=301,
+                headers={"Cache-Control": "public, max-age=86400"},
+            )
         if recipe is None:
             raise HTTPException(status_code=404)
         factor = ing.parse_scale(scale)

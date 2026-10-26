@@ -1,0 +1,3 @@
+# Recipes removed on purpose, one old path per line (without .md). The renames
+# guard in CI accepts a deleted recipe listed here; anything else that goes away
+# needs an alias on the recipe that replaces it. See recipes#19.

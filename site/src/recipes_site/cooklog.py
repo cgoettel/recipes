@@ -36,8 +36,9 @@ def add(slug: str, note: str | None, made_on: dt.date | None = None) -> None:
         )
 
 
-def status(slug: str) -> Status:
-    stmt = select(func.count(CookLog.id), func.max(CookLog.made_on)).where(CookLog.slug == slug)
+def status(slugs: list[str]) -> Status:
+    """How often a recipe was made, across its current slug and any aliases."""
+    stmt = select(func.count(CookLog.id), func.max(CookLog.made_on)).where(CookLog.slug.in_(slugs))
     with session_scope() as session:
         count, last = session.execute(stmt).one()
     return Status(count=int(count), last=last)

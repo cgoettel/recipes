@@ -2,6 +2,7 @@
 family: Pancakes
 variant: Dutch baby (German pancakes)
 serves: 2–3
+aliases: [breakfast/pancakes-german-dutch-baby]
 ---
 
 # Dutch baby (German pancakes)

@@ -192,11 +192,18 @@
     };
     if (plan().some(function (p) { return p.slug === slug; })) markAdded();
     addBtn.addEventListener("click", function () {
+      var already = plan().some(function (p) { return p.slug === slug; });
       var items = plan().filter(function (p) { return p.slug !== slug; });
       items.push({ slug: slug, scale: addBtn.getAttribute("data-scale"), title: addBtn.getAttribute("data-title") });
       store(PLAN, items);
       markAdded();
       showCount();
+      // Count the add (not a re-add at another scale): an anonymous total, no cookie.
+      if (!already && navigator.sendBeacon) {
+        var body = new FormData();
+        body.append("slug", slug);
+        navigator.sendBeacon("/count/list", body);
+      }
     });
   }
 

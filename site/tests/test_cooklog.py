@@ -107,3 +107,24 @@ def test_header_has_cart_menu_and_person(logged: list[object]) -> None:  # noqa:
     html = _client(auth_disabled=False).get("/").text
     assert 'data-panel-toggle="menu"' in html and "data-person" in html
     assert 'href="/#bread"' in html  # the menu's category chips
+
+
+def test_list_adds_are_counted_by_current_slug(monkeypatch: pytest.MonkeyPatch) -> None:
+    bumped: list[tuple[str, str]] = []
+    monkeypatch.setattr(counts, "bump", lambda slug, kind, **_k: bumped.append((slug, kind)))
+    client = _client(auth_disabled=False)
+    # Public: no sign-in and no CSRF token.
+    assert client.post("/count/list", data={"slug": "breakfast/granola"}).status_code == 204
+    # A moved recipe's old path counts toward where it lives now.
+    client.post("/count/list", data={"slug": "breakfast/pancakes-german-dutch-baby"})
+    assert client.post("/count/list", data={"slug": "nope/nope"}).status_code == 204
+    assert bumped == [("breakfast/granola", "list"), ("breakfast/pancake-dutch-baby", "list")]
+
+
+def test_me_lists_the_most_added(logged: list[object], monkeypatch: pytest.MonkeyPatch) -> None:  # noqa: ARG001
+    monkeypatch.setattr(
+        counts, "top", lambda kind, **_k: [("breakfast/granola", 4)] if kind == "list" else []
+    )
+    page = _client(auth_disabled=True).get("/me").text
+    assert "Most added to a shopping list" in page
+    assert '<a href="/breakfast/granola">Granola</a> <span class="muted small">4</span>' in page

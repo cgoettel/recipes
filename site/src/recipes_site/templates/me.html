@@ -32,6 +32,12 @@
     {% for slug, n in top_scaled %}<li>{% if slug in recipes %}<a href="/{{ slug }}">{{ recipes[slug].title }}</a>{% else %}{{ slug }}{% endif %} <span class="muted small">{{ n }}</span></li>{% endfor %}
   </ol>
   {% endif %}
+  {% if top_listed %}
+  <h3 class="subheading">Most added to a shopping list</h3>
+  <ol class="prose">
+    {% for slug, n in top_listed %}<li>{% if slug in recipes %}<a href="/{{ slug }}">{{ recipes[slug].title }}</a>{% else %}{{ slug }}{% endif %} <span class="muted small">{{ n }}</span></li>{% endfor %}
+  </ol>
+  {% endif %}
 </section>
 
 <details class="staples">

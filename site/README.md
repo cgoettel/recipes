@@ -4,7 +4,7 @@ The app behind [recipes.skalchemy.com](https://recipes.skalchemy.com): a public 
 
 The recipes stay plain Markdown at the top of the repo. The site reads the folders and each recipe's front matter when the image is built (and generates the README's recipe list from the same data), so a pushed recipe edit reaches the site in a few minutes with no other step.
 
-Postgres holds only the owner's cook log (`/me`, behind Cloudflare Access) and daily view and scale counts. Visitors' check-offs and shopping plans stay in their own browser. Deploys, rollback, backups and the edge setup are in the repo's [CLAUDE.md](../CLAUDE.md), under Operations.
+Postgres holds only the owner's cook log (`/me`, behind Cloudflare Access) and anonymous daily counts of views, scales and shopping-list adds. Visitors' check-offs and shopping plans stay in their own browser. Deploys, rollback, backups and the edge setup are in the repo's [CLAUDE.md](../CLAUDE.md), under Operations.
 
 ## Layout
 

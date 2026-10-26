@@ -521,6 +521,14 @@ def check(content_dir: Path) -> list[str]:
                 for tag in tags:
                     if tag not in TAGS:
                         problems.append(f"{rel}: tag `{tag}` isn't in catalog.TAGS")
+        recipe = parse_recipe(rel[:-3], text)
+        for group in recipe.ingredient_groups:
+            for item in group.items:
+                wrong = ing.unit_spelling(item)
+                if wrong:
+                    problems.append(
+                        f"{rel}: write `{wrong[1]}`, not `{wrong[0]}`, in “{item.strip()[:50]}”"
+                    )
         aliases = meta.get("aliases")
         if aliases is not None:
             if not isinstance(aliases, list) or not all(isinstance(a, str) for a in aliases):

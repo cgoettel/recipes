@@ -8,7 +8,7 @@ This recipe is inspired by [Matty Matheson's meatball recipe](https://www.vice.c
 
 ## Ingredients
 
-- 2 pounds meat (beef, pork, veal, or combo of two or all three)
+- 2 lb meat (beef, pork, veal, or combo of two or all three)
 - 2 tablespoons crushed red pepper flakes
 - 3 tablespoons dried oregano
 - 2 tablespoons fennel seeds (optional)

@@ -2,6 +2,10 @@
 
 The site's running version is the newest header here; CI bakes it into the image.
 
+## v0.9.1 (2026-10-25)
+
+- CI checks ingredient units against the house spellings (#21): shorthand like `C`, `tsp.`, `lbs` or `liter` fails with the spelling to use. Nine stragglers fixed, and the Swedish pancakes read in cups.
+
 ## v0.9.0 (2026-10-25)
 
 - Recipes can move without breaking anything (#19). A moved recipe lists its old paths under `aliases:`; the old URL redirects, and its cook log, view counts and saved shopping lists follow it. CI fails a move or deletion that leaves no alias.

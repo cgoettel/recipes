@@ -1,7 +1,10 @@
 """Parse ingredient lines into amount, unit and item, and scale them.
 
 Recipes stay plain Markdown, so this reads the lines people actually write:
-"2 C flour", "1 ½ tsp. salt", "3–4 cloves garlic", "450 g bread flour".
+"2 cups flour", "1½ teaspoons salt", "3–4 cloves garlic", "450 g bread flour".
+It also reads shorthand ("2 C", "1 tsp."), so an old or pasted recipe still
+scales, but catalog.check() flags shorthand against the house spellings in
+CLAUDE.md (HOUSE_UNITS below).
 A line with no leading amount ("Salt to taste") isn't an error; it just doesn't
 scale. A line that starts with a number this parser can't read is kept as text
 and flagged, so it can be fixed in the Markdown.
@@ -162,6 +165,37 @@ _COUNT_UNITS = {
     "bottle": ("bottle", "bottles"),
     "bottles": ("bottle", "bottles"),
 }
+# Unit tokens the parser accepts but the house style doesn't use, with the house
+# spelling (CLAUDE.md, "Recipe formatting quirks", Units). catalog.check() fails
+# a recipe that uses one, so the shorthand can't creep back.
+HOUSE_UNITS: dict[str, str] = {
+    **dict.fromkeys(("C", "C.", "c", "c."), "cup"),
+    **dict.fromkeys(("T", "T.", "Tbsp", "Tbsp.", "tbsp", "tbsp.", "Tbs", "tbs"), "tablespoon"),
+    **dict.fromkeys(("t", "t.", "tsp", "tsp.", "teas."), "teaspoon"),
+    **dict.fromkeys(("gram", "grams"), "g"),
+    "ml": "mL",
+    **dict.fromkeys(("l", "liter", "liters"), "L"),
+    **dict.fromkeys(("oz.", "ounce", "ounces"), "oz"),
+    **dict.fromkeys(("lb.", "lbs", "lbs.", "pound", "pounds"), "lb"),
+    "gal": "gallon",
+    "qt": "quart",
+    **dict.fromkeys(("pkg", "pkg."), "package"),
+}
+
+
+def unit_spelling(line: str) -> tuple[str, str] | None:
+    """(token as written, house spelling) when a line's unit isn't the house spelling."""
+    raw = line.strip()
+    m = _AMOUNT_RE.match(raw)
+    if not m:
+        return None
+    token_match = re.match(r"^(\S+)(?:\s+|$)", raw[m.end() :].lstrip())
+    if not token_match:
+        return None
+    bare = token_match.group(1).rstrip(",")
+    return (bare, HOUSE_UNITS[bare]) if bare in HOUSE_UNITS else None
+
+
 # Every (singular, plural) pair the kept units use.
 COUNT_FORMS: set[tuple[str, str]] = set(_COUNT_UNITS.values())
 

@@ -11,16 +11,16 @@ Raquelle's slow-cooker adaptation of a Ligurian veal stew, rebuilt with stew bee
 
 ## Ingredients
 
-- 1½ pounds fresh tomatoes, peeled, seeded, and chopped, or 1½ cups drained chopped canned tomatoes
-- 2 pounds stew beef, cut into 1½-inch pieces
+- 1½ lb fresh tomatoes, peeled, seeded, and chopped, or 1½ cups drained chopped canned tomatoes
+- 2 lb stew beef, cut into 1½-inch pieces
 - 2 onions, chopped
 - 2 small carrots, cut into ¼-inch dice
 - 3 stalks celery, cut into ¼-inch pieces
 - 6 large garlic cloves, minced
 - ½ cup dry white wine
 - 1½ cups chicken broth (or white veal stock)
-- 1½ pounds red potatoes, peeled and quartered
-- 1¼ pounds small zucchini, scrubbed and cut into ¼-inch slices
+- 1½ lb red potatoes, peeled and quartered
+- 1¼ lb small zucchini, scrubbed and cut into ¼-inch slices
 - 1 tablespoon minced fresh basil, or 1 teaspoon dried
 - Salt and pepper to taste
 - Additional minced fresh basil or parsley for garnish (optional)

@@ -8,12 +8,12 @@ serves: 2–4
 
 ## Ingredients
 
-- 0,3 liter of wheat flour (1.27 cups)
-- 1 teaspoon of sugar
+- 1¼ cups flour
+- 1 teaspoon sugar
 - 1 teaspoon salt
-- 0,6 liter milk (3%) (2.54 cups)
+- 2½ cups whole milk
 - 3 eggs
-- butter, to melt in the oven plate.
+- Butter, for greasing the pan
 
 ## Instructions
 

@@ -1,10 +1,10 @@
 ---
 family: Pancakes
-variant: Swedish (Åke Jon), version 2
+variant: Swedish (Åke Jon), small batch
 serves: 2–4
 ---
 
-# Swedish pancakes (Åke Jon), version 2
+# Swedish pancakes (Åke Jon), small batch
 
 ## Ingredients
 

@@ -134,6 +134,7 @@ entrees/
 household/
 sauces-and-condiments/
   dressings/
+  hot-sauces/                     ← blended and squeezable; salsas are chunky and fresh
   pickled/                        ← lacto-ferments (sauerkraut) and vinegar pickles together
   salsas/
   sauces/
@@ -152,7 +153,7 @@ sweets/
 - **Meatball subs → American**; **meatballs → Italian** (spaghetti-and-meatballs lineage).
 - **Sopapillas → Sweets / Confections**, not Mexican entrée.
 - **Yorkshire pudding → side**, not entrée.
-- **Salsa vs hot sauce.** A salsa is chunky and fresh. A hot sauce is blended smooth enough to squeeze from an old-school mustard bottle; the habanero sauce is about as chunky as a hot sauce gets. The hot sauces are moving out of `salsas/` (#9).
+- **Salsa vs hot sauce.** A salsa is chunky and fresh. A hot sauce is blended smooth enough to squeeze from an old-school mustard bottle; the habanero sauce is about as chunky as a hot sauce gets. Hot sauces live in `sauces-and-condiments/hot-sauces/`; enchilada sauces are sauces.
 - Single-item cuisine bins (e.g., `entrees/mediterranean/` is just chermoula lamb chops) are fine — they'll grow.
 
 ## Recipe formatting quirks
@@ -226,6 +227,5 @@ Open items only; shipped work lives in the git history.
 **Maintenance** and **Creations**:
 
 - **[#16 "Rotate the README bot token before it expires"](https://gitlab.com/colby.goettel/recipes/-/work_items/16)** (`Agent-ready`, `priority::someday`, milestone Maintenance, due 2027-10-19) — the `readme-bot` token CI uses to commit the generated README list expires 2027-10-24.
-- **[#9 "Give hot sauces their own folder"](https://gitlab.com/colby.goettel/recipes/-/work_items/9)** (`Agent-ready`, `priority::someday`, milestone Maintenance) — move the three hot sauces to `hot-sauces/` and the two enchilada sauces to `sauces/`, with aliases so the moves keep their URLs.
 - **[#10 "Move the Drive-import procedure into a project skill"](https://gitlab.com/colby.goettel/recipes/-/work_items/10)** (`Agent-ready`, `priority::someday`, milestone Maintenance) — keep `CLAUDE.md` about the repo; load the import steps only when importing.
 - **[#3 "Cooking with tea: hōjicha and Kaga bōcha creations"](https://gitlab.com/colby.goettel/recipes/-/work_items/3)** (`Present`, `priority::months`, milestone Creations) — backlog of roasted-tea dishes beyond the bōcha curry and hōjicha panna cotta: lahpet (fermented tea-leaf salad), ochazuke, hōjicha salt, tea brine, tea smoking, sweets.

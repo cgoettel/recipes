@@ -214,7 +214,6 @@ Open items only; shipped work lives in the git history.
 
 **Site** (from the #15 handover, in priority order):
 
-- **[#17 "Make /health fail when the recipe catalog can't load"](https://gitlab.com/colby.goettel/recipes/-/work_items/17)** (`Agent-ready`, `priority::next`) — so a build with an unreadable recipe can't take over prod.
 - **[#18 "Site hardening pass"](https://gitlab.com/colby.goettel/recipes/-/work_items/18)** (`Agent-ready`, `priority::weeks`) — a crashing query value, a prod guard on sign-in off, the Access issuer check, database-down pages, CI image pins.
 - **[#19 "Rename and move recipes without breaking links or cook-log history"](https://gitlab.com/colby.goettel/recipes/-/work_items/19)** (`Agent-ready`, `priority::weeks`) — `aliases:` front matter, redirects, and a CI guard. #9 waits on it.
 - **[#20 ""I have…" ingredient search"](https://gitlab.com/colby.goettel/recipes/-/work_items/20)** (`Present`, `priority::months`) — what else uses the leftover leek; mock first.

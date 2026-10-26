@@ -2,6 +2,10 @@
 
 The site's running version is the newest header here; CI bakes it into the image.
 
+## v0.9.2 (2026-10-26)
+
+- Request logging and route metrics, the fleet's way (#22): every request gets an id (`X-Request-ID`) and one `request.completed` log line with its route, status, latency and database time, and `/metrics` carries `http_requests_total`, `http_request_duration_seconds` and an in-flight gauge, labelled by route template so every recipe page shares one series. Probes and scrapes are left out of both.
+
 ## v0.9.1 (2026-10-25)
 
 - CI checks ingredient units against the house spellings (#21): shorthand like `C`, `tsp.`, `lbs` or `liter` fails with the spelling to use. Nine stragglers fixed, and the Swedish pancakes read in cups.

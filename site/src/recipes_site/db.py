@@ -7,6 +7,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import Session, sessionmaker
 
 from recipes_site.config import get_settings
+from recipes_site.observability import register_db_timing
 
 if TYPE_CHECKING:
     from collections.abc import Iterator
@@ -27,6 +28,7 @@ def get_engine() -> Engine:
             pool_pre_ping=True,
             connect_args={"connect_timeout": 2},
         )
+        register_db_timing(_engine)
     return _engine
 
 
@@ -35,6 +37,7 @@ def set_engine(engine: Engine) -> None:
     global _engine, _session_factory
     _engine = engine
     _session_factory = None
+    register_db_timing(engine)
 
 
 def get_session_factory() -> sessionmaker[Session]:

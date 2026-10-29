@@ -4,17 +4,16 @@
   <label for="search" class="sr-only">Search recipes</label>
   <input id="search" type="search" name="q" placeholder="Search recipes" autocomplete="off" data-search
          hx-get="/search/ingredients" hx-trigger="input changed delay:250ms, search" hx-target="[data-ing-results]" hx-sync="this:replace">
-  <p class="search-hint">Searches names and ingredients. Separate ingredients with commas.</p>
   <div id="search-terms" class="search-terms"></div>
 </div>
 
-<nav class="jump" aria-label="Categories">
+<nav class="jump" aria-label="Categories" data-jump>
   {% for cat in categories %}
   <a href="#{{ cat.slug }}" class="chip chip-{{ cat.color }}">{{ cat.title | lower }}</a>
   {% endfor %}
 </nav>
 
-<p class="by-name" data-by-name hidden>By name</p>
+<h2 class="section-heading by-name" data-by-name hidden><span class="bar bar-lilac" aria-hidden="true"></span>By name<span class="group-count" data-by-name-count></span></h2>
 
 {% for cat in categories %}
 <section class="category" id="{{ cat.slug }}" data-category>

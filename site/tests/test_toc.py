@@ -29,3 +29,27 @@ def test_families_nest_in_the_readme() -> None:
     listing = toc.render(catalog.load(ROOT))
     assert "- Pancakes\n  - [Bacon cornmeal](breakfast/pancakes-bacon-cornmeal.md)" in listing
     assert "- [Almond](bread/bread-almond.md)" in listing  # Bread under Bread drops the family
+
+
+def test_badge_counts_the_links_in_the_list(tmp_path: Path) -> None:
+    import json
+
+    cat = catalog.load(ROOT)
+    # Every link in the list is a recipe, except the soda notes under their heading.
+    notes = sum(n.count("](") for n in toc.SECTION_NOTES.values())
+    recipes = toc.render(cat).count("](") - notes
+    assert toc.count(cat) == recipes
+    assert json.loads(toc.badge(cat)) == {
+        "schemaVersion": 1,
+        "label": "recipes",
+        "message": str(recipes),
+        "color": "orange",
+    }
+
+    # The CLI writes the same badge for whatever folder it's given.
+    (tmp_path / "breakfast").mkdir()
+    (tmp_path / "breakfast" / "toast.md").write_text("# Toast\n", encoding="utf-8")
+    (tmp_path / "README.md").write_text("# Recipes\n", encoding="utf-8")
+    out = tmp_path / "recipe-count.json"
+    toc.main([f"--count-file={out}", str(tmp_path)])
+    assert json.loads(out.read_text())["message"] == "1"

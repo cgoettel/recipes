@@ -5,11 +5,15 @@ generated from the folders and each recipe's front matter, the same data the
 site reads (`catalog.py`). CI runs this on every push: on a merge request it
 fails when the list is stale, and on `main` it commits the regenerated list.
 
-    python -m recipes_site.toc [--check] [CONTENT_DIR]
+    python -m recipes_site.toc [--check] [--count-file=PATH] [CONTENT_DIR]
+
+`--count-file` also writes the README's recipe-count badge (a shields.io
+endpoint JSON), counted from the same rows as the list so the two agree.
 """
 
 from __future__ import annotations
 
+import json
 import sys
 from pathlib import Path
 
@@ -56,6 +60,23 @@ def render(cat: catalog.Catalog) -> str:
     return "\n".join(lines) + "\n"
 
 
+def count(cat: catalog.Catalog) -> int:
+    """How many recipes the list links to."""
+    return sum(
+        len(row.items)
+        for category in cat.categories
+        for sub in category.subcategories
+        for row in sub.rows
+    )
+
+
+def badge(cat: catalog.Catalog) -> str:
+    """The recipe-count badge, in shields.io's endpoint schema."""
+    return json.dumps(
+        {"schemaVersion": 1, "label": "recipes", "message": str(count(cat)), "color": "orange"}
+    )
+
+
 def updated_readme(readme: str, listing: str) -> str:
     """The README with its recipe list replaced, keeping the intro as written."""
     if START in readme and END in readme:
@@ -71,11 +92,15 @@ def updated_readme(readme: str, listing: str) -> str:
 
 def main(argv: list[str]) -> int:
     check = "--check" in argv
+    count_file = next((a.split("=", 1)[1] for a in argv if a.startswith("--count-file=")), None)
     args = [a for a in argv if not a.startswith("--")]
     content_dir = Path(args[0]) if args else Path.cwd()
     readme_path = content_dir / "README.md"
     readme = readme_path.read_text(encoding="utf-8")
-    new = updated_readme(readme, render(catalog.load(content_dir)))
+    cat = catalog.load(content_dir)
+    if count_file:
+        Path(count_file).write_text(badge(cat) + "\n", encoding="utf-8")
+    new = updated_readme(readme, render(cat))
     if new == readme:
         print("README recipe list is current.")
         return 0

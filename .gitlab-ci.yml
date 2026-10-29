@@ -42,7 +42,7 @@ readme_toc:
   script:
     - |
       if [ "$CI_COMMIT_BRANCH" = "$CI_DEFAULT_BRANCH" ] && [ "$CI_PIPELINE_SOURCE" = "push" ]; then
-        python -m recipes_site.toc .
+        python -m recipes_site.toc --count-file=recipe-count.json .
         if git diff --quiet -- README.md; then exit 0; fi
         git config user.name "recipes CI"
         git config user.email "noreply@gitlab.com"
@@ -62,8 +62,13 @@ readme_toc:
         exit 1
       else
         # The workspace is thrown away, so writing the README here is harmless.
-        python -m recipes_site.toc .
+        python -m recipes_site.toc --count-file=recipe-count.json .
       fi
+  # The README's recipe-count badge reads this from the newest successful
+  # pipeline on main (GitLab keeps the latest successful job's artifacts).
+  artifacts:
+    paths:
+      - recipe-count.json
 
 # Markdown formatting, check only. Same pinned mdformat as the owner's global
 # pre-commit hook, so commits made off his Mac (or in the web editor) are

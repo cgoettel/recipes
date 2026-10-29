@@ -46,6 +46,8 @@
   --color-current: #e3dc3a;
   --color-on-current: #283258;
   --color-warn: #e8485c;
+  --color-tray: #283258;
+  --color-alarm: #d1304a;
 
   --color-navy: #283258;
   --color-cobalt: #0063a6;
@@ -77,6 +79,7 @@
   --color-check: #6fb6ee;
   --color-on-check: #1d2440;
   --color-warn: #ff7384;
+  --color-tray: #0b1020;
   --color-navy: #9aa6d6;
   --color-shade: #0b1020;
 }
@@ -232,7 +235,7 @@
 
   .steps li + li { margin-top: 0.4rem; }
   .step { display: flex; align-items: flex-start; gap: 0.75rem; width: 100%; min-height: 44px; padding: 0.75rem 0.6rem; text-align: left; border: 0; border-radius: 4px; background: var(--color-surface); }
-  .step .num { flex: none; width: 26px; height: 26px; border-radius: 13px; border: 2px solid var(--color-muted); display: inline-flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.8rem; color: var(--color-muted); box-sizing: border-box; }
+  .step .num { position: relative; padding: 0; background: transparent; flex: none; width: 26px; height: 26px; border-radius: 13px; border: 2px solid var(--color-muted); display: inline-flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.8rem; color: var(--color-muted); box-sizing: border-box; }
   .step-text { line-height: 1.45; min-width: 0; }
   .step.is-current { background: var(--color-current); color: var(--color-on-current); padding: 1rem 0.85rem; }
   .step.is-current .num { background: var(--color-on-current); border-color: var(--color-on-current); color: var(--color-current); }
@@ -241,6 +244,38 @@
   .step.is-done { background: transparent; align-items: center; padding: 0.3rem 0.6rem; }
   .step.is-done .num { background: var(--color-check); border-color: var(--color-check); color: var(--color-on-check); }
   .step.is-done .step-text { font-size: 0.82rem; color: var(--color-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .step { cursor: pointer; }
+  .step .num::after { content: ""; position: absolute; inset: -9px; }
+  .step.is-done:has(.timer.is-running, .timer.is-up) .step-text { white-space: normal; }
+
+  /* Timers: a time in a step is a button; running timers sit in a tray along
+     the bottom of the screen. */
+  .timer { position: relative; display: inline-flex; align-items: center; gap: 0.3rem; font: inherit; font-weight: 700; line-height: 1.3; padding: 0.05rem 0.6rem 0.05rem 0.45rem; border: 2px solid currentColor; border-radius: 1rem; background: transparent; color: var(--color-accent); font-variant-numeric: tabular-nums; }
+  .timer::after { content: ""; position: absolute; inset: -7px -3px; }
+  .timer svg { flex: none; width: 0.95em; height: 0.95em; }
+  .step.is-current .timer { color: var(--color-on-current); }
+  .timer.is-running { background: var(--color-accent); border-color: var(--color-accent); color: var(--color-on-accent); }
+  .step.is-current .timer.is-running { background: var(--color-on-current); border-color: var(--color-on-current); color: var(--color-current); }
+  .timer.is-up, .step.is-current .timer.is-up { background: var(--color-alarm); border-color: var(--color-alarm); color: #ffffff; }
+  .step.is-done .timer:not(.is-running):not(.is-up) { border: 0; padding: 0; color: inherit; font-weight: inherit; }
+  .step.is-done .timer:not(.is-running):not(.is-up) svg { display: none; }
+  .timer-tray { position: fixed; left: 0.75rem; right: 0.75rem; bottom: 0.75rem; z-index: 15; max-width: 42.5rem; margin: 0 auto; display: flex; flex-direction: column; gap: 0.5rem; }
+  .timer-tray[hidden] { display: none; }
+  .timer-row { display: flex; align-items: center; gap: 0.75rem; padding: 0.7rem 0.9rem; border-radius: 16px; background: var(--color-tray); color: #ffffff; box-shadow: 0 6px 24px rgb(11 16 32 / 0.28); }
+  .timer-row.is-up { background: var(--color-alarm); }
+  .timer-main { flex: 1; min-width: 0; }
+  .timer-label { font-size: 0.8rem; font-weight: 600; color: #c9cfe6; }
+  .timer-clock { font-family: var(--font-section); font-weight: 700; font-size: 1.6rem; line-height: 1.15; font-variant-numeric: tabular-nums; }
+  .timer-note { font-size: 0.8rem; color: #c9cfe6; }
+  .timer-row.is-up .timer-label, .timer-row.is-up .timer-note { color: #ffffff; }
+  .timer-row.is-up .timer-note { font-size: 0.9rem; }
+  .timer-bar { height: 4px; margin-top: 0.5rem; background: rgb(255 255 255 / 0.18); }
+  .timer-bar i { display: block; height: 4px; width: 0; background: var(--color-sky); }
+  .timer-icon { flex: none; width: 44px; height: 44px; border-radius: 22px; border: 2px solid var(--color-sky); background: transparent; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; padding: 0; box-sizing: border-box; }
+  .timer-icon.is-quiet { border-color: rgb(255 255 255 / 0.25); }
+  .timer-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.6rem; }
+  .timer-btn { min-height: 44px; padding: 0 1.1rem; border-radius: 22px; border: 2px solid #ffffff; background: transparent; color: #ffffff; font-weight: 700; }
+  .timer-btn.is-solid { background: #ffffff; color: var(--color-alarm); }
   .xref { text-decoration: underline; text-decoration-style: dotted; text-underline-offset: 2px; }
   .row-links { display: flex; flex-wrap: wrap; gap: 0.25rem 1rem; padding: 0.15rem 0.4rem 0.5rem 2.75rem; font-size: 0.9rem; }
   .row-links a { display: inline-flex; align-items: center; min-height: 32px; }

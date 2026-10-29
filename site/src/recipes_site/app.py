@@ -19,7 +19,17 @@ from markupsafe import Markup
 from prometheus_client import CONTENT_TYPE_LATEST, generate_latest
 from sqlalchemy.exc import SQLAlchemyError
 
-from recipes_site import __version__, bakers, catalog, cooklog, counts, search, shopping, stripes
+from recipes_site import (
+    __version__,
+    bakers,
+    catalog,
+    cooklog,
+    counts,
+    search,
+    shopping,
+    stripes,
+    timers,
+)
 from recipes_site import ingredients as ing
 from recipes_site.cf_access import CloudflareAccessMiddleware
 from recipes_site.config import Settings, get_settings
@@ -54,9 +64,10 @@ Link = tuple[str, Markup]
 
 
 def split_links(html: str) -> tuple[Markup, list[Link]]:
-    """Pull links out of a checkable row. A row is a <button>, and a link inside
-    a button can't be followed (and isn't valid HTML), so the link text stays in
-    place and the links themselves render beside the row."""
+    """Pull links out of a checkable row. An ingredient row is a <button>, and a
+    link inside a button can't be followed (and isn't valid HTML); a tap on a
+    step checks it off. So the link text stays in place and the links themselves
+    render beside the row."""
     links: list[Link] = []
 
     def repl(m: re.Match[str]) -> str:
@@ -117,7 +128,10 @@ def build_rows(
         for si, text in enumerate(group.items):
             number += 1
             html, links = split_links(catalog.render_inline(text, base))
-            step_rows.append(StepRow(id=f"s{gi}-{si}", number=number, html=html, links=links))
+            step_id = f"s{gi}-{si}"
+            step_rows.append(
+                StepRow(id=step_id, number=number, html=timers.mark(html, step_id), links=links)
+            )
         step_groups.append(RowGroup(heading=group.heading, rows=step_rows))
     return ing_groups, step_groups
 

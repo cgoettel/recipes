@@ -309,7 +309,8 @@
     buttons.forEach(function (b) {
       var on = !!done[b.getAttribute("data-check")];
       b.classList.toggle("is-done", on);
-      b.setAttribute("aria-pressed", on ? "true" : "false");
+      // A step is a div; its number is the button that carries the state.
+      (b.hasAttribute("data-step") ? b.querySelector(".num") : b).setAttribute("aria-pressed", on ? "true" : "false");
       b.classList.remove("is-current");
     });
     // Each part (Dough, Filling, ...) has its own current step: its first open one.
@@ -340,7 +341,7 @@
 
   buttons.forEach(function (b) {
     b.addEventListener("click", function (ev) {
-      if (ev.target.closest("a")) return; // links inside a line still work
+      if (ev.target.closest("a, [data-timer]")) return; // links and timers inside a line still work
       var id = b.getAttribute("data-check");
       if (b.hasAttribute("data-step")) {
         // A step marks where you are in its part: tapping an open step finishes
@@ -364,10 +365,202 @@
       done = {};
       store(key, null);
       render();
+      clearTimers();
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
   }
   render();
+
+  // Timers: a time named in a step ("bake 30–35 minutes") is a button that
+  // starts one. A range checks in at its low end, then counts down to its high
+  // end. Visual only, no sound or vibration. Timers are saved as start times in
+  // this browser, so a reload or a locked phone doesn't lose them.
+  var tray = recipe.querySelector("[data-timer-tray]");
+  var timerKey = "recipes:timers:" + recipe.getAttribute("data-recipe");
+  var timers = store(timerKey) || {};
+  var timerBtns = Array.prototype.slice.call(recipe.querySelectorAll("[data-timer]"));
+  var ticker = null;
+  var shape = "";
+  var ICONS = {
+    pause: '<path d="M8 5v14M16 5v14"/>',
+    play: '<path d="M7 5l12 7-12 7z"/>',
+    cancel: '<path d="M6 6l12 12M18 6L6 18"/>'
+  };
+
+  function icon(name) {
+    return '<svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">' + ICONS[name] + "</svg>";
+  }
+  function clock(ms) {
+    var total = Math.max(0, Math.ceil(ms / 1000));
+    var h = Math.floor(total / 3600), m = Math.floor((total % 3600) / 60), sec = total % 60;
+    var pad = function (n) { return (n < 10 ? "0" : "") + n; };
+    return h ? h + ":" + pad(m) + ":" + pad(sec) : m + ":" + pad(sec);
+  }
+  function human(seconds) {
+    var n, unit;
+    if (seconds >= 3600 && seconds % 1800 === 0) { n = seconds / 3600; unit = "hour"; }
+    else if (seconds >= 60 && seconds % 30 === 0) { n = seconds / 60; unit = "minute"; }
+    else { n = seconds; unit = "second"; }
+    var text = n % 1 ? Math.floor(n) + "½" : String(n);
+    if (text.indexOf("0½") === 0) text = "½";
+    return text + " " + unit + (n > 1 ? "s" : "");
+  }
+  function save() { store(timerKey, Object.keys(timers).length ? timers : null); }
+  function elapsed(t) { return (t.pausedAt || Date.now()) - t.started; }
+  function checkAt(t) { return t.low * 1000 + (t.snooze || 0); }
+  function doneAt(t) { return Math.max(t.high * 1000, checkAt(t)); }
+  function isUp(t) { return elapsed(t) >= checkAt(t); }
+
+  function startTimer(btn) {
+    var id = btn.getAttribute("data-timer");
+    if (timers[id]) return;
+    var step = btn.closest("[data-step]");
+    var num = step ? step.querySelector(".num").textContent.trim() : "";
+    var what = btn.getAttribute("data-label");
+    timers[id] = {
+      label: "Step " + num + (what ? " · " + what : ""),
+      low: Number(btn.getAttribute("data-low")),
+      high: Number(btn.getAttribute("data-high")),
+      started: Date.now(),
+      pausedAt: null,
+      snooze: 0
+    };
+    save();
+    paintTimers();
+  }
+  function clearTimers() {
+    timers = {};
+    save();
+    paintTimers();
+  }
+
+  function row(id, t) {
+    var up = isUp(t);
+    var el = document.createElement("div");
+    el.className = "timer-row" + (up ? " is-up" : "");
+    el.setAttribute("data-row", id);
+    if (up) el.setAttribute("role", "alert");
+    var main = document.createElement("div");
+    main.className = "timer-main";
+    var lab = document.createElement("div");
+    lab.className = "timer-label";
+    lab.textContent = t.label;
+    var big = document.createElement("div");
+    big.className = "timer-clock";
+    big.setAttribute("data-clock", "");
+    var note = document.createElement("div");
+    note.className = "timer-note";
+    note.setAttribute("data-note", "");
+    main.appendChild(lab);
+    main.appendChild(big);
+    main.appendChild(note);
+    el.appendChild(main);
+    if (up) {
+      big.textContent = "Check it now";
+      var actions = document.createElement("div");
+      actions.className = "timer-actions";
+      actions.innerHTML = '<button type="button" class="timer-btn is-solid" data-act="done">Done</button>' +
+        '<button type="button" class="timer-btn" data-act="snooze">2 more minutes</button>';
+      main.appendChild(actions);
+    } else {
+      var bar = document.createElement("div");
+      bar.className = "timer-bar";
+      bar.innerHTML = "<i data-bar></i>";
+      main.appendChild(bar);
+      var paused = !!t.pausedAt;
+      var pause = document.createElement("button");
+      pause.type = "button";
+      pause.className = "timer-icon";
+      pause.setAttribute("data-act", paused ? "resume" : "pause");
+      pause.setAttribute("aria-label", paused ? "Resume" : "Pause");
+      pause.innerHTML = icon(paused ? "play" : "pause");
+      var cancel = document.createElement("button");
+      cancel.type = "button";
+      cancel.className = "timer-icon is-quiet";
+      cancel.setAttribute("data-act", "cancel");
+      cancel.setAttribute("aria-label", "Cancel timer");
+      cancel.innerHTML = icon("cancel");
+      el.appendChild(pause);
+      el.appendChild(cancel);
+    }
+    return el;
+  }
+
+  // Rebuild the tray only when a timer starts, stops, pauses or comes up, so a
+  // tap never lands on a button that was just replaced; tick() updates the text.
+  function paintTimers() {
+    var ids = Object.keys(timers);
+    var next = ids.map(function (id) { return id + (isUp(timers[id]) ? "u" : "") + (timers[id].pausedAt ? "p" : ""); }).join(",");
+    if (next !== shape) {
+      shape = next;
+      tray.innerHTML = "";
+      ids.forEach(function (id) { tray.appendChild(row(id, timers[id])); });
+      tray.hidden = !ids.length;
+      tick();
+      document.body.style.paddingBottom = ids.length ? tray.offsetHeight + 24 + "px" : "";
+    } else {
+      tick();
+    }
+    if (ids.length && !ticker) ticker = setInterval(paintTimers, 1000);
+    if (!ids.length && ticker) { clearInterval(ticker); ticker = null; }
+  }
+
+  function tick() {
+    timerBtns.forEach(function (btn) {
+      var t = timers[btn.getAttribute("data-timer")];
+      var text = btn.querySelector(".timer-text");
+      if (!btn.hasAttribute("data-text")) btn.setAttribute("data-text", text.textContent);
+      btn.classList.toggle("is-running", !!t && !isUp(t));
+      btn.classList.toggle("is-up", !!t && isUp(t));
+      text.textContent = !t ? btn.getAttribute("data-text") : isUp(t) ? "Check" : clock(checkAt(t) - elapsed(t));
+    });
+    Object.keys(timers).forEach(function (id) {
+      var t = timers[id];
+      var el = tray.querySelector('[data-row="' + id + '"]');
+      if (!el) return;
+      var note = el.querySelector("[data-note]");
+      if (isUp(t)) {
+        var more = doneAt(t) - elapsed(t);
+        var said = human(t.low);
+        note.textContent = (t.snooze ? "Time’s up." : said + (/^(1|½) /.test(said) ? " is up." : " are up.")) +
+          (more > 0 ? " The recipe allows up to " + clock(more) + " more." : "");
+      } else {
+        el.querySelector("[data-clock]").textContent = clock(checkAt(t) - elapsed(t));
+        note.textContent = (t.pausedAt ? "Paused. " : "") + "Check at " + human(t.low) +
+          (t.high > t.low ? ", done by " + human(t.high) : "");
+        el.querySelector("[data-bar]").style.width = Math.min(100, elapsed(t) / checkAt(t) * 100) + "%";
+      }
+    });
+  }
+
+  timerBtns.forEach(function (btn) {
+    btn.addEventListener("click", function () { startTimer(btn); });
+  });
+  if (tray) {
+    tray.addEventListener("click", function (ev) {
+      var act = ev.target.closest("[data-act]");
+      if (!act) return;
+      var id = act.closest("[data-row]").getAttribute("data-row");
+      var t = timers[id];
+      if (!t) return;
+      var what = act.getAttribute("data-act");
+      if (what === "pause") t.pausedAt = Date.now();
+      else if (what === "resume") { t.started += Date.now() - t.pausedAt; t.pausedAt = null; }
+      else if (what === "snooze") t.snooze = elapsed(t) + 120000 - t.low * 1000;
+      else delete timers[id];
+      save();
+      paintTimers();
+    });
+    // Drop saved timers for steps that no longer exist (the recipe was edited).
+    Object.keys(timers).forEach(function (id) {
+      if (!recipe.querySelector('[data-timer="' + id + '"]')) delete timers[id];
+    });
+    save();
+    paintTimers();
+    document.addEventListener("visibilitychange", function () {
+      if (document.visibilityState === "visible") paintTimers();
+    });
+  }
 
   // Keep the screen awake while a recipe is open.
   var lock = null;

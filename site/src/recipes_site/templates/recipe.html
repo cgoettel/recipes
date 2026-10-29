@@ -87,10 +87,12 @@
     <ol class="steps">
       {% for row in group.rows %}
       <li>
-        <button type="button" class="step" data-check="{{ row.id }}" data-step data-part="{{ part }}" aria-pressed="false">
-          <span class="num" aria-hidden="true">{{ row.number }}</span>
+        {# A div, so the timer buttons in its text are valid HTML. A tap anywhere
+           checks it off; the number is the button for keyboards and screen readers. #}
+        <div class="step" data-check="{{ row.id }}" data-step data-part="{{ part }}">
+          <button type="button" class="num" aria-pressed="false" aria-label="Step {{ row.number }} done">{{ row.number }}</button>
           <span class="step-text">{{ row.html }}</span>
-        </button>
+        </div>
         {% if row.links %}<span class="row-links">{% for href, text in row.links %}<a href="{{ href }}">{{ text }} →</a>{% endfor %}</span>{% endif %}
       </li>
       {% endfor %}
@@ -98,6 +100,8 @@
     {% endfor %}
   </section>
   {% endif %}
+
+  <aside class="timer-tray" data-timer-tray aria-label="Timers" hidden></aside>
 
   <div class="reset-row">
     <button type="button" class="pill" data-add-to-list data-title="{{ recipe.title }}" data-scale="{{ scale }}">Add to shopping list</button>

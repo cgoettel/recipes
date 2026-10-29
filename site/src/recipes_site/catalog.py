@@ -35,7 +35,7 @@ FOLDER_NAMES = {"entrees": "Entrées", "east-asian": "East Asian"}
 
 # Markdown that isn't a recipe: every README, the repo's meta docs, the soda
 # brew-day notes (logs), and the site app.
-_NOT_RECIPES = {"README.md", "CLAUDE.md", "contributing.md"}
+_NOT_RECIPES = {"README.md", "CLAUDE.md", "ROADMAP.md", "contributing.md"}
 # Root-level Markdown the site reads for something else.
 STAPLES_FILE = "staples.md"
 _NOT_RECIPE_FILES = {STAPLES_FILE}

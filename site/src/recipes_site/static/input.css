@@ -178,6 +178,19 @@
   /* Index */
   .search input { width: 100%; box-sizing: border-box; min-height: 48px; padding: 0.6rem 0.9rem; font: inherit; font-size: 1.05rem; color: var(--color-text); background: var(--color-surface); border: 2px solid var(--color-line); border-radius: 12px; }
   .search input:focus { border-color: var(--color-accent); outline: none; }
+  .search-hint { margin: 0.35rem 0.15rem 0; font-size: 0.85rem; color: var(--color-muted); }
+  .search-terms { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; margin-top: 0.5rem; }
+  .search-terms:not(:has(*)) { display: none; }
+  .term { display: inline-flex; align-items: center; gap: 0.4rem; min-height: 44px; padding: 0 0.65rem 0 0.9rem; border: 0; border-radius: 22px; background: var(--color-navy); color: #ffffff; font-weight: 700; font-size: 0.9rem; }
+  [data-theme="dark"] .term { color: #1d2440; }
+  .term svg { width: 14px; height: 14px; }
+  .by-name { margin: 1.5rem 0 -0.75rem; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-muted); }
+  .group-count { margin-left: auto; font-family: var(--font-sans); font-size: 0.85rem; font-weight: 600; letter-spacing: 0; color: var(--color-muted); }
+  .ing-hits li { padding-bottom: 0.6rem; }
+  .ing-hits a { padding-bottom: 0.1rem; font-weight: 700; font-size: 1.05rem; }
+  .hit-line { display: block; padding: 0 0.25rem; font-size: 0.94rem; color: var(--color-muted); }
+  .hit-line strong { color: var(--color-text); }
+  mark { background: var(--color-current); color: var(--color-on-current); padding: 0 0.12em; border-radius: 2px; }
   .jump { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.9rem 0 0.5rem; }
   .jump .chip { padding: 0.35rem 0.7rem; }
   .category { margin-top: 1.75rem; scroll-margin-top: 1rem; }

@@ -1,0 +1,26 @@
+{# The ingredient half of the index search, swapped in under the name matches.
+   The term chips go up under the search box and the count into a live region
+   for screen readers (both out of band). #}
+<div id="search-terms" class="search-terms" hx-swap-oob="true">
+  {% if terms | length > 1 or dropped %}
+  <span class="muted small">Looking for</span>
+  {% for t in terms %}
+  <button type="button" class="term" data-drop-parts="{{ t.parts | join(' ') }}" aria-label="Remove {{ t.text }}">{{ t.text }}<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  {% endfor %}
+  {% if dropped %}<span class="muted small">Only the first {{ terms | length }} are searched.</span>{% endif %}
+  {% endif %}
+</div>
+<span id="search-status" hx-swap-oob="innerHTML">{% if terms %}{{ found }} recipe{{ "s" if found != 1 }} by ingredient{% endif %}</span>
+{% for group in groups %}
+<section class="category ing-group">
+  <h2 class="section-heading"><span class="bar bar-{{ 'yellow' if group.hits[0].matched > 1 else 'sky' }}" aria-hidden="true"></span>{{ group.label }}<span class="group-count">{{ group.hits | length }} recipe{{ "s" if group.hits | length != 1 }}</span></h2>
+  <ul class="recipe-list ing-hits">
+    {% for hit in group.hits %}
+    <li>
+      <a href="/{{ hit.recipe.slug }}">{{ hit.recipe.full_title }}</a>
+      {% for line in hit.lines %}<span class="hit-line">{% if line.amount %}<strong>{{ line.amount }}</strong> {% endif %}{{ line.html }}</span>{% endfor %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}

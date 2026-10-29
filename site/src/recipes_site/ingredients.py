@@ -200,6 +200,20 @@ def unit_spelling(line: str) -> tuple[str, str] | None:
 COUNT_FORMS: set[tuple[str, str]] = set(_COUNT_UNITS.values())
 
 
+MARKDOWN_LINK = re.compile(r"\[([^\]]*)\]\([^)]*\)")
+
+
+def singular(word: str) -> str:
+    """A rough singular for matching: tomatoes, peaches, berries -> tomato, peach, berry."""
+    if word.endswith(("oes", "ches", "shes", "xes")):
+        return word[:-2]
+    if word.endswith("ies") and len(word) > 4:
+        return word[:-3] + "y"
+    if word.endswith("s") and not word.endswith(("ss", "us")) and len(word) > 3:
+        return word[:-1]
+    return word
+
+
 @dataclass(frozen=True)
 class Ingredient:
     raw: str

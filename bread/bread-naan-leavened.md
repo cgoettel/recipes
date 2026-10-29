@@ -23,7 +23,7 @@ serves: 8
 
 01. Combine flour, sugar, baking powder and salt.
 02. Warm milk and yogurt; add yeast, butter and egg yolk and stir well.
-03. Make a depression in the centre of the flour and pour the mixture a little at a time until all is absorbed.
+03. Make a depression in the center of the flour and pour the mixture a little at a time until all is absorbed.
 04. Knead well for 15 minutes until smooth and springy, adding more flour if dough is sticky.
 05. Cover and leave to rise until double in size.
 06. Divide into eight portions and roll into balls 4" in diameter with well floured hands.

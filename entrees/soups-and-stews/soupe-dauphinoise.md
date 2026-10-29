@@ -26,7 +26,7 @@ This recipe is adapted from the [French Cooking Academy](https://www.thefrenchco
 
 1. Thinly slice the leeks, onions, and carrots.
 2. Warm the olive oil and melt the butter in a stock pot on medium heat until the butter starts to foam.
-3. Stir in the leek, onions, and carrot. Cook gently for 15 minutes with the lid partly on, stirring occasionally until cooked. Take care not to allow any colouration of the vegetables.
+3. Stir in the leek, onions, and carrot. Cook gently for 15 minutes with the lid partly on, stirring occasionally until cooked. Take care not to let the vegetables brown.
 4. Drain the beans.
 5. Pour in the stock and mix in the beans and tomatoes. Add thyme and pepper, to taste.
 6. Bring to a simmer and then lower the heat and cook gently for 30 minutes, partly covered.

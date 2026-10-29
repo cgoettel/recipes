@@ -28,7 +28,7 @@ makes: 1 milkshake
 
 ## Variation
 
-This recipe can be used with all flavours of ice cream: coffee, chocolate, caramel.
+This recipe can be used with all flavors of ice cream: coffee, chocolate, caramel.
 For fruit milkshakes, strawberry for example, add ½ cup (50 g) of fruit and blend with the milk and ice cream.
 
 ## Chef's tip

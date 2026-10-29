@@ -20,7 +20,7 @@ serves: 8
 03. Knead well and leave to relax for ½ hour covered with a damp cloth.
 04. After the dough has relaxed, reknead and divide into four balls (loyah).
 05. Flour surface and roll out dough to 8" or 9" circle as desired; spread with some margarine and sprinkle with a little flour.
-06. Cut rolled dough from centre to edge, roll tightly into a cone, press peak of cone into centre and flatten; leave to rest for 30 minutes.
+06. Cut rolled dough from center to edge, roll tightly into a cone, press peak of cone into center and flatten; leave to rest for 30 minutes.
 07. Sprinkle flour on surface and roll out dough very thin with a rolling pin.
 08. Cook on a moderately hot, greased baking stone (tawah), for a minute.
 09. Turn over and grease with oil and cook for 1 minute.

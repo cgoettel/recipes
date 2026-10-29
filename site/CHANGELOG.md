@@ -2,6 +2,11 @@
 
 The site's running version is the newest header here; CI bakes it into the image.
 
+## v0.9.7 (2026-10-28)
+
+- Times in a recipe's steps are tap-to-start timers (#25). "Bake 30–35 minutes" gets a button; tap it and it counts down in place, with every running timer in a tray along the bottom of the screen (pause, cancel). A range checks in at its low end ("Check it now"), then shows how much of the range is left; "2 more minutes" snoozes. The alert is visual only, with no sound or vibration. Timers survive a reload or a locked phone, and "Start over" clears them.
+- A step is now a `div` (so the timer buttons inside it are valid HTML), and its number is the button that checks it off for keyboards and screen readers. A tap anywhere on the step still works.
+
 ## v0.9.6 (2026-10-28)
 
 - The index search also looks in the ingredients (#20). Type "leek" and, under any name matches, you get every recipe that uses leeks, with the line it's on. Separate several with commas ("leeks, cream") and the recipes using the most of them come first. Matching takes whole words and ignores plurals, so "cream" finds sour cream but not creamy. Nothing is stored.

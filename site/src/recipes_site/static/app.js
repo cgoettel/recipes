@@ -135,6 +135,8 @@
     var entries = Array.prototype.slice.call(document.querySelectorAll("[data-entry]"));
     var empty = document.querySelector("[data-search-empty]");
     var byName = document.querySelector("[data-by-name]");
+    var byNameCount = document.querySelector("[data-by-name-count]");
+    var jump = document.querySelector("[data-jump]");
     search.addEventListener("input", function () {
       var words = search.value.toLowerCase().replace(/,/g, " ").split(/\s+/).filter(Boolean);
       var shown = 0;
@@ -160,6 +162,9 @@
       // A tag-only search ("#tea") has no ingredient half, so no "By name" either.
       var tagOnly = words.every(function (w) { return w.charAt(0) === "#"; });
       if (byName) byName.hidden = tagOnly;
+      if (byNameCount) byNameCount.textContent = shown ? shown + " recipe" + (shown === 1 ? "" : "s") : "none";
+      // While searching, the category chips would fill the space above the keyboard.
+      if (jump) jump.hidden = words.length > 0;
       if (empty) {
         empty.hidden = !words.length || shown !== 0;
         empty.textContent = tagOnly ? "Nothing has that tag." : "No recipe has “" + search.value.trim() + "” in its name.";

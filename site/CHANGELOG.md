@@ -2,6 +2,10 @@
 
 The site's running version is the newest header here; CI bakes it into the image.
 
+## v0.9.8 (2026-10-28)
+
+- Searching hides the category chips, so on a phone the results sit right under the box instead of below a wall of chips. The hint line under the search box is gone, and "By name" is a full section heading with its count ("none" when no name matches), like the ingredient groups.
+
 ## v0.9.7 (2026-10-28)
 
 - Times in a recipe's steps are tap-to-start timers (#25). "Bake 30–35 minutes" gets a button; tap it and it counts down in place, with every running timer in a tray along the bottom of the screen (pause, cancel). A range checks in at its low end ("Check it now"), then shows how much of the range is left; "2 more minutes" snoozes. The alert is visual only, with no sound or vibration. Timers survive a reload or a locked phone, and "Start over" clears them.

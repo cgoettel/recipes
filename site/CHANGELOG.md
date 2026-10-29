@@ -2,6 +2,11 @@
 
 The site's running version is the newest header here; CI bakes it into the image.
 
+## v0.9.6 (2026-10-28)
+
+- The index search also looks in the ingredients (#20). Type "leek" and, under any name matches, you get every recipe that uses leeks, with the line it's on. Separate several with commas ("leeks, cream") and the recipes using the most of them come first. Matching takes whole words and ignores plurals, so "cream" finds sour cream but not creamy. Nothing is stored.
+- The shopping list folds a few more plurals (peaches, radishes, boxes), so they merge with their singular.
+
 ## v0.9.5 (2026-10-26)
 
 - The site counts recipes added to a shopping list (#24), an anonymous total like views and scales, and `/me` lists the most added. A re-add at another scale doesn't count twice.

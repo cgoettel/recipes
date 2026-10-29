@@ -19,7 +19,7 @@ from markupsafe import Markup
 from prometheus_client import CONTENT_TYPE_LATEST, generate_latest
 from sqlalchemy.exc import SQLAlchemyError
 
-from recipes_site import __version__, bakers, catalog, cooklog, counts, shopping, stripes
+from recipes_site import __version__, bakers, catalog, cooklog, counts, search, shopping, stripes
 from recipes_site import ingredients as ing
 from recipes_site.cf_access import CloudflareAccessMiddleware
 from recipes_site.config import Settings, get_settings
@@ -205,6 +205,23 @@ def create_app(settings: Settings | None = None) -> FastAPI:
                 "categories": cat.categories,
                 "recipes": cat.recipes,
                 "house_notes": Markup(catalog.render_markdown(cat.house_notes, "")),
+            },
+        )
+
+    @app.get("/search/ingredients", response_class=HTMLResponse)
+    def ingredient_search(request: Request, q: str = "") -> Response:
+        # The index's search box asks this as you type (htmx); names are
+        # filtered in the browser, ingredients here.
+        query = search.parse(q)
+        groups = search.find(get_catalog(), query.terms)
+        return templates.TemplateResponse(
+            request,
+            "_ingredient_results.html",
+            {
+                "terms": query.terms,
+                "dropped": query.dropped,
+                "groups": groups,
+                "found": sum(len(g.hits) for g in groups),
             },
         )
 

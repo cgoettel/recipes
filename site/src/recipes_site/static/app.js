@@ -134,8 +134,9 @@
   if (search) {
     var entries = Array.prototype.slice.call(document.querySelectorAll("[data-entry]"));
     var empty = document.querySelector("[data-search-empty]");
+    var byName = document.querySelector("[data-by-name]");
     search.addEventListener("input", function () {
-      var words = search.value.toLowerCase().split(/\s+/).filter(Boolean);
+      var words = search.value.toLowerCase().replace(/,/g, " ").split(/\s+/).filter(Boolean);
       var shown = 0;
       entries.forEach(function (li) {
         var text = li.getAttribute("data-text") || "";
@@ -156,7 +157,27 @@
       document.querySelectorAll("[data-category]").forEach(function (cat) {
         cat.hidden = !cat.querySelector("[data-entry]:not([hidden])");
       });
-      if (empty) empty.hidden = shown !== 0;
+      // A tag-only search ("#tea") has no ingredient half, so no "By name" either.
+      var tagOnly = words.every(function (w) { return w.charAt(0) === "#"; });
+      if (byName) byName.hidden = tagOnly;
+      if (empty) {
+        empty.hidden = !words.length || shown !== 0;
+        empty.textContent = tagOnly ? "Nothing has that tag." : "No recipe has “" + search.value.trim() + "” in its name.";
+      }
+    });
+    // A term chip under the box drops that ingredient from the search.
+    document.addEventListener("click", function (ev) {
+      var chip = ev.target.closest && ev.target.closest("[data-drop-parts]");
+      if (!chip) return;
+      // The server says which comma-separated parts made this term ("leeks, Leek").
+      var drop = chip.getAttribute("data-drop-parts").split(" ");
+      search.value = search.value.split(",").filter(function (p, i) {
+        return drop.indexOf(String(i)) === -1 && p.trim();
+      }).map(function (p) { return p.trim(); }).join(", ");
+      // The other chips' part numbers are stale now; the response redraws them.
+      document.getElementById("search-terms").innerHTML = "";
+      search.dispatchEvent(new Event("input"));
+      search.focus();
     });
     // A tag chip links to /?tag=<tag>: start the index showing just that tag.
     var params = new URLSearchParams(location.search);
@@ -164,6 +185,12 @@
     if (start) {
       search.value = start;
       search.dispatchEvent(new Event("input"));
+      // htmx wires the box up on DOMContentLoaded, after this runs.
+      if (start.charAt(0) !== "#") {
+        document.addEventListener("DOMContentLoaded", function () {
+          if (window.htmx) htmx.trigger(search, "search");
+        });
+      }
     }
   }
 

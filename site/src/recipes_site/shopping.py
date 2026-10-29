@@ -83,21 +83,14 @@ _PANTRY_FIRST = re.compile(
 
 
 def normalize(item: str) -> str:
-    text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", item.lower())  # links before parens
+    text = ing.MARKDOWN_LINK.sub(r"\1", item.lower())  # links before parens
     text = re.sub(r"\(.*?\)", "", text)
     text = text.split(",")[0].split(";")[0]
     text = re.sub(r"\b(for|to taste|as needed)\b.*$", "", text)
     words = [w for w in re.findall(r"[a-z][a-z'-]*", text) if w not in _DROP]
     if not words:
         return text.strip()
-    last = words[-1]
-    if last.endswith("oes"):
-        last = last[:-2]
-    elif last.endswith("ies") and len(last) > 4:
-        last = last[:-3] + "y"
-    elif last.endswith("s") and not last.endswith(("ss", "us")) and len(last) > 3:
-        last = last[:-1]
-    words[-1] = last
+    words[-1] = ing.singular(words[-1])
     return " ".join(words)
 
 

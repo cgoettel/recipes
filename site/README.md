@@ -12,8 +12,9 @@ Postgres holds only the owner's cook log (`/me`, behind Cloudflare Access) and a
 - `src/recipes_site/toc.py`: generates the README's recipe list from the same data; CI runs it.
 - `src/recipes_site/renames.py`: the CI guard that fails a moved or deleted recipe left without an `aliases` entry (or a line in `retired-recipes.txt`).
 - `src/recipes_site/ingredients.py`: parses ingredient lines into amount, unit and item; scales and formats them.
+- `src/recipes_site/search.py`: the ingredient half of the index search ("leeks, cream"): whole words, plurals folded, nothing stored. `/search/ingredients` serves it to the search box as an htmx fragment.
 - `src/recipes_site/app.py`: the routes. `/` is the list; `/<category>/<recipe>` is a recipe, mirroring the repo path.
-- `src/recipes_site/static/app.js`: search, cook-mode check-offs and shopping plans (stored in the visitor's browser only), and the screen wake lock.
+- `src/recipes_site/static/app.js`: name search, cook-mode check-offs and shopping plans (stored in the visitor's browser only), and the screen wake lock.
 - `migrations/`: Alembic. The api pod's init container runs `alembic upgrade head`; `env.py` takes an advisory lock so two replicas can't race.
 
 ## Local development

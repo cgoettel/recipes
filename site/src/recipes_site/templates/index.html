@@ -2,7 +2,10 @@
 {% block content %}
 <div class="search">
   <label for="search" class="sr-only">Search recipes</label>
-  <input id="search" type="search" placeholder="Search recipes" autocomplete="off" data-search>
+  <input id="search" type="search" name="q" placeholder="Search recipes" autocomplete="off" data-search
+         hx-get="/search/ingredients" hx-trigger="input changed delay:250ms, search" hx-target="[data-ing-results]" hx-sync="this:replace">
+  <p class="search-hint">Searches names and ingredients. Separate ingredients with commas.</p>
+  <div id="search-terms" class="search-terms"></div>
 </div>
 
 <nav class="jump" aria-label="Categories">
@@ -10,6 +13,8 @@
   <a href="#{{ cat.slug }}" class="chip chip-{{ cat.color }}">{{ cat.title | lower }}</a>
   {% endfor %}
 </nav>
+
+<p class="by-name" data-by-name hidden>By name</p>
 
 {% for cat in categories %}
 <section class="category" id="{{ cat.slug }}" data-category>
@@ -35,6 +40,9 @@
 {% endfor %}
 
 <p class="empty" data-search-empty hidden>Nothing matches. Try another word.</p>
+
+<div class="ing-results" data-ing-results></div>
+<p class="sr-only" id="search-status" aria-live="polite"></p>
 
 <details class="house-notes">
   <summary>House conventions</summary>

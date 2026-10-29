@@ -208,8 +208,7 @@ Open items only; shipped work lives in the git history.
 - **[#25 "Tap-to-start timers on recipe steps"](https://gitlab.com/colby.goettel/recipes/-/work_items/25)** (`Present`, `priority::someday`) — mock first.
 - Cluster side, in smart-home: [#291 "Uptime probe and Discord alert channel for recipes"](https://gitlab.com/colby.goettel/smart-home/-/work_items/291), [#292 "Restore and database password rotation runbook for recipes (and the fleet)"](https://gitlab.com/colby.goettel/smart-home/-/work_items/292), [#293 "Alert on stalled Flux image automation and offline GitLab runners"](https://gitlab.com/colby.goettel/smart-home/-/work_items/293).
 
-**Maintenance** and **Creations**:
+**Maintenance**:
 
 - **[#16 "Rotate the README bot token before it expires"](https://gitlab.com/colby.goettel/recipes/-/work_items/16)** (`Agent-ready`, `priority::someday`, milestone Maintenance, due 2027-10-19) — the `readme-bot` token CI uses to commit the generated README list expires 2027-10-24.
 - **[#26 "Add README badges"](https://gitlab.com/colby.goettel/recipes/-/work_items/26)** (`Agent-ready`, `priority::weeks`, milestone Maintenance) — pipeline status, the live site version, a recipe count fed by `readme_toc`, and a "free to share" badge for the LICENSE note.
-- **[#3 "Cooking with tea: hōjicha and Kaga bōcha creations"](https://gitlab.com/colby.goettel/recipes/-/work_items/3)** (`Present`, `priority::months`, milestone Creations) — backlog of roasted-tea dishes beyond the bōcha curry and hōjicha panna cotta: lahpet (fermented tea-leaf salad), ochazuke, hōjicha salt, tea brine, tea smoking, sweets.

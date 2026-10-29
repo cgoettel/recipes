@@ -7,9 +7,6 @@ session. Rules and conventions live in [`CLAUDE.md`](CLAUDE.md).
 
 ## Agent-ready
 
-- **[#26 "Add README badges"](https://gitlab.com/colby.goettel/recipes/-/work_items/26)**
-  (`priority::weeks`, milestone Maintenance) — pipeline status, the live site version,
-  a recipe count fed by `readme_toc`, and a "free to share" badge for the LICENSE note.
 - **[#16 "Rotate the README bot token before it expires"](https://gitlab.com/colby.goettel/recipes/-/work_items/16)**
   (`priority::someday`, milestone Maintenance, due 2027-10-19) — the `readme-bot` token
   CI uses to commit the generated README list expires 2027-10-24.

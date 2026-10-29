@@ -1,5 +1,10 @@
 # Recipes
 
+[![Pipeline](https://gitlab.com/colby.goettel/recipes/badges/main/pipeline.svg)](https://gitlab.com/colby.goettel/recipes/-/pipelines?ref=main)
+[![Site](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Frecipes.skalchemy.com%2Fhealth&query=%24.version&prefix=v&label=site)](https://recipes.skalchemy.com)
+[![Recipes](https://img.shields.io/endpoint?url=https%3A%2F%2Fgitlab.com%2Fcolby.goettel%2Frecipes%2F-%2Fjobs%2Fartifacts%2Fmain%2Fraw%2Frecipe-count.json%3Fjob%3Dreadme_toc)](https://recipes.skalchemy.com)
+[![Copyright: none, share freely](https://img.shields.io/badge/copyright-none%2C%20share%20freely-brightgreen)](LICENSE)
+
 If you'd rather not read Markdown in the kitchen, the same recipes are at [recipes.skalchemy.com](https://recipes.skalchemy.com). You can scale them, check off steps as you go, and turn a few of them into one shopping list.
 
 I have tried to be explicit in these recipes, but sometimes I've been doing something the same way for so long that I forget that it's even worth mentioning. Or, some things (to me) are a given so I omit them from the recipe. Here are some guidelines in case you get lost:

@@ -189,7 +189,7 @@ site_build_mr:
 # it (Flux deploys only the newest tag, so a later commit can win the race).
 .wait_for_build:
   stage: verify
-  image: alpine:3.22
+  image: alpine:3.24
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $CI_PIPELINE_SOURCE != "merge_request_event"
   timeout: 20m
@@ -230,7 +230,7 @@ verify_dev:
 # never touches the cluster.
 promote:
   stage: verify
-  image: alpine:3.22
+  image: alpine:3.24
   needs: [verify_dev]
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $CI_PIPELINE_SOURCE != "merge_request_event"

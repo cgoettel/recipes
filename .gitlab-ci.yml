@@ -126,7 +126,7 @@ site_test:
 .buildkit_build:
   stage: build
   image:
-    name: moby/buildkit:v0.34.0-rootless
+    name: moby/buildkit:v0.34.1-rootless
     # The default entrypoint starts a long-running daemon; blank it so the job
     # runs buildctl-daemonless.sh, which starts and stops one per build.
     entrypoint: [""]

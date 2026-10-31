@@ -249,31 +249,24 @@ verify_live:
   variables:
     HEALTH_URL: https://recipes.skalchemy.com/health
 
-# Mirror main to github.com/cgoettel/recipes on every push to main.
-# GITHUB_DEPLOY_KEY is a File-type CI variable holding the SSH private key
-# whose public half is a write-enabled deploy key on the GitHub repo. It runs
-# after readme_toc and pushes main's tip, so the regenerated README (whose push
-# skips CI) reaches GitHub too.
+# GitLab → GitHub mirror: the shared job in smart-home's
+# ci/templates/mirror-to-github.yml (smart-home #299). This repo keeps its own
+# GITHUB_DEPLOY_KEY CI variable.
+include:
+  - project: colby.goettel/smart-home
+    ref: main
+    file: ci/templates/mirror-to-github.yml
+
+# recipes' own timing on top of the shared job: run straight after readme_toc,
+# even if it fails (GitHub shouldn't stall on a README problem), and push main's
+# fetched tip, so the regenerated README (whose push skips CI) reaches GitHub too.
 mirror_to_github:
   stage: check
   needs: [readme_toc]
-  image:
-    name: alpine/git:latest
-    entrypoint: [""]
-  variables:
-    GIT_STRATEGY: clone
-  before_script:
-    - mkdir -p ~/.ssh && chmod 700 ~/.ssh
-    # glab strips trailing newline from variable values — re-add it
-    - cp "$GITHUB_DEPLOY_KEY" ~/.ssh/id_ed25519
-    - printf '\n' >> ~/.ssh/id_ed25519
-    - chmod 600 ~/.ssh/id_ed25519
-    - ssh-keyscan github.com >> ~/.ssh/known_hosts 2>/dev/null
   script:
-    - git remote add github git@github.com:cgoettel/recipes.git
+    - git remote add github "git@github.com:${GITHUB_MIRROR_REPO}.git"
     - git fetch -q origin "$CI_DEFAULT_BRANCH"
     - git push --force github FETCH_HEAD:refs/heads/main
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $CI_PIPELINE_SOURCE == "push"
-      # Mirror even if readme_toc fails: GitHub shouldn't stall on a README problem.
       when: always

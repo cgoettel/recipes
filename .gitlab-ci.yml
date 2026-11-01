@@ -15,7 +15,8 @@ stages:
   - verify
 
 # Every job runs on recipes' own in-cluster runner (smart-home
-# kubernetes/recipes-runner, Kubernetes executor on deskf02).
+# kubernetes/recipes-runner, Kubernetes executor on deskf02), except the image
+# builds, which run on smart-home's shared image-build runner (see .buildkit_build).
 default:
   tags:
     - self-hosted
@@ -125,6 +126,11 @@ site_test:
 # the last layers.
 .buildkit_build:
   stage: build
+  # smart-home's shared image-build runner: its build container alone keeps
+  # seccomp Unconfined, which rootless BuildKit needs; every other job gets
+  # RuntimeDefault (smart-home #281).
+  tags:
+    - image-build
   image:
     name: moby/buildkit:v0.34.1-rootless
     # The default entrypoint starts a long-running daemon; blank it so the job

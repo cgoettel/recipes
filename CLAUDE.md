@@ -205,6 +205,7 @@ On demand only, when the owner asks. The procedure and its gotchas are in the `d
 - **Folders are the box's own divider tabs** (`cakes/`, `casseroles-and-one-dish-meals/`, …, `miscellaneous/` last), one level deep. File a recipe under the tab it belongs to, not the one it was found behind: the box was misfiled in places. Display names with punctuation are in `FOLDER_NAMES`.
 - **Front matter** adds three box-only fields (`BOX_FRONT_MATTER_KEYS`): `credit` (who the card came from), `card` (one or two sentences about the card itself: the notepad it's on, a published source, an aside), and `lives_on` (the main collection's path for the same dish, which the page links to). `site_test` checks that every `lives_on` exists.
 - **Names: credits use the full name as written on the card**, the owner's call for this archive, overriding the first-name rule under Attribution. Never a phone number or address. Family credits: "Grandma Goettel" (Flora), "Grandma Weight" (Barbara), "Aunt Kay", "Aunt Carolee". The printed "from the recipe file of Lee Ann Weight" cards are LeAnn's own and get no credit line.
+- A card folded into another (a back that found its front) or moved keeps its old path in the new file's `aliases`, and the box redirects it, the same as the main collection.
 - `moms-recipe-box/README.md` is the front page's intro, in the owner's voice. The original photos live in a shared Google Photos album linked from that page, not in the repo.
 - LeAnn writes "hamb" for hamburger.
 

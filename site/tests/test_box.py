@@ -87,3 +87,9 @@ def test_main_index_does_not_list_the_box(client: TestClient) -> None:
 
 def test_main_menu_links_to_the_box(client: TestClient) -> None:
     assert '<a href="/moms-recipe-box">Mom' in client.get("/").text
+
+
+def test_a_folded_card_redirects_to_its_new_home(client: TestClient) -> None:
+    r = client.get("/moms-recipe-box/cakes/cream-cheese-icing", follow_redirects=False)
+    assert r.status_code == 301
+    assert r.headers["location"] == "/moms-recipe-box/cakes/carrot-cake"

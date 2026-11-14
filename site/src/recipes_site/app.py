@@ -373,6 +373,14 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         slug = slug.strip("/").removesuffix(".md")
         box = get_box()
         recipe = box.recipes.get(slug)
+        if recipe is None and slug in box.aliases:
+            # A card that moved or was folded into another (a back found its front).
+            query = f"?{request.url.query}" if request.url.query else ""
+            return RedirectResponse(
+                f"/{catalog.BOX_DIR}/{box.aliases[slug]}{query}",
+                status_code=301,
+                headers={"Cache-Control": "public, max-age=86400"},
+            )
         if recipe is None:
             raise HTTPException(status_code=404)
         factor = ing.parse_scale(scale)

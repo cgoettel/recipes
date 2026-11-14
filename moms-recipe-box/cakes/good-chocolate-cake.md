@@ -2,7 +2,7 @@
 
 ## Ingredients
 
-- 1 large package cook-and-serve chocolate pudding, plus the milk it calls for
+- 1 lb chocolate pudding (a small box of cook-and-serve, made with the milk it calls for)
 - 1 (15.25 oz) box chocolate cake mix
 - ½ cup chopped nuts
 - ½ cup chocolate chips
@@ -18,3 +18,4 @@
 ## Notes
 
 - A whole cake mix makes a thick cake in a square pan; a 9×13-inch pan works too and may bake a little faster.
+- The card calls for "1 lb." of pudding. A small (3.4 oz) box of cook-and-serve made with 2 cups of milk comes to about a pound.

@@ -1,5 +1,5 @@
 ---
-credit: Coy Spackman
+credit: Joy Spackman
 card: 'The back ends with a verdict: "Real good!"'
 ---
 

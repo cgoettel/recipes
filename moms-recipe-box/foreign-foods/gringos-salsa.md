@@ -1,9 +1,10 @@
 ---
 credit: Beverly
+aliases: [foreign-foods/three-chile-salsa]
 card: The front, on a card with a stove and a cat, is in one hand. The back, a big canning batch that "Made 10 pints & 1½ pint", is in another.
 ---
 
-# Gringo's salsa
+# Baldwin gringo salsa
 
 A fresh small batch on the front of the card, and a large canning batch on the back.
 
@@ -50,3 +51,4 @@ A fresh small batch on the front of the card, and a large canning batch on the b
 ## Notes
 
 - The card gives no processing time for the canning batch; follow a tested water-bath method for salsa.
+- The box holds more than one copy of this salsa. Another is just a list with no amounts: yellow, green, and red chiles, cilantro, green onions, whole canned tomatoes, jalapeños, and salt.

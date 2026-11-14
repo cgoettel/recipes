@@ -1,6 +1,6 @@
 ---
-credit: Sowards
-card: A printed page in hand-lettered capitals, with "Sowards" added in pink pen.
+credit: Sowary
+card: A printed page in hand-lettered capitals, with "Sowary's" added in pink pen.
 ---
 
 # Christmas slush

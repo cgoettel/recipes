@@ -1,7 +1,7 @@
 ---
 lives_on: bread/cinnamon-rolls-leann
 makes: 2 dozen
-credit: Betty Hy
+credit: Betty
 card: 'A typed sheet titled "Yummy morning cinnamon rolls," water-stained and torn, that says to start at 7:00 p.m. "or whenever you feel like it."'
 ---
 

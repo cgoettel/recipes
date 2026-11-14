@@ -1,6 +1,6 @@
 ---
-credit: Sowards
-card: A printed page in old-English lettering, with "Sowards" added in pink pen.
+credit: Sowary
+card: A printed page in old-English lettering, with "Sowary's" added in pink pen.
 ---
 
 # Wassail

@@ -1,6 +1,6 @@
 ---
-credit: Sowards
-card: A printed page in a fancy script, with "Sowards" added in pink pen, one of three Christmas recipes from the same set.
+credit: Sowary
+card: A printed page in a fancy script, with "Sowary's" added in pink pen, one of three Christmas recipes from the same set.
 ---
 
 # Cheese log

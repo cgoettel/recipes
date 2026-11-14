@@ -1,5 +1,5 @@
 ---
-credit: Gerri Stapley
+credit: Jerri Stapley
 card: The card spells it "lemonaide" and "marshomino cherries."
 ---
 

@@ -321,3 +321,25 @@
   .prose code { font-size: 0.9em; background: var(--color-surface); padding: 0 0.2em; border-radius: 4px; }
   .prose blockquote { border-left: 4px solid var(--color-sky); margin: 0.75rem 0; padding: 0.1rem 0 0.1rem 0.9rem; color: var(--color-muted); }
 }
+
+/* LeAnn's recipe box (/moms-recipe-box) */
+@layer components {
+  .wordmark span.wordmark-kicker { display: block; font-family: var(--font-section); font-weight: 700; font-size: 0.72rem; letter-spacing: 0.04em; color: var(--color-muted); margin-bottom: 0.3rem; text-shadow: none; }
+  .box-wordmark { white-space: nowrap; }
+  .box-intro { display: grid; gap: 1rem; margin: 0.5rem 0 1rem; }
+  .box-intro .prose p:first-child { margin-top: 0; }
+  .album { display: flex; gap: 0.9rem; align-items: center; padding: 0.9rem 1rem; background: var(--color-surface); border: 2px solid var(--color-line); border-radius: 12px; text-decoration: none; color: var(--color-text); }
+  .album:hover { border-color: var(--color-accent); color: var(--color-text); }
+  .album-icon { flex: none; width: 48px; height: 48px; border-radius: 10px; display: grid; place-items: center; background: var(--color-peach); color: #283258; }
+  .album strong { display: block; }
+  .album-sub { display: block; font-size: 0.85rem; color: var(--color-muted); }
+  .box-entry { display: flex; align-items: center; gap: 0.5rem; }
+  .box-entry a { flex: 1; }
+  .lives-dot { font-size: 0.75rem; font-weight: 700; color: var(--color-muted); white-space: nowrap; }
+  .from-card { margin: 1rem 0 0; padding: 0.8rem 1rem; border-left: 6px solid var(--color-peach); background: var(--color-surface); border-radius: 0 12px 12px 0; font-size: 0.95rem; }
+  .from-card p { margin: 0.15rem 0; }
+  .from-card-label { font-family: var(--font-section); font-weight: 700; font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-muted); }
+  .lives-on { margin: 1rem 0 0; display: flex; flex-wrap: wrap; gap: 0.4rem 0.75rem; align-items: center; padding: 0.8rem 1rem; border: 2px solid var(--color-sky); border-radius: 12px; text-decoration: none; color: var(--color-text); }
+  .lives-on:hover { background: var(--color-surface); color: var(--color-text); }
+  .lives-on-arrow { margin-left: auto; font-weight: 700; color: var(--color-accent); }
+}

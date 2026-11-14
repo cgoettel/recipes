@@ -15,6 +15,7 @@ Postgres holds only the owner's cook log (`/me`, behind Cloudflare Access) and a
 - `src/recipes_site/search.py`: the ingredient half of the index search ("leeks, cream"): whole words, plurals folded, nothing stored. `/search/ingredients` serves it to the search box as an htmx fragment.
 - `src/recipes_site/timers.py`: turns the times a step names ("bake 30–35 minutes") into timer buttons.
 - `src/recipes_site/app.py`: the routes. `/` is the list; `/<category>/<recipe>` is a recipe, mirroring the repo path.
+- LeAnn's recipe box: the repo's `moms-recipe-box/` folder is a second, separate catalog served at `/moms-recipe-box` (`box_index.html`, and `recipe.html` through `box_base.html`). Its folders are the box's divider tabs, its `README.md` is the front page's intro, and its recipes can carry `credit`, `card` and `lives_on` front matter. The main index, search, README list, shopping list and cook log never see it, and its pages answer `noindex` so they're shared by link rather than found.
 - `src/recipes_site/static/app.js`: name search, cook-mode check-offs and shopping plans (stored in the visitor's browser only), step timers (saved as start times, so a reload or a locked phone keeps them), and the screen wake lock.
 - `migrations/`: Alembic. The api pod's init container runs `alembic upgrade head`; `env.py` takes an advisory lock so two replicas can't race.
 

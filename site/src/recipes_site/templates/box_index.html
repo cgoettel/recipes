@@ -1,0 +1,40 @@
+{% extends "box_base.html" %}
+{% block content %}
+<div class="box-intro">
+  <div class="prose">{{ intro_html }}</div>
+  <a class="album" href="https://photos.app.goo.gl/csyGtPRX161YZCWn7">
+    <span class="album-icon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 15l5-5 4 4 3-3 6 6"/><circle cx="16" cy="9" r="1.5"/></svg></span>
+    <span><strong>See the original cards</strong><span class="album-sub">Photos of every card, front and back, in her handwriting</span></span>
+  </a>
+</div>
+
+<div class="search">
+  <label for="search" class="sr-only">Search the box</label>
+  <input id="search" type="search" name="q" placeholder="Search the box" autocomplete="off" data-search>
+</div>
+
+<nav class="jump" aria-label="Tabs" data-jump>
+  {% for cat in categories %}<a href="#{{ cat.slug }}" class="chip chip-{{ cat.color }}">{{ cat.title | lower }}</a>{% endfor %}
+</nav>
+
+{% for cat in categories %}
+<section class="category" id="{{ cat.slug }}" data-category>
+  <h2 class="section-heading"><span class="bar bar-{{ cat.color }}" aria-hidden="true"></span>{{ cat.title }}</h2>
+  {% for sub in cat.subcategories %}
+  <div data-subcategory>
+    <ul class="recipe-list">
+      {% for row in sub.rows %}{% for entry, shown in row.items %}
+      {% set r = recipes[entry.slug] %}
+      <li class="box-entry" data-entry data-text="{{ (entry.title ~ ' ' ~ (r.credit or '')) | lower }}">
+        <a href="/moms-recipe-box/{{ entry.slug }}">{{ shown }}</a>
+        {% if r.lives_on %}<span class="lives-dot">★ in Colby’s recipes</span>{% endif %}
+      </li>
+      {% endfor %}{% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</section>
+{% endfor %}
+
+<p class="empty" data-search-empty hidden>Nothing matches. Try another word.</p>
+{% endblock %}

@@ -180,6 +180,11 @@ def create_app(settings: Settings | None = None) -> FastAPI:
 
     templates.env.globals["nav_categories"] = lambda: get_catalog().categories
 
+    def get_box() -> catalog.Catalog:
+        return catalog.cached(str(settings.content_dir / catalog.BOX_DIR))
+
+    templates.env.globals["box_categories"] = lambda: get_box().categories
+
     @app.get("/health")
     def health() -> Response:
         # The recipes are baked into the image, so a recipe the catalog can't
@@ -189,6 +194,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         # can mistake it for the new build being live.
         try:
             get_catalog()
+            get_box()
         except Exception:
             logger.exception("health.catalog_failed")
             return JSONResponse(
@@ -342,6 +348,69 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     @app.get("/learn/bakers-percentages", response_class=HTMLResponse)
     def learn_bakers(request: Request) -> Response:
         return templates.TemplateResponse(request, "learn_bakers.html", {"guide": bakers.GUIDE})
+
+    # --- LeAnn's recipe box: shared by link, kept out of search engines ---
+
+    box_headers = {"X-Robots-Tag": "noindex, nofollow"}
+
+    @app.get("/moms-recipe-box", response_class=HTMLResponse)
+    @app.get("/moms-recipe-box/", response_class=HTMLResponse)
+    def box_index(request: Request) -> Response:
+        box = get_box()
+        return templates.TemplateResponse(
+            request,
+            "box_index.html",
+            {
+                "categories": box.categories,
+                "recipes": box.recipes,
+                "intro_html": Markup(catalog.render_markdown(box.house_notes, "")),
+            },
+            headers=box_headers,
+        )
+
+    @app.get("/moms-recipe-box/{slug:path}", response_class=HTMLResponse)
+    def box_recipe(request: Request, slug: str, scale: str | None = None) -> Response:
+        slug = slug.strip("/").removesuffix(".md")
+        box = get_box()
+        recipe = box.recipes.get(slug)
+        if recipe is None:
+            raise HTTPException(status_code=404)
+        factor = ing.parse_scale(scale)
+        ing_groups, step_groups = build_rows(recipe, factor)
+        # Links between cards resolve inside the box.
+        base = f"{catalog.BOX_DIR}/{recipe.base_dir}"
+        lives_on = get_catalog().recipes.get(recipe.lives_on) if recipe.lives_on else None
+        return templates.TemplateResponse(
+            request,
+            "recipe.html",
+            {
+                "box": True,
+                "recipe": recipe,
+                "lives_on": lives_on,
+                "scale": factor,
+                "bread": None,
+                "ingredient_groups": ing_groups,
+                "step_groups": step_groups,
+                "yield_text": (
+                    f"Serves {ing.scale_yield(recipe.serves, factor, servings=True)}"
+                    if recipe.serves
+                    else f"Makes {ing.scale_yield(recipe.makes, factor)}"
+                    if recipe.makes
+                    else None
+                ),
+                "intro_html": Markup(catalog.render_markdown(recipe.intro, base)),
+                "card_html": (
+                    Markup(catalog.render_inline(recipe.card, base)) if recipe.card else None
+                ),
+                "sections": [
+                    (s.heading, Markup(catalog.render_markdown(s.body, base)))
+                    for s in recipe.sections
+                    if s.body.strip()
+                ],
+                "body_html": Markup(catalog.render_markdown(recipe.body, base)),
+            },
+            headers=box_headers,
+        )
 
     @app.get("/{slug:path}", response_class=HTMLResponse)
     def recipe_page(

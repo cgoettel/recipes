@@ -335,7 +335,6 @@
   .album-sub { display: block; font-size: 0.85rem; color: var(--color-muted); }
   .box-entry { display: flex; align-items: center; gap: 0.5rem; }
   .box-entry a { flex: 1; }
-  .lives-dot { font-size: 0.75rem; font-weight: 700; color: var(--color-muted); white-space: nowrap; }
   .from-card { margin: 1rem 0 0; padding: 0.8rem 1rem; border-left: 6px solid var(--color-peach); background: var(--color-surface); border-radius: 0 12px 12px 0; font-size: 0.95rem; }
   .from-card p { margin: 0.15rem 0; }
   .from-card-label { font-family: var(--font-section); font-weight: 700; font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-muted); }

@@ -83,3 +83,7 @@ def test_unknown_box_recipe_is_404(client: TestClient) -> None:
 
 def test_main_index_does_not_list_the_box(client: TestClient) -> None:
     assert "/moms-recipe-box/" not in client.get("/").text
+
+
+def test_main_menu_links_to_the_box(client: TestClient) -> None:
+    assert '<a href="/moms-recipe-box">Mom' in client.get("/").text

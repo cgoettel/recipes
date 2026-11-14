@@ -1,11 +1,11 @@
-{% extends "base.html" %}
-{% block title %}{{ recipe.title }} · recipes{% endblock %}
+{% extends "box_base.html" if box else "base.html" %}
+{% block title %}{{ recipe.title }} · {{ "LeAnn’s recipe box" if box else "recipes" }}{% endblock %}
 {% block description %}{{ recipe.title }}{% if recipe.subtitle %} ({{ recipe.subtitle }}){% endif %}: ingredients, steps, and a cook mode that scales.{% endblock %}
 {% block content %}
-<article class="recipe" data-recipe="{{ recipe.slug }}">
+<article class="recipe" data-recipe="{% if box %}moms-recipe-box/{% endif %}{{ recipe.slug }}">
   <div class="title-row">
     <h1 class="recipe-title">{{ recipe.title }}</h1>
-    <a class="chip chip-{{ recipe.color }}" href="/#{{ recipe.anchor }}">{{ recipe.tag }}</a>
+    <a class="chip chip-{{ recipe.color }}" href="{{ '/moms-recipe-box' if box else '/' }}#{{ recipe.anchor }}">{{ recipe.tag }}</a>
   </div>
   {% if recipe.subtitle %}<p class="recipe-subtitle">{{ recipe.subtitle }}</p>{% endif %}
   {% if yield_text or recipe.tags %}
@@ -15,6 +15,19 @@
   </p>
   {% endif %}
   {% if intro_html %}<div class="prose intro">{{ intro_html }}</div>{% endif %}
+  {% if box and (recipe.credit or card_html) %}
+  <div class="from-card">
+    <p class="from-card-label">On the card</p>
+    {% if recipe.credit %}<p>From {{ recipe.credit }}.</p>{% endif %}
+    {% if card_html %}<p>{{ card_html }}</p>{% endif %}
+  </div>
+  {% endif %}
+  {% if box and lives_on %}
+  <a class="lives-on" href="/{{ lives_on.slug }}">
+    <span>★ This one lives on in Colby’s recipes, tuned and tested.</span>
+    <span class="lives-on-arrow">{{ lives_on.full_title }} →</span>
+  </a>
+  {% endif %}
 
   {% if recipe.structured %}
   <div class="scale-row" role="group" aria-label="Scale the recipe">
@@ -104,7 +117,7 @@
   <aside class="timer-tray" data-timer-tray aria-label="Timers" hidden></aside>
 
   <div class="reset-row">
-    <button type="button" class="pill" data-add-to-list data-title="{{ recipe.title }}" data-scale="{{ scale }}">Add to shopping list</button>
+    {% if not box %}<button type="button" class="pill" data-add-to-list data-title="{{ recipe.title }}" data-scale="{{ scale }}">Add to shopping list</button>{% endif %}
     <button type="button" class="pill" data-reset>Start over</button>
   </div>
 
@@ -118,6 +131,7 @@
   <div class="prose">{{ body_html }}</div>
   {% endif %}
 
+  {% if not box %}
   {# Owner-only. app.js fires `owner` here once /me/whoami says you're signed
      in, and htmx loads the status line from /me/status, which is behind
      Cloudflare Access. Visitors never send either request past whoami. #}
@@ -133,5 +147,6 @@
       <button type="submit" class="pill is-on">Made it</button>
     </form>
   </section>
+  {% endif %}
 </article>
 {% endblock %}

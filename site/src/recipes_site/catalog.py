@@ -31,7 +31,22 @@ _LIST_ITEM_RE = re.compile(r"^(?P<indent>\s*)(?:[-*+]|\d+[.)])\s+(?P<text>.*)$")
 
 # Folder names the plain rule (dashes to spaces, first letter capitalized)
 # gets wrong.
-FOLDER_NAMES = {"entrees": "Entrées", "east-asian": "East Asian"}
+FOLDER_NAMES = {
+    "entrees": "Entrées",
+    "east-asian": "East Asian",
+    # The recipe box's tabs, as the box prints them.
+    "casseroles-and-one-dish-meals": "Casseroles and one-dish meals",
+    "doughnuts-waffles-and-griddle-cakes": "Doughnuts, waffles, and griddle cakes",
+    "jams-jellies-and-preserves": "Jams, jellies, and preserves",
+}
+
+# LeAnn's recipe box: a second, separate catalog under this folder, served at
+# /moms-recipe-box. Its top-level folders are the box's divider tabs. The main
+# catalog, its index, search, README list, and cook log never see it.
+BOX_DIR = "moms-recipe-box"
+# Front matter only the box uses: who the card came from, what's notable about
+# the card itself, and the main collection's version of the dish, if there is one.
+BOX_FRONT_MATTER_KEYS = {"credit", "card", "lives_on"}
 
 # Markdown that isn't a recipe: every README, the repo's meta docs, the soda
 # brew-day notes (logs), and the site app.
@@ -39,7 +54,14 @@ _NOT_RECIPES = {"README.md", "CLAUDE.md", "ROADMAP.md", "contributing.md"}
 # Root-level Markdown the site reads for something else.
 STAPLES_FILE = "staples.md"
 _NOT_RECIPE_FILES = {STAPLES_FILE}
-_NOT_RECIPE_DIRS = ("site/", ".claude/", ".git/", "drinks/sodas/brew-day-notes/", "node_modules/")
+_NOT_RECIPE_DIRS = (
+    "site/",
+    ".claude/",
+    ".git/",
+    "drinks/sodas/brew-day-notes/",
+    "node_modules/",
+    f"{BOX_DIR}/",
+)
 
 # Top-level folders → category stripe color token (see input.css).
 CATEGORY_COLORS = {
@@ -52,6 +74,8 @@ CATEGORY_COLORS = {
     "sides-and-starters": "violet",
     "sweets": "pale",
 }
+# The recipe box's tabs cycle through the stripe colors, in tab order.
+_TAB_COLORS = ("peach", "yellow", "sky", "lilac", "pale", "violet", "crimson", "plum")
 
 _md = mistune.create_markdown(escape=False, plugins=["table", "strikethrough"])
 
@@ -114,6 +138,10 @@ class Recipe:
     makes: str | None = None
     tags: list[str] = field(default_factory=list)
     aliases: list[str] = field(default_factory=list)  # old slugs that redirect here
+    color_token: str | None = None  # set by load(); box tabs have no fixed color
+    credit: str | None = None  # box only: who the card came from
+    card: str | None = None  # box only: what's notable about the card itself
+    lives_on: str | None = None  # box only: the main collection's slug for this dish
 
     @property
     def full_title(self) -> str:
@@ -133,7 +161,7 @@ class Recipe:
 
     @property
     def color(self) -> str:
-        return CATEGORY_COLORS.get(self.category, "sky")
+        return self.color_token or CATEGORY_COLORS.get(self.category, "sky")
 
     @property
     def flagged_lines(self) -> list[str]:
@@ -381,6 +409,9 @@ def parse_recipe(slug: str, text: str) -> Recipe:
         makes=_text(meta.get("makes")),
         tags=_tags(meta.get("tags")),
         aliases=parse_aliases(meta.get("aliases")),
+        credit=_text(meta.get("credit")),
+        card=_text(meta.get("card")),
+        lives_on=alias_slug(str(meta["lives_on"])) if meta.get("lives_on") else None,
     )
 
 
@@ -464,7 +495,8 @@ def load(content_dir: Path) -> Catalog:
             Entry(slug=slug, title=recipe.full_title, family=recipe.family, variant=recipe.variant)
         )
     categories: list[Category] = []
-    for top in sorted(tree):
+    # Alphabetical, like the box, with its Miscellaneous tab at the back.
+    for i, top in enumerate(sorted(tree, key=lambda t: (t == "miscellaneous", t))):
         title = folder_title(top)
         subs = tree[top]
         subcategories = []
@@ -477,10 +509,13 @@ def load(content_dir: Path) -> Catalog:
             Category(
                 title=title,
                 slug=_anchor(title),
-                color=CATEGORY_COLORS.get(top, "sky"),
+                color=CATEGORY_COLORS.get(top) or _TAB_COLORS[i % len(_TAB_COLORS)],
                 subcategories=subcategories,
             )
         )
+    colors = {c.slug: c.color for c in categories}
+    for recipe in recipes.values():
+        recipe.color_token = colors.get(recipe.anchor)
     readme = content_dir / "README.md"
     notes = house_notes(readme.read_text(encoding="utf-8")) if readme.is_file() else ""
     aliases = {
@@ -504,8 +539,11 @@ def load(content_dir: Path) -> Catalog:
     )
 
 
-def check(content_dir: Path) -> list[str]:
-    """Problems that would otherwise drop a recipe or its metadata silently."""
+def check(content_dir: Path, *, box: bool = False) -> list[str]:
+    """Problems that would otherwise drop a recipe or its metadata silently.
+
+    `box` checks the recipe box's folder, which allows its own front matter."""
+    allowed = FRONT_MATTER_KEYS | BOX_FRONT_MATTER_KEYS if box else FRONT_MATTER_KEYS
     problems: list[str] = []
     paths = recipe_paths(content_dir)
     slugs = {rel[:-3] for rel in paths}
@@ -528,7 +566,7 @@ def check(content_dir: Path) -> list[str]:
         except (yaml.YAMLError, ValueError) as exc:
             problems.append(f"{rel}: front matter doesn't parse: {exc}")
             continue
-        for key in sorted(set(meta) - FRONT_MATTER_KEYS):
+        for key in sorted(set(meta) - allowed):
             problems.append(f"{rel}: unknown front matter field `{key}`")
         for key in ("family", "variant", "serves", "makes"):
             value = meta.get(key)

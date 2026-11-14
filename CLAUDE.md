@@ -110,7 +110,7 @@ tags: [make-ahead]
 
 - `aliases`: old paths a recipe used to live at, without `.md` (`aliases: [sauces-and-condiments/salsas/sauce-habanero]`). A recipe's path is its URL and the key for its cook-log history, so **renaming or moving a recipe means adding its old path here.** The site redirects the old URL and counts the old path's cook-log rows, view and list counts and saved shopping lists toward the new one. CI's renames guard (`site_test`, `recipes_site/renames.py`) fails any push that moves or deletes a recipe without one. To remove a recipe on purpose, alias it onto the recipe that replaces it, or list its old path in `site/retired-recipes.txt`.
 
-What isn't a recipe: every `README.md`, `CLAUDE.md`, `contributing.md`, the root `staples.md` (the shopping list's staples, read by the site), `drinks/sodas/brew-day-notes/`, and everything under `site/` (`catalog.py`, `_NOT_RECIPES` and `_NOT_RECIPE_FILES`). Any other new Markdown file in a category folder shows up as a recipe.
+What isn't a recipe (for the main collection): everything under `moms-recipe-box/` (a separate catalog; see below), every `README.md`, `CLAUDE.md`, `contributing.md`, the root `staples.md` (the shopping list's staples, read by the site), `drinks/sodas/brew-day-notes/`, and everything under `site/` (`catalog.py`, `_NOT_RECIPES` and `_NOT_RECIPE_FILES`). Any other new Markdown file in a category folder shows up as a recipe.
 
 ## Directory structure
 
@@ -197,6 +197,16 @@ Ingredient defaults (salted butter, all-purpose flour, etc.), knife-cut sizing, 
 ## Importing from Bryce's Google Drive
 
 On demand only, when the owner asks. The procedure and its gotchas are in the `drive-import` project skill (`.claude/skills/drive-import/SKILL.md`); load it before importing.
+
+## LeAnn's recipe box
+
+`moms-recipe-box/` is every card from LeAnn's recipe box (photographed 2026-11, transcribed and modernized), served as its own section at [recipes.skalchemy.com/moms-recipe-box](https://recipes.skalchemy.com/moms-recipe-box) and kept out of everything else: the main index, search, README list, shopping list and cook log never see it, and its pages are `noindex`. It's an archive, not the curated collection, so a card that's merely okay still belongs here.
+
+- **Folders are the box's own divider tabs** (`cakes/`, `casseroles-and-one-dish-meals/`, …, `miscellaneous/` last), one level deep. File a recipe under the tab it belongs to, not the one it was found behind: the box was misfiled in places. Display names with punctuation are in `FOLDER_NAMES`.
+- **Front matter** adds three box-only fields (`BOX_FRONT_MATTER_KEYS`): `credit` (who the card came from), `card` (one or two sentences about the card itself: the notepad it's on, a published source, an aside), and `lives_on` (the main collection's path for the same dish, which the page links to). `site_test` checks that every `lives_on` exists.
+- **Names: credits use the full name as written on the card**, the owner's call for this archive, overriding the first-name rule below. Never a phone number or address. Family credits: "Grandma Goettel" (Flora), "Grandma Weight" (Barbara), "Aunt Kay", "Aunt Carolee". The printed "from the recipe file of Lee Ann Weight" cards are LeAnn's own and get no credit line.
+- `moms-recipe-box/README.md` is the front page's intro, in the owner's voice. The original photos live in a shared Google Photos album linked from that page, not in the repo.
+- LeAnn writes "hamb" for hamburger.
 
 ## Roadmap
 

@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{# LeAnn's recipe box: the main site's shell with its own wordmark and menu,
+   no shopping list, and kept out of search engines. #}
+{% block title %}LeAnn’s recipe box{% endblock %}
+{% block description %}Every card from LeAnn’s recipe box, typed up for a modern kitchen.{% endblock %}
+{% block meta %}<meta name="robots" content="noindex, nofollow">{% endblock %}
+{% block wordmark %}<a class="wordmark box-wordmark" href="/moms-recipe-box" aria-label="LeAnn’s recipe box, home">
+  <span class="wordmark-kicker" aria-hidden="true">LeAnn’s</span>
+  {%- for ch in "recipe box" -%}{% if ch == " " %} {% else %}<span class="wm-{{ loop.index % 7 + 1 }}" aria-hidden="true">{{ ch }}</span>{% endif %}{%- endfor -%}
+</a>{% endblock %}
+{% block home %}/moms-recipe-box{% endblock %}
+{% block list_link %}{% endblock %}
+{% block menu %}<ul class="menu-links">
+  <li><a href="/moms-recipe-box">The whole box</a></li>
+  <li><a href="/">Colby’s recipes <span class="muted">the tested collection</span></a></li>
+</ul>
+<p class="panel-cap">Jump to a tab</p>
+<nav class="jump" aria-label="Tabs">
+  {% for cat in box_categories() %}<a href="/moms-recipe-box#{{ cat.slug }}" class="chip chip-{{ cat.color }}">{{ cat.title | lower }}</a>{% endfor %}
+</nav>{% endblock %}
+{% block footer %}<p>From LeAnn’s recipe box · <a href="/">Colby’s recipes</a> · v{{ app_version }}</p>{% endblock %}

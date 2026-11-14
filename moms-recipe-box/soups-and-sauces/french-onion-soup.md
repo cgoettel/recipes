@@ -7,7 +7,7 @@ card: Penciled on Grandma Goettel's realty notepad.
 
 ## Ingredients
 
-- ¼ cup butter
+- 1 stick (½ cup) butter
 - 6–7 onions, half chopped and half sliced
 - 3 beef bouillon cubes
 - 3 cups boiling water

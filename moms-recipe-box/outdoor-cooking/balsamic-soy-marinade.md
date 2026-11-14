@@ -1,7 +1,3 @@
----
-credit: Randy Ferrin
----
-
 # Balsamic soy marinade
 
 ## Ingredients

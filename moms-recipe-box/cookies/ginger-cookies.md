@@ -1,6 +1,6 @@
 ---
 makes: 40–50 cookies
-credit: Annie
+credit: Dr. Hunn
 ---
 
 # Ginger cookies

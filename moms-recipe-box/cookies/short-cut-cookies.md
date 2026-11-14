@@ -20,7 +20,7 @@ Cake mix cookies.
 1. Preheat the oven to 375°F.
 2. Empty half the cake mix into a bowl and add the butter, water, vanilla, and egg. Mix well.
 3. Add the rest of the mix and blend.
-4. Drop onto ungreased cookie sheets and bake.
+4. Drop onto greased cookie sheets and bake.
 
 ## Notes
 

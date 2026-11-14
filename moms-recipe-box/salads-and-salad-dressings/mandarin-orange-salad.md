@@ -1,6 +1,6 @@
 ---
 serves: 16
-credit: Kerry Duggins
+credit: Kerry
 card: 'A water-stained typed sheet with a handwritten note scaling it up: "12x for 196 people".'
 ---
 

@@ -27,7 +27,6 @@
       {% set r = recipes[entry.slug] %}
       <li class="box-entry" data-entry data-text="{{ (entry.title ~ ' ' ~ (r.credit or '')) | lower }}">
         <a href="/moms-recipe-box/{{ entry.slug }}">{{ shown }}</a>
-        {% if r.lives_on %}<span class="lives-dot">★ in Colby’s recipes</span>{% endif %}
       </li>
       {% endfor %}{% endfor %}
     </ul>

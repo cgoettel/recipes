@@ -48,15 +48,11 @@ Coconut milk based, glossy, bone-in chicken thighs. Tested at the 3-thigh scale 
 
 Use a 10-inch sauté pan or small Dutch oven — too much surface area and the sauce reduces too fast.
 
-Heat oil over medium-high. Bloom the whole spices 20–30 seconds. Add onion and salt; cook to deep golden brown, ~8 minutes — don't rush.
-
-Add ginger, garlic, green chile, curry leaves; 1–2 min. Drop to medium. Add the ground spices and bloom 30 seconds — oil will redden and go fragrant.
-
-Add tomato. Cook down hard until the oil separates from the masala, ~5 min. This is the *bhuna* — same move as in the dals ([whole](masoor-dal-whole.md), [red lentil](masoor-dal-red-lentil.md)).
-
-Add chicken and a good pinch of salt. Stir to coat in the masala, sear briefly, 3–4 min. Pour in the coconut milk plus water. Bring to a *bare* simmer — don't hard boil coconut milk or it'll split. Partially cover, simmer 25–30 minutes until the chicken is fork-tender and the gravy has thickened.
-
-Off heat: garam masala, lime, cilantro. Rest 5 minutes before serving.
+1. Heat oil over medium-high. Bloom the whole spices 20–30 seconds. Add onion and salt; cook to deep golden brown, ~8 minutes — don't rush.
+2. Add ginger, garlic, green chile, curry leaves; 1–2 min. Drop to medium. Add the ground spices and bloom 30 seconds — oil will redden and go fragrant.
+3. Add tomato. Cook down hard until the oil separates from the masala, ~5 min. This is the *bhuna* — same move as in the dals ([whole](masoor-dal-whole.md), [red lentil](masoor-dal-red-lentil.md)).
+4. Add chicken and a good pinch of salt. Stir to coat in the masala, sear briefly, 3–4 min. Pour in the coconut milk plus water. Bring to a *bare* simmer — don't hard boil coconut milk or it'll split. Partially cover, simmer 25–30 minutes until the chicken is fork-tender and the gravy has thickened.
+5. Off heat: garam masala, lime, cilantro. Rest 5 minutes before serving.
 
 ## Notes
 

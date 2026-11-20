@@ -38,11 +38,9 @@ Heartier than red lentil dal — the lentils hold their shape and the dish eats 
 
 ## Instructions
 
-Simmer the lentils with water, turmeric, and a big pinch of salt. Bring to a boil, drop to a simmer, skim foam the first few minutes. Cook 35–45 minutes, stirring occasionally. You want them tender but still holding shape — stew consistency, not the porridge breakdown red lentils do. Add water if it tightens up too much.
-
-While that goes, make the masala in a wide pan over medium-high. Bloom cumin seeds in the ghee for ~10 seconds, then add the onion with a pinch of salt. Cook to deeply golden brown — 10–12 min, don't rush. Add ginger, garlic, chile; 1–2 min more. Add tomato, coriander, cayenne. Cook this down hard until the oil pools at the edges and it looks jammy, ~8–10 min. This is the *bhuna* — same idea as letting a sofrito go past where it feels done.
-
-Tip the masala into the dal pot. Simmer together 10 minutes so they marry. Salt to taste. Off heat: garam masala, lemon, cilantro.
+1. Simmer the lentils with water, turmeric, and a big pinch of salt. Bring to a boil, drop to a simmer, skim foam the first few minutes. Cook 35–45 minutes, stirring occasionally. You want them tender but still holding shape — stew consistency, not the porridge breakdown red lentils do. Add water if it tightens up too much.
+2. While that goes, make the masala in a wide pan over medium-high. Bloom cumin seeds in the ghee for ~10 seconds, then add the onion with a pinch of salt. Cook to deeply golden brown — 10–12 min, don't rush. Add ginger, garlic, chile; 1–2 min more. Add tomato, coriander, cayenne. Cook this down hard until the oil pools at the edges and it looks jammy, ~8–10 min. This is the *bhuna* — same idea as letting a sofrito go past where it feels done.
+3. Tip the masala into the dal pot. Simmer together 10 minutes so they marry. Salt to taste. Off heat: garam masala, lemon, cilantro.
 
 ## Notes
 

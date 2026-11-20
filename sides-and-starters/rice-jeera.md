@@ -20,11 +20,9 @@ Cumin-scented basmati. The workhorse Indian rice — what you want next to [dal]
 
 ## Instructions
 
-Rinse the rice in cool water, swirling and pouring off, until the water runs mostly clear — usually 5–7 changes. Then soak in cool water for 20–30 minutes. Drain well.
-
-Optional but better: toast the cumin seeds in ghee in a small pan over medium heat for ~20 seconds, just until aromatic. This wakes up the spice more than dropping it in cold. If you're feeling lazy, skip and just add everything cold to the cooker; still good.
-
-Add the drained rice, water, ghee, cumin, salt, and bay leaf (if using) to the Zojirushi. Run the white rice setting. Fluff with a fork or rice paddle when it's done — don't stir aggressively or you'll break the grains.
+1. Rinse the rice in cool water, swirling and pouring off, until the water runs mostly clear — usually 5–7 changes. Then soak in cool water for 20–30 minutes. Drain well.
+2. Optional but better: toast the cumin seeds in ghee in a small pan over medium heat for ~20 seconds, just until aromatic. This wakes up the spice more than dropping it in cold. If you're feeling lazy, skip and just add everything cold to the cooker; still good.
+3. Add the drained rice, water, ghee, cumin, salt, and bay leaf (if using) to the Zojirushi. Run the white rice setting. Fluff with a fork or rice paddle when it's done — don't stir aggressively or you'll break the grains.
 
 ## Notes
 

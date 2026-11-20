@@ -23,11 +23,9 @@ Not a full pulao with vegetables/meat — just the fragrant base.
 
 ## Instructions
 
-Rinse the rice in cool water, swirling and pouring off, until the water runs mostly clear — usually 5–7 changes. Then soak in cool water for 20–30 minutes. Drain well.
-
-Add the drained rice, water, ghee, all the whole spices, and salt to the Zojirushi. Run the white rice setting. Fluff gently when done.
-
-Pick out the bigger pieces as you serve, or warn whoever eats it — biting into a clove or cardamom pod is unpleasant.
+1. Rinse the rice in cool water, swirling and pouring off, until the water runs mostly clear — usually 5–7 changes. Then soak in cool water for 20–30 minutes. Drain well.
+2. Add the drained rice, water, ghee, all the whole spices, and salt to the Zojirushi. Run the white rice setting. Fluff gently when done.
+3. Pick out the bigger pieces as you serve, or warn whoever eats it — biting into a clove or cardamom pod is unpleasant.
 
 ## Notes
 

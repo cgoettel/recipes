@@ -36,11 +36,9 @@ Quick everyday dal. ~25 minutes start to finish. Best effort-to-reward ratio in 
 
 ## Instructions
 
-Combine lentils, water, turmeric, and salt in a pot. Bring to a boil, skim the foam in the first few minutes, then drop to a gentle simmer. Cook 15–20 minutes, stirring occasionally, until the lentils have fully broken down into a loose porridge. Add water if it tightens too much — you want it pourable, not pasty.
-
-Just before serving, make the tadka. Heat ghee in a small pan over medium-high. Add cumin and mustard seeds; they should sizzle and pop within seconds. Add the dried chiles, hing, and curry leaves (careful, the curry leaves will spit). Then the sliced garlic. As soon as the garlic is golden — 15–20 seconds, no more — pull off the heat and stir in the Kashmiri chile.
-
-Pour the entire hot tadka over the dal. Stir half of it in, leave the rest swirled on top so you get pockets of intense spice. Finish with lemon and cilantro.
+1. Combine lentils, water, turmeric, and salt in a pot. Bring to a boil, skim the foam in the first few minutes, then drop to a gentle simmer. Cook 15–20 minutes, stirring occasionally, until the lentils have fully broken down into a loose porridge. Add water if it tightens too much — you want it pourable, not pasty.
+2. Just before serving, make the tadka. Heat ghee in a small pan over medium-high. Add cumin and mustard seeds; they should sizzle and pop within seconds. Add the dried chiles, hing, and curry leaves (careful, the curry leaves will spit). Then the sliced garlic. As soon as the garlic is golden — 15–20 seconds, no more — pull off the heat and stir in the Kashmiri chile.
+3. Pour the entire hot tadka over the dal. Stir half of it in, leave the rest swirled on top so you get pockets of intense spice. Finish with lemon and cilantro.
 
 ## Notes
 

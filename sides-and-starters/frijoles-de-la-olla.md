@@ -22,7 +22,7 @@ Adapted from Gordo Rancho's frijoles de la olla, scaled to 250 g of beans — en
 2. In a heavy pot, sauté the sliced onion in olive oil over medium heat until translucent and just starting to brown. Add the garlic and cook until aromatic, ~30 seconds — don't let it scorch.
 3. Add the drained beans and cover with at least an inch of fresh water. Bring to a hard, aggressive boil and hold it there for 15 minutes — the rolling boil up front helps the beans cook evenly.
 4. Drop to a low simmer, partially covered, and let it go 3–4 hours, until the beans are fully soft and the broth has turned silky. Top up with hot water any time it threatens to drop below the beans.
-5. Salt to taste only in the last 30 minutes, once the beans are already tender.
+5. Once the beans are done, salt to taste.
 
 ## Notes
 

@@ -34,7 +34,7 @@ tags: [instant-pot, make-ahead]
 7. Add water, lemon juice, chick peas and salt; stir well.
 8. Lower heat, cover and simmer until meat is tender and sauce is thickened.
 
-## Instructions
+## Another way
 
 1. Soak chick peas overnight. Drain.
 2. Pressure cook or boil until tender.

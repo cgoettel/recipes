@@ -77,7 +77,7 @@ The house is climate-controlled at 21.5–24°C (~71–75°F) and there is no co
    - `# Title` (H1).
    - Optional intro or attribution paragraph.
    - `## Ingredients`: a bulleted list, with `###` subheadings for parts ("### Crust", "### Filling").
-   - `## Instructions`: a numbered list, with the same `###` parts. Write `1.` on every line if that's easier; the fleet-wide `mdformat --number` pre-commit hook renumbers ordered lists sequentially (1, 2, 3) on commit.
+   - `## Instructions`: a numbered list, with the same `###` parts. Write `1.` on every line if that's easier; the fleet-wide `mdformat --number` pre-commit hook renumbers ordered lists sequentially (1, 2, 3) on commit. Only list items become steps on the site, with tap-to-start timers for the times they name, so `site_test` fails a steps section written as paragraphs, or a second `## Instructions` (give an alternate method its own heading).
    - Optional `## Notes`, and any other sections a recipe needs (`## Equipment`, `## Serve with`).
 4. Don't touch the README: CI adds the recipe to its list when it reaches `main` (see Operations, CI). On a branch the README list can lag; that's expected.
 5. **Titles and headings are sentence case, per the Wikipedia style guide:** capitalize only the first word and proper nouns ("Almond bread", "Mom's chili", "Swedish pancakes (Åke Jon)"). Attributions are possessive ("Shirley's rolls"). Name the recipe after what someone would search for, and when a dish has two common names, put both in the title, for example "Dutch baby (German pancakes)".

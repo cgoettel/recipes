@@ -72,3 +72,28 @@ def test_check_flags_shorthand_units(tmp_path: Path) -> None:
         encoding="utf-8",
     )
     assert catalog.check(tmp_path) == ["breakfast/oats.md: write `cup`, not `C`, in “1 C oats”"]
+
+
+def test_check_flags_paragraph_steps(tmp_path: Path) -> None:
+    (tmp_path / "breakfast").mkdir()
+    (tmp_path / "breakfast" / "oats.md").write_text(
+        "# Oats\n\n## Ingredients\n\n- 1 cup oats\n\n## Method\n\nSimmer 5 minutes.\n",
+        encoding="utf-8",
+    )
+    assert catalog.check(tmp_path) == [
+        "breakfast/oats.md: `## Method` has no numbered steps; write each step "
+        "as a `1.` list item so the site shows it as a step, with its timers"
+    ]
+
+
+def test_check_flags_a_second_steps_section(tmp_path: Path) -> None:
+    (tmp_path / "breakfast").mkdir()
+    (tmp_path / "breakfast" / "oats.md").write_text(
+        "# Oats\n\n## Ingredients\n\n- 1 cup oats\n\n"
+        "## Instructions\n\n1. Simmer.\n\n## Instructions\n\n1. Soak overnight.\n",
+        encoding="utf-8",
+    )
+    assert catalog.check(tmp_path) == [
+        "breakfast/oats.md: a second `## Instructions` section isn't shown as steps; "
+        "merge it into the first, or give it a heading of its own"
+    ]

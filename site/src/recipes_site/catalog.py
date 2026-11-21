@@ -587,6 +587,20 @@ def check(content_dir: Path, *, box: bool = False) -> list[str]:
                     if tag not in TAGS:
                         problems.append(f"{rel}: tag `{tag}` isn't in catalog.TAGS")
         recipe = parse_recipe(rel[:-3], text)
+        # Paragraph steps render as a plain section: no step rows, so no timers.
+        for section in recipe.sections:
+            if section.heading.strip().lower() not in STEP_HEADINGS:
+                continue
+            if recipe.step_groups:  # only the first steps section becomes steps
+                problems.append(
+                    f"{rel}: a second `## {section.heading}` section isn't shown as steps; "
+                    "merge it into the first, or give it a heading of its own"
+                )
+            else:
+                problems.append(
+                    f"{rel}: `## {section.heading}` has no numbered steps; write each step "
+                    "as a `1.` list item so the site shows it as a step, with its timers"
+                )
         for group in recipe.ingredient_groups:
             for item in group.items:
                 wrong = ing.unit_spelling(item)
